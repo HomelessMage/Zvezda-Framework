@@ -42,17 +42,25 @@ vendorsBooks[2] = {"Magazines_Skill", {"FishingMag1", 50}, {"FishingMag2", 50}, 
 
 
 -- vendorsTools[1] = {"Camping", {"SharpedStone", 25}, {"Lighter", 45}, {"PercedWood", 50}, {"WoodenStick", 50}};
-vendorsTools[1] = {"ZvezdaTools", {"BakingTray", 50}, {"LeadPipe", 50}, {"Scissors", 50}, {"Pot", 50}, {"SmokingPipe", 50}, {"Bong_pastelblue", 50}, {"TinOpener", 50}, {"Bowl", 50}, {"Shovel", 50}, {"HandShovel", 50}, {"FishingRod", 50}};
+-- vendorsTools[1] = {"ZvezdaTools", {"BakingTray", 50}, {"LeadPipe", 50}, {"Scissors", 50}, {"Pot", 50}, {"SmokingPipe", 50}, {"Bong_pastelblue", 50}, {"TinOpener", 50}, {"Bowl", 50}, {"Shovel", 50}, {"HandShovel", 50}, {"FishingRod", 50}};
 -- vendorsTools[2] = {"Construction", {"Axe", 100}, {"BucketEmpty", 250}, {"Crowbar", 75}, {"Hammer", 45}, {"Needle", 25}, {"Paintbrush", 25}, {"PropaneTank", 125}, {"BlowTorch", 250}, {"Saw", 75}, {"Screwdriver", 50}, {"AxeStone", 75}, {"HammerStone", 50}, {"WeldingMask", 50}};
-vendorsTools[2] = {"ZvezdaMaterials", {"Bleach", 50}, {"Disinfectant", 50}, {"RollingPapers", 50}, {"TobaccoSeed", 50}, {"NailsBox", 50}};
+-- vendorsTools[2] = {"ZvezdaMaterials", {"Bleach", 50}, {"Disinfectant", 50}, {"RollingPapers", 50}, {"TobaccoSeed", 50}, {"NailsBox", 50}};
 -- vendorsTools[3] = {"Cooking", {"BakingPan", 45}, {"Bowl", 250}, {"BoxOfJars", 50}, {"TinOpener", 50}, {"Pot", 50}, {"Pan", 45}, {"KitchenKnife", 250}, {"Kettle", 50}, {"RollingPin", 25}, {"BakingPan", 50}, {"Saucepan", 50}};
-vendorsTools[3] = {"ZvezdaAccessories", {"Hat_Bandana", 50}, {"Hat_Beany", 50}, {"Dungarees", 50}};
+-- vendorsTools[3] = {"ZvezdaAccessories", {"Hat_Bandana", 50}, {"Hat_Beany", 50}, {"Dungarees", 50}};
 -- vendorsTools[4] = {"Farming", {"farming.GardeningSprayEmpty", 75}, {"farming.WateredCan", 100}, {"Fertilizer", 75}, {"EmptySandbag", 25}, {"farming.Shovel", 100}, {"farming.HandShovel", 100}};
 -- vendorsTools[5] = {"Fishing", {"FishingNet", 75}, {"FishingRod", 100}, {"FishingTackle", 45}};
 -- vendorsTools[6] = {"Light", {"Torch", 75}, {"Matches", 50}}
 -- vendorsTools[7] = {"Mechanics", {"PetrolCan", 100}, {"Jack", 75}, {"LugWrench", 75}, {"TirePump", 75}, {"Wrench", 75}};
 -- vendorsTools[8] = {"Stationery", {"Notebook", 50}, {"Eraser", 50}, {"Journal", 50}, {"Pen", 50}, {"Pencil", 50}, {"SheetPaper2", 50}};
 -- vendorsTools[9] = {"Trapping", {"TrapCage", 75}, {"TrapMouse", 25}, {"TrapSnare", 60}, {"TrapStick", 50}, {"TrapBox", 60}, {"TrapCrate", 60}};
+
+
+
+
+vendorsZvezdaTools[1] = {"ZvezdaTools", {"BakingTray", 50}, {"LeadPipe", 50}, {"Scissors", 50}, {"Pot", 50}, {"SmokingPipe", 50}, {"Bong_pastelblue", 50}, {"TinOpener", 50}, {"Bowl", 50}, {"Shovel", 50}, {"HandShovel", 50}, {"FishingRod", 50}};
+vendorsZvezdaTools[2] = {"ZvezdaMaterials", {"Bleach", 50}, {"Disinfectant", 50}, {"RollingPapers", 50}, {"TobaccoSeed", 50}, {"NailsBox", 50}};
+vendorsZvezdaTools[3] = {"ZvezdaAccessories", {"Hat_Bandana", 50}, {"Hat_Beany", 50}, {"Dungarees", 50}};
+
 
 vendorsVehicles = {};
 vendorsVehicles.parts = {};
@@ -296,7 +304,7 @@ function Vendors_subSubContextMenu(subSubContext, vendorList, subSubMenu, contex
 	end
 
 	if vendorType == "ZvezdaToolVendor" then
-		Vendors_DisplayZvezdaToolOptions(subSubMenu, context, player, vendorsFoods);		
+		Vendors_DisplayZvezdaToolOptions(subSubMenu, context, player, vendorsZvezdaTools);		
 	end
 
 	-- tools.  for to buy
