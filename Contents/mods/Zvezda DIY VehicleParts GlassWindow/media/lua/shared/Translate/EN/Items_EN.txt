@@ -1,0 +1,3 @@
+Items_EN = {
+	DisplayName_DIY_VehiclePartsMag4 = "DIY Vehicle Parts! Car windows made of glass",
+}

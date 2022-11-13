@@ -1,0 +1,45 @@
+module T15K_VehicleParts
+{
+
+    imports 
+    {
+        Base
+    }
+
+	item DIY_VehiclePartsMag1 {
+		Weight = 0.1,
+		Type = Literature,
+		DisplayName = DIY_VehiclePartsMag1,
+		Icon = DIY_VehiclePartsMag1,
+		TeachedRecipes = Make Doorknob;Make Hinge2;Make GlassMold;Make CarBattery1;Make BigGasTank1;Make RearCarDoorDouble1;Make RearCarDoor1;Make EngineDoor1;Make ModernSuspension1;Make ModernTire1;Make ModernCarMuffler1;Make ModernBrake1;Make TrunkDoor1;Make NormalCarSeat1;Make FrontCarDoor1;Make RearWindow1 Сomposite;Make FrontWindow1 Сomposite;Make RearWindshield1 Сomposite;Make Windshield1 Сomposite;MakeEnginePart,  /*рецепты которые будет давать журнал*/
+		ReplaceOnUse = DIY_VehiclePartsMag1,
+		StaticModel = Magazine,
+		Tooltip = Tooltip_DIY_VehiclePartsMag1,
+		DisplayCategory = SkillBook,
+	}
+
+	item DIY_VehiclePartsMag2 {
+		Weight = 0.1,
+		Type = Literature,
+		DisplayName = DIY_VehiclePartsMag2,
+		Icon = DIY_VehiclePartsMag2,
+		TeachedRecipes = Make Doorknob;Make Hinge2;Make GlassMold;Make CarBattery2;Make BigGasTank2;Make RearCarDoorDouble2;Make RearCarDoor2;Make EngineDoor2;Make ModernSuspension2;Make ModernTire2;Make ModernCarMuffler2;Make ModernBrake2;Make TrunkDoor2;Make NormalCarSeat2;Make FrontCarDoor2;Make RearWindow2 Сomposite;Make FrontWindow2 Сomposite;Make RearWindshield2 Сomposite;Make Windshield2 Сomposite;MakeEnginePart, /*рецепты которые будет давать журнал*/
+		ReplaceOnUse = DIY_VehiclePartsMag2,
+		StaticModel = Magazine,
+		Tooltip = Tooltip_DIY_VehiclePartsMag2,
+		DisplayCategory = SkillBook,
+	}
+
+	item DIY_VehiclePartsMag3 {
+		Weight = 0.1,
+		Type = Literature,
+		DisplayName = DIY_VehiclePartsMag3,
+		Icon = DIY_VehiclePartsMag3,
+		TeachedRecipes = Make Doorknob;Make Hinge2;Make GlassMold;Make CarBattery3;Make BigGasTank3;Make RearCarDoorDouble3;Make RearCarDoor3;Make EngineDoor3;Make ModernSuspension3;Make ModernTire3;Make ModernCarMuffler3;Make ModernBrake3;Make TrunkDoor3;Make NormalCarSeat3;Make FrontCarDoor3;Make RearWindow3 Сomposite;Make FrontWindow3 Сomposite;Make RearWindshield3 Сomposite;Make Windshield3 Сomposite;MakeEnginePart, /*рецепты которые будет давать журнал*/
+		ReplaceOnUse = DIY_VehiclePartsMag3,
+		StaticModel = Magazine,
+		Tooltip = Tooltip_DIY_VehiclePartsMag3,
+		DisplayCategory = SkillBook,
+	}
+
+}

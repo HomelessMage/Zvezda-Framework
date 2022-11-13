@@ -1,0 +1,15 @@
+Tooltip_RU = {
+	Tooltip_AntiDiarrhealPill = "Принимайте 1 таблетку раз в 3 часа.<br>Не рекомендовано принимать больше 2 таблеток в течение 6 часов.",
+	Tooltip_DefecateDefault = "Используйте любой тип макулатуры чтобы испражниться.",
+	Tooltip_DefecateNeed = "Чтобы испражниться вам нужна макулатура.",
+	Tooltip_DefecateDriving = "Вы не можете испражниться за рулём.",
+	Tooltip_DefecateNewspaper = "Использовать газету чтобы испражниться.",
+	Tooltip_DefecateMagazine = "Использовать журнал чтобы испражниться.",
+	Tooltip_DefecateBook = "Использовать книгу чтобы испражниться.",
+	Tooltip_DefecateHottieZ = "Использовать журнал чтобы испражниться.",
+	Tooltip_DefecateComicBook = "Использовать комикс чтобы испражниться.",
+	Tooltip_DefecateToiletPaper = "Испольовать 1/5 рулона туалетной бумаги чтобы испражниться.",
+	Tooltip_DefecateTissue = "Использовать салфетку чтобы испражниться.",
+	Tooltip_DefecateSheetPaper2 = "Использвать лист бумаги чтобы испражниться.",
+	Tooltip_DefecateRippedSheets = "Использовать тряпку чтобы испражниться.",
+}

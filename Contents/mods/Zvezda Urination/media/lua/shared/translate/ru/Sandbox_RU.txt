@@ -1,0 +1,24 @@
+Sandbox_RU = {
+	Sandbox_Urination = "[ЗВЕЗДА] Мочеиспускание",
+
+	Sandbox_Urination_UrinateTimeMultiplier = "Множитель времени мочеиспускания",
+	Sandbox_Urination_UrinateTimeMultiplier_tooltip = "Сколько времени требуется, чтобы помочиться после того, как вы начали процесс",
+	
+	Sandbox_Urination_UrinateIncreaseMultiplier = "Множитель увеличения нужды",
+	Sandbox_Urination_UrinateIncreaseMultiplier_tooltip = "Как быстро % мочеиспускания увеличивается каждые десять минут",
+	
+	Sandbox_Urination_UrinatedBottomsMultiplier = "Множитель стресса",
+	Sandbox_Urination_UrinatedBottomsMultiplier_tooltip = "Сколько стресса и несчастья вы получаете каждые десять минут",
+
+	Sandbox_Urination_ToiletNoiseRadiusMultiplier = "Множитель радиуса шума туалета",
+	Sandbox_Urination_ToiletNoiseRadiusMultiplier_tooltip = "Насколько громким может быть туалет",
+	
+	Sandbox_Urination_CanPeeSelf = "Возможность описаться",
+	Sandbox_Urination_CanPeeSelf_tooltip = "Снимите флажок, чтобы отключить возможность описаться",
+	
+	Sandbox_Urination_ShowNumericStatus = "Показать числовой статус",
+	Sandbox_Urination_ShowNumericStatus_tooltip = "Снимите флажок, чтобы скрыть цифры, отображаемые в окне «Статус мочеиспускания»",
+
+	Sandbox_Urination_CreatePeePuddle = "Создание луж мочи",
+	Sandbox_Urination_CreatePeePuddle_tooltip = "Снимите флажок, чтобы отключить создание луж при мочеиспускании",
+}

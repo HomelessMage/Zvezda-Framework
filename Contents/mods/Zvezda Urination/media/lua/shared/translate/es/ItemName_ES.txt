@@ -1,0 +1,4 @@
+ItemName_ES = {
+    	ItemName_Urination.Urine = "Orina",
+	ItemName_Urination.UrineBottle = "Botella de orina",
+}

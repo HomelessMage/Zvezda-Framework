@@ -1,0 +1,3 @@
+Items_RU = {
+	DisplayName_DIY_VehiclePartsMag4 = "Журнал «Всратый DIY: Окна автомобиля из осколков стекла!»",
+}

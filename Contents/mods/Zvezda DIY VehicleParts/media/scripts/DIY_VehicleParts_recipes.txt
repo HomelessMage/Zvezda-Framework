@@ -1,0 +1,1327 @@
+module T15K_VehicleParts
+{
+    imports 
+    {
+        Base
+    }
+
+    imports 
+    {
+        Moveables
+    }
+	
+
+/*Газосварка*/	
+    recipe MakeEnginePart
+    {
+	keep WeldingMask,      				/*Сварочная маска*/
+	keep BlowTorch=5, 				/*пропановая горелка*/
+	WeldingRods=2.5, 				/*Присадочный прутки*/
+	Screws=4, 					/*Болт*/
+	ScrapMetal=2, 					/*Металолом*/
+	UnusableMetal=2, 				/*Непригодный метал*/
+	keep Hammer/BallPeenHammer,			/*Кузнечный молот или Молоток*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:EngineParts=20, 				/*предмет и его колличество на выходе*/
+	SkillRequired:MetalWelding=3,			/*скилл требуемый на выполнение*/
+    	Time:500.0,					/*время для выполнения*/
+	AnimNode:BlowTorchFloor, 			/*Стоит анимация: сварка на полу*/
+	Sound:BlowTorch, 				/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding10,	/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:BlowTorch,				/*Отображает газовую горелку при создании предмета*/
+	Prop2:EngineParts,
+    }
+	
+	
+	
+/*Автомеханника*/
+    recipe MakeEnginePart
+    {
+	DuctTape=1, 					/*Изолента*/
+	UnusableMetal=2, 				/*Непригодный метал*/
+	ScrapMetal=2, 					/*Металолом*/
+	Screws=6,					/*Болт*/
+	keep Screwdriver, 				/*Отвёртка*/
+	keep Wrench, 					/*Разводной ключ*/
+	keep PipeWrench,				/*Газовый ключ*/
+	keep Hammer/BallPeenHammer, 			/*Кузнечный молот или Молоток*/
+	keep Saw/GardenSaw, 				/*Пила/Садовая пила*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:EngineParts=20, 				/*предмет и его колличество на выходе*/
+	SkillRequired:Mechanics=2,			/*скилл требуемый на выполнение*/
+    	Time:500.0,					/*время для выполнения*/
+	AnimNode:VehicleWorkOnTire, 			/*Стоит анимация: сварка на полу*/
+	Sound:WrenchT, 					/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.Mechanics10,		/*Дать опыт за создание прелдмета. 10 Газосварки*/
+        Prop1:Wrench,					/*предмет в левой руке*/
+        Prop2:EngineParts,				/*предмет в правой руке*/
+    }
+
+	
+/*Электрика*/
+    recipe MakeEnginePart
+    {	
+	Aluminum=1, 					/*алюминий*/
+	ElectricWire=1, 				/*Электрический провод*/
+	ElectronicsScrap=2, 				/*Электронные запчасти*/
+	Screws=2,					/*Болт*/
+	keep Screwdriver, 				/*Отвёртка*/
+	keep Wrench, 					/*Разводной ключ*/
+	keep Saw/GardenSaw, 				/*Пила/Садовая пила*/
+	
+	Category:AutoParts,	
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:EngineParts=20, 				/*предмет и его колличество на выходе*/
+	SkillRequired:Electricity=2,			/*скилл требуемый на выполнение*/
+    	Time:500.0,					/*время для выполнения*/
+	AnimNode:Disassemble, 				/*Стоит анимация: сварка на полу*/
+	Sound:Dismantle, 				/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.Electricity10,		/*Дать опыт за создание прелдмета. 10 Газосварки*/
+        Prop1:Screwdriver,				/*предмет в левой руке*/
+        Prop2:EngineParts,				/*предмет в правой руке*/
+    }
+
+
+
+/*дверная ручка*/
+    recipe Make Doorknob
+    {
+	keep KitchenKnife/HuntingKnife,			/*Кухонный нож*/
+	keep Saw/GardenSaw, 				/*Пила*/
+	Plank,						/*доска*/
+
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:Doorknob, 				/*предмет и его колличество на выходе*/
+	SkillRequired:Woodwork=1,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:SawLog, 				/*Стоит анимация: сварка на полу*/
+	Sound:Sawing, 					/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.WoodWork,		/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:GardenSaw,					/*Отображает газовую горелку при создании предмета*/
+	Prop2:Plank,
+    }
+
+    recipe Make Hinge2 /*дверная петля*/
+    {
+	keep WeldingMask,      				/*Сварочная маска*/
+	keep BlowTorch=2, 				/*пропановая горелка*/
+	SmallSheetMetal, 				/*Маленький лист металла*/
+	Screws=2,					/*болт*/
+		
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:Hinge=2, 				/*предмет и его колличество на выходе*/
+	SkillRequired:MetalWelding=1,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:BlowTorchFloor, 			/*Стоит анимация: сварка на полу*/
+	Sound:BlowTorch, 				/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding2,		/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:BlowTorch,				/*Отображает газовую горелку при создании предмета*/
+    }
+
+    recipe Make GlassMold /*форма для стекла*/
+    {
+	keep WeldingMask,      				/*Сварочная маска*/
+	keep BlowTorch=2, 				/*пропановая горелка*/
+	SmallSheetMetal, 				/*Маленький лист металла*/
+		
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:GlassMold, 				/*предмет и его колличество на выходе*/
+	SkillRequired:MetalWelding=1,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:BlowTorchFloor, 			/*Стоит анимация: сварка на полу*/
+	Sound:BlowTorch, 				/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding,		/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:BlowTorch,				/*Отображает газовую горелку при создании предмета*/
+    }
+
+/*Аккумулятор, тип - стандартный*/
+    recipe Make CarBattery1
+    {
+	
+	keep Screwdriver,				 /*Отвёртка*/
+	keep Wrench, 					/*Разводной ключ*/
+
+	SmallSheetMetal=4, 				/*Маленький лист металла*/
+	Screws=2, 					/*Болт*/
+	ElectronicsScrap=1, 				/*Элетрические части*/
+	BakingSoda = 1,					/*Пищевая сода*/
+	Water=7,					/*Вода*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:CarBattery1, 				/*предмет и его колличество на выходе*/
+	SkillRequired:Electricity=1;Mechanics=1,	/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:Craft, 			/*Стоит анимация: сварка на полу*/
+	Sound:WrenchT, 				/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	/*OnGiveXP:Recipe.OnGiveXP.MetalWelding10,*/	/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	OnGiveXP:Recipe.OnGiveXP.Electricity10,		/*Дать опыт за создание прелдмета. 10 Электрика*/
+	Prop1:Screwdriver,				/*Отображает газовую горелку при создании предмета*/
+	Prop2:CarBattery1,
+    }
+
+/*Аккумулятор, тип - тяжёлый*/
+    recipe Make CarBattery2
+    {
+
+	keep Screwdriver,				 /*Отвёртка*/
+	keep Wrench, 					/*Разводной ключ*/
+
+	SmallSheetMetal=4, 				/*Маленький лист металла*/
+	Screws=2, 					/*Болт*/
+	ElectronicsScrap=2, 				/*Элетрические части*/
+	BakingSoda = 1,					/*Пищевая сода*/
+	Water=7,					/*Вода*/
+	Aluminum,
+
+
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:CarBattery2, 				/*предмет и его колличество на выходе*/
+	SkillRequired:Electricity=2;Mechanics=4,	/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:Craft, 			/*Стоит анимация: сварка на полу*/
+	Sound:WrenchT, 				/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.Electricity10,		/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:Screwdriver,				/*Отображает газовую горелку при создании предмета*/
+	Prop2:CarBattery2,
+    }
+
+/*Аккумулятор, тип - элитный*/
+    recipe Make CarBattery3
+    {
+	keep Screwdriver,				 /*Отвёртка*/
+	keep Wrench, 					/*Разводной ключ*/
+
+	SmallSheetMetal=4, 				/*Маленький лист металла*/
+	Screws=2, 					/*Болт*/
+	ElectronicsScrap=3, 				/*Элетрические части*/
+	BakingSoda = 1,					/*Пищевая сода*/
+	Water=7,					/*Вода*/
+	Aluminum=2,
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:CarBattery3, 				/*предмет и его колличество на выходе*/
+	SkillRequired:Electricity=3;Mechanics=6,	/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:Craft, 			/*Стоит анимация: сварка на полу*/
+	Sound:WrenchT, 				/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.Electricity10,		/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:Screwdriver,				/*Отображает газовую горелку при создании предмета*/
+	Prop2:CarBattery3,
+    }
+
+/*Большой бензобак, тип - стандартный*/
+    recipe Make BigGasTank1
+    {
+	keep WeldingMask,      				/*Сварочная маска*/
+	keep BlowTorch=5, 				/*пропановая горелка*/
+	WeldingRods=2.5, 				/*Присадочный прутки*/
+	keep Wrench, 					/*Разводной ключ*/
+
+	SmallSheetMetal=4, 				/*Маленький лист металла*/
+	Screws=8, 					/*Болт*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:BigGasTank1, 				/*предмет и его колличество на выходе*/
+	SkillRequired:MetalWelding=2;Mechanics=1,	/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:BlowTorchFloor, 			/*Стоит анимация: сварка на полу*/
+	Sound:BlowTorch, 				/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding10,	/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:BlowTorch,				/*Отображает газовую горелку при создании предмета*/
+	Prop2:BigGasTank1,
+    }
+
+/*Большой бензобак, тип - тяжёлый*/
+    recipe Make BigGasTank2
+    {
+	keep WeldingMask,      				/*Сварочная маска*/
+	keep BlowTorch=5, 				/*пропановая горелка*/
+	WeldingRods=2.5, 				/*Присадочный прутки*/
+	keep Wrench, 					/*Разводной ключ*/
+
+	SmallSheetMetal=4, 				/*Маленький лист металла*/
+	Screws=8, 					/*Болт*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:BigGasTank2, 				/*предмет и его колличество на выходе*/
+	SkillRequired:MetalWelding=4;Mechanics=4,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:BlowTorchFloor, 			/*Стоит анимация: сварка на полу*/
+	Sound:BlowTorch, 				/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding10,	/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:BlowTorch,				/*Отображает газовую горелку при создании предмета*/
+	Prop2:BigGasTank2,
+    }
+
+/*Большой бензобак, тип - элитный*/
+    recipe Make BigGasTank3
+    {
+	keep WeldingMask,      				/*Сварочная маска*/
+	keep BlowTorch=5, 				/*пропановая горелка*/
+	WeldingRods=2.5, 				/*Присадочный прутки*/
+	keep Wrench, 					/*Разводной ключ*/
+
+	SmallSheetMetal=4, 				/*Маленький лист металла*/
+	Screws=8, 					/*Болт*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:BigGasTank3, 				/*предмет и его колличество на выходе*/
+	SkillRequired:MetalWelding=7;Mechanics=6,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:BlowTorchFloor, 			/*Стоит анимация: сварка на полу*/
+	Sound:BlowTorch, 				/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding10,	/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:BlowTorch,				/*Отображает газовую горелку при создании предмета*/
+	Prop2:BigGasTank3,
+    }
+
+/*Двойные задние двери, тип - стандартный*/
+    recipe Make RearCarDoorDouble1
+    {
+	keep WeldingMask,      				/*Сварочная маска*/
+	keep BlowTorch=5, 				/*пропановая горелка*/
+	WeldingRods=2.5, 				/*Присадочный прутки*/	
+	keep Wrench, 					/*Разводной ключ*/
+
+	UnusableMetal=4, 				/*Непригодный метал*/
+	SheetMetal=2, 					/*Лист металлолома*/
+	Doorknob=2, 					/*дверная ручка*/
+	Hinge=4,					/*дверная петля*/
+	Screws=8, 					/*Болт*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:RearCarDoorDouble1, 				/*предмет и его колличество на выходе*/
+	SkillRequired:MetalWelding=2;Mechanics=1,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:BlowTorchFloor, 			/*Стоит анимация: сварка на полу*/
+	Sound:BlowTorch, 				/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding10,	/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:BlowTorch,				/*Отображает газовую горелку при создании предмета*/
+	Prop2:RearCarDoorDouble1,
+    }
+
+/*Двойные задние двери, тип - тяжёлый*/
+    recipe Make RearCarDoorDouble2
+    {
+	keep WeldingMask,      				/*Сварочная маска*/
+	keep BlowTorch=5, 				/*пропановая горелка*/
+	WeldingRods=2.5, 				/*Присадочный прутки*/	
+	keep Wrench, 					/*Разводной ключ*/
+
+	UnusableMetal=4, 				/*Непригодный метал*/
+	SheetMetal=2, 					/*Лист металлолома*/
+	Doorknob=2, 					/*дверная ручка*/
+	Hinge=4,					/*дверная петля*/
+	Screws=8, 					/*Болт*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:RearCarDoorDouble2, 			/*предмет и его колличество на выходе*/
+	SkillRequired:MetalWelding=4;Mechanics=4,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:BlowTorchFloor, 			/*Стоит анимация: сварка на полу*/
+	Sound:BlowTorch, 				/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding10,	/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:BlowTorch,				/*Отображает газовую горелку при создании предмета*/
+	Prop2:RearCarDoorDouble2,
+    }
+
+/*Двойные задние двери, тип - элитный*/
+    recipe Make RearCarDoorDouble3
+    {
+	keep WeldingMask,      				/*Сварочная маска*/
+	keep BlowTorch=5, 				/*пропановая горелка*/
+	WeldingRods=2.5, 				/*Присадочный прутки*/	
+	keep Wrench, 					/*Разводной ключ*/
+
+	UnusableMetal=4, 				/*Непригодный метал*/
+	SheetMetal=2, 					/*Лист металлолома*/
+	Doorknob=2, 					/*дверная ручка*/
+	Hinge=4,					/*дверная петля*/
+	Screws=8, 					/*Болт*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:RearCarDoorDouble3, 				/*предмет и его колличество на выходе*/
+	SkillRequired:MetalWelding=7;Mechanics=6,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:BlowTorchFloor, 			/*Стоит анимация: сварка на полу*/
+	Sound:BlowTorch, 				/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding10,	/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:BlowTorch,				/*Отображает газовую горелку при создании предмета*/
+	Prop2:RearCarDoorDouble3,
+    }	
+
+
+
+/*Задняя дверь, тип - стандартный*/
+    recipe Make RearCarDoor1
+    {
+	keep WeldingMask,      				/*Сварочная маска*/
+	keep BlowTorch=5, 				/*пропановая горелка*/
+	WeldingRods=2.5, 				/*Присадочный прутки*/	
+	keep Wrench, 					/*Разводной ключ*/
+
+	UnusableMetal=2, 				/*Непригодный метал*/
+	SheetMetal=1, 					/*Лист металлолома*/
+	Doorknob=1, 					/*дверная ручка*/
+	Hinge=2,					/*дверная петля*/
+	Screws=8, 					/*Болт*/
+
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:RearCarDoor1, 				/*предмет и его колличество на выходе*/
+	SkillRequired:MetalWelding=2;Mechanics=1,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:BlowTorchFloor, 			/*Стоит анимация: сварка на полу*/
+	Sound:BlowTorch, 				/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding10,	/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:BlowTorch,				/*Отображает газовую горелку при создании предмета*/
+	Prop2:Base.RearCarDoor1,
+    }
+
+
+/*Задняя дверь, тип - тяжёлый*/
+    recipe Make RearCarDoor2
+    {
+	keep WeldingMask,      				/*Сварочная маска*/
+	keep BlowTorch=5, 				/*пропановая горелка*/
+	WeldingRods=2.5, 				/*Присадочный прутки*/	
+	keep Wrench, 					/*Разводной ключ*/
+
+	UnusableMetal=2, 				/*Непригодный метал*/
+	SheetMetal=1, 					/*Лист металлолома*/
+	Doorknob=1, 					/*дверная ручка*/
+	Hinge=2,					/*дверная петля*/
+	Screws=8, 					/*Болт*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:RearCarDoor2, 			/*предмет и его колличество на выходе*/
+	SkillRequired:MetalWelding=4;Mechanics=4,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:BlowTorchFloor, 			/*Стоит анимация: сварка на полу*/
+	Sound:BlowTorch, 				/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding10,	/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:BlowTorch,				/*Отображает газовую горелку при создании предмета*/
+	Prop2:Base.RearCarDoor2,
+    }
+
+/*Задняя дверь, тип - элитный*/
+    recipe Make RearCarDoor3
+    {
+	keep WeldingMask,      				/*Сварочная маска*/
+	keep BlowTorch=5, 				/*пропановая горелка*/
+	WeldingRods=2.5, 				/*Присадочный прутки*/	
+	keep Wrench, 					/*Разводной ключ*/
+
+	UnusableMetal=2, 				/*Непригодный метал*/
+	SheetMetal=1, 					/*Лист металлолома*/
+	Doorknob=1, 					/*дверная ручка*/
+	Hinge=2,					/*дверная петля*/
+	Screws=8, 					/*Болт*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:RearCarDoor3, 				/*предмет и его колличество на выходе*/
+	SkillRequired:MetalWelding=7;Mechanics=6,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:BlowTorchFloor, 			/*Стоит анимация: сварка на полу*/
+	Sound:BlowTorch, 				/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding10,	/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:BlowTorch,				/*Отображает газовую горелку при создании предмета*/
+	Prop2:Base.RearCarDoor3,
+    }	
+
+/*Капот, тип - стандартный*/
+    recipe Make EngineDoor1
+    {
+	keep WeldingMask,      				/*Сварочная маска*/
+	keep BlowTorch=5, 				/*пропановая горелка*/
+	WeldingRods=2.5, 				/*Присадочный прутки*/	
+	keep Wrench, 					/*Разводной ключ*/
+
+	SheetMetal=1, 					/*Лист металлолома*/
+	Hinge=2,					/*дверная петля*/
+	Screws=2, 					/*Болт*/
+	UnusableMetal=2,				/*Непригодный метал*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:EngineDoor1, 				/*предмет и его колличество на выходе*/
+	SkillRequired:MetalWelding=2;Mechanics=1,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:BlowTorchFloor, 			/*Стоит анимация: сварка на полу*/
+	Sound:BlowTorch, 				/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding10,	/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:BlowTorch,				/*Отображает газовую горелку при создании предмета*/
+    }
+
+
+/*Капот, тип - тяжёлый*/
+    recipe Make EngineDoor2
+    {
+	keep WeldingMask,      				/*Сварочная маска*/
+	keep BlowTorch=5, 				/*пропановая горелка*/
+	WeldingRods=2.5, 				/*Присадочный прутки*/	
+	keep Wrench, 					/*Разводной ключ*/
+
+
+	SheetMetal=1, 					/*Лист металлолома*/
+	Hinge=2,					/*дверная петля*/
+	Screws=2, 					/*Болт*/
+	UnusableMetal=2,				/*Непригодный метал*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:EngineDoor2, 			/*предмет и его колличество на выходе*/
+	SkillRequired:MetalWelding=4;Mechanics=4,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:BlowTorchFloor, 			/*Стоит анимация: сварка на полу*/
+	Sound:BlowTorch, 				/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding10,	/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:BlowTorch,				/*Отображает газовую горелку при создании предмета*/
+    }
+
+/*Капот, тип - элитный*/
+    recipe Make EngineDoor3
+    {
+	keep WeldingMask,      				/*Сварочная маска*/
+	keep BlowTorch=5, 				/*пропановая горелка*/
+	WeldingRods=2.5, 				/*Присадочный прутки*/	
+	keep Wrench, 					/*Разводной ключ*/
+
+	SheetMetal=1, 					/*Лист металлолома*/
+	Hinge=2,					/*дверная петля*/
+	Screws=2, 					/*Болт*/
+	UnusableMetal=2,				/*Непригодный метал*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:EngineDoor3, 				/*предмет и его колличество на выходе*/
+	SkillRequired:MetalWelding=7;Mechanics=6,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:BlowTorchFloor, 			/*Стоит анимация: сварка на полу*/
+	Sound:BlowTorch, 				/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding10,	/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:BlowTorch,				/*Отображает газовую горелку при создании предмета*/
+    }
+
+
+/*Качественная подвеска, тип - стандартный*/
+    recipe Make ModernSuspension1
+    {
+	keep WeldingMask,      				/*Сварочная маска*/
+	keep BlowTorch=5, 				/*пропановая горелка*/
+	WeldingRods=2.5, 				/*Присадочный прутки*/	
+	keep Wrench, 					/*Разводной ключ*/
+
+	ScrapMetal, 					/*Металолом*/
+	MetalPipe,					/*Металическая труба*/
+	MetalBar, 					/*Металл прут*/
+	Screws=4, 					/*Болт*/
+
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:ModernSuspension1, 				/*предмет и его колличество на выходе*/
+	SkillRequired:MetalWelding=2;Mechanics=1,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:BlowTorchFloor, 			/*Стоит анимация: сварка на полу*/
+	Sound:BlowTorch, 				/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding10,	/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:BlowTorch,				/*Отображает газовую горелку при создании предмета*/
+    }
+
+
+/*Качественная подвеска, тип - тяжёлый*/
+    recipe Make ModernSuspension2
+    {
+	keep WeldingMask,      				/*Сварочная маска*/
+	keep BlowTorch=5, 				/*пропановая горелка*/
+	WeldingRods=2.5, 				/*Присадочный прутки*/	
+	keep Wrench, 					/*Разводной ключ*/
+
+	ScrapMetal, 					/*Металолом*/
+	MetalPipe,					/*Металическая труба*/
+	MetalBar, 					/*Металл прут*/
+	Screws=4, 					/*Болт*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:ModernSuspension2, 			/*предмет и его колличество на выходе*/
+	SkillRequired:MetalWelding=4;Mechanics=4,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:BlowTorchFloor, 			/*Стоит анимация: сварка на полу*/
+	Sound:BlowTorch, 				/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding10,	/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:BlowTorch,				/*Отображает газовую горелку при создании предмета*/
+    }
+
+/*Качественная подвеска, тип - элитный*/
+    recipe Make ModernSuspension3
+    {
+	keep WeldingMask,      				/*Сварочная маска*/
+	keep BlowTorch=5, 				/*пропановая горелка*/
+	WeldingRods=2.5, 				/*Присадочный прутки*/	
+	keep Wrench, 					/*Разводной ключ*/
+
+	ScrapMetal, 					/*Металолом*/
+	MetalPipe,					/*Металическая труба*/
+	MetalBar, 					/*Металл прут*/
+	Screws=4, 					/*Болт*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:ModernSuspension3, 				/*предмет и его колличество на выходе*/
+	SkillRequired:MetalWelding=7;Mechanics=6,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:BlowTorchFloor, 			/*Стоит анимация: сварка на полу*/
+	Sound:BlowTorch, 				/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding10,	/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:BlowTorch,				/*Отображает газовую горелку при создании предмета*/
+    }
+
+
+/*Качественная шина, тип - стандартный*/
+    recipe Make ModernTire1
+    {
+	keep WeldingMask,      				/*Сварочная маска*/
+	keep BlowTorch=5, 				/*пропановая горелка*/
+	WeldingRods=2.5, 				/*Присадочный прутки*/
+
+	MetalBar, 					/*Металл прут*/
+	Screws=10, 					/*Болт*/
+	UnusableMetal=4,				/*Непригодный метал*/
+	LeatherStrips=2,				/*Полоски кожи*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:ModernTire1, 				/*предмет и его колличество на выходе*/
+	SkillRequired:MetalWelding=2;Mechanics=1,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:BlowTorchFloor, 			/*Стоит анимация: сварка на полу*/
+	Sound:BlowTorch, 				/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding10,	/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:BlowTorch,				/*Отображает газовую горелку при создании предмета*/
+    }
+
+
+/*Качественная шина, тип - тяжёлый*/
+    recipe Make ModernTire2
+    {
+	keep WeldingMask,      				/*Сварочная маска*/
+	keep BlowTorch=5, 				/*пропановая горелка*/
+	WeldingRods=2.5, 				/*Присадочный прутки*/
+
+	MetalBar, 					/*Металл прут*/
+	Screws=10, 					/*Болт*/
+	UnusableMetal=4,				/*Непригодный метал*/
+	LeatherStrips=3,				/*Полоски кожи*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:ModernTire2, 			/*предмет и его колличество на выходе*/
+	SkillRequired:MetalWelding=4;Mechanics=4,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:BlowTorchFloor, 			/*Стоит анимация: сварка на полу*/
+	Sound:BlowTorch, 				/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding10,	/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:BlowTorch,				/*Отображает газовую горелку при создании предмета*/
+    }
+
+/*Качественная шина, тип - элитный*/
+    recipe Make ModernTire3
+    {
+	keep WeldingMask,      				/*Сварочная маска*/
+	keep BlowTorch=5, 				/*пропановая горелка*/
+	WeldingRods=2.5, 				/*Присадочный прутки*/
+
+	MetalBar, 					/*Металл прут*/
+	Screws=10, 					/*Болт*/
+	UnusableMetal=4,				/*Непригодный метал*/
+	LeatherStrips=4,				/*Полоски кожи*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:ModernTire3, 				/*предмет и его колличество на выходе*/
+	SkillRequired:MetalWelding=7;Mechanics=6,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:BlowTorchFloor, 			/*Стоит анимация: сварка на полу*/
+	Sound:BlowTorch, 				/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding10,	/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:BlowTorch,				/*Отображает газовую горелку при создании предмета*/
+    }
+
+/*Качественная глушитель, тип - стандартный*/
+    recipe Make ModernCarMuffler1
+    {
+	keep WeldingMask,      				/*Сварочная маска*/
+	keep BlowTorch=5, 				/*пропановая горелка*/
+	WeldingRods=2.5, 				/*Присадочный прутки*/	
+	keep Wrench, 					/*Разводной ключ*/
+	
+	MetalPipe=2, 					/*Металическая труба*/
+	Screws=2, 					/*Болт*/		
+	UnusableMetal=2, 				/*Непригодный метал*/
+	DuctTape=1, 					/*Изолента*/
+
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:ModernCarMuffler1, 				/*предмет и его колличество на выходе*/
+	SkillRequired:MetalWelding=2;Mechanics=1,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:BuildLow, 			/*Стоит анимация: сварка на полу*/
+	AnimNode:BlowTorchFloor, 			/*Стоит анимация: сварка на полу*/
+	Sound:BlowTorch, 				/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding10,	/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:BlowTorch,				/*Отображает газовую горелку при создании предмета*/
+    }
+
+
+/*Качественная глушитель, тип - тяжёлый*/
+    recipe Make ModernCarMuffler2
+    {
+	keep WeldingMask,      				/*Сварочная маска*/
+	keep BlowTorch=5, 				/*пропановая горелка*/
+	WeldingRods=2.5, 				/*Присадочный прутки*/	
+	keep Wrench, 					/*Разводной ключ*/
+	
+	MetalPipe=2, 					/*Металическая труба*/
+	Screws=2, 					/*Болт*/		
+	UnusableMetal=2, 				/*Непригодный метал*/
+	DuctTape=1, 					/*Изолента*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:ModernCarMuffler2, 			/*предмет и его колличество на выходе*/
+	SkillRequired:MetalWelding=4;Mechanics=4,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:BlowTorchFloor, 			/*Стоит анимация: сварка на полу*/
+	Sound:BlowTorch, 				/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding10,	/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:BlowTorch,				/*Отображает газовую горелку при создании предмета*/
+    }
+
+/*Качественная глушитель, тип - элитный*/
+    recipe Make ModernCarMuffler3
+    {
+	keep WeldingMask,      				/*Сварочная маска*/
+	keep BlowTorch=5, 				/*пропановая горелка*/
+	WeldingRods=2.5, 				/*Присадочный прутки*/	
+	keep Wrench, 					/*Разводной ключ*/
+	
+	MetalPipe=2, 					/*Металическая труба*/
+	Screws=2, 					/*Болт*/		
+	UnusableMetal=2, 				/*Непригодный метал*/
+	DuctTape=1, 					/*Изолента*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:ModernCarMuffler3, 				/*предмет и его колличество на выходе*/
+	SkillRequired:MetalWelding=7;Mechanics=6,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:BlowTorchFloor, 			/*Стоит анимация: сварка на полу*/
+	Sound:BlowTorch, 				/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding10,	/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:BlowTorch,				/*Отображает газовую горелку при создании предмета*/
+    }
+
+
+/*Качественная тормоз, тип - стандартный*/
+    recipe Make ModernBrake1
+    {
+	keep WeldingMask,      				/*Сварочная маска*/
+	keep BlowTorch=5, 				/*пропановая горелка*/
+	WeldingRods=2.5, 				/*Присадочный прутки*/	
+	keep Saw, 					/*Пила*/
+	keep Wrench, /*Разводной ключ*/
+	
+	TinCanEmpty=2,					/*Пустая консервная банка*/
+	SmallSheetMetal, 				/*Маленький лист металла*/
+	ScrapMetal, 					/*Металолом*/
+	UnusableMetal, 					/*Непригодный метал*/
+	Screws=2,					/*Болт*/
+
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:ModernBrake1, 				/*предмет и его колличество на выходе*/
+	SkillRequired:MetalWelding=2;Mechanics=1,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:BuildLow, 			/*Стоит анимация: сварка на полу*/
+	AnimNode:BlowTorchFloor, 			/*Стоит анимация: сварка на полу*/
+	Sound:BlowTorch, 				/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding10,	/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:BlowTorch,				/*Отображает газовую горелку при создании предмета*/
+    }
+
+
+/*Качественная тормоз, тип - тяжёлый*/
+    recipe Make ModernBrake2
+    {
+	keep WeldingMask,      				/*Сварочная маска*/
+	keep BlowTorch=5, 				/*пропановая горелка*/
+	WeldingRods=2.5, 				/*Присадочный прутки*/	
+	keep Saw, 					/*Пила*/
+	keep Wrench, /*Разводной ключ*/
+	
+	TinCanEmpty=2,					/*Пустая консервная банка*/
+	SmallSheetMetal, 				/*Маленький лист металла*/
+	ScrapMetal, 					/*Металолом*/
+	UnusableMetal, 					/*Непригодный метал*/
+	Screws=2,					/*Болт*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:ModernBrake2, 			/*предмет и его колличество на выходе*/
+	SkillRequired:MetalWelding=4;Mechanics=4,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:BlowTorchFloor, 			/*Стоит анимация: сварка на полу*/
+	Sound:BlowTorch, 				/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding10,	/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:BlowTorch,				/*Отображает газовую горелку при создании предмета*/
+    }
+
+/*Качественная тормоз, тип - элитный*/
+    recipe Make ModernBrake3
+    {
+	keep WeldingMask,      				/*Сварочная маска*/
+	keep BlowTorch=5, 				/*пропановая горелка*/
+	WeldingRods=2.5, 				/*Присадочный прутки*/	
+	keep Saw, 					/*Пила*/
+	keep Wrench, /*Разводной ключ*/
+	
+	TinCanEmpty=2,					/*Пустая консервная банка*/
+	SmallSheetMetal, 				/*Маленький лист металла*/
+	ScrapMetal, 					/*Металолом*/
+	UnusableMetal, 					/*Непригодный метал*/
+	Screws=2,					/*Болт*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:ModernBrake3, 				/*предмет и его колличество на выходе*/
+	SkillRequired:MetalWelding=7;Mechanics=6,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:BlowTorchFloor, 			/*Стоит анимация: сварка на полу*/
+	Sound:BlowTorch, 				/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding10,	/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:BlowTorch,				/*Отображает газовую горелку при создании предмета*/
+    }
+
+
+/*Крышка багажника, тип - стандартный*/
+    recipe Make TrunkDoor1
+    {
+	keep WeldingMask,      				/*Сварочная маска*/
+	keep BlowTorch=5, 				/*пропановая горелка*/
+	WeldingRods=2.5, 				/*Присадочный прутки*/	
+	keep Hammer/BallPeenHammer, 			/*Кузнечный молот или Молоток*/
+	keep Wrench, 					/*Разводной ключ*/
+
+	SheetMetal=1, 					/*Лист металлолома*/
+	Hinge=2,					/*дверная петля*/
+	UnusableMetal=2,				/*Непригодный метал*/
+	Screws=4, 					/*Болт*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:TrunkDoor1, 				/*предмет и его колличество на выходе*/
+	SkillRequired:MetalWelding=2;Mechanics=1,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:BlowTorchFloor, 			/*Стоит анимация: сварка на полу*/
+	Sound:BlowTorch, 				/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding10,	/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:BlowTorch,				/*Отображает газовую горелку при создании предмета*/
+    }
+
+
+/*Крышка багажника, тип - тяжёлый*/
+    recipe Make TrunkDoor2
+    {
+	keep WeldingMask,      				/*Сварочная маска*/
+	keep BlowTorch=5, 				/*пропановая горелка*/
+	WeldingRods=2.5, 				/*Присадочный прутки*/	
+	keep Hammer/BallPeenHammer, 			/*Кузнечный молот или Молоток*/
+	keep Wrench, 					/*Разводной ключ*/
+
+	SheetMetal=1, 					/*Лист металлолома*/
+	Hinge=2,					/*дверная петля*/
+	UnusableMetal=2,				/*Непригодный метал*/
+	Screws=4, 					/*Болт*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:TrunkDoor2, 			/*предмет и его колличество на выходе*/
+	SkillRequired:MetalWelding=4;Mechanics=4,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:BlowTorchFloor, 			/*Стоит анимация: сварка на полу*/
+	Sound:BlowTorch, 				/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding10,	/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:BlowTorch,				/*Отображает газовую горелку при создании предмета*/
+    }
+
+/*Крышка багажника, тип - элитный*/
+    recipe Make TrunkDoor3
+    {
+	keep WeldingMask,      				/*Сварочная маска*/
+	keep BlowTorch=5, 				/*пропановая горелка*/
+	WeldingRods=2.5, 				/*Присадочный прутки*/	
+	keep Hammer/BallPeenHammer, 			/*Кузнечный молот или Молоток*/
+	keep Wrench, 					/*Разводной ключ*/
+
+	SheetMetal=1, 					/*Лист металлолома*/
+	Hinge=2,					/*дверная петля*/
+	UnusableMetal=2,				/*Непригодный метал*/
+	Screws=4, 					/*Болт*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:TrunkDoor3, 				/*предмет и его колличество на выходе*/
+	SkillRequired:MetalWelding=7;Mechanics=6,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:BlowTorchFloor, 			/*Стоит анимация: сварка на полу*/
+	Sound:BlowTorch, 				/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding10,	/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:BlowTorch,				/*Отображает газовую горелку при создании предмета*/
+    }
+
+
+
+/*Обычное сиденье, тип - стандартный*/
+    recipe Make NormalCarSeat1
+    {
+	keep Needle,					/*Игла*/
+	keep Thread=3,					/*Нить*/
+	keep Scissors,					/*Ножницы*/
+	RippedSheets=10,				/*Тряпка*/
+	UnusableMetal=4, 				/*Непригодный метал*/
+
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:NormalCarSeat1, 				/*предмет и его колличество на выходе*/
+	SkillRequired:Tailoring=1;Mechanics=1,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:Craft, 				/*Стоит анимация: сварка на полу*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.Tailoring10,		/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:Needle,					/*Отображает газовую горелку при создании предмета*/
+	Prop2:RippedSheets,
+    }
+
+
+/*Обычное сиденье, тип - тяжёлый*/
+    recipe Make NormalCarSeat2
+    {
+	keep Needle,					/*Игла*/
+	keep Thread=3,					/*Нить*/
+	keep Scissors,					/*Ножницы*/
+	DenimStrips=6,					/*Джинса*/
+	UnusableMetal=4, 				/*Непригодный метал*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result: NormalCarSeat2, 				/*предмет и его колличество на выходе*/
+	SkillRequired:Tailoring=2;Mechanics=4,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:Craft, 				/*Стоит анимация: сварка на полу*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.Tailoring10,		/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:Needle,					/*Отображает газовую горелку при создании предмета*/
+	Prop2:DenimStrips,
+    }
+
+/*Обычное сиденье, тип - элитный*/
+    recipe Make NormalCarSeat3
+    {
+	keep Needle,					/*Игла*/
+	keep Thread=3,					/*Нить*/
+	keep Scissors,					/*Ножницы*/
+	LeatherStrips=5,				/*Тряпка*/
+	UnusableMetal=4, 				/*Непригодный метал*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:NormalCarSeat3, 				/*предмет и его колличество на выходе*/
+	SkillRequired:Tailoring=3;Mechanics=6,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:Craft, 				/*Стоит анимация: сварка на полу*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.Tailoring10,		/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:Needle,					/*Отображает газовую горелку при создании предмета*/
+	Prop2:LeatherStrips,
+    }
+
+/*Передняя дверь, тип - стандартный*/
+    recipe Make FrontCarDoor1
+    {
+	keep WeldingMask,      				/*Сварочная маска*/
+	keep BlowTorch=5, 				/*пропановая горелка*/
+	WeldingRods=2.5, 				/*Присадочный прутки*/	
+	keep Wrench, 					/*Разводной ключ*/
+
+	SheetMetal=1, 					/*Лист металлолома*/
+	Doorknob=1, 					/*дверная ручка*/
+	Hinge=2,					/*дверная петля*/
+	Screws=4, 					/*Болт*/
+	UnusableMetal=2, 				/*Непригодный метал*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:FrontCarDoor1, 				/*предмет и его колличество на выходе*/
+	SkillRequired:MetalWelding=2;Mechanics=1,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:BlowTorchFloor, 			/*Стоит анимация: сварка на полу*/
+	Sound:BlowTorch, 				/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding10,	/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:BlowTorch,				/*Отображает газовую горелку при создании предмета*/
+	Prop2:Base.FrontCarDoor1,
+    }
+
+
+/*Передняя дверь, тип - тяжёлый*/
+    recipe Make FrontCarDoor2
+    {
+	keep WeldingMask,      				/*Сварочная маска*/
+	keep BlowTorch=5, 				/*пропановая горелка*/
+	WeldingRods=2.5, 				/*Присадочный прутки*/	
+	keep Wrench, 					/*Разводной ключ*/
+
+	SheetMetal=1, 					/*Лист металлолома*/
+	Doorknob=1, 					/*дверная ручка*/
+	Hinge=2,					/*дверная петля*/
+	Screws=4, 					/*Болт*/
+	UnusableMetal=2, 				/*Непригодный метал*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:FrontCarDoor2, 			/*предмет и его колличество на выходе*/
+	SkillRequired:MetalWelding=4;Mechanics=4,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:BlowTorchFloor, 			/*Стоит анимация: сварка на полу*/
+	Sound:BlowTorch, 				/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding10,	/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:BlowTorch,				/*Отображает газовую горелку при создании предмета*/
+	Prop2:Base.FrontCarDoor2,
+    }
+
+/*Передняя дверь, тип - элитный*/
+    recipe Make FrontCarDoor3
+    {
+	keep WeldingMask,      				/*Сварочная маска*/
+	keep BlowTorch=5, 				/*пропановая горелка*/
+	WeldingRods=2.5, 				/*Присадочный прутки*/	
+	keep Wrench, 					/*Разводной ключ*/
+
+	SheetMetal=1, 					/*Лист металлолома*/
+	Doorknob=1, 					/*дверная ручка*/
+	Hinge=2,					/*дверная петля*/
+	Screws=4, 					/*Болт*/
+	UnusableMetal=2, 				/*Непригодный метал*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:FrontCarDoor3, 				/*предмет и его колличество на выходе*/
+	SkillRequired:MetalWelding=7;Mechanics=6,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:BlowTorchFloor, 			/*Стоит анимация: сварка на полу*/
+	Sound:BlowTorch, 				/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding10,	/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:BlowTorch,				/*Отображает газовую горелку при создании предмета*/
+	Prop2:Base.FrontCarDoor3,
+    }	
+
+/*Стекло заднего окна, тип - стандартный*/
+   recipe Make RearWindow1 Сomposite
+    {
+	Woodglue/Glue,					/*Клей для дерева/Клей*/
+	keep GlassMold,					/*Форма для стекла*/
+	BakingSoda = 1,					/*Пищевая сода*/
+
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:RearWindow1, 				/*предмет и его колличество на выходе*/
+	SkillRequired:Woodwork=1;Mechanics=1,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:Dig, 					/*Стоит анимация: сварка на полу*/
+	Sound:GlueSound, 					/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.WoodWork,		/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:Glue,					/*Отображает газовую горелку при создании предмета ScotchTape*/
+	Prop2:BakingTray,
+    }
+
+/*Стекло заднего окна, тип - тяжёлый*/
+    recipe Make RearWindow2 Сomposite
+    {
+	Woodglue/Glue,					/*Клей для дерева/Клей*/
+	keep GlassMold,					/*Форма для стекла*/
+	BakingSoda = 1,					/*Пищевая сода*/
+
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:RearWindow2, 				/*предмет и его колличество на выходе*/
+	SkillRequired:Woodwork=1;Mechanics=4,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:Dig, 					/*Стоит анимация: сварка на полу*/
+	Sound:GlueSound, 					/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.WoodWork,		/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:Glue,					/*Отображает газовую горелку при создании предмета ScotchTape*/
+	Prop2:BakingTray,
+    }
+
+/*Стекло заднего окна, тип - элитный*/
+    recipe Make RearWindow3 Сomposite
+    {
+	Woodglue/Glue,					/*Клей для дерева/Клей*/
+	keep GlassMold,					/*Форма для стекла*/
+	BakingSoda = 1,					/*Пищевая сода*/
+
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:RearWindow3, 				/*предмет и его колличество на выходе*/
+	SkillRequired:Woodwork=1;Mechanics=6,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:Dig, 					/*Стоит анимация: сварка на полу*/
+	Sound:GlueSound, 					/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.WoodWork,		/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:Glue,					/*Отображает газовую горелку при создании предмета ScotchTape*/
+	Prop2:BakingTray,
+    }
+
+/*Стекло переднего окна, тип - стандартный*/
+   recipe Make FrontWindow1 Сomposite
+    {
+	Woodglue/Glue,					/*Клей для дерева/Клей*/
+	keep GlassMold,					/*Форма для стекла*/
+	BakingSoda = 1,					/*Пищевая сода*/
+
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:FrontWindow1, 				/*предмет и его колличество на выходе*/
+	SkillRequired:Woodwork=1;Mechanics=1,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:Dig, 					/*Стоит анимация: сварка на полу*/
+	Sound:GlueSound, 					/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.WoodWork,		/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:Glue,					/*Отображает газовую горелку при создании предмета ScotchTape*/
+	Prop2:BakingTray,
+    }
+
+/*Стекло переднего окна, тип - тяжёлый*/
+    recipe Make FrontWindow2 Сomposite
+    {
+	Woodglue/Glue,					/*Клей для дерева/Клей*/
+	keep GlassMold,					/*Форма для стекла*/
+	BakingSoda = 1,					/*Пищевая сода*/
+
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:FrontWindow2, 				/*предмет и его колличество на выходе*/
+	SkillRequired:Woodwork=2;Mechanics=4,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:Dig, 					/*Стоит анимация: сварка на полу*/
+	Sound:GlueSound, 					/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.WoodWork,		/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:Glue,					/*Отображает газовую горелку при создании предмета ScotchTape*/
+	Prop2:BakingTray,
+    }
+
+/*Стекло переднего окна, тип - элитный*/
+    recipe Make FrontWindow3 Сomposite
+    {
+	Woodglue/Glue,					/*Клей для дерева/Клей*/
+	keep GlassMold,					/*Форма для стекла*/
+	BakingSoda = 1,					/*Пищевая сода*/
+
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:FrontWindow3, 				/*предмет и его колличество на выходе*/
+	SkillRequired:Woodwork=3;Mechanics=6,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:Dig, 					/*Стоит анимация: сварка на полу*/
+	Sound:GlueSound, 					/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.WoodWork,		/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:Glue,					/*Отображает газовую горелку при создании предмета ScotchTape*/
+	Prop2:BakingTray,
+    }
+
+/*Заднее стекло, тип - стандартный*/
+    recipe Make RearWindshield1 Сomposite 
+    {
+	Woodglue/Glue,					/*Клей для дерева/Клей*/
+	keep GlassMold,					/*Форма для стекла*/
+	BakingSoda = 4,					/*Пищевая сода*/
+
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:RearWindshield1, 				/*предмет и его колличество на выходе*/
+	SkillRequired:Woodwork=1;Mechanics=1,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:Dig, 					/*Стоит анимация: сварка на полу*/
+	Sound:GlueSound, 					/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.WoodWork,		/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:Glue,					/*Отображает газовую горелку при создании предмета ScotchTape*/
+	Prop2:BakingTray,
+    }
+
+/*Заднее стекло, тип - тяжёлый*/
+    recipe Make RearWindshield2 Сomposite
+    {
+	Woodglue/Glue,					/*Клей для дерева/Клей*/
+	keep GlassMold,					/*Форма для стекла*/
+	BakingSoda = 4,					/*Пищевая сода*/
+
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:RearWindshield2, 				/*предмет и его колличество на выходе*/
+	SkillRequired:Woodwork=2;Mechanics=4,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:Dig, 					/*Стоит анимация: сварка на полу*/
+	Sound:GlueSound, 					/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.WoodWork,		/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:Glue,					/*Отображает газовую горелку при создании предмета ScotchTape*/
+	Prop2:BakingTray,
+    }
+
+/*Заднее стекло, тип - элитный*/
+    recipe Make RearWindshield3 Сomposite
+    {
+	Woodglue/Glue,					/*Клей для дерева/Клей*/
+	keep GlassMold,					/*Форма для стекла*/
+	BakingSoda = 4,					/*Пищевая сода*/
+
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:RearWindshield3, 				/*предмет и его колличество на выходе*/
+	SkillRequired:Woodwork=3;Mechanics=6,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:Dig, 					/*Стоит анимация: сварка на полу*/
+	Sound:GlueSound, 					/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.WoodWork,		/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:Glue,					/*Отображает газовую горелку при создании предмета ScotchTape*/
+	Prop2:BakingTray,
+    }
+
+/*Лобовое стекло, тип - стандартный*/
+    recipe Make Windshield1 Сomposite
+    {
+	Woodglue/Glue,					/*Клей для дерева/Клей*/
+	keep GlassMold,					/*Форма для стекла*/
+	BakingSoda = 4,					/*Пищевая сода*/
+
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:Windshield1, 				/*предмет и его колличество на выходе*/
+	SkillRequired:Woodwork=1;Mechanics=1,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:Dig, 					/*Стоит анимация: сварка на полу*/
+	Sound:GlueSound, 					/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.WoodWork,		/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:Glue,					/*Отображает газовую горелку при создании предмета ScotchTape*/
+	Prop2:BakingTray,
+    }
+
+/*Лобовое стекло, тип - тяжёлый*/
+    recipe Make Windshield2 Сomposite
+    {
+	Woodglue/Glue,					/*Клей для дерева/Клей*/
+	keep GlassMold,					/*Форма для стекла*/
+	BakingSoda = 4,					/*Пищевая сода*/
+
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:Windshield2, 				/*предмет и его колличество на выходе*/
+	SkillRequired:Woodwork=2;Mechanics=4,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:Dig, 					/*Стоит анимация: сварка на полу*/
+	Sound:GlueSound, 					/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.WoodWork,		/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:Glue,					/*Отображает газовую горелку при создании предмета ScotchTape*/
+	Prop2:BakingTray,
+	}
+
+/*Лобовое стекло, тип - элитный*/
+    recipe Make Windshield3 Сomposite
+    {
+	Woodglue/Glue,					/*Клей для дерева/Клей*/
+	keep GlassMold,					/*Форма для стекла*/
+	BakingSoda = 4,					/*Пищевая сода*/
+
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:Windshield3, 				/*предмет и его колличество на выходе*/
+	SkillRequired:Woodwork=3;Mechanics=6,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:Dig, 					/*Стоит анимация: сварка на полу*/
+	Sound:GlueSound, 					/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.WoodWork,		/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:Glue,					/*Отображает газовую горелку при создании предмета ScotchTape*/
+	Prop2:BakingTray,
+    }
+
+
+}

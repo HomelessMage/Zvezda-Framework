@@ -1,0 +1,3 @@
+Recipes_RU = {
+	Recipe_Learn_Clothing_Design = "Выучить технику шитья"
+}

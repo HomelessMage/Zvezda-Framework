@@ -1,0 +1,4 @@
+UI_EN = {
+	UI_trait_SRTExtraPoints = "Free Points",
+	UI_trait_SRTExtraPointsDesc = "Gain points incase you end up with negative amount of points.<br>Does not affect anything.<br>Weight traits give you more points when rolling internally.",
+}

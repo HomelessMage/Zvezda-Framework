@@ -1,0 +1,18 @@
+ItemName_EN = {
+    ItemName_Base.Hat_Police = "Peaked Police Officer Cap",
+    ItemName_Base.Shirt_PoliceBlue = "Police Officer Shirt",
+	ItemName_Base.Tshirt_PoliceBlue = "Police Officer Short Sleeve Shirt",
+    ItemName_Base.Trousers_Police = "Police Officer Pants",
+    ItemName_Base.Hat_Police_Grey = "State Trooper Hat",
+    ItemName_Base.Shirt_PoliceGrey = "State Trooper Shirt",
+    ItemName_Base.Tshirt_PoliceGrey = "State Trooper Short Sleeve Shirt",
+    ItemName_Base.Trousers_PoliceGrey = "State Trooper Pants",
+    ItemName_Base.Tshirt_Ranger = "Ranger Short Sleeve Shirt",
+    ItemName_Base.Jacket_Police = "Police Jacket",
+    ItemName_Base.Police_Undershirt = "White Police Undershirt",
+    ItemName_Base.Police_Undershirt_Dark = "Dark Police Undershirt",
+    ItemName_Base.Shoes_PoliceBoots = "Police Boots",
+    ItemName_Base.TShirt_OfficerWhite = "White Police Short Sleeve Shirt",
+    ItemName_Base.Shirt_OfficerWhite = "White Police Shirt",
+    ItemName_Base.TShirt_PrisonGuard = "Prison Guard Short Sleeve Shirt",
+}

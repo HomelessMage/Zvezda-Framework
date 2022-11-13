@@ -1,0 +1,1848 @@
+/*Littering, B41 Continued*/
+/*(41.68)(07may22)*/
+
+module LitteringB41
+{
+
+	/*FOOD-RELATED STUFF*/
+	
+    item AppleCore
+	{
+		Weight					=	0.05,
+		Type					=	Food,
+		FoodType    			=   Fruits,
+		DisplayName				=	Apple Core,
+	    DisplayCategory 		= 	Junk,
+		Icon					=	AppleCore,
+		HungerChange			=	-1,
+		UnhappyChange			=	10,
+		DaysFresh				=	3,
+		DaysTotallyRotten		=	4,
+        Carbohydrates 			=	5.2,
+        Proteins 				=	0.1,
+        Lipids					=	0.31,
+        Calories				=	21,
+        StaticModel				=	RoundFood_Red,
+        WorldStaticModel		=	AppleCoreFresh,
+        CustomEatSound			=	EatingFruit,
+	}
+	
+	item BakingSodaEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Baking Soda Box,
+	    DisplayCategory 		= 	Junk,
+		Icon					=	BakingSodaEmpty,
+        WorldStaticModel		=	BakingSodaEmpty,
+	}
+	
+    item BananaPeel
+	{
+		Weight					=	0.05,
+		Type					=	Food,
+		FoodType    			=   Fruits,
+		DisplayName				=	Banana Peel,
+	    DisplayCategory 		= 	Junk,
+		Icon					=	BananaPeel,
+		HungerChange			=	-1,
+		UnhappyChange			=	10,
+		DaysFresh				=	3,
+		DaysTotallyRotten		=	4,
+        Carbohydrates			=	5.2,
+        Proteins				=	0.3,
+        Lipids					=	0.8,
+        Calories				=	21,
+        StaticModel				=	CylinderFood_Yellow,
+        WorldStaticModel		=	BananaPeel,
+        CustomEatSound			=	EatingMushy,
+	}
+	
+	item BoneScraps
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Bone Scraps,
+	    DisplayCategory 		= 	Junk,
+		Icon					=	Bones,
+        WorldStaticModel		=	BoneScraps,
+	}
+
+    item BrownSugarEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Sugar Bag,
+	    DisplayCategory 		=	Junk,
+		Icon					=	BrownSugarEmpty,
+        WorldStaticModel 		=	BrownSugarEmpty,
+	}
+
+    item CakeCartonEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Cake Slice Carton,
+	    DisplayCategory 		=	Junk,
+		Icon					=	CakeCartonEmpty,
+        WorldStaticModel 		=	CakeCartonEmpty,
+	}
+
+    item CandyPackageEmpty
+	{
+		Weight					=	0.05,
+		Type					=	Normal,
+		DisplayName				=	Empty Candy Bag,
+	    DisplayCategory 		=	Junk,
+		Icon					=	CandyPackageEmpty,
+        WorldStaticModel 		=	CandyPackageEmpty,
+	}
+
+    item CerealEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Cereal Box,
+	    DisplayCategory 		=	Junk,
+		Icon					=	CerealEmpty,
+        WorldStaticModel 		=	CerealEmpty,
+	}
+
+    item CheeseWrapper
+	{
+		Weight					=	0.01,
+		Type					=	Normal,
+		DisplayName				=	Plastic Wrapper,
+	    DisplayCategory 		=	Junk,
+		Icon					=	CheeseWrapper,
+        WorldStaticModel 		=	CheeseWrapper,
+	}
+
+    item ChocolateWrapper
+	{
+		Weight					=	0.01,
+		Type					=	Normal,
+		DisplayName				=	Paper Wrapper,
+	    DisplayCategory 		=	Junk,
+		Icon					=	ChocolateWrapper,
+        WorldStaticModel 		=	ChocolateWrapper,
+	}
+
+    item CocoaPowderEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Cocoa Powder Jar,
+	    DisplayCategory 		=	Junk,
+		Icon					=	CocoaPowderEmpty,
+        WorldStaticModel 		=	CocoaPowderEmpty,
+	}
+
+    item CoffeeEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Coffee Can,
+	    DisplayCategory 		=	Junk,
+		Icon					=	CoffeeEmpty,
+        WorldStaticModel 		=	CoffeeEmpty,
+	}
+
+    item CrispsEmpty
+	{
+		Weight					=	0.01,
+		Type					=	Normal,
+		DisplayName				=	Empty Chips Bag,
+	    DisplayCategory 		=	Junk,
+		Icon					=	CrispsEmpty,
+        WorldStaticModel 		=	CrispsEmpty,
+	}
+
+    item Crisps2Empty
+	{
+		Weight					=	0.01,
+		Type					=	Normal,
+		DisplayName				=	Empty Chips Bag,
+	    DisplayCategory 		=	Junk,
+		Icon					=	Crisps2Empty,
+        WorldStaticModel 		=	Crisps2Empty,
+	}
+
+    item Crisps3Empty
+	{
+		Weight					=	0.01,
+		Type					=	Normal,
+		DisplayName				=	Empty Chips Bag,
+	    DisplayCategory 		=	Junk,
+		Icon					=	Crisps3Empty,
+        WorldStaticModel 		=	Crisps3Empty,
+	}
+
+    item Crisps4Empty
+	{
+		Weight					=	0.01,
+		Type					=	Normal,
+		DisplayName				=	Empty Chips Bag,
+	    DisplayCategory 		=	Junk,
+		Icon					=	Crisps4Empty,
+        WorldStaticModel 		=	Crisps4Empty,
+	}
+	
+	item DriedBlackBeansEmpty
+	{
+		Weight					=	0.01,
+		Type					=	Normal,
+		DisplayName				=	Empty Beans Bag,
+	    DisplayCategory 		=	Junk,
+		Icon					=	DriedBeansEmpty,
+        WorldStaticModel 		=	DriedBlackBeansEmpty,
+	}
+	
+	item DriedChickpeasEmpty
+	{
+		Weight					=	0.01,
+		Type					=	Normal,
+		DisplayName				=	Empty Beans Bag,
+	    DisplayCategory 		=	Junk,
+		Icon					=	DriedBeansEmpty,
+        WorldStaticModel 		=	DriedChickpeasEmpty,
+	}
+	
+	item DriedKidneyBeansEmpty
+	{
+		Weight					=	0.01,
+		Type					=	Normal,
+		DisplayName				=	Empty Beans Bag,
+	    DisplayCategory 		=	Junk,
+		Icon					=	DriedBeansEmpty,
+        WorldStaticModel 		=	DriedKidneyBeansEmpty,
+	}
+	
+	item DriedLentilsEmpty
+	{
+		Weight					=	0.01,
+		Type					=	Normal,
+		DisplayName				=	Empty Beans Bag,
+	    DisplayCategory 		=	Junk,
+		Icon					=	DriedBeansEmpty,
+        WorldStaticModel 		=	DriedLentilsEmpty,
+	}
+	
+	item DriedSplitPeasEmpty
+	{
+		Weight					=	0.01,
+		Type					=	Normal,
+		DisplayName				=	Empty Beans Bag,
+	    DisplayCategory 		=	Junk,
+		Icon					=	DriedBeansEmpty,
+        WorldStaticModel 		=	DriedSplitPeasEmpty,
+	}
+	
+	item DriedWhiteBeansEmpty
+	{
+		Weight					=	0.01,
+		Type					=	Normal,
+		DisplayName				=	Empty Beans Bag,
+	    DisplayCategory 		=	Junk,
+		Icon					=	DriedBeansEmpty,
+        WorldStaticModel 		=	DriedWhiteBeansEmpty,
+	}
+	
+	item EggCartonEmpty
+	{
+		Weight					=	0.01,
+		Type					=	Normal,
+		DisplayName				=	Empty Egg Carton,
+	    DisplayCategory 		=	Junk,
+		Icon					=	EggCartonEmpty,
+        WorldStaticModel 		=	EggCartonEmpty,
+	}
+	
+	item EggShells
+	{
+		Weight					=	0.01,
+		Type					=	Normal,
+		DisplayName				=	Egg Shells,
+	    DisplayCategory 		=	Junk,
+		Icon					=	EggShells,
+        WorldStaticModel 		=	EggShells,
+	}
+	
+	item FlourEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Flour Bag,
+	    DisplayCategory 		=	Junk,
+		Icon					=	FlourEmpty,
+        WorldStaticModel 		=	FlourEmpty,
+	}
+	
+	item FriesCartonEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Fry Carton,
+	    DisplayCategory 		=	Junk,
+		Icon					=	FriesCartonEmpty,
+        WorldStaticModel 		=	FriesCartonEmpty,
+	}
+	
+    item FruitRindLemon
+	{
+		Weight					=	0.05,
+		Type					=	Food,
+		FoodType    			=   Fruits,
+		DisplayName				=	Fruit Rind,
+	    DisplayCategory 		= 	Junk,
+		Icon					=	FruitRindLemon,
+		HungerChange			=	-1,
+		UnhappyChange			=	10,
+		DaysFresh				=	3,
+		DaysTotallyRotten		=	4,
+        Carbohydrates			=	5.2,
+        Proteins				=	0.3,
+        Lipids					=	0.8,
+        Calories				=	21,
+        StaticModel				=	RoundFood_Yellow,
+        WorldStaticModel		=	FruitRindLemon,
+	}
+	
+    item FruitRindLime
+	{
+		Weight					=	0.05,
+		Type					=	Food,
+		FoodType    			=   Fruits,
+		DisplayName				=	Fruit Rind,
+	    DisplayCategory 		=	Junk,
+		Icon					=	FruitRindLime,
+		HungerChange			=	-1,
+		UnhappyChange			=	10,
+		DaysFresh				=	3,
+		DaysTotallyRotten		=	4,
+        Carbohydrates			=	5.2,
+        Proteins				=	0.3,
+        Lipids					=	0.8,
+        Calories				=	21,
+        StaticModel				=	RoundFood_Green,
+        WorldStaticModel		=	FruitRindLime,
+	}
+	
+    item FruitRindMelon
+	{
+		Weight					=	0.05,
+		Type					=	Food,
+		FoodType    			=   Fruits,
+		DisplayName				=	Fruit Rind,
+	    DisplayCategory 		= 	Junk,
+		Icon					=	FruitRindMelon,
+		HungerChange			=	-1,
+		UnhappyChange			=	10,
+		DaysFresh				=	3,
+		DaysTotallyRotten		=	4,
+        Carbohydrates			=	5.2,
+        Proteins				=	0.3,
+        Lipids					=	0.8,
+        Calories				=	21,
+        StaticModel				=	RoundFood_Yellow,
+        WorldStaticModel		=	FruitRindMelon,
+	}
+	
+    item FruitRindOrange
+	{
+		Weight					=	0.05,
+		Type					=	Food,
+		FoodType    			=   Fruits,
+		DisplayName				=	Fruit Rind,
+	    DisplayCategory 		= 	Junk,
+		Icon					=	FruitRindOrange,
+		HungerChange			=	-1,
+		UnhappyChange			=	10,
+		DaysFresh				=	3,
+		DaysTotallyRotten		=	4,
+        Carbohydrates			=	5.2,
+        Proteins				=	0.3,
+        Lipids					=	0.8,
+        Calories				=	21,
+        StaticModel				=	RoundFood_Orange,
+        WorldStaticModel		=	FruitRindOrange,
+	}
+	
+    item FruitRindPineapple
+	{
+		Weight					=	0.05,
+		Type					=	Food,
+		FoodType    			=   Fruits,
+		DisplayName				=	Fruit Rind,
+	    DisplayCategory 		= 	Junk,
+		Icon					=	FruitRindPineapple,
+		HungerChange			=	-1,
+		UnhappyChange			=	10,
+		DaysFresh				=	3,
+		DaysTotallyRotten		=	4,
+        Carbohydrates			=	5.2,
+        Proteins				=	0.3,
+        Lipids					=	0.8,
+        Calories				=	21,
+        StaticModel				=	RoundFood_Yellow,
+        WorldStaticModel		=	FruitRindPineapple,
+	}
+
+	item GravyBoat
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Gravy Boat,
+	    DisplayCategory 		=	Cooking,
+		Icon					=	GravyBoat,
+		MetalValue				= 	5,
+		WorldStaticModel		=	GravyBoat,
+	}
+	
+	item GravyMixEmpty
+	{
+		Weight					=	0.01,
+		Type					=	Normal,
+		DisplayName				=	Empty Gravy Mix Pouch,
+	    DisplayCategory 		=	Junk,
+		Icon					=	GravyMixEmpty,
+        WorldStaticModel 		=	GravyMixEmpty,
+	}
+	
+	item GumWrapper
+	{
+		Weight					=	0.001,
+		Type					=	Normal,
+		DisplayName				=	Gum Wrapper,
+	    DisplayCategory 		=	Junk,
+		Icon					=	GumWrapper,
+        WorldStaticModel 		=	GumWrapper,
+	}
+
+	item HoneyBottleEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Bottle,
+	    DisplayCategory			=	WaterContainer,
+		Icon					=	HoneyBottleEmpty,
+		CanStoreWater			=	TRUE,
+		ReplaceOnUseOn			=	WaterSource-HoneyBottleWater,
+		StaticModel 			=	HoneyBottleEmpty,
+		WorldStaticModel		=	HoneyBottleEmpty,
+	}
+
+    item HoneyBottleWater
+	{
+		Weight					=	0.4,
+		Type					=	Drainable,
+		DisplayName				=	Water Bottle,
+	    DisplayCategory			=	Water,
+		Icon					=	HoneyBottleWater,
+		IsWaterSource			=	TRUE,
+		CanStoreWater			=	TRUE,
+		FillFromDispenserSound	= 	GetWaterFromDispenserPlasticMedium,
+		FillFromTapSound 		=	GetWaterFromTapPlasticMedium,
+		UseWhileEquipped		=	FALSE,
+		UseDelta				=	0.2,
+		ReplaceOnDeplete		=	HoneyBottleEmpty,
+		ReplaceOnUseOn			=	WaterSource-HoneyBottleWater,
+		StaticModel				=	HoneyBottleWaterSM,
+		WorldStaticModel		=	HoneyBottleWater,
+		CustomEatSound			=	DrinkingFromBottlePlastic,
+	}
+
+	item HotsauceBottleEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Bottle,
+	    DisplayCategory			=	WaterContainer,
+		Icon					=	HotsauceV2Empty,
+		CanStoreWater			=	TRUE,
+		ReplaceOnUseOn			=	WaterSource-HoneyBottleWater,
+		StaticModel 			=	HotsauceBottleEmpty,
+		WorldStaticModel		=	HotsauceBottleEmpty,
+	}
+
+    item HotsauceBottleWater
+	{
+		Weight					=	0.2,
+		Type					=	Drainable,
+		DisplayName				=	Water Bottle,
+	    DisplayCategory			=	Water,
+		Icon					=	HotsauceBottleWater,
+		IsWaterSource			=	TRUE,
+		CanStoreWater			=	TRUE,
+		FillFromDispenserSound	= 	GetWaterFromDispenserPlasticMedium,
+		FillFromTapSound 		=	GetWaterFromTapPlasticMedium,
+		UseWhileEquipped		=	FALSE,
+		UseDelta				=	0.5,
+		ReplaceOnDeplete		=	HotsauceBottleEmpty,
+		ReplaceOnUseOn			=	WaterSource-HotsauceBottleWater,
+		StaticModel				=	HotsauceBottleWaterSM,
+		WorldStaticModel		=	HotsauceBottleWater,
+		CustomEatSound			=	DrinkingFromBottlePlastic,
+	}
+	
+	item JamFruitEmpty
+	{
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Empty Jar,
+	    DisplayCategory			=	Cooking,
+		Icon					=	JamFruitEmpty,
+		WorldStaticModel		=	JamFruitEmpty,
+	}
+	
+	item JamMarmaladeEmpty
+	{
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Empty Jar,
+	    DisplayCategory			=	Cooking,
+		Icon					=	JamMarmaladeEmpty,
+		WorldStaticModel		=	JamMarmaladeEmpty,
+	}
+	
+	item JuiceBoxEmpty
+	{
+		Weight					=	0.01,
+		Type					=	Normal,
+		DisplayName				=	Empty Juice Box,
+	    DisplayCategory 		=	Junk,
+		Icon					=	JuiceBoxEmpty,
+        WorldStaticModel 		=	JuiceBoxEmpty,
+	}
+	
+	item KetchupEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Ketchup Bottle,
+	    DisplayCategory 		=	Junk,
+		Icon					=	KetchupEmpty,
+        WorldStaticModel 		=	KetchupEmpty,
+	}
+	
+	item LollipopStick
+	{
+		Weight					=	0.01,
+		Type					=	Normal,
+		DisplayName				=	Lollipop Stick,
+	    DisplayCategory 		=	Junk,
+		Icon					=	LollipopStick,
+        WorldStaticModel 		=	LollipopStick,
+	}
+	
+	item MacBoxEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Mac And Cheese Box,
+	    DisplayCategory 		=	Junk,
+		Icon					=	MacBoxEmpty,
+        WorldStaticModel 		=	MacBoxEmpty,
+	}
+
+	item MapleSyrupEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Bottle,
+	    DisplayCategory			=	WaterContainer,
+		Icon					=	MapleSyrupEmpty,
+		CanStoreWater			=	TRUE,
+		ReplaceOnUseOn			=	WaterSource-MapleSyrupWater,
+		StaticModel 			=	MapleSyrupEmpty,
+		WorldStaticModel		=	MapleSyrupEmpty,
+	}
+
+    item MapleSyrupWater
+	{
+		Weight					=	0.4,
+		Type					=	Drainable,
+		DisplayName				=	Water Bottle,
+	    DisplayCategory			=	Water,
+		Icon					=	MapleSyrupWater,
+		IsWaterSource			=	TRUE,
+		CanStoreWater			=	TRUE,
+		FillFromDispenserSound	= 	GetWaterFromDispenserPlasticMedium,
+		FillFromTapSound 		=	GetWaterFromTapPlasticMedium,
+		UseWhileEquipped		=	FALSE,
+		UseDelta				=	0.2,
+		ReplaceOnDeplete		=	MapleSyrupEmpty,
+		ReplaceOnUseOn			=	WaterSource-MapleSyrupWater,
+		StaticModel				=	MapleSyrupBottleWaterSM,
+		WorldStaticModel		=	MapleSyrupWater,
+		CustomEatSound			=	DrinkingFromBottlePlastic,
+	}
+	
+	item MarinaraEmpty
+	{
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Empty Jar,
+	    DisplayCategory			=	Cooking,
+		Icon					=	MarinaraEmpty,
+		WorldStaticModel		=	MarinaraEmpty,
+	}
+	
+	item MilkEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Milk Carton,
+	    DisplayCategory 		=	Junk,
+		Icon					=	MilkEmpty,
+        WorldStaticModel 		=	MilkEmpty,
+	}
+	
+	item MintCandyWrapper
+	{
+		Weight					=	0.001,
+		Type					=	Normal,
+		DisplayName				=	Mint Wrapper,
+	    DisplayCategory 		=	Junk,
+		Icon					=	MintCandyWrapper,
+        WorldStaticModel 		=	MintCandyWrapper,
+	}
+
+	item MustardEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Mustard Bottle,
+	    DisplayCategory 		=	Junk,
+		Icon					=	MustardEmpty,
+        WorldStaticModel 		=	MustardEmpty,
+	}
+
+	item OilVegetableEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Bottle,
+	    DisplayCategory			=	WaterContainer,
+		Icon					=	OilVegetableEmpty,
+		CanStoreWater			=	TRUE,
+		ReplaceOnUseOn			=	WaterSource-OilVegetableWater,
+		StaticModel 			=	OilVegetableEmpty,
+		WorldStaticModel		=	OilVegetableEmpty,
+	}
+
+    item OilVegetableWater
+	{
+		Weight					=	0.2,
+		Type					=	Drainable,
+		DisplayName				=	Water Bottle,
+	    DisplayCategory			=	Water,
+		Icon					=	OilVegetableWater,
+		IsWaterSource			=	TRUE,
+		CanStoreWater			=	TRUE,
+		FillFromDispenserSound	= 	GetWaterFromDispenserPlasticMedium,
+		FillFromTapSound 		=	GetWaterFromTapPlasticMedium,
+		UseWhileEquipped		=	FALSE,
+		UseDelta				=	0.1,
+		ReplaceOnDeplete		=	OilVegetableEmpty,
+		ReplaceOnUseOn			=	WaterSource-OilVegetableWater,
+		StaticModel				=	OilVegBottleWaterSM,
+		WorldStaticModel		=	OilVegetableWater,
+		CustomEatSound			=	DrinkingFromBottlePlastic,
+	}
+
+	item PancakeMixEmpty
+	{
+		Weight					=	0.02,
+		Type					=	Normal,
+		DisplayName				=	Empty Pancake Mix Box,
+	    DisplayCategory 		=	Junk,
+		Icon					=	PancakeMixEmpty,
+        WorldStaticModel 		=	PancakeMixEmpty,
+	}
+
+	item PeanutButterEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Peanut Butter Jar,
+	    DisplayCategory 		=	Junk,
+		Icon					=	PeanutButterEmpty,
+        WorldStaticModel 		=	PeanutButterEmpty,
+	}
+
+	item PeanutShells
+	{
+		Weight					=	0.001,
+		Type					=	Normal,
+		DisplayName				=	Peanut Shells,
+	    DisplayCategory 		=	Junk,
+		Icon					=	PeanutShells,
+        WorldStaticModel 		=	PeanutShells,
+	}
+
+	item PeasEmpty
+	{
+		Weight					=	0.02,
+		Type					=	Normal,
+		DisplayName				=	Empty Pea Bag,
+	    DisplayCategory 		=	Junk,
+		Icon					=	PeasEmpty,
+        WorldStaticModel 		=	PeasEmpty,
+	}
+
+    item PieCartonEmpty
+	{
+		Weight					=	0.05,
+		Type					=	Normal,
+		DisplayName				=	Pie Slice Carton,
+	    DisplayCategory 		=	Junk,
+		Icon					=	PieCartonEmpty,
+        WorldStaticModel 		=	PieCartonEmpty,
+	}
+	
+	item PlasticWrapperGeneric
+	{
+		Weight					=	0.001,
+		Type					=	Normal,
+		DisplayName				=	Plastic Wrapper,
+	    DisplayCategory 		=	Junk,
+		Icon					=	PlasticWrapper,
+        WorldStaticModel 		=	PlasticWrapperGeneric,
+	}
+	
+	item PopcornBagEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Popcorn Bag,
+	    DisplayCategory 		=	Junk,
+		Icon					=	PopcornBagEmpty,
+        WorldStaticModel 		=	PopcornBagEmpty,
+	}
+	
+	item RiceBagEmpty
+	{
+		Weight					=	0.3,
+		Type					=	Normal,
+		DisplayName				=	Empty Rice Sack,
+	    DisplayCategory 		=	Junk,
+		Icon					=	RiceBagEmpty,
+        WorldStaticModel 		=	RiceBagEmpty,
+	}
+
+	item RiceVinegarEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Bottle,
+	    DisplayCategory			=	WaterContainer,
+		Icon					=	RiceVinegarEmpty,
+		CanStoreWater			=	TRUE,
+		ReplaceOnUseOn			=	WaterSource-RiceVinegarWater,
+		StaticModel 			=	RiceVinegarEmpty,
+		WorldStaticModel		=	RiceVinegarEmpty,
+	}
+
+    item RiceVinegarWater
+	{
+		Weight					=	0.4,
+		Type					=	Drainable,
+		DisplayName				=	Water Bottle,
+	    DisplayCategory			=	Water,
+		Icon					=	RiceVinegarWater,
+		IsWaterSource			=	TRUE,
+		CanStoreWater			=	TRUE,
+		FillFromDispenserSound	= 	GetWaterFromDispenserPlasticMedium,
+		FillFromTapSound 		=	GetWaterFromTapPlasticMedium,
+		UseWhileEquipped		=	FALSE,
+		UseDelta				=	0.2,
+		ReplaceOnDeplete		=	RiceVinegarEmpty,
+		ReplaceOnUseOn			=	WaterSource-RiceVinegarWater,
+		StaticModel				=	RiceVinWaterBottleSM,
+		WorldStaticModel		=	RiceVinegarWater,
+		CustomEatSound			=	DrinkingFromBottlePlastic,
+	}
+
+	item SoysauceEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Bottle,
+	    DisplayCategory			=	WaterContainer,
+		Icon					=	SoysauceEmpty,
+		CanStoreWater			=	TRUE,
+		ReplaceOnUseOn			=	WaterSource-SoysauceWater,
+		StaticModel 			=	SoysauceEmpty,
+		WorldStaticModel		=	SoysauceEmpty,
+	}
+
+    item SoysauceWater
+	{
+		Weight					=	0.4,
+		Type					=	Drainable,
+		DisplayName				=	Water Bottle,
+	    DisplayCategory			=	Water,
+		Icon					=	SoysauceWater,
+		IsWaterSource			=	TRUE,
+		CanStoreWater			=	TRUE,
+		FillFromDispenserSound	= 	GetWaterFromDispenserPlasticMedium,
+		FillFromTapSound 		=	GetWaterFromTapPlasticMedium,
+		UseWhileEquipped		=	FALSE,
+		UseDelta				=	0.5,
+		ReplaceOnDeplete		=	SoysauceEmpty,
+		ReplaceOnUseOn			=	WaterSource-SoysauceWater,
+		StaticModel				=	SoysauceWaterBottleSM,
+		WorldStaticModel		=	SoysauceWater,
+		CustomEatSound			=	DrinkingFromBottlePlastic,
+	}
+
+    item SugarEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Sugar Bag,
+	    DisplayCategory 		=	Junk,
+		Icon					=	SugarEmpty,
+        WorldStaticModel 		=	SugarEmpty,
+	}
+
+	item SunflowerShells
+	{
+		Weight					=	0.001,
+		Type					=	Normal,
+		DisplayName				=	Sunflower Seed Shells,
+	    DisplayCategory 		=	Junk,
+		Icon					=	SunflowerShells,
+        WorldStaticModel 		=	SunflowerShells,
+	}
+
+//	item TeaBox
+//	{
+//		Weight					=	1,
+//		Type					=	Normal,
+//		DisplayName				=	Box of Tea Bags,
+//	    DisplayCategory 		=	Food,
+//		Icon					=	TeaBox,
+//		WorldStaticModel 		=	TeaBox,
+//	}
+
+//	item TeaBoxEmpty
+//	{
+//		Weight					=	0.1,
+//		Type					=	Normal,
+//		DisplayName				=	Empty Tea Bag Box,
+//	    DisplayCategory 		=	Junk,
+//		Icon					=	TeaBoxEmpty,
+//		WorldStaticModel 		=	TeaBoxEmpty,
+//	}
+	
+    item TubIcecreamEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Ice Cream Carton,
+	    DisplayCategory 		=	Junk,
+		Icon					=	TubIcecreamEmpty,
+        WorldStaticModel 		=	TubIcecreamEmpty,
+	}
+	
+    item TVDinnerPackage
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	TV Dinner Tray,
+	    DisplayCategory 		=	Junk,
+		Icon					=	TVDinnerPackage,
+        WorldStaticModel 		=	TVDinnerPackage,
+	}
+
+	item UsedTeabag
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Used Teabag,
+		DisplayCategory			=	Junk,
+		Icon					=	UsedTeabag,
+		HungerChange    		=   -1,
+		UnhappyChange   		=   10,
+		ThirstChange    		=   10,
+		WorldStaticModel 		=	UsedTeabag,
+	}
+
+	item VinegarEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Bottle,
+	    DisplayCategory			=	WaterContainer,
+		Icon					=	VinegarEmpty,
+		CanStoreWater			=	TRUE,
+		ReplaceOnUseOn			=	WaterSource-VinegarWater,
+		StaticModel 			=	VinegarEmpty,
+		WorldStaticModel		=	VinegarEmpty,
+	}
+
+    item VinegarWater
+	{
+		Weight					=	0.4,
+		Type					=	Drainable,
+		DisplayName				=	Water Bottle,
+	    DisplayCategory			=	Water,
+		Icon					=	VinegarWater,
+		IsWaterSource			=	TRUE,
+		CanStoreWater			=	TRUE,
+		FillFromDispenserSound	= 	GetWaterFromDispenserPlasticMedium,
+		FillFromTapSound 		=	GetWaterFromTapPlasticMedium,
+		UseWhileEquipped		=	FALSE,
+		UseDelta				=	0.2,
+		ReplaceOnDeplete		=	VinegarEmpty,
+		ReplaceOnUseOn			=	WaterSource-VinegarWater,
+		StaticModel				=	VinegarWaterBottleSM,
+		WorldStaticModel		=	VinegarWater,
+		CustomEatSound			=	DrinkingFromBottlePlastic,
+	}
+
+    item YogurtEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Yogurt Cup,
+	    DisplayCategory 		=	Junk,
+		Icon					=	YogurtEmpty,
+        WorldStaticModel 		=	YogurtEmpty,
+	}
+	
+	item CornCob
+	{
+		Weight					=	0.05,
+		Type					=	Food,
+		FoodType    			=   Vegetables,
+		DisplayName				=	Corncob,
+	    DisplayCategory 		= 	Junk,
+		Icon					=	CornCob,
+		HungerChange			=	-1,
+		BoredomChange			=	15,
+		UnhappyChange			=	15,
+        Carbohydrates 			=	5.2,
+        Proteins 				=	0.0,
+        Lipids					=	0.1,
+        Calories				=	4,
+        StaticModel				=	CylinderFood_Yellow,
+        WorldStaticModel		=	CornCob,
+        CustomEatSound			=	EatingFruit,
+	}
+	
+	item FruitPits
+	{
+		Weight					=	0.001,
+		Type					=	Normal,
+		DisplayName				=	Fruit Pits,
+	    DisplayCategory 		=	Junk,
+		Icon					=	TZ_LRRadishSeeds,
+        WorldStaticModel 		=	Seeds_Ground,
+	}
+	
+	item SaltShakerEmpty
+	{
+		Weight					=	0.02,
+		Type					=	Normal,
+		DisplayName				=	Empty Salt Shaker,
+	    DisplayCategory 		=	Junk,
+		Icon					=	ShakerEmpty,
+        WorldStaticModel 		=	SaltShakerEmpty,
+	}
+	
+	item PepperShakerEmpty
+	{
+		Weight					=	0.02,
+		Type					=	Normal,
+		DisplayName				=	Empty Pepper Shaker,
+	    DisplayCategory 		=	Junk,
+		Icon					=	ShakerEmpty,
+        WorldStaticModel 		=	PepperShakerEmpty,
+	}
+	
+	/*WHO TOUCHED MY SPAGHET!?*/
+	item SpaghetBoxEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Pasta Box,
+	    DisplayCategory 		=	Junk,
+		Icon					=	SpaghetBoxEmpty,
+        WorldStaticModel 		=	SpaghetBoxEmpty,
+	}
+	
+	item CanOfOatsEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Oats Can,
+	    DisplayCategory 		=	Junk,
+		Icon					=	CanOfOatsEmpty,
+        WorldStaticModel 		=	CanOfOatsEmpty,
+	}
+
+	item OliveOilEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Bottle,
+	    DisplayCategory			=	WaterContainer,
+		Icon					=	OilOlive,
+		CanStoreWater			=	TRUE,
+		ReplaceOnUseOn			=	WaterSource-OliveOilWater,
+		StaticModel 			=	OliveOil,
+		WorldStaticModel		=	OliveOilEmpty,
+	}
+
+    item OliveOilWater
+	{
+		Weight					=	0.2,
+		Type					=	Drainable,
+		DisplayName				=	Water Bottle,
+	    DisplayCategory			=	Water,
+		Icon					=	OilOlive,
+		IsWaterSource			=	TRUE,
+		CanStoreWater			=	TRUE,
+		FillFromDispenserSound	= 	GetWaterFromDispenserPlasticMedium,
+		FillFromTapSound 		=	GetWaterFromTapPlasticMedium,
+		UseWhileEquipped		=	FALSE,
+		UseDelta				=	0.2,
+		ReplaceOnDeplete		=	OliveOilEmpty,
+		ReplaceOnUseOn			=	WaterSource-OliveOilWater,
+		StaticModel				=	OliveOil,
+		WorldStaticModel		=	OliveOilEmpty,
+		CustomEatSound			=	DrinkingFromBottlePlastic,
+	}
+	
+	item CornflourEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Cornflour Bag,
+	    DisplayCategory 		=	Junk,
+		Icon					=	CornflourEmpty,
+        WorldStaticModel 		=	CornflourEmpty,
+	}
+	
+	item YeastPacketEmpty
+	{
+		Weight					=	0.01,
+		Type					=	Normal,
+		DisplayName				=	Empty Yeast Packet,
+	    DisplayCategory 		=	Junk,
+		Icon					=	YeastPacketEmpty,
+        WorldStaticModel 		=	YeastPacketEmpty,
+	}
+	
+	/*MEDICAL STUFF*/
+	
+    item AlcoholWipesEmpty
+	{
+		Weight					=	0.05,
+		Type					=	Normal,
+		DisplayName				=	Empty Wipes Pack,
+	    DisplayCategory 		=	Junk,
+		Icon					=	WipesEmpty,
+        WorldStaticModel 		=	AlcoholWipesEmpty2,
+	}
+	
+    item AntibioticsBlisterEmpty
+	{
+		Weight					=	0.01,
+		Type					=	Normal,
+		DisplayName				=	Empty Pill Blister,
+	    DisplayCategory 		=	Junk,
+		Icon					=	AntibioticsBlisterEmpty,
+        WorldStaticModel 		=	AntibioticsBlisterEmpty,
+	}
+	
+    item AntidepressantsEmpty
+	{
+		Weight					=	0.01,
+		Type					=	Normal,
+		DisplayName				=	Empty Pill Bottle,
+	    DisplayCategory 		=	Junk,
+		Icon					=	AntidepressantsEmpty,
+        WorldStaticModel 		=	AntidepressantsEmpty,
+	}
+	
+	item BandaidDirty
+	{
+		Weight					=	0.05,
+		Type					=	Normal,
+		DisplayName				=	Used Bandage,
+	    DisplayCategory 		=	Junk,
+		Icon					=	BandaidDirty,
+        WorldStaticModel 		=	BandaidDirty,
+	}
+
+    item BetaBlockersEmpty
+	{
+		Weight					=	0.01,
+		Type					=	Normal,
+		DisplayName				=	Empty Pill Bottle,
+	    DisplayCategory 		=	Junk,
+		Icon					=	BetaBlockersEmpty,
+        WorldStaticModel 		=	BetaBlockersEmpty,
+	}
+
+	item DisinfectantEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Bottle,
+	    DisplayCategory			=	WaterContainer,
+		Icon					=	DisinfectantEmpty,
+		CanStoreWater			=	TRUE,
+		ReplaceOnUseOn			=	WaterSource-DisinfectantWater,
+		StaticModel 			=	DisinfectantEmpty,
+		WorldStaticModel		=	DisinfectantEmpty,
+	}
+
+    item DisinfectantWater
+	{
+		Weight					=	0.4,
+		Type					=	Drainable,
+		DisplayName				=	Water Bottle,
+	    DisplayCategory			=	Water,
+		Icon					=	DisinfectantWater,
+		IsWaterSource			=	TRUE,
+		CanStoreWater			=	TRUE,
+		FillFromDispenserSound	= 	GetWaterFromDispenserPlasticMedium,
+		FillFromTapSound 		=	GetWaterFromTapPlasticMedium,
+		UseWhileEquipped		=	FALSE,
+		UseDelta				=	0.2,
+		ReplaceOnDeplete		=	DisinfectantEmpty,
+		ReplaceOnUseOn			=	WaterSource-DisinfectantWater,
+		StaticModel				=	DisinfectantWaterBottleSM,
+		WorldStaticModel		=	DisinfectantWater,
+		CustomEatSound			=	DrinkingFromBottlePlastic,
+	}
+	
+    item PainkillersEmpty
+	{
+		Weight					=	0.01,
+		Type					=	Normal,
+		DisplayName				=	Empty Pill Blister,
+	    DisplayCategory 		=	Junk,
+		Icon					=	PainkillersEmpty,
+        WorldStaticModel 		=	PainkillersEmpty,
+	}
+	
+    item SleepingPillsEmpty
+	{
+		Weight					=	0.01,
+		Type					=	Normal,
+		DisplayName				=	Empty Pill Blister,
+	    DisplayCategory 		=	Junk,
+		Icon					=	SleepingPillsEmpty,
+        WorldStaticModel 		=	SleepingPillsEmpty,
+	}
+
+    item VitaminsEmpty
+	{
+		Weight					=	0.01,
+		Type					=	Normal,
+		DisplayName				=	Empty Pill Bottle,
+	    DisplayCategory 		=	Junk,
+		Icon					=	VitaminsEmpty,
+        WorldStaticModel 		=	VitaminsEmpty,
+	}
+
+    item TissueUsed
+	{
+		Weight					=	0.01,
+		Type					=	Normal,
+		DisplayName				=	Used Tissue,
+	    DisplayCategory 		=	Junk,
+		Icon					=	TissueUsed,
+        WorldStaticModel 		=	Tissue,
+	}
+
+	/*COSMETICS STUFF*/
+
+    item CologneEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Cologne Bottle,
+	    DisplayCategory 		=	Junk,
+		Icon					=	CologneEmpty,
+        WorldStaticModel 		=	CologneEmpty,
+	}
+
+    item HairDyeBlackEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Hair Dye Bottle,
+	    DisplayCategory 		=	Junk,
+		Icon					=	HairDyeBlackEmpty,
+        WorldStaticModel 		=	HairDyeBlackEmpty,
+	}
+
+    item HairDyeBlondeEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Hair Dye Bottle,
+	    DisplayCategory 		=	Junk,
+		Icon					=	HairDyeBlondeEmpty,
+        WorldStaticModel 		=	HairDyeBlondeEmpty,
+	}
+
+    item HairDyeBlueEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Hair Dye Bottle,
+	    DisplayCategory 		=	Junk,
+		Icon					=	HairDyeBlueEmpty,
+        WorldStaticModel 		=	HairDyeBlueEmpty,
+	}
+
+    item HairDyeBrownEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Hair Dye Bottle,
+	    DisplayCategory 		=	Junk,
+		Icon					=	HairDyeBrownEmpty,
+        WorldStaticModel 		=	HairDyeBrownEmpty,
+	}
+
+    item HairDyeGingerEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Hair Dye Bottle,
+	    DisplayCategory 		=	Junk,
+		Icon					=	HairDyeGingerEmpty,
+        WorldStaticModel 		=	HairDyeGingerEmpty,
+	}
+
+    item HairDyeGreenEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Hair Dye Bottle,
+	    DisplayCategory 		=	Junk,
+		Icon					=	HairDyeGreenEmpty,
+        WorldStaticModel 		=	HairDyeGreenEmpty,
+	}
+
+    item HairDyePinkEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Hair Dye Bottle,
+	    DisplayCategory 		=	Junk,
+		Icon					=	HairDyePinkEmpty,
+        WorldStaticModel 		=	HairDyePinkEmpty,
+	}
+
+    item HairDyeRedEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Hair Dye Bottle,
+	    DisplayCategory 		=	Junk,
+		Icon					=	HairDyeRedEmpty,
+        WorldStaticModel 		=	HairDyeRedEmpty,
+	}
+
+    item HairDyeWhiteEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Hair Dye Bottle,
+	    DisplayCategory 		=	Junk,
+		Icon					=	HairDyeWhiteEmpty,
+        WorldStaticModel 		=	HairDyeWhiteEmpty,
+	}
+
+    item HairDyeYellowEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Hair Dye Bottle,
+	    DisplayCategory 		=	Junk,
+		Icon					=	HairDyeYellowEmpty,
+        WorldStaticModel 		=	HairDyeYellowEmpty,
+	}
+
+    item LipstickTubeEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Lipstick Tube,
+	    DisplayCategory 		=	Junk,
+		Icon					=	LipstickTubeEmpty,
+        WorldStaticModel 		=	LipstickTubeEmpty,
+	}
+
+    item MakeupEyeshadowEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Makeup Kit,
+	    DisplayCategory 		=	Junk,
+		Icon					=	MakeupEyeshadowEmpty,
+        WorldStaticModel 		=	MakeupEyeshadowEmpty,
+	}
+
+    item MakeupFoundationEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Makeup Kit,
+	    DisplayCategory 		=	Junk,
+		Icon					=	MakeupFoundationEmpty,
+        WorldStaticModel 		=	MakeupFoundationEmpty,
+	}
+
+    item PerfumeEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Perfume Bottle,
+	    DisplayCategory 		=	Junk,
+		Icon					=	PerfumeEmpty,
+        WorldStaticModel 		=	PerfumeEmpty,
+	}	
+
+	/*MISC. JUNK*/
+
+    item BagOfCharcoalEmpty
+	{
+		Weight					=	0.5,
+		Type					=	Normal,
+		DisplayName				=	Empty Charcoal Bag,
+	    DisplayCategory 		=	Junk,
+		Icon					=	BagOfCharcoalEmpty,
+        WorldStaticModel 		=	BagOfCharcoalEmpty,
+	}
+	
+	item CardboardFlat
+	{
+		Weight					=	0.5,
+		Type					=	Normal,
+		DisplayName				=	Cardboard Flat,
+	    DisplayCategory 		=	Junk,
+		Icon					=	CardboardFlat,
+        WorldStaticModel 		=	CardboardFlat,
+	}
+
+	item CleaningLiquidEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Bottle,
+	    DisplayCategory			=	WaterContainer,
+		Icon					=	CleaningLiquidEmpty,
+		CanStoreWater			=	TRUE,
+		ReplaceOnUseOn			=	WaterSource-CleaningLiquidWater,
+		StaticModel 			=	CleaningLiquidEmpty,
+		WorldStaticModel		=	CleaningLiquidEmpty,
+	}
+
+    item CleaningLiquidWater
+	{
+		Weight					=	0.2,
+		Type					=	Drainable,
+		DisplayName				=	Water Bottle,
+	    DisplayCategory			=	Water,
+		Icon					=	CleaningLiquidWater,
+		IsWaterSource			=	TRUE,
+		CanStoreWater			=	TRUE,
+		FillFromDispenserSound	= 	GetWaterFromDispenserPlasticMedium,
+		FillFromTapSound 		=	GetWaterFromTapPlasticMedium,
+		UseWhileEquipped		=	FALSE,
+		UseDelta				=	0.1,
+		ReplaceOnDeplete		=	CleaningLiquidEmpty,
+		ReplaceOnUseOn			=	WaterSource-CleaningLiquidWater,
+		StaticModel				=	CleaningLiquidBottleWaterSM,
+		WorldStaticModel		=	CleaningLiquidWater,
+		CustomEatSound			=	DrinkingFromBottlePlastic,
+	}
+
+    item ConcretePowderEmpty
+	{
+		Weight					=	0.5,
+		Type					=	Normal,
+		DisplayName				=	Empty Concrete Powder Bag,
+	    DisplayCategory 		=	Junk,
+		Icon					=	ConcretePowderEmpty,
+        WorldStaticModel 		=	ConcretePowderEmpty,
+	}
+
+    item DuctTapeEmpty
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Duct Tape Roll,
+	    DisplayCategory 		=	Junk,
+		Icon					=	DuctTapeEmpty,
+        WorldStaticModel 		=	DuctTapeEmpty,
+	}
+
+    item EmptyNailsBox
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Nails Box,
+	    DisplayCategory 		=	Junk,
+		Icon					=	EmptyNailsBox,
+        WorldStaticModel 		=	EmptyNailsBox,
+	}
+
+    item EmptyPaperclipBox
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Paperclip Box,
+	    DisplayCategory 		=	Junk,
+		Icon					=	EmptyPaperclipBox,
+        WorldStaticModel 		=	EmptyPaperclipBox,
+	}
+
+    item EmptyScrewsBox
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Empty Screws Box,
+		Icon					=	EmptyScrewsBox,
+	    DisplayCategory 		=	Junk,
+        WorldStaticModel 		=	EmptyScrewsBox,
+	}
+
+    item FishingLineEmpty
+	{
+		Weight					=	0.01,
+		Type					=	Normal,
+		DisplayName				=	Fishing Line Spool,
+	    DisplayCategory 		=	Junk,
+		Icon					=	FishingLineEmpty,
+        WorldStaticModel 		=	FishingLineEmpty,
+	}
+
+    item GlueEmpty
+	{
+		Weight					=	0.02,
+		Type					=	Normal,
+		DisplayName				=	Empty Tube Of Glue,
+	    DisplayCategory 		=	Junk,
+		Icon					=	GlueEmpty,
+        WorldStaticModel 		=	GlueEmpty,
+	}
+
+    item GunpowderJarEmpty
+	{
+		Weight					=	0.02,
+		Type					=	Normal,
+		DisplayName				=	Empty Gunpowder Jar,
+	    DisplayCategory 		=	Junk,
+		Icon					=	GunpowderJarEmpty,
+        WorldStaticModel 		=	GunpowderJarEmpty,
+	}
+
+    item MatchesEmpty
+	{
+		Weight					=	0.02,
+		Type					=	Normal,
+		DisplayName				=	Empty Matchbook,
+	    DisplayCategory 		=	Junk,
+		Icon					=	MatchesEmpty,
+        WorldStaticModel 		=	MatchesEmpty,
+	}
+
+    item LighterEmpty
+	{
+		Weight					=	0.02,
+		Type					=	Normal,
+		DisplayName				=	Empty Lighter,
+	    DisplayCategory 		=	Junk,
+		Icon					=	Lighter,
+        WorldStaticModel 		=	ZippoGround,
+	}
+
+    item PlasterPowderEmpty
+	{
+		Weight					=	0.5,
+		Type					=	Normal,
+		DisplayName				=	Empty Plaster Powder Bag,
+	    DisplayCategory 		=	Junk,
+		Icon					=	PlasterPowderEmpty,
+        WorldStaticModel 		=	PlasterPowderEmpty,
+	}
+
+    item ScotchtapeEmpty
+	{
+		Weight					=	0.02,
+		Type					=	Normal,
+		DisplayName				=	Empty Matchbook,
+	    DisplayCategory 		=	Junk,
+		Icon					=	ScotchtapeEmpty,
+        WorldStaticModel 		=	ScotchtapeEmpty,
+	}
+
+    item SparklerBoxEmpty
+	{
+		Weight					=	0.05,
+		Type					=	Normal,
+		DisplayName				=	Empty Sparkler Box,
+	    DisplayCategory 		=	Junk,
+		Icon					=	SparklerBoxEmpty,
+        WorldStaticModel 		=	SparklerBoxEmpty,
+	}
+
+    item ThreadSpool
+	{
+		Weight					=	0.05,
+		Type					=	Normal,
+		DisplayName				=	Thread Spool,
+	    DisplayCategory 		=	Junk,
+		Icon					=	ThreadSpool,
+        WorldStaticModel 		=	ThreadSpool,
+	}
+
+    item ToiletPaperEmpty
+	{
+		Weight					=	0.05,
+		Type					=	Normal,
+		DisplayName				=	Toilet Paper Tube,
+	    DisplayCategory 		=	Junk,
+		Icon					=	ToiletPaperEmpty,
+        WorldStaticModel 		=	ToiletPaperEmpty,
+	}
+
+    item TwineSpool
+	{
+		Weight					=	0.05,
+		Type					=	Normal,
+		DisplayName				=	Twine Spool,
+	    DisplayCategory 		=	Junk,
+		Icon					=	ThreadSpool,
+        WorldStaticModel 		=	TwineSpool2,
+	}
+
+    item WeldingRodsEmpty
+	{
+		Weight					=	0.3,
+		Type					=	Normal,
+		DisplayName				=	Empty Welding Rod Box,
+	    DisplayCategory 		=	Junk,
+		Icon					=	WeldingRodsEmpty,
+        WorldStaticModel 		=	WeldingRodsEmpty,
+	}
+
+    item WoodGlueEmpty
+	{
+		Weight					=	0.02,
+		Type					=	Normal,
+		DisplayName				=	Empty Tube Of Wood Glue,
+	    DisplayCategory 		=	Junk,
+		Icon					=	WoodGlueEmpty,
+        WorldStaticModel 		=	WoodGlueEmpty,
+	}
+	
+    item ExtinguisherEmpty
+	{
+		Weight					=	0.2,
+		Type					=	Drainable,
+		DisplayName				=	Empty Extinguisher,
+	    DisplayCategory 		=	Household,
+		Icon					=	Extinguisher,
+		MetalValue 				=	25,
+		WorldStaticModel 		=	Extinguisher,
+	}
+
+	/*LITERATURE*/
+
+    item BookTorn
+	{
+		Weight					=	0.5,
+		Type					=	Normal,
+		DisplayName				=	Torn Book,
+	    DisplayCategory 		=	Junk,
+		Icon					=	BookTorn,
+        WorldStaticModel 		=	BookTorn,
+	}
+
+    item ComicBookTorn
+	{
+		Weight					=	0.1,
+		Type					=	Normal,
+		DisplayName				=	Torn Comic Book,
+	    DisplayCategory 		=	Junk,
+		Icon					=	ComicBookV2Torn,
+        WorldStaticModel 		=	MagazineTorn,
+	}
+
+    item Crossword1Used
+	{
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Used Crossword Magazine,
+	    DisplayCategory 		=	Junk,
+		Icon					=	Crossword1Used,
+        WorldStaticModel 		=	Crossword1Used,
+	}
+
+    item Crossword2Used
+	{
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Used Crossword Magazine,
+	    DisplayCategory 		=	Junk,
+		Icon					=	Crossword2Used,
+        WorldStaticModel 		=	Crossword2Used,
+	}
+
+    item Crossword3Used
+	{
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Used Crossword Magazine,
+	    DisplayCategory 		=	Junk,
+		Icon					=	Crossword3Used,
+        WorldStaticModel 		=	Crossword3Used,
+	}
+
+    item MagazineNudie1Gross
+	{
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Used Nudie Mag,
+	    DisplayCategory 		=	Junk,
+		Icon					=	MagazineNudie1Gross,
+        WorldStaticModel 		=	MagazineNudie1Gross,
+	}
+
+    item MagazineTorn
+	{
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Torn Magazine,
+	    DisplayCategory 		=	Junk,
+		Icon					=	MagazineTorn,
+        WorldStaticModel 		=	MagazineTorn,
+	}
+
+    item NewspaperTorn
+	{
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Torn Newspaper,
+	    DisplayCategory 		=	Junk,
+		Icon					=	NewspaperTorn,
+        WorldStaticModel 		=	NewspaperTorn,
+	}
+
+    item WordSearch1Used
+	{
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Used Wordsearch Magazine,
+	    DisplayCategory 		=	Junk,
+		Icon					=	WordSearch1Used,
+        WorldStaticModel 		=	WordSearch1Used,
+	}
+
+    item WordSearch2Used
+	{
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Used Wordsearch Magazine,
+	    DisplayCategory 		=	Junk,
+		Icon					=	WordSearch2Used,
+        WorldStaticModel 		=	WordSearch2Used,
+	}
+
+    item WordSearch3Used
+	{
+		Weight					=	0.2,
+		Type					=	Normal,
+		DisplayName				=	Used Wordsearch Magazine,
+	    DisplayCategory 		=	Junk,
+		Icon					=	WordSearch3Used,
+        WorldStaticModel 		=	WordSearch3Used,
+	}
+
+	/*SEEDS*/
+
+    item BroccoliSeedsPacketEmpty
+	{
+		Weight					=	0.05,
+		Type					=	Normal,
+		DisplayName				=	Empty Broccoli Seed Packet,
+	    DisplayCategory 		=	Junk,
+		Icon					=	BroccoliSeedsPacketEmpty,
+        WorldStaticModel 		=	BroccoliSeedsPacketEmpty,
+	}
+
+    item CabbageSeedsPacketEmpty
+	{
+		Weight					=	0.05,
+		Type					=	Normal,
+		DisplayName				=	Empty Cabbage Seed Packet,
+	    DisplayCategory 		=	Junk,
+		Icon					=	CabbageSeedsPacketEmpty,
+        WorldStaticModel 		=	CabbageSeedsPacketEmpty,
+	}
+
+    item CarrotSeedsPacketEmpty
+	{
+		Weight					=	0.05,
+		Type					=	Normal,
+		DisplayName				=	Empty Carrot Seed Packet,
+	    DisplayCategory 		=	Junk,
+		Icon					=	CarrotSeedsPacketEmpty,
+        WorldStaticModel 		=	CarrotSeedsPacketEmpty,
+	}
+
+    item PotatoSeedsPacketEmpty
+	{
+		Weight					=	0.05,
+		Type					=	Normal,
+		DisplayName				=	Empty Potato Seed Packet,
+	    DisplayCategory 		=	Junk,
+		Icon					=	PotatoSeedsPacketEmpty,
+        WorldStaticModel 		=	PotatoSeedsPacketEmpty,
+	}
+
+    item RadishSeedsPacketEmpty
+	{
+		Weight					=	0.05,
+		Type					=	Normal,
+		DisplayName				=	Empty Radish Seed Packet,
+	    DisplayCategory 		=	Junk,
+		Icon					=	RadishSeedsPacketEmpty,
+        WorldStaticModel 		=	RadishSeedsPacketEmpty,
+	}
+
+    item StrawberrySeedsPacketEmpty
+	{
+		Weight					=	0.05,
+		Type					=	Normal,
+		DisplayName				=	Empty Strawberry Seed Packet,
+	    DisplayCategory 		=	Junk,
+		Icon					=	StrawberrySeedsPacketEmpty,
+        WorldStaticModel 		=	StrawberrySeedsPacketEmpty,
+	}
+
+    item TomatoSeedsPacketEmpty
+	{
+		Weight					=	0.05,
+		Type					=	Normal,
+		DisplayName				=	Empty Tomato Seed Packet,
+	    DisplayCategory 		=	Junk,
+		Icon					=	TomatoSeedsPacketEmpty,
+        WorldStaticModel 		=	TomatoSeedsPacketEmpty,
+	}
+
+	/*BOOLETS*/
+
+    item 9mmAmmoBoxEmpty
+	{
+		Weight					=	0.05,
+		Type					=	Normal,
+		DisplayName				=	Empty 9mm Ammo Box,
+	    DisplayCategory 		=	Junk,
+		Icon					=	9mmAmmoBoxEmpty,
+        WorldStaticModel 		=	9mmAmmoBoxEmpty,
+	}
+
+    item 38AmmoBoxEmpty
+	{
+		Weight					=	0.05,
+		Type					=	Normal,
+		DisplayName				=	Empty 38 Ammo Box,
+	    DisplayCategory 		=	Junk,
+		Icon					=	38AmmoBoxEmpty,
+        WorldStaticModel 		=	38AmmoBoxEmpty,
+	}
+
+    item 44AmmoBoxEmpty
+	{
+		Weight					=	0.05,
+		Type					=	Normal,
+		DisplayName				=	Empty 44 Ammo Box,
+	    DisplayCategory 		=	Junk,
+		Icon					=	44AmmoBoxEmpty,
+        WorldStaticModel 		=	44AmmoBoxEmpty,
+	}
+
+    item 45AmmoBoxEmpty
+	{
+		Weight					=	0.05,
+		Type					=	Normal,
+		DisplayName				=	Empty 45 Ammo Box,
+	    DisplayCategory 		=	Junk,
+		Icon					=	45AmmoBoxEmpty,
+        WorldStaticModel 		=	45AmmoBoxEmpty,
+	}
+
+    item 223AmmoBoxEmpty
+	{
+		Weight					=	0.05,
+		Type					=	Normal,
+		DisplayName				=	Empty 223 Ammo Box,
+	    DisplayCategory 		=	Junk,
+		Icon					=	223AmmoBoxEmpty,
+        WorldStaticModel 		=	EmptyRifleAmmo223,
+	}
+
+    item 308AmmoBoxEmpty
+	{
+		Weight					=	0.05,
+		Type					=	Normal,
+		DisplayName				=	Empty 308 Ammo Box,
+	    DisplayCategory 		=	Junk,
+		Icon					=	308AmmoBoxEmpty,
+        WorldStaticModel 		=	EmptyRifleAmmo308,
+	}
+
+    item 556AmmoBoxEmpty
+	{
+		Weight					=	0.05,
+		Type					=	Normal,
+		DisplayName				=	Empty 556 Ammo Box,
+	    DisplayCategory 		=	Junk,
+		Icon					=	556AmmoBoxEmpty,
+        WorldStaticModel 		=	EmptyRifleAmmo556,
+	}
+
+    item ShotgunAmmoBoxEmpty
+	{
+		Weight					=	0.05,
+		Type					=	Normal,
+		DisplayName				=	Empty Shotgun Shell Box,
+	    DisplayCategory 		=	Junk,
+		Icon					=	EmptyShotgunAmmoBox,
+        WorldStaticModel 		=	EmptyShotgunAmmoBox,
+	}
+
+	item CigaretteButt
+	{
+		Weight					=	0.001,
+		Type 					=	Normal,
+		DisplayName 			= 	Cigarette Butt,
+		DisplayCategory 		=	Junk,
+		Icon 					= 	CigsButtReg,
+		WorldStaticModel		=	CigsButtReg,
+	}
+	
+	item CorndogStick
+	{
+		Weight					=	0.01,
+		Type					=	Normal,
+		DisplayName				=	Corndog Stick,
+		DisplayCategory 		=	Junk,
+		Icon					=	CorndogStick,
+		WorldStaticModel		=	CorndogStick,
+	}
+}

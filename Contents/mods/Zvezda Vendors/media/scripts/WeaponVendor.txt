@@ -1,0 +1,16 @@
+module Vendors {
+    imports {
+        Base
+    }
+	
+	item WeaponVendor
+    {
+        Weight          = 60.0,
+        Type            = Normal,
+        DisplayName     = Weapon Vendor,
+        icon            = WeaponVendor,
+		StaticModel = WeaponVendor,
+		WorldStaticModel = WeaponVendor,
+		DisplayCategory	= Vendors,
+	}
+}

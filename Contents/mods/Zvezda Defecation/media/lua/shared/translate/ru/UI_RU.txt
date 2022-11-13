@@ -1,0 +1,4 @@
+UI_RU = {
+	UI_optionscreen_binding_DefecationStatus = "Нужда",
+	UI_optionscreen_binding_DefecationStatus2 = "Defecation Status (Player 2)",
+}

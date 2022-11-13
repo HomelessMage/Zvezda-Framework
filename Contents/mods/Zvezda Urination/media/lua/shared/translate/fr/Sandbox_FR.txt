@@ -1,0 +1,24 @@
+Sandbox_FR = {
+	Sandbox_Urination = "Sytème urinaire",
+
+	Sandbox_Urination_UrinateTimeMultiplier = "Multiplicateur de temps (Miction)",
+	Sandbox_Urination_UrinateTimeMultiplier_tooltip = "Combien de temps cela prend pour uriner une fois que l'action est lancée.",
+	
+	Sandbox_Urination_UrinateIncreaseMultiplier = "Multiplicateur de l'envie (Miction)",
+	Sandbox_Urination_UrinateIncreaseMultiplier_tooltip = "À quelle vitesse l'envie d'uriner augmente en % toutes les dix minutes.",
+	
+	Sandbox_Urination_UrinatedBottomsMultiplier = "Multiplicateur de l'humeur (Miction)",
+	Sandbox_Urination_UrinatedBottomsMultiplier_tooltip = "Combien vous gagnez de stress et de tristesse toutes les dix minutes.",
+
+	Sandbox_Urination_ToiletNoiseRadiusMultiplier = "Multiplicateur du son des toilettes",
+	Sandbox_Urination_ToiletNoiseRadiusMultiplier_tooltip = "À quel point les toilettes sont bruyantes.",
+	
+	Sandbox_Urination_CanPeeSelf = "Peut s'uriner dessus",
+	Sandbox_Urination_CanPeeSelf_tooltip = "Décochez pour désactiver le fait de pouvoir "s'uriner dessus".",
+	
+	Sandbox_Urination_ShowNumericStatus = "Voir l'état",
+	Sandbox_Urination_ShowNumericStatus_tooltip = "Décochez pour cacher la valeur affichée sur la fenêtre de l' "état de la vessie".",
+
+	Sandbox_Urination_CreatePeePuddle = "Créer une flaque d'urine",
+	Sandbox_Urination_CreatePeePuddle_tooltip = "Décochez cette case pour désactiver la création de flaques d'urine lorsque vous urinez.",
+}

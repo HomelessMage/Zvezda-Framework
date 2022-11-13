@@ -1,0 +1,32 @@
+ContextMenu_RU = {
+
+ContextMenu_RSSigns_Vanilla = "Vanilla",
+ContextMenu_RSSigns_Letters = "Буквы и цифры",
+
+	ContextMenu_RSSigns_Parts = "Детали",
+	ContextMenu_RSSigns_Metal = "Металл",
+	ContextMenu_RSSigns_Wood = "Дерево",
+	ContextMenu_RSSigns_Clean = "Очистка",
+	
+ContextMenu_RSSigns_Cars = "Транспорт",
+	ContextMenu_RSSigns_Fuel = "Топливо",
+	ContextMenu_RSSigns_RegularCar = "Стандартный",
+	ContextMenu_RSSigns_Truck = "Грузовой",
+	ContextMenu_RSSigns_SportsCar = "Спортивный",
+	
+	ContextMenu_RSSigns_FoodFresh = "Скоропортящееся",
+	ContextMenu_RSSigns_FoodCanned = "Не-скоропортящееся",
+	ContextMenu_RSSigns_IceCream = "Мороженое",
+	ContextMenu_RSSigns_Fish = "Рыба",
+	ContextMenu_RSSigns_Meat = "Мясо",
+	ContextMenu_RSSigns_Drink = "Напитки",
+	
+	ContextMenu_RSSigns_Bash = "Удар",
+	ContextMenu_RSSigns_Cut = "Порез",
+	ContextMenu_RSSigns_Ranged = "Дальний бой",
+
+ContextMenu_RSSigns_OtherItems = "Прочее",
+	ContextMenu_RSSigns_Books = "Книги",
+	ContextMenu_RSSigns_VHS = "VHS",
+	
+}

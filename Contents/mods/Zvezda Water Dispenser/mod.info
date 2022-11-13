@@ -1,0 +1,9 @@
+name=Zvezda Water API
+id=ZvezdaWaterDispenser
+description=Realistic Water Dispenser
+author=
+icon=icon.png
+poster=poster.png
+modversion=1.0
+pack=water_dispenser
+tiledef=water_dispenser 866

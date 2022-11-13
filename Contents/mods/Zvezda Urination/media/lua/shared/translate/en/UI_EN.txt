@@ -1,0 +1,4 @@
+UI_EN = {
+	UI_optionscreen_binding_UrinationStatus = "Urination Status",
+	UI_optionscreen_binding_UrinationStatus2 = "Urination Status (Player 2)",
+}

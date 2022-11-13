@@ -1,0 +1,4 @@
+Tooltip_FR = {
+	Tooltip_UrinateDefault = "Commence l'action d'uriner.",
+	Tooltip_UrinateDriving = "Vous ne pouvez pas uriner en conduisant.",
+}

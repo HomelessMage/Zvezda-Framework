@@ -1,0 +1,6 @@
+Tooltip_EN = {
+	Tooltip_DIY_EngineParts = "Create engine spare parts DIY!",
+	Tooltip_DIY_VehiclePartsMag1 = "Create car parts yourself! The magazine will teach you <br> how to make parts for Standard cars.",
+	Tooltip_DIY_VehiclePartsMag2 = "Create car parts yourself! The magazine will teach you <br> how to make parts for Heavy-Duty cars.",
+	Tooltip_DIY_VehiclePartsMag3 = "Create car parts yourself! The magazine will teach you <br> how to make parts for Sport cars.",
+}

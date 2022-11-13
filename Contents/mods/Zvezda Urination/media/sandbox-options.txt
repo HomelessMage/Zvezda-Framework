@@ -1,0 +1,73 @@
+VERSION = 1,
+
+option Urination.UrinateTimeMultiplier
+{
+	type = double,
+	min = 0,
+	max = 100.0,
+	default = 1.0,
+
+	page = Urination,
+	translation = Urination.UrinateTimeMultiplier,
+}
+
+option Urination.UrinateIncreaseMultiplier
+{
+	type = double,
+	min = 0,
+	max = 100.0,
+	default = 1.0,
+
+	page = Urination,
+	translation = Urination_UrinateIncreaseMultiplier,
+}
+
+option Urination.UrinatedBottomsMultiplier
+{
+	type = double,
+	min = 0,
+	max = 100.0,
+	default = 1.0,
+
+	page = Urination,
+	translation = Urination_UrinatedBottomsMultiplier,
+}
+
+option Urination.ToiletNoiseRadiusMultiplier
+{
+	type = double,
+	min = 0,
+	max = 100.0,
+	default = 1.0,
+
+	page = Urination,
+	translation = Urination_ToiletNoiseRadiusMultiplier,
+}
+
+option Urination.CanPeeSelf
+{
+	type = boolean,
+	default = true,
+
+	page = Urination,
+	translation = Urination_CanPeeSelf,
+}
+
+option Urination.ShowNumericStatus
+{
+	type = boolean,
+	default = true,
+
+	page = Urination,
+	translation = Urination_ShowNumericStatus,
+}
+
+option Urination.CreatePeePuddle
+{
+	type = boolean,
+	default = true,
+
+	page = Urination,
+	translation = Urination_CreatePeePuddle,
+}
+

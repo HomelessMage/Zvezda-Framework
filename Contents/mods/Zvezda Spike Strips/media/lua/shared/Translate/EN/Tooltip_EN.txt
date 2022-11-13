@@ -1,0 +1,3 @@
+Tooltip_EN = {
+	Tooltip_item_SpikeStrip = "Drop or place these in the ground to puncture the tires of any passing car. ",
+}

@@ -1,0 +1,5 @@
+ItemName_RU = {
+    ItemName_Defecation.HumanFeces = "Фекалии",
+	ItemName_Defecation.AntiDiarrhealPillBox = "Коробка таблеток от диареи",
+	ItemName_Defecation.AntiDiarrhealPill = "Таблетка от диареи",
+}

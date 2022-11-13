@@ -1,0 +1,14 @@
+IG_UI_EN = {
+	IGUI_VehicleName93jeepcherokeeparkrangerlg = "'93 Jeep Cherokee Ranger",
+	IGUI_VehicleName71chevyc10offroadlbparkrangerLG = "'71 Chevy C10 Ranger",
+	IGUI_VehicleName86bounderHAzardmaterials = "'86 Bounder Hazmat Team Truck",
+	IGUI_VehicleNamef700boxbombsquadLG = "'F700 Box Bomb Squad Truck",
+	IGUI_VehicleNamestepvanchevyFBIBOMBSQUAD = "'FBI Bomb Technicians Step Van",
+	IGUI_VehicleNamestepvanchevybOMBSQUAD = "'Louisville Bomb Squad Step Van",
+	IGUI_VehicleName86econolinervLVMHQLG = "'Louisville Metro Police Mobile Command Center",
+	IGUI_VehicleName86econolinervFBIMHQLG = "'FBI Mobile Command Center",
+	IGUI_VehicleNamemoveurselfFBIEVIDENCERT = "'FBI Evidence Team Truck",
+	IGUI_VehicleName92crownvicFBIunm = "'92 Ford Crown Vic FBI Unmarked",
+	IGUI_VehicleName92crownvicPDFBIMARKEDlg = "'92 Ford Crown Vic FBI Marked",
+	IGUI_VehicleName93jeepcherokeeFBIunmarkLG = "'93 Jeep Cherokee FBI Unmarked",
+}

@@ -1,0 +1,35 @@
+module T15K_VehicleParts
+{
+    sound WrenchT
+    {
+        clip
+        {
+        file = media/sound/WrenchT.ogg,     
+        }
+    }
+
+    sound DuctTapeT15K
+    {
+        clip
+        {
+        file = media/sound/DuctTapeT15K.ogg,     
+        }
+    }
+
+    sound GlueSound
+    {
+        clip
+        {
+        file = media/sound/GlueSound.ogg,     
+        }
+    }
+
+    sound BattoryT
+    {
+        clip
+        {
+        file = media/sound/Battory_T.ogg
+        }
+    }
+
+}

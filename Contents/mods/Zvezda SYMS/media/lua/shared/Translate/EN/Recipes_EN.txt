@@ -1,0 +1,4 @@
+Recipe_EN = {
+	Recipe_Erase_Markings = "Erase Markings",
+	Recipe_Get_Sheet_of_paper = "Get Sheet of paper",
+}

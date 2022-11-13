@@ -1,0 +1,5 @@
+name=Zvezda Special Emergencies
+poster=poster.png
+id=ZvezdaSpecialEmergencies
+description= 
+require=FRUsedCars

@@ -1,0 +1,60 @@
+module Urination
+{
+	item HumanUrine
+	{
+		HungerChange = -5,
+		Weight = 0.3,
+		Type = Food,
+		DisplayName = Urine,
+		Icon = UPeeItem,
+		CustomContextMenu = Drink,
+		DaysFresh = 0,
+		FoodType = NoExplicit,
+		Poison = true,
+		DisplayCategory = Junk,
+		PoisonPower = 10,
+		PoisonDetectionLevel = 10,
+		UseForPoison = 10,
+		StressChange = 25,
+		UnhappyChange = 50,
+		ThirstChange = -5,
+        	Carbohydrates = 5,
+        	Proteins = 0,
+        	Lipids = 0,
+        	Calories = 50,
+		WorldStaticModel = Urination.U_UrinePuddle,
+	}
+	
+	model U_UrinePuddle
+	{
+		mesh = U_UrinePuddle,
+		texture = U_UrinePuddle,
+		scale = 0.15,
+	}
+
+	item UrineBottle
+	{
+		HungerChange = -5,
+		Weight = 0.3,
+		Type = Food,
+		DisplayName = Urine Bottle,
+		Icon = UHumanUrine,
+		CustomContextMenu = Drink,
+		ReplaceOnDeplete = WaterBottleEmpty,
+		DaysFresh = 0,
+		FoodType = NoExplicit,
+		Poison = true,
+		DisplayCategory = Junk,
+		PoisonPower = 10,
+		PoisonDetectionLevel = 10,
+		UseForPoison = 10,
+		StressChange = 25,
+		UnhappyChange = 50,
+		ThirstChange = -5,
+        	Carbohydrates = 5,
+        	Proteins = 0,
+        	Lipids = 0,
+        	Calories = 50,
+		StaticModel = WaterBottle,
+	}
+}

@@ -1,0 +1,9 @@
+IGUI_RU = {
+    IGUI_Tilespicker="Тайлы",
+    IGUI_flymodeon="Режим полета (ВКЛ) W/S/Arrow Keys",
+    IGUI_flymodeonoff="Режим полета (ВЫКЛ) W/S/Arrow Keys",
+    IGUI_DeleteModeon="Режим удаления (ВКЛ) X",
+    IGUI_DeleteModeoff="Режим удаления (ВЫКЛ)",
+    IGUI_TilespickerUI="Тайлы",
+    IGUI_Getbuildtools="Получить инструменты копирования зданий",
+}

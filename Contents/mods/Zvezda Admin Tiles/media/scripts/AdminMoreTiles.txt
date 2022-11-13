@@ -1,0 +1,5933 @@
+	/**********************************************************************/
+	/********* Made by RAlfa https://steamcommunity.com/id/ralfabr ********/
+	/**********************************************************************/
+module Base
+{
+	/**********************************************************************/
+	/*************************** Refrigerators ****************************/
+	/**********************************************************************/
+	
+    item Adm_GenericCooledShelves1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Generic Cooled Shelves,
+        WorldObjectSprite	= location_shop_generic_01_64,
+    }
+	
+	item Adm_GenericCooledShelves2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Generic Cooled Shelves,
+        WorldObjectSprite	= location_shop_generic_01_65,
+    }
+	
+	item Adm_GenericCooledShelves3
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Generic Cooled Shelves,
+        WorldObjectSprite	= location_shop_generic_01_66,
+    }
+	
+	item Adm_PopsicleFridge1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Popsicle Fridge,
+        WorldObjectSprite	= appliances_refrigeration_01_20,
+    }
+	
+	
+	item Adm_PopsicleFridge2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Popsicle Fridge,
+        WorldObjectSprite	= appliances_refrigeration_01_21,
+    }
+	
+	item Adm_LargeFridge1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Fridge,
+        WorldObjectSprite	= appliances_refrigeration_01_18,
+    }
+	
+	item Adm_LargeFridge2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Fridge,
+        WorldObjectSprite	= appliances_refrigeration_01_19,
+    }
+	
+	item Adm_IndustrialFridge
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Industrial Fridge,
+        WorldObjectSprite	= appliances_refrigeration_01_22,
+    }
+	
+	item Adm_WhiteIndustrialFridge
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= White Industrial Fridge,
+        WorldObjectSprite	= appliances_cooking_01_40,
+    }
+	
+	item Adm_BlueFridge
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Blue Fridge,
+        WorldObjectSprite	= appliances_refrigeration_01_4,
+    }
+	
+	item Adm_GreenFridge
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Green Fridge,
+        WorldObjectSprite	= appliances_refrigeration_01_12,
+    }
+	
+	item Adm_PlainFridge
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Plain Fridge,
+        WorldObjectSprite	= appliances_refrigeration_01_0,
+    }
+	
+	item Adm_RedFridge
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Red Fridge,
+        WorldObjectSprite	= appliances_refrigeration_01_32,
+    }
+	
+	item Adm_SteelFridge
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Steel Fridge,
+        WorldObjectSprite	= appliances_refrigeration_01_8,
+    }
+	
+	item Adm_WhiteFridge
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= White Fridge,
+        WorldObjectSprite	= appliances_refrigeration_01_0,
+    }
+	
+	item Adm_MiniFridge
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Mini Fridge,
+        WorldObjectSprite	= appliances_refrigeration_01_25,
+    }
+	
+	item Adm_BuiltinTrailerFridge
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Built in Trailer Fridge,
+        WorldObjectSprite	= location_trailer_02_16,
+    }
+	
+	item Adm_WhiteDisplayCounter1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= White Display Counter,
+        WorldObjectSprite	= location_shop_generic_01_80,
+    }
+	
+	item Adm_WhiteDisplayCounter2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= White Display Counter,
+        WorldObjectSprite	= location_shop_generic_01_81,
+    }
+	
+	item Adm_WhiteDisplayCounter3
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= White Display Counter,
+        WorldObjectSprite	= location_shop_generic_01_82,
+    }
+	
+	/**********************************************************************/
+	/******************************* Ovens ********************************/
+	/**********************************************************************/
+	
+	item Adm_SmallChromeToaster	
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Small Chrome Toaster,
+        WorldObjectSprite	= appliances_cooking_01_32,
+    }
+	
+	item Adm_ChromeMicrowave
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Chrome Microwave,
+        WorldObjectSprite	= appliances_cooking_01_28,
+    }
+	
+	item Adm_WhiteMicrowave
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= White Microwave,
+        WorldObjectSprite	= appliances_cooking_01_25,
+    }
+	
+	item Adm_GreenOven
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Green Oven,
+        WorldObjectSprite	= appliances_cooking_01_1,
+    }
+	
+	item Adm_GreyOven
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Grey Oven,
+        WorldObjectSprite	= appliances_cooking_01_5,
+    }
+	
+	item Adm_ModernOven
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Modern Oven,
+        WorldObjectSprite	= appliances_cooking_01_13,
+    }
+	
+	item Adm_RedOven
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Red Oven,
+        WorldObjectSprite	= appliances_cooking_01_9,
+    }
+		
+	item Adm_IndustrialOven
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Industrial Oven,
+        WorldObjectSprite	= appliances_cooking_01_21,
+    }
+	
+	item Adm_LargeModernOven1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Modern Oven	,
+        WorldObjectSprite	= appliances_cooking_01_42,
+    }
+	
+	item Adm_LargeModernOven2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Modern Oven	,
+        WorldObjectSprite	= appliances_cooking_01_43,
+    }
+	
+	item Adm_AntiqueOven
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Antique Oven,
+        WorldObjectSprite	= appliances_cooking_01_17,
+    }
+	
+	item Adm_JorgeForeguyBarbecue
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Jorge Foreguy Barbecue,
+        WorldObjectSprite	= appliances_cooking_01_36,
+    }
+	
+	item Adm_Barbecue
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Barbecue,
+        WorldObjectSprite	= appliances_cooking_01_35,
+    }
+	
+	/**********************************************************************/
+	/************************** Washing Machines **************************/
+	/**********************************************************************/
+	
+	item Adm_WhiteWashingMachine
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= White Washing Machine,
+        WorldObjectSprite	= appliances_laundry_01_4,
+    }
+	
+	item Adm_BlueWashingMachine
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Blue Washing Machine,
+        WorldObjectSprite	= appliances_laundry_01_0,
+    }
+	
+	item Adm_WhiteClothingDryer
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= White Clothing Dryer,
+        WorldObjectSprite	= appliances_laundry_01_12,
+    }
+	
+	/**********************************************************************/
+	/*************************** Communication ****************************/
+	/**********************************************************************/
+	
+	item Adm_AntiqueTelevision
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Antique Television,
+        WorldObjectSprite	= appliances_television_01_8,
+    }
+	
+	item Adm_ValuTechTelevision
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= ValuTech Television,
+        WorldObjectSprite	= appliances_television_01_4,
+    }
+	
+	item Adm_PremiumTechnologiesTelevision
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Premium Technologies Television,
+        WorldObjectSprite	= appliances_television_01_0,
+    }
+	
+	item Adm_DesktopComputer
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Desktop Computer,
+        WorldObjectSprite	= appliances_com_01_72,
+    }
+	
+	/**********************************************************************/
+	/******************************* Lamps ********************************/
+	/**********************************************************************/
+	
+	item Adm_BlackLamp
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Black Lamp,
+        WorldObjectSprite	= lighting_indoor_01_9,
+    }
+	
+	item Adm_BlueLamp
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Blue Lamp,
+        WorldObjectSprite	= lighting_indoor_01_12,
+    }
+	
+	item Adm_GreyLamp
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Grey Lamp,
+        WorldObjectSprite	= lighting_indoor_01_11,
+    }
+	
+	item Adm_RedLamp
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Red Lamp,
+        WorldObjectSprite	= lighting_indoor_01_10,
+    }
+	
+	item Adm_StripedLamp
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Striped Lamp,
+        WorldObjectSprite	= lighting_indoor_01_8,
+    }
+	
+	item Adm_WhiteLamp
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= White Lamp,
+        WorldObjectSprite	= lighting_indoor_01_13,
+    }
+	
+	/**********************************************************************/
+	/************************** Outdoor Lights ****************************/
+	/**********************************************************************/
+	
+	item Adm_AntiqueOutdoorLamp
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Antique Outdoor Lamp,
+        WorldObjectSprite	= lighting_outdoor_01_31,
+    }
+	
+	item Adm_FancyOutdoorLamp
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Fancy Outdoor Lamp,
+        WorldObjectSprite	= lighting_outdoor_01_34,
+    }
+	
+	item Adm_ModernOutdoorLamp
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Modern Outdoor Lamp,
+        WorldObjectSprite	= lighting_outdoor_01_32,
+    }
+	
+	item Adm_NeonOpenSign
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Neon Open Sign,
+        WorldObjectSprite	= lighting_outdoor_01_42,
+    }
+	
+	item Adm_OvalOutdoorLamp
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Oval Outdoor Lamp,
+        WorldObjectSprite	= lighting_outdoor_01_40,
+    }
+	
+	item Adm_RoundOutdoorLamp
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Round Outdoor Lamp,
+        WorldObjectSprite	= lighting_outdoor_01_24,
+    }
+	
+	/**********************************************************************/
+	/**************************** Wall Sconces ****************************/
+	/**********************************************************************/
+	
+	item Adm_DarkWallLamp
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Dark Wall Lamp,
+        WorldObjectSprite	= lighting_indoor_01_21,
+    }
+	
+	item Adm_PinkWallLamp
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Pink Wall Lamp,
+        WorldObjectSprite	= lighting_indoor_01_17,
+    }
+	
+	/**********************************************************************/
+	/***************************** Sinks **********************************/
+	/**********************************************************************/
+	
+	item Adm_BeigeSink
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Beige Sink,
+        WorldObjectSprite	= fixtures_sinks_01_22,
+    }
+	
+	item Adm_ChromeSink
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Chrome Sink,
+        WorldObjectSprite	= fixtures_sinks_01_9,
+    }
+	
+	item Adm_DarkIndustrialSink
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Dark Industrial Sink,
+        WorldObjectSprite	= fixtures_sinks_01_17,
+    }
+	
+	item Adm_FancyHangingSink	
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Fancy Hanging Sink,
+        WorldObjectSprite	= fixtures_sinks_01_24,
+    }
+	
+	item Adm_IndustrialSink
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Industrial Sink,
+        WorldObjectSprite	= fixtures_sinks_01_5,
+    }
+	
+	item Adm_WhiteHangingSink
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= White Hanging Sink,
+        WorldObjectSprite	= fixtures_sinks_01_14,
+    }
+	
+	item Adm_WhiteSink
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= White Sink,
+        WorldObjectSprite	= fixtures_sinks_01_2,
+    }
+	
+	item Adm_WhiteStandingSink
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= White Standing Sink,
+        WorldObjectSprite	= fixtures_sinks_01_12,
+    }
+	
+	
+	/**********************************************************************/
+	/*********************** Baths and Showers ****************************/
+	/**********************************************************************/
+	
+	item Adm_DeluxeShower	
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Deluxe Shower	,
+        WorldObjectSprite	= fixtures_bathroom_01_32,
+    }
+	
+	item Adm_LargeDeluxeBath1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Deluxe Bath,
+        WorldObjectSprite	= fixtures_bathroom_01_24,
+    }
+	
+	item Adm_LargeDeluxeBath2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Deluxe Bath,
+        WorldObjectSprite	= fixtures_bathroom_01_25,
+    }
+	
+	item Adm_WallShower
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Wall Shower,
+        WorldObjectSprite	= fixtures_bathroom_01_30,
+    }
+	
+	/**********************************************************************/
+	/**************************** Toilets *********************************/
+	/**********************************************************************/
+		
+	item Adm_ChemicalToilet
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Chemical Toilet,
+        WorldObjectSprite	= fixtures_bathroom_02_4,
+    }
+	
+	item Adm_FancyToilet
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Fancy Toilet,
+        WorldObjectSprite	= fixtures_bathroom_01_0,
+    }
+	
+	item Adm_HangingToilet
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Hanging Toilet,
+        WorldObjectSprite	= fixtures_bathroom_01_8,
+    }
+	
+	item Adm_LowToilet
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Low Toilet,
+        WorldObjectSprite	= fixtures_bathroom_01_4,
+    }
+	
+	item Adm_WoodenToilet
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Wooden Toilet,
+        WorldObjectSprite	= fixtures_bathroom_01_25,
+    }
+	
+	/**********************************************************************/
+	/***************************** Other **********************************/
+	/**********************************************************************/
+	
+	item Adm_RainCollectorBarrel
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Rain Collector Barrel,
+        WorldObjectSprite	= carpentry_02_55,
+    }
+	
+	item Adm_RainCollectorBarrel2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Rain Collector Barrel,
+        WorldObjectSprite	= carpentry_02_53,
+    }
+	
+	item Adm_Standpipe
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Standpipe,
+        WorldObjectSprite	= street_decoration_01_12,
+    }
+	
+	item Adm_WaterDispenser
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Water Dispenser,
+        WorldObjectSprite	= location_business_office_generic_01_49,
+    }
+	
+	/**********************************************************************/
+	/****************************** Beds **********************************/
+	/**********************************************************************/
+	
+	item Adm_BlueBed1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Blue Bed,
+        WorldObjectSprite	= furniture_bedding_01_8,
+    }
+	
+	item Adm_BlueBed2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Blue Bed,
+        WorldObjectSprite	= furniture_bedding_01_9,
+    }
+	
+	item Adm_BunkBeds1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Bunk Beds,
+        WorldObjectSprite	= furniture_bedding_01_84,
+    }
+	
+	item Adm_BunkBeds2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Bunk Beds,
+        WorldObjectSprite	= furniture_bedding_01_85,
+    }
+	
+	item Adm_CraftedBed1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Crafted Bed,
+        WorldObjectSprite	= carpentry_02_74,
+    }
+	
+	item Adm_CraftedBed2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Crafted Bed,
+        WorldObjectSprite	= carpentry_02_75,
+    }
+	
+	item Adm_DentistPatientChair1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Dentist Patient Chair,
+        WorldObjectSprite	= location_community_medical_01_0,
+    }
+	
+	item Adm_DentistPatientChair2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Dentist Patient Chair,
+        WorldObjectSprite	= location_community_medical_01_1,
+    }
+	
+	item Adm_FancyBed1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Fancy Bed,
+        WorldObjectSprite	= furniture_bedding_01_68,
+    }
+	
+	item Adm_FancyBed2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Fancy Bed,
+        WorldObjectSprite	= furniture_bedding_01_69,
+    }
+	
+	item Adm_HospitalBedGreen1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Hospital Bed,
+        WorldObjectSprite	= furniture_bedding_01_64,
+    }
+	
+	item Adm_HospitalBedGreen2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Hospital Bed,
+        WorldObjectSprite	= furniture_bedding_01_65,
+    }
+	
+	item Adm_HospitalBed1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Hospital Bed,
+        WorldObjectSprite	= location_community_medical_01_72,
+    }
+	
+	item Adm_HospitalBed2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Hospital Bed,
+        WorldObjectSprite	= location_community_medical_01_73,
+    }
+	
+	item Adm_LargeFancyBed1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Fancy Bed,
+        WorldObjectSprite	= furniture_bedding_01_12,
+    }
+	
+	item Adm_LargeFancyBed2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Fancy Bed,
+        WorldObjectSprite	= furniture_bedding_01_13,
+    }
+	
+	item Adm_LargeFancyBed3
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Fancy Bed,
+        WorldObjectSprite	= furniture_bedding_01_14,
+    }
+	
+	item Adm_LargeFancyBed4
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Fancy Bed,
+        WorldObjectSprite	= furniture_bedding_01_15,
+    }
+	
+	item Adm_LargeMedicalBed1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Medical Bed,
+        WorldObjectSprite	= location_community_medical_01_16,
+    }
+	
+	item Adm_LargeMedicalBed2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Medical Bed,
+        WorldObjectSprite	= location_community_medical_01_17,
+    }
+	
+	item Adm_LargeModernBed1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Modern Bed,
+        WorldObjectSprite	= furniture_bedding_01_28,
+    }
+	
+	item Adm_LargeModernBed2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Modern Bed,
+        WorldObjectSprite	= furniture_bedding_01_29,
+    }
+	
+	item Adm_LargeModernBed3
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Modern Bed,
+        WorldObjectSprite	= furniture_bedding_01_30,
+    }
+	
+	item Adm_LargeModernBed4
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Modern Bed,
+        WorldObjectSprite	= furniture_bedding_01_31,
+    }
+	
+	item Adm_LargeOakBed1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Oak Bed,
+        WorldObjectSprite	= furniture_bedding_01_52,
+    }
+	
+	item Adm_LargeOakBed2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Oak Bed,
+        WorldObjectSprite	= furniture_bedding_01_53,
+    }
+	
+	item Adm_LargeOakBed3
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Oak Bed,
+        WorldObjectSprite	= furniture_bedding_01_54,
+    }
+	
+	item Adm_LargeOakBed4
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Oak Bed,
+        WorldObjectSprite	= furniture_bedding_01_55,
+    }
+	
+	item Adm_PatientChair1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Patient Chair,
+        WorldObjectSprite	= location_community_medical_01_32,
+    }
+	
+	item Adm_PatientChair2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Patient Chair,
+        WorldObjectSprite	= location_community_medical_01_33,
+    }
+	
+	item Adm_PrisonersBed1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Prisoners Bed,
+        WorldObjectSprite	= location_community_police_01_24,
+    }
+	
+	item Adm_PrisonersBed2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Prisoners Bed,
+        WorldObjectSprite	= location_community_police_01_25,
+    }
+	
+	item Adm_SimpleBed1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Simple Bed,
+        WorldObjectSprite	= furniture_bedding_01_62,
+    }
+	
+	item Adm_SimpleBed2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Simple Bed,
+        WorldObjectSprite	= furniture_bedding_01_63,
+    }
+	
+	item Adm_StretcherBed1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Stretcher Bed,
+        WorldObjectSprite	= furniture_bedding_01_56,
+    }
+	
+	item Adm_StretcherBed2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Stretcher Bed,
+        WorldObjectSprite	= furniture_bedding_01_57,
+    }
+	
+	item Adm_TwinBeds1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Twin Beds,
+        WorldObjectSprite	= furniture_bedding_01_38,
+    }
+	
+	item Adm_TwinBeds2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Twin Beds,
+        WorldObjectSprite	= furniture_bedding_01_39,
+    }
+	
+	item Adm_MakeshiftMattress1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Makeshift Mattress,
+        WorldObjectSprite	= carpentry_02_78,
+    }
+	
+	item Adm_MakeshiftMattress2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Makeshift Mattress,
+        WorldObjectSprite	= carpentry_02_79,
+    }
+	
+	/**********************************************************************/
+	/**************************** Couches *********************************/
+	/**********************************************************************/
+	
+	item Adm_BlueComfyCouch1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Blue Comfy Couch,
+        WorldObjectSprite	= furniture_seating_indoor_03_33,
+    }
+	
+	item Adm_BlueComfyCouch2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Blue Comfy Couch,
+        WorldObjectSprite	= furniture_seating_indoor_03_32,
+    }
+	
+	item Adm_BlueRattanCouch1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Blue Rattan Couch,
+        WorldObjectSprite	= furniture_seating_indoor_02_34,
+    }
+	
+	item Adm_BlueRattanCouch2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Blue Rattan Couch,
+        WorldObjectSprite	= furniture_seating_indoor_02_35,
+    }
+	
+	item Adm_BrownLazyCouch1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Brown Lazy Couch,
+        WorldObjectSprite	= furniture_seating_indoor_02_48,
+    }
+	
+	item Adm_BrownLazyCouch2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Brown Lazy Couch,
+        WorldObjectSprite	= furniture_seating_indoor_02_49,
+    }
+	
+	item Adm_GreenComfyCouch1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Green Comfy Couch,
+        WorldObjectSprite	= furniture_seating_indoor_01_20,
+    }
+	
+	item Adm_Adm_GreenComfyCouch2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Green Comfy Couch,
+        WorldObjectSprite	= furniture_seating_indoor_01_21,
+    }
+	
+	item Adm_GreyLazyCouch1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Grey Lazy Couch,
+        WorldObjectSprite	= furniture_seating_indoor_03_8,
+    }
+	
+	item Adm_GreyLazyCouch2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Grey Lazy Couch,
+        WorldObjectSprite	= furniture_seating_indoor_03_9,
+    }
+	
+	item Adm_OrangeModernCouch1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Orange Modern Couch,
+        WorldObjectSprite	= furniture_seating_indoor_01_0,
+    }
+	
+	item Adm_OrangeModernCouch2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Orange Modern Couch,
+        WorldObjectSprite	= furniture_seating_indoor_01_1,
+    }
+	
+	item Adm_PurpleRattanCouch1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Purple Rattan Couch,
+        WorldObjectSprite	= furniture_seating_indoor_01_26,
+    }
+	
+	item Adm_PurpleRattanCouch2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Purple Rattan Couch,
+        WorldObjectSprite	= furniture_seating_indoor_01_27,
+    }
+	
+	item Adm_WhiteLazyCouch1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= White Lazy Couch,
+        WorldObjectSprite	= furniture_seating_indoor_02_24,
+    }
+	
+	item Adm_WhiteLazyCouch2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= White Lazy Couch,
+        WorldObjectSprite	= furniture_seating_indoor_02_25,
+    }
+	
+	item Adm_YellowModernCouch1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Yellow Modern Couch,
+        WorldObjectSprite	= furniture_seating_indoor_03_16,
+    }
+	
+	item Adm_YellowModernCouch2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Yellow Modern Couch,
+        WorldObjectSprite	= furniture_seating_indoor_03_17,
+    }
+	
+	/**********************************************************************/
+	/****************************** Armchairs *****************************/
+	/**********************************************************************/
+	
+	item Adm_BlackFancyChair	
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Black Fancy Chair,
+        WorldObjectSprite	= furniture_seating_indoor_03_41,
+    }
+	
+    item Adm_BlueComfyChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Blue Comfy Chair,
+        WorldObjectSprite	= furniture_seating_indoor_03_25,
+    }
+	
+    item Adm_BlueRattanChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Blue Rattan Chair,
+        WorldObjectSprite	= furniture_seating_indoor_02_41,
+    }
+	
+	item Adm_BrownLazyChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Brown Lazy Chair,
+        WorldObjectSprite	= furniture_seating_indoor_02_44,
+    }
+	
+	item Adm_GreenComfyChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Green Comfy Chair,
+        WorldObjectSprite	= furniture_seating_indoor_01_9,
+    }
+	
+	item Adm_GreyLazyChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Grey Lazy Chair,
+        WorldObjectSprite	= furniture_seating_indoor_03_4,
+    }
+	
+	item Adm_OrangeModernChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Orange Modern Chair,
+        WorldObjectSprite	= furniture_seating_indoor_01_12,
+    }
+	
+    item Adm_PurpleRattanChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Purple Rattan Chair,
+        WorldObjectSprite	= furniture_seating_indoor_01_33,
+    }
+	
+	item Adm_WhiteChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= White Chair,
+        WorldObjectSprite	= furniture_seating_indoor_01_45,
+    }
+	
+    item Adm_FancyWhiteChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Fancy White Chair,
+        WorldObjectSprite	= furniture_seating_indoor_01_37,
+    }
+	
+    item Adm_WhiteLazyChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= White Lazy Chair,
+        WorldObjectSprite	= furniture_seating_indoor_02_20,
+    }
+	
+    item Adm_YellowModernChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Yellow Modern Chair,
+        WorldObjectSprite	= furniture_seating_indoor_03_28,
+    }
+	
+	/**********************************************************************/
+	/******************************* Chairs *******************************/
+	/**********************************************************************/
+	
+	item Adm_BlackOfficeChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Black Office Chair,
+        WorldObjectSprite	= furniture_seating_indoor_01_50,
+    }
+	
+	item Adm_BluePlasticChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Blue Plastic Chair,
+        WorldObjectSprite	= furniture_seating_indoor_02_13,
+    }
+	
+	item Adm_DarkWoodenChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Dark Wooden Chair,
+        WorldObjectSprite	= furniture_seating_indoor_02_0,
+    }
+	
+	item Adm_DarkBlueChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Dark Blue Chair,
+        WorldObjectSprite	= furniture_seating_indoor_03_49,
+    }
+	
+    item Adm_FoldingChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Folding Chair,
+        WorldObjectSprite	= furniture_seating_indoor_01_60,
+    }
+	
+	item Adm_GreenWoodenChair	
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Green Wooden Chair,
+        WorldObjectSprite	= furniture_seating_indoor_01_57,
+    }
+	
+	item Adm_GreyChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Grey Chair,
+        WorldObjectSprite	= furniture_seating_indoor_01_54,
+    }
+	
+	item Adm_GreyPlasticChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Grey Plastic Chair,
+        WorldObjectSprite	= furniture_seating_indoor_03_69,
+    }
+	
+	item Adm_MallChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Mall Chair,
+        WorldObjectSprite	= location_shop_mall_01_40,
+    }
+	
+	item Adm_PileOCrepeChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Pile o Crepe Chair,
+        WorldObjectSprite	= location_restaurant_pileocrepe_01_41,
+    }
+	
+	item Adm_PurpleWoodenChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Purple Wooden Chair,
+        WorldObjectSprite	= furniture_seating_indoor_03_45,
+    }
+	
+	item Adm_RedChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Red Chair,
+        WorldObjectSprite	= furniture_seating_indoor_01_41,
+    }
+	
+	item Adm_RedWoodenChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Red Wooden Chair,
+        WorldObjectSprite	= furniture_seating_indoor_02_9,
+    }
+	
+	item Adm_SpiffosDinnerChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Spiffos Dinner Chair,
+        WorldObjectSprite	= location_restaurant_spiffos_02_24
+    }
+	
+	item Adm_WhiteSimpleChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= White Simple Chair,
+        WorldObjectSprite	= furniture_seating_indoor_03_57,
+    }
+	
+	item Adm_WhiteWoodenChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= White Wooden Chair,
+        WorldObjectSprite	= furniture_seating_indoor_02_56,
+    }
+	
+	item Adm_WoodenChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Wooden Chair,
+        WorldObjectSprite	= furniture_seating_indoor_02_5,
+    }
+	
+	/**********************************************************************/
+	/****************************** Benches *******************************/
+	/**********************************************************************/
+	
+	item Adm_BirchwoodBench1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Birchwood Bench,
+        WorldObjectSprite	= furniture_seating_outdoor_01_32,
+    }
+	
+	item Adm_BirchwoodBench2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Birchwood Bench,
+        WorldObjectSprite	= furniture_seating_outdoor_01_33,
+	}
+	
+	item Adm_BrickMallBench1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Brick Mall Bench,
+        WorldObjectSprite	= location_shop_mall_01_34,
+    }
+	
+	item Adm_BrickMallBench2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Brick Mall Bench,
+        WorldObjectSprite	= location_shop_mall_01_35,
+    }
+	
+	item Adm_FancyOutdoorsBench1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Fancy Outdoors Bench,
+        WorldObjectSprite	= furniture_seating_outdoor_01_10,
+    }
+	
+	item Adm_FancyOutdoorsBench2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Fancy Outdoors Bench,
+        WorldObjectSprite	= furniture_seating_outdoor_01_11,
+    }
+	
+	item Adm_OakwoodBench1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Oakwood Bench,
+        WorldObjectSprite	= furniture_seating_outdoor_01_20,
+    }
+	
+	item Adm_OakwoodBench2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Oakwood Bench,
+        WorldObjectSprite	= furniture_seating_outdoor_01_21,
+    }
+		
+	item Adm_ParkBench1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Park Bench,
+        WorldObjectSprite	= furniture_seating_outdoor_01_0,
+    }
+	
+	item Adm_ParkBench2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Park Bench,
+        WorldObjectSprite	= furniture_seating_outdoor_01_1,
+    }
+	
+	item Adm_SportsBench1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Sports Bench,
+        WorldObjectSprite	= furniture_seating_indoor_03_0,
+    }
+	
+	item Adm_SportsBench2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Sports Bench,
+        WorldObjectSprite	= furniture_seating_indoor_03_1,
+    }
+	
+	item Adm_SturdyBench1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Sturdy Bench,
+        WorldObjectSprite	= furniture_seating_indoor_02_18,
+    }
+	
+	item Adm_SturdyBench2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Sturdy Bench,
+        WorldObjectSprite	= furniture_seating_indoor_02_19,
+    }
+	
+	item Adm_WoodenBench1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Wooden Bench,
+        WorldObjectSprite	= furniture_seating_indoor_03_66,
+    }
+	
+	item Adm_WoodenBench2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Wooden Bench,
+        WorldObjectSprite	= furniture_seating_indoor_03_67,
+    }
+
+	/**********************************************************************/
+	/******************************* Stools *******************************/
+	/**********************************************************************/
+	
+	item Adm_50sBarStool
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= 50s Bar Stool,
+        WorldObjectSprite	= location_restaurant_diner_01_42,
+    }
+	
+	item Adm_WoodenBarStool	
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Wooden Bar Stool,
+        WorldObjectSprite	= location_restaurant_diner_01_26,
+    }
+	
+	item Adm_BarStool
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Bar Stool,
+        WorldObjectSprite	= location_restaurant_diner_01_25,
+    }
+	
+	item Adm_MetalStool
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Metal Stool,
+        WorldObjectSprite	= location_community_medical_01_10,
+    }
+	
+	item Adm_PianoStool1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Piano Stool,
+        WorldObjectSprite	= recreational_01_10,
+    }
+	
+	item Adm_PianoStool2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Piano Stool,
+        WorldObjectSprite	= recreational_01_11,
+    }
+	
+	/**********************************************************************/
+	/******************************* Seats ********************************/
+	/**********************************************************************/
+	
+	item Adm_50sSeat1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= 50s Seat,
+        WorldObjectSprite	= location_restaurant_diner_01_32,
+    }
+	
+	item Adm_50sSeat2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= 50s Seat,
+        WorldObjectSprite	= location_restaurant_diner_01_33,
+    }
+	
+	item Adm_BlueSeat1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Blue Seat,
+        WorldObjectSprite	= location_restaurant_pileocrepe_01_28,
+    }
+	
+	item Adm_BlueSeat2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Blue Seat,
+        WorldObjectSprite	= location_restaurant_pileocrepe_01_29,
+    }
+	
+	item Adm_LeatherBarSeating1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Leather Bar Seating,
+        WorldObjectSprite	= location_restaurant_bar_01_14,
+    }
+	
+	item Adm_LeatherBarSeating2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Leather Bar Seating,
+        WorldObjectSprite	= location_restaurant_bar_01_15,
+    }
+	
+	item Adm_PizzaWhirledSeat1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Pizza Whirled Seat,
+        WorldObjectSprite	= location_restaurant_pizzawhirled_01_44,
+    }
+	
+	item Adm_PizzaWhirledSeat2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Pizza Whirled Seat,
+        WorldObjectSprite	= location_restaurant_pizzawhirled_01_45,
+    }
+	
+	item Adm_SpiffosLoungeSeat1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Spiffo's Lounge Seat,
+        WorldObjectSprite	= location_restaurant_spiffos_02_20,
+    }
+	
+	item Adm_SpiffosLoungeSeat2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Spiffo's Lounge Seat,
+        WorldObjectSprite	= location_restaurant_spiffos_02_21,
+    }
+	
+	item Adm_TrailerFixedSeat1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Trailer Fixed Seat,
+        WorldObjectSprite	= location_trailer_02_2,
+    }
+	
+	item Adm_TrailerFixedSeat2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Trailer Fixed Seat,
+        WorldObjectSprite	= location_trailer_02_3,
+    }
+	
+	/**********************************************************************/
+	/******************************* Other ********************************/
+	/**********************************************************************/
+	
+	item Adm_BeachChair1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Beach Chair,
+        WorldObjectSprite	= furniture_seating_outdoor_01_24,
+    }
+	
+	item Adm_BeachChair2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Beach Chair,
+        WorldObjectSprite	= furniture_seating_outdoor_01_25,
+    }
+	
+	item Adm_BlueTheaterChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Blue Theater Chair,
+        WorldObjectSprite	= location_entertainment_theatre_01_1,
+    }
+	
+	item Adm_ChurchPew1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Church Pew,
+        WorldObjectSprite	= location_community_church_small_01_51,
+    }
+	
+	item Adm_ChurchPew2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Church Pew,
+        WorldObjectSprite	= location_community_church_small_01_52,
+    }
+	
+	item Adm_ChurchPew3
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Church Pew,
+        WorldObjectSprite	= location_community_church_small_01_53,
+    }
+	
+	item Adm_OrangeFuton
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Orange Futon,
+        WorldObjectSprite	= furniture_seating_indoor_01_46,
+    }
+	
+	item Adm_PlasticChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Plastic Chair,
+        WorldObjectSprite	= furniture_seating_outdoor_01_17,
+    }
+	
+	item Adm_PicnicTable1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Picnic Table,
+        WorldObjectSprite	= camping_01_8,
+    }
+	
+	item Adm_PicnicTable2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Picnic Table,
+        WorldObjectSprite	= camping_01_9,
+    }
+	
+	item Adm_PicnicTable3
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Picnic Table,
+        WorldObjectSprite	= camping_01_10,
+    }
+	
+	item Adm_PicnicTable4
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Picnic Table,
+        WorldObjectSprite	= camping_01_11,
+    }
+	
+	item Adm_RedTheatreChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Red Theatre Chair,
+        WorldObjectSprite	= location_entertainment_theatre_01_89,
+    }
+	
+	item Adm_SalonChair
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Salon Chair,
+        WorldObjectSprite	= location_services_beauty_01_2,
+    }
+	
+	item Adm_WaitingChairs1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Waiting Chairs,
+        WorldObjectSprite	= location_community_medical_01_58,
+    }
+	
+	item Adm_WaitingChairs2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Waiting Chairs,
+        WorldObjectSprite	= location_community_medical_01_59,
+    }
+	
+	/**********************************************************************/
+	/****************************** Tables ********************************/
+	/**********************************************************************/
+	
+	item Adm_50sDinerTable1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= 50s Diner Table,
+        WorldObjectSprite	= location_restaurant_diner_01_6,
+    }
+	
+	item Adm_50sDinerTable2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= 50s Diner Table,
+        WorldObjectSprite	= location_restaurant_diner_01_7,
+    }
+	
+	item Adm_BlackLowModernTable
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Black Low Modern Table,
+        WorldObjectSprite	= furniture_tables_low_01_18,
+    }
+	
+	item Adm_BluePicnicTable1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Blue Picnic Table,
+        WorldObjectSprite	= location_restaurant_generic_01_8,
+    }
+	
+	item Adm_BluePicnicTable2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Blue Picnic Table,
+        WorldObjectSprite	= location_restaurant_generic_01_9,
+    }
+	
+	item Adm_BluePicnicTable3
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Blue Picnic Table,
+        WorldObjectSprite	= location_restaurant_generic_01_10,
+    }
+	
+	item Adm_BluePicnicTable4
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Blue Picnic Table,
+        WorldObjectSprite	= location_restaurant_generic_01_11,
+    }
+	
+	item Adm_BroadWhiteTable1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Broad White Table,
+        WorldObjectSprite	= furniture_tables_high_01_36,
+    }
+	
+	item Adm_BroadWhiteTable2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Broad White Table,
+        WorldObjectSprite	= furniture_tables_high_01_37,
+    }
+	
+	item Adm_BrownLowTable
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Brown Low Table,
+        WorldObjectSprite	= furniture_tables_low_01_13,
+    }
+	
+	item Adm_BrownPicnicTable1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Brown Picnic Table,
+        WorldObjectSprite	= location_restaurant_generic_01_0,
+    }
+	
+	item Adm_BrownPicnicTable2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Brown Picnic Table,
+        WorldObjectSprite	= location_restaurant_generic_01_1,
+    }
+	
+	item Adm_BrownPicnicTable3
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Brown Picnic Table,
+        WorldObjectSprite	= location_restaurant_generic_01_2,
+    }
+	
+	item Adm_BrownPicnicTable4
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Brown Picnic Table,
+        WorldObjectSprite	= location_restaurant_generic_01_3,
+    }
+	
+	item Adm_DarkRoundTable
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Dark Round Table,
+        WorldObjectSprite	= furniture_tables_high_01_23,
+    }
+	
+	item Adm_DinerCornerCounter
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Diner Corner Counter,
+        WorldObjectSprite	= location_restaurant_diner_01_28,
+    }
+	
+	item Adm_DinerCounter
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Diner Counter,
+        WorldObjectSprite	= location_restaurant_diner_01_29,
+    }
+	
+	item Adm_FancyDarkTable
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Fancy Dark Table,
+        WorldObjectSprite	= furniture_tables_high_01_16,
+    }
+	
+	item Adm_FancyLowTable
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Fancy Low Table,
+        WorldObjectSprite	= furniture_tables_low_01_3,
+    }
+	
+	item Adm_FancyLowGlassTable
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Fancy Low Glass Table,
+        WorldObjectSprite	= furniture_tables_low_01_8,
+    }
+	
+	item Adm_FancyTable
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Fancy Table,
+        WorldObjectSprite	= furniture_tables_high_01_15,
+    }
+	
+	item Adm_GenericShopCornerCounter	
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Generic Shop Corner Counter,
+        WorldObjectSprite	= location_shop_generic_01_20,
+    }
+	
+	item Adm_GenericShopCounter
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Generic Shop Counter,
+        WorldObjectSprite	= location_shop_generic_01_17,
+    }
+	
+	item Adm_HangingTable
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Hanging Table,
+        WorldObjectSprite	= location_community_police_01_32,
+    }
+	
+	item Adm_LargeBleachedTable1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Bleached Table,
+        WorldObjectSprite	= location_restaurant_pileocrepe_01_32,
+    }
+	
+	item Adm_LargeBleachedTable2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Bleached Table,
+        WorldObjectSprite	= location_restaurant_pileocrepe_01_33,
+    }
+	
+	item Adm_LargeBrownTable1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Brown Table,
+        WorldObjectSprite	= furniture_tables_high_01_10,
+    }
+	
+	item Adm_LargeBrownTable2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Brown Table,
+        WorldObjectSprite	= furniture_tables_high_01_11,
+    }
+	
+	item Adm_LargeDarkOakTable1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Dark Oak Table,
+        WorldObjectSprite	= furniture_tables_high_01_0,
+    }
+	
+	item Adm_LargeDarkOakTable2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Dark Oak Table,
+        WorldObjectSprite	= furniture_tables_high_01_1,
+    }
+	
+	item Adm_LargeDarkTable1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Dark Table,
+        WorldObjectSprite	= furniture_tables_high_01_19,
+    }
+	
+	item Adm_LargeDarkTable2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Dark Table,
+        WorldObjectSprite	= furniture_tables_high_01_20,
+    }
+	
+	item Adm_LargeDarkWoodenTable1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Dark Wooden Table,
+        WorldObjectSprite	= furniture_tables_high_01_40,
+    }
+	
+	item Adm_LargeDarkWoodenTable2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Dark Wooden Table,
+        WorldObjectSprite	= furniture_tables_high_01_41,
+    }
+	
+	item Adm_LargeOakTable1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Oak Table,
+        WorldObjectSprite	= furniture_tables_high_01_34,
+    }
+	
+	item Adm_LargeOakTable2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Oak Table,
+        WorldObjectSprite	= furniture_tables_high_01_35,
+    }
+	
+	item Adm_LargePlasticTable1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Plastic Table,
+        WorldObjectSprite	= furniture_tables_high_01_56,
+    }
+	
+	item Adm_LargePlasticTable2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Plastic Table,
+        WorldObjectSprite	= furniture_tables_high_01_57,
+    }
+	
+	item Adm_LargeSimpleTable1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Simple Table,
+        WorldObjectSprite	= furniture_tables_high_01_52,
+    }
+	
+	item Adm_LargeSimpleTable2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Simple Table,
+        WorldObjectSprite	= furniture_tables_high_01_53,
+    }
+	
+	item Adm_LargeSmoothTable1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Smooth Table,
+        WorldObjectSprite	= furniture_tables_high_01_50,
+    }
+	
+	item Adm_LargeSmoothTable2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Smooth Table,
+        WorldObjectSprite	= furniture_tables_high_01_51,
+    }
+	
+	item Adm_LightLowTable
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Light Low Table,
+        WorldObjectSprite	= furniture_tables_low_01_17,
+    }
+	
+	item Adm_LightWoodRestaurantTable
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Light Wood Restaurant Table,
+        WorldObjectSprite	= location_restaurant_pileocrepe_01_37,
+    }
+	
+	item Adm_LightwoodDesk1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Lightwood Desk,
+        WorldObjectSprite	= furniture_tables_high_01_26,
+    }
+	
+	item Adm_LightwoodDesk2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Lightwood Desk,
+        WorldObjectSprite	= furniture_tables_high_01_27,
+    }
+	
+	item Adm_LightwoodTrailerTable1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Lightwood Trailer Table	,
+        WorldObjectSprite	= location_trailer_02_12,
+    }
+	
+	item Adm_LightwoodTrailerTable2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Lightwood Trailer Table	,
+        WorldObjectSprite	= location_trailer_02_13,
+    }
+	
+	item Adm_LightRoundTable
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Light Round Table,
+        WorldObjectSprite	= furniture_tables_high_01_7,
+    }
+	
+	item Adm_LongDarkTable
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Long Dark Table,
+        WorldObjectSprite	= furniture_tables_high_01_21,
+    }
+	
+	item Adm_LongFancyLowTable1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Long Fancy Low Table,
+        WorldObjectSprite	= furniture_tables_low_01_4,
+    }
+	
+	item Adm_LongFancyLowTable2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Long Fancy Low Table,
+        WorldObjectSprite	= furniture_tables_low_01_5,
+    }
+	
+	item Adm_LongLightTable
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Long Light Table,
+        WorldObjectSprite	= furniture_tables_high_01_13,
+    }
+	
+	item Adm_LongLowTable1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Long Low Table,
+        WorldObjectSprite	= furniture_tables_low_01_14,
+    }
+	
+	item Adm_LongLowTable2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Long Low Table,
+        WorldObjectSprite	= furniture_tables_low_01_15,
+    }
+	
+	item Adm_LongTable
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Long Table,
+        WorldObjectSprite	= furniture_tables_high_01_4,
+    }
+	
+	item Adm_LowBenchTrailer	
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Low Bench Trailer	,
+        WorldObjectSprite	= location_trailer_02_9,
+    }
+	
+	item Adm_LowMotelCounter
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Low Motel Counter,
+        WorldObjectSprite	= location_hospitality_sunstarmotel_02_22,
+    }
+	
+	item Adm_LowPlasticTable
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Low Plastic Table,
+        WorldObjectSprite	= furniture_tables_low_01_20,
+    }
+	
+	item Adm_MallTable1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Mall Table,
+        WorldObjectSprite	= location_shop_mall_01_48,
+    }
+	
+	item Adm_MallTable2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Mall Table,
+        WorldObjectSprite	= location_shop_mall_01_49,
+    }
+	
+	item Adm_MannequinStandBlack
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Mannequin Stand (black),
+        WorldObjectSprite	= location_shop_mall_01_72,
+    }
+	
+	item Adm_MannequinStandWhite
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Mannequin Stand (white)	,
+        WorldObjectSprite	= location_shop_mall_01_64,
+    }
+	
+	item Adm_OakRoundTable
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Oak Round Table,
+        WorldObjectSprite	= furniture_tables_high_01_6,
+    }
+	
+	item Adm_PizzaWhirledCornerCounter
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Pizza Whirled Corner Counter	,
+        WorldObjectSprite	= location_restaurant_pizzawhirled_01_36,
+    }
+	
+	item Adm_PizzaWhirledCounter
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Pizza Whirled Counter,
+        WorldObjectSprite	= location_restaurant_pizzawhirled_01_37,
+    }
+	
+	item Adm_PizzaWhirledTable1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Pizza Whirled Table,
+        WorldObjectSprite	= location_restaurant_pizzawhirled_01_50,
+    }
+	
+	item Adm_PizzaWhirledTable2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Pizza Whirled Table,
+        WorldObjectSprite	= location_restaurant_pizzawhirled_01_51,
+    }
+	
+	item Adm_PlasticTable1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Plastic Table,
+        WorldObjectSprite	= furniture_tables_high_01_44,
+    }
+	
+	item Adm_PlasticTable2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Plastic Table,
+        WorldObjectSprite	= furniture_tables_high_01_45,
+    }
+	
+	item Adm_RoundTable
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Round Table,
+        WorldObjectSprite	= furniture_tables_high_01_7,
+    }
+	
+	item Adm_SpiffosTypeATable1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Spiffo's Type A Table,
+        WorldObjectSprite	= location_restaurant_spiffos_02_38,
+    }
+	
+	item Adm_SpiffosTypeATable2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Spiffo's Type A Table,
+        WorldObjectSprite	= location_restaurant_spiffos_02_39,
+    }
+	
+	item Adm_SpiffosTypeBTable1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Spiffo's Type B Table,
+        WorldObjectSprite	= location_restaurant_spiffos_02_32,
+    }
+	
+	item Adm_SpiffosTypeBTable2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Spiffo's Type B Table,
+        WorldObjectSprite	= location_restaurant_spiffos_02_33,
+    }
+	
+	/**********************************************************************/
+	/******************************* Desks ********************************/
+	/**********************************************************************/
+	
+	item Adm_DarkSchoolBench	
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Dark School Bench,
+        WorldObjectSprite	= location_community_school_01_5,
+    }
+	
+	item Adm_LightSchoolBench	
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Light School Bench,
+        WorldObjectSprite	= location_community_school_01_13,
+    }
+	
+	item Adm_OfficeDesk1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Office Desk,
+        WorldObjectSprite	= location_business_office_generic_01_42,
+    }
+	
+	item Adm_OfficeDesk2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Office Desk,
+        WorldObjectSprite	= location_business_office_generic_01_43,
+    }
+		
+	/**********************************************************************/
+	/***************************** Counters *******************************/
+	/**********************************************************************/
+	
+	item Adm_BarCornerCounter
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Bar Corner Counter,
+        WorldObjectSprite	= location_restaurant_bar_01_4,
+    }
+	
+	item Adm_BarCounter
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Bar Counter,
+        WorldObjectSprite	= location_restaurant_bar_01_5,
+    }
+	
+	item Adm_BirchwoodCornerCounter	
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Birchwood Corner Counter,
+        WorldObjectSprite	= fixtures_counters_01_44,
+    }
+	
+	item Adm_BirchwoodCounter	
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Birchwood Counter,
+        WorldObjectSprite	= fixtures_counters_01_45,
+    }
+	
+	item Adm_BirchwoodFloatingCounter
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Birchwood Floating Counter,
+        WorldObjectSprite	= fixtures_counters_01_26,
+    }
+	
+	item Adm_DarkCornerCounter	
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Dark Corner Counter,
+        WorldObjectSprite	= fixtures_counters_01_60,
+    }
+	
+	item Adm_DarkCounter
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Dark Counter,
+        WorldObjectSprite	= fixtures_counters_01_61,
+    }
+	
+	item Adm_FloatingTrailerCounter	
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Floating Trailer Counter,
+        WorldObjectSprite	= location_trailer_02_22,
+    }
+	
+	item Adm_FossoilCornerCounter	
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Fossoil Corner Counter,
+        WorldObjectSprite	= location_shop_fossoil_01_20,
+    }
+	
+	item Adm_FossoilCounter	
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Fossoil Counter,
+        WorldObjectSprite	= location_shop_fossoil_01_17,
+    }
+	
+	item Adm_GreenCornerCounter	
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Green Corner Counter,
+        WorldObjectSprite	= fixtures_counters_01_68,
+    }
+	
+	item Adm_GreenCounter
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Green Counter,
+        WorldObjectSprite	= fixtures_counters_01_65,
+    }
+	
+	item Adm_ModernCornerCounter	
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Modern Corner Counter,
+        WorldObjectSprite	= fixtures_counters_01_4,
+    }
+	
+	item Adm_ModernCounter
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Modern Counter,
+        WorldObjectSprite	= fixtures_counters_01_5,
+    }
+	
+	item Adm_OakBarCounter
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Oak Bar Counter,
+        WorldObjectSprite	= fixtures_counters_01_13,
+    }
+	
+	item Adm_OakCornerBarCounter	
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Oak Corner Bar Counter,
+        WorldObjectSprite	= fixtures_counters_01_12,
+    }
+	
+	item Adm_OakCornerCounter	
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Oak Corner Counter,
+        WorldObjectSprite	= fixtures_counters_01_52,
+    }
+	
+	item Adm_OakCounter
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Oak Counter,
+        WorldObjectSprite	= fixtures_counters_01_53,
+    }
+	
+	item Adm_PieStoreCornerCounter	
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Pie Store Corner Counter,
+        WorldObjectSprite	= location_restaurant_pie_01_44,
+    }
+	
+	item Adm_PieStoreCounter
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Pie Store Counter,
+        WorldObjectSprite	= location_restaurant_pie_01_45,
+    }
+	
+	item Adm_RedCornerCounter	
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Red Corner Counter,
+        WorldObjectSprite	= location_shop_gas2go_01_20,
+    }
+	
+	item Adm_RedCounter
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Red Counter,
+        WorldObjectSprite	= location_shop_gas2go_01_21,
+    }
+	
+	item Adm_SeahorseCoffeeCornerCounter
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Seahorse Coffee Corner Counter,
+        WorldObjectSprite	= location_restaurant_seahorse_01_44,
+    }
+	
+	item Adm_SeahorseCoffeeCounter	
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Seahorse Coffee Counter,
+        WorldObjectSprite	= location_restaurant_seahorse_01_45,
+    }
+	
+	item Adm_SpiffosCornerCounter	
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Spiffo's Corner Counter,
+        WorldObjectSprite	= location_restaurant_spiffos_01_60,
+    }
+	
+	item Adm_SpiffosCounter	
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Spiffo's Counter,
+        WorldObjectSprite	= location_restaurant_spiffos_01_61,
+    }
+	
+	item Adm_SquareTheaterCounter	
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Square Theater Counter,
+        WorldObjectSprite	= location_entertainment_theatre_01_16,
+    }
+	
+	item Adm_SteelCornerCounter
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Steel Corner Counter,
+        WorldObjectSprite	= fixtures_counters_01_36,
+    }
+	
+	item Adm_SteelCounter
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Steel Counter,
+        WorldObjectSprite	= fixtures_counters_01_37,
+    }
+	
+	item Adm_TheaterCornerCounter	
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Theater Corner Counter,
+        WorldObjectSprite	= location_entertainment_theatre_01_12,
+    }
+	
+	item Adm_TheaterCounter
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Theater Counter,
+        WorldObjectSprite	= location_entertainment_theatre_01_13,
+    }
+	
+	item Adm_TrailerCounter
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Trailer Counter,
+        WorldObjectSprite	= location_trailer_02_18,
+    }
+	
+	item Adm_WhiteCornerCounter	
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= White Corner Counter,
+        WorldObjectSprite	= fixtures_counters_01_76,
+    }
+	
+	item Adm_WhiteCounter
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= White Counter,
+        WorldObjectSprite	= fixtures_counters_01_77,
+    }
+	
+	item Adm_WoodenCornerCounter	
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Wooden Corner Counter,
+        WorldObjectSprite	= fixtures_counters_01_12,
+    }
+	
+	item Adm_WoodenCounter	
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Wooden Counter,
+        WorldObjectSprite	= fixtures_counters_01_13,
+    }
+	
+	item Adm_ZippeeCornerCounter	
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Zippee Corner Counter	,
+        WorldObjectSprite	= location_shop_zippee_01_20,
+    }
+	
+	item Adm_ZippeeCounter	
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Zippee Counter,
+        WorldObjectSprite	= location_shop_zippee_01_21,
+    }
+	
+	/**********************************************************************/
+	/****************************** Displays ******************************/
+	/**********************************************************************/
+	
+	item Adm_CornerACounter
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Corner A Counter,
+        WorldObjectSprite	= location_restaurant_generic_01_24,
+    }
+	
+	item Adm_CornerBCounter
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Corner B Counter,
+        WorldObjectSprite	= location_restaurant_generic_01_26,
+    }
+	
+	item Adm_GlassCornerDisplayCounter	
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Glass Corner Display Counter	,
+        WorldObjectSprite	= location_shop_generic_01_100,
+    }
+	
+	item Adm_GlassDisplay1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Glass Display	,
+        WorldObjectSprite	= location_restaurant_pizzawhirled_01_66,
+    }
+	
+	item Adm_GlassDisplay2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Glass Display	,
+        WorldObjectSprite	= location_restaurant_pizzawhirled_01_67,
+    }
+	
+	item Adm_GlassDisplayCounter
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Glass Display Counter,
+        WorldObjectSprite	= location_shop_generic_01_101,
+    }
+	
+	item Adm_GlassDisplayStand1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Glass Display Stand,
+        WorldObjectSprite	= location_restaurant_pie_01_50,
+    }
+	
+	item Adm_GlassDisplayStand2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Glass Display Stand,
+        WorldObjectSprite	= location_restaurant_pie_01_51,
+    }
+	
+	item Adm_GlassTheaterCounter
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Glass Theater Counter,
+        WorldObjectSprite	= location_entertainment_theatre_01_6,
+    }
+	
+	item Adm_GroceryDisplayCounter	
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Grocery Display Counter	,
+        WorldObjectSprite	= location_shop_generic_01_24,
+    }
+	
+	item Adm_GroceryTrapezoidCounter
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Grocery Trapezoid Counter,
+        WorldObjectSprite	= location_shop_generic_01_28,
+    }
+	
+	item Adm_MiddleCounter
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Middle Counter	,
+        WorldObjectSprite	= location_restaurant_generic_01_25,
+    }
+	
+	item Adm_PieDisplayStand
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Pie Display Stand,
+        WorldObjectSprite	= location_restaurant_pie_01_52,
+    }
+	
+	item Adm_RoundedGlassDisplayCounter1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Rounded Glass Display Counter,
+        WorldObjectSprite	= location_shop_generic_01_34,
+    }
+	
+	item Adm_RoundedGlassDisplayCounter2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Rounded Glass Display Counter,
+        WorldObjectSprite	= location_shop_generic_01_35,
+    }
+	
+	item Adm_SeahorseCoffeeDisplayCounter1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Seahorse Coffee Display Counter,
+        WorldObjectSprite	= location_restaurant_seahorse_01_56,
+    }
+	
+	item Adm_SeahorseCoffeeDisplayCounter2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Seahorse Coffee Display Counter,
+        WorldObjectSprite	= location_restaurant_seahorse_01_57,
+    }
+	
+	item Adm_ShopDisplayCounter
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Shop Display Counter	,
+        WorldObjectSprite	= location_shop_generic_01_88,
+    }
+	
+	item Adm_TrapezoidShopShelves
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Trapezoid Shop Shelves,
+        WorldObjectSprite	= location_shop_generic_01_92,
+    }
+	
+	/**********************************************************************/
+	/****************************** Shelves *******************************/
+	/**********************************************************************/
+	
+	item Adm_BarWallShelves
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Bar Wall Shelves,
+        WorldObjectSprite	= location_restaurant_bar_01_29,
+    }
+	
+	item Adm_LeftBarWallShelves
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Bar Wall Shelves,
+        WorldObjectSprite	= location_restaurant_bar_01_29,
+    }
+	
+	item Adm_MiddleBarWallShelves
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Bar Wall Shelves,
+        WorldObjectSprite	= location_restaurant_bar_01_30,
+    }
+	
+	item Adm_RightBarWallShelves
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Bar Wall Shelves,
+        WorldObjectSprite	= location_restaurant_bar_01_31,
+    }
+	
+	item Adm_BeigeMagazineShopShelves	
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Beige Magazine Shop Shelves	,
+        WorldObjectSprite	= location_shop_generic_01_2,
+    }
+	
+	item Adm_BeigeRackShopShelves1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Beige Rack Shop Shelves,
+        WorldObjectSprite	= location_shop_generic_01_8,
+    }
+	
+	item Adm_BeigeRackShopShelves2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Beige Rack Shop Shelves,
+        WorldObjectSprite	= location_shop_generic_01_9,
+    }
+	
+	item Adm_BeigeRackShopShelves3
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Beige Rack Shop Shelves,
+        WorldObjectSprite	= location_shop_generic_01_10,
+    }
+	
+	item Adm_BeigeRackShopShelves4
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Beige Rack Shop Shelves,
+        WorldObjectSprite	= location_shop_generic_01_11,
+    }
+	
+	item Adm_BeigeWallShopShelves
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Beige Wall Shop Shelves,
+        WorldObjectSprite	= location_shop_generic_01_30,
+    }
+	
+	item Adm_BigWallShelves	
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Big Wall Shelves,
+        WorldObjectSprite	= furniture_shelving_01_9,
+    }
+	
+	item Adm_ClothesStand
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Clothes Stand,
+        WorldObjectSprite	= location_shop_generic_01_52,
+    }
+	
+	item Adm_ClothingShopShelves
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Clothing Shop Shelves,
+        WorldObjectSprite	= location_shop_generic_01_54,
+    }
+	
+	item Adm_ComicsShopShelves
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Comics Shop Shelves,
+        WorldObjectSprite	= location_shop_generic_01_1,
+    }
+	
+	item Adm_CornerAShelves
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Corner A Shelves,
+        WorldObjectSprite	= furniture_shelving_01_16,
+    }
+	
+	item Adm_CornerBShelves
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Corner B Shelves,
+        WorldObjectSprite	= furniture_shelving_01_18,
+    }
+	
+	item Adm_DarkWallShelves
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Dark Wall Shelves,
+        WorldObjectSprite	= furniture_shelving_01_35,
+    }
+	
+	item Adm_FancyWoodenShopShelves
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Fancy Wooden Shop Shelves,
+        WorldObjectSprite	= location_shop_generic_01_86,
+    }
+	
+	item Adm_GreenesGroceryShelves1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Greene's Grocery Shelves,
+        WorldObjectSprite	= location_shop_greenes_01_56,
+    }
+	
+	item Adm_GreenesGroceryShelves2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Greene's Grocery Shelves,
+        WorldObjectSprite	= location_shop_greenes_01_57,
+    }
+	
+	item Adm_GreenesGroceryShelves3
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Greene's Grocery Shelves,
+        WorldObjectSprite	= location_shop_greenes_01_58,
+    }
+	
+	item Adm_GreenesGroceryShelves4
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Greene's Grocery Shelves,
+        WorldObjectSprite	= location_shop_greenes_01_59,
+    }
+	
+	item Adm_HardwoodWallShelves
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Hardwood Wall Shelves,
+        WorldObjectSprite	= furniture_shelving_01_1,
+    }
+	
+	item Adm_LargeClothesRack1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Clothes Rack,
+        WorldObjectSprite	= location_shop_generic_01_38,
+    }
+	
+	item Adm_LargeClothesRack2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Clothes Rack,
+        WorldObjectSprite	= location_shop_generic_01_39,
+    }
+	
+	item Adm_LargeShopShelves1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Shop Shelves,
+        WorldObjectSprite	= location_shop_generic_01_72,
+    }
+	
+	item Adm_LargeShopShelves2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Shop Shelves,
+        WorldObjectSprite	= location_shop_generic_01_73,
+    }
+	
+	item Adm_LargeMetalShelves1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Metal Shelves,
+        WorldObjectSprite	= furniture_shelving_01_26,
+    }
+	
+	item Adm_LargeMetalShelves2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Metal Shelves,
+        WorldObjectSprite	= furniture_shelving_01_27,
+    }
+	
+	item Adm_LightwoodWallShelves
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Lightwood Wall Shelves,
+        WorldObjectSprite	= furniture_shelving_01_33,
+    }
+	
+	item Adm_LongShelves1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Long Shelves,
+        WorldObjectSprite	= location_shop_generic_01_40,
+    }
+	
+	item Adm_LongShelves2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Long Shelves,
+        WorldObjectSprite	= location_shop_generic_01_41,
+    }
+	
+	item Adm_LongShelves3
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Long Shelves,
+        WorldObjectSprite	= location_shop_generic_01_42,
+    }
+	
+	item Adm_LongShelves4
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Long Shelves,
+        WorldObjectSprite	= location_shop_generic_01_43,
+    }
+	
+	item Adm_LowShelves
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Low Shelves,
+        WorldObjectSprite	= furniture_shelving_01_19,
+    }
+	
+	item Adm_MetalWallShelves
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Metal Wall Shelves,
+        WorldObjectSprite	= furniture_shelving_01_28,
+    }
+	
+	item Adm_Newsstand1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Newsstand,
+        WorldObjectSprite	= location_shop_generic_01_25,
+    }
+	
+	item Adm_Newsstand2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Newsstand,
+        WorldObjectSprite	= location_shop_generic_01_24,
+    }
+	
+	item Adm_OakLeftBar
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Oak Left Bar,
+        WorldObjectSprite	= location_restaurant_bar_01_64,
+    }
+	
+	item Adm_OakMiddleBar
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Oak Middle Bar,
+        WorldObjectSprite	= location_restaurant_bar_01_65,
+    }
+	
+	item Adm_OakRightBar
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Oak Right Bar,
+        WorldObjectSprite	= location_restaurant_bar_01_66,
+    }
+	
+	item Adm_OakwoodShelves
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Oakwood Shelves,
+        WorldObjectSprite	= furniture_shelving_01_40,
+    }
+	
+	item Adm_OpenWardrobe1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Open Wardrobe,
+        WorldObjectSprite	= location_shop_generic_01_59,
+    }
+	
+	item Adm_OpenWardrobe2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Open Wardrobe,
+        WorldObjectSprite	= location_shop_generic_01_61,
+    }
+	
+	item Adm_SmallClothesRack1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Small Clothes Rack,
+        WorldObjectSprite	= location_shop_generic_01_50,
+    }
+	
+	item Adm_SmallClothesRack2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Small Clothes Rack,
+        WorldObjectSprite	= location_shop_generic_01_51,
+    }
+	
+	item Adm_WhiteFancyShelves
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= White Fancy Shelves,
+        WorldObjectSprite	= furniture_shelving_01_44,
+    }
+	
+	item Adm_WhiteWallShelves
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= White Wall Shelves,
+        WorldObjectSprite	= furniture_shelving_01_37,
+    }
+	
+	item Adm_WoodenShopShelves
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Wooden Shop Shelves,
+        WorldObjectSprite	= location_shop_generic_01_62,
+    }
+	
+	item Adm_ZippeeLowWallShelves
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Zippee Low Wall Shelves,
+        WorldObjectSprite	= location_shop_zippee_01_4,
+    }
+	
+	item Adm_ZippeeNewsstand
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Zippee Newsstand,
+        WorldObjectSprite	= location_shop_zippee_01_24,
+    }
+	
+	item Adm_ZippeeNewsstand
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Zippee Newsstand,
+        WorldObjectSprite	= location_shop_zippee_01_25,
+    }
+	
+	item Adm_ZippeeShelvesRack1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Zippee Shelves Rack,
+        WorldObjectSprite	= location_shop_zippee_01_8,
+    }
+	
+	item Adm_ZippeeShelvesRack2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Zippee Shelves Rack,
+        WorldObjectSprite	= location_shop_zippee_01_9,
+    }
+	
+	item Adm_ZippeeShelvesRack3
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Zippee Shelves Rack,
+        WorldObjectSprite	= location_shop_zippee_01_10,
+    }
+	
+	item Adm_ZippeeShelvesRack4
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Zippee Shelves Rack,
+        WorldObjectSprite	= location_shop_zippee_01_11,
+    }
+	
+	item Adm_ZippeeWallShelves
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Zippee Wall Shelves,
+        WorldObjectSprite	= location_shop_zippee_01_2,
+    }
+	
+	/**********************************************************************/
+	/****************************** Dressers ******************************/
+	/**********************************************************************/
+	
+	item Adm_ChinaCabinet1	
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= China Cabinet	,
+        WorldObjectSprite	= furniture_storage_02_34,
+    }
+	
+	item Adm_ChinaCabinet2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= China Cabinet	,
+        WorldObjectSprite	= furniture_storage_02_35,
+    }
+	
+	item Adm_BedroomDrawers	
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Bedroom Drawers	,
+        WorldObjectSprite	= furniture_storage_01_48,
+    }
+	
+	item Adm_DarkFancyDrawers
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Dark Fancy Drawers	,
+        WorldObjectSprite	= furniture_storage_01_33,
+    }
+	
+	item Adm_DarkFancyWardrobe1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Dark Fancy Wardrobe,
+        WorldObjectSprite	= furniture_storage_01_26,
+    }
+	
+	item Adm_DarkFancyWardrobe2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Dark Fancy Wardrobe,
+        WorldObjectSprite	= furniture_storage_01_27,
+    }
+	
+	item Adm_FancyDrawers
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Fancy Drawers,
+        WorldObjectSprite	= furniture_storage_01_9,
+    }
+	
+	item Adm_FancyOakDrawers
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Fancy Oak Drawers,
+        WorldObjectSprite	= furniture_storage_01_13,
+    }
+	
+	item Adm_FancyOakWardrobe1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Fancy Oak Wardrobe,
+        WorldObjectSprite	= furniture_storage_01_18,
+    }
+	
+	item Adm_FancyOakWardrobe2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Fancy Oak Wardrobe,
+        WorldObjectSprite	= furniture_storage_01_19,
+    }
+	
+	item Adm_FancyWhiteWardrobe1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Fancy White Wardrobe,
+        WorldObjectSprite	= furniture_storage_01_2,
+    }
+	
+	item Adm_FancyWhiteWardrobe2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Fancy White Wardrobe,
+        WorldObjectSprite	= furniture_storage_01_3,
+    }
+	
+	item Adm_LargeWardrobe1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Wardrobe,
+        WorldObjectSprite	= furniture_storage_01_38,
+    }
+	
+	item Adm_LargeWardrobe2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Wardrobe,
+        WorldObjectSprite	= furniture_storage_01_39,
+    }
+	
+	item Adm_LightWoodDrawers
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Light Wood Drawers,
+        WorldObjectSprite	= furniture_storage_01_47,
+    }
+	
+	item Adm_LightWoodWardrobe1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Light Wood Wardrobe,
+        WorldObjectSprite	= furniture_storage_01_58,
+    }
+	
+	item Adm_LightWoodWardrobe2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Light Wood Wardrobe,
+        WorldObjectSprite	= furniture_storage_01_59,
+    }
+	
+	item Adm_MedicalToolDrawers
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Medical Tool Drawers,
+        WorldObjectSprite	= location_community_medical_01_37,
+    }
+	
+	item Adm_MirrorandDrawers
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Mirror and Drawers,
+        WorldObjectSprite	= furniture_storage_01_43,
+    }
+	
+	item Adm_WhiteWardrobe1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= White Wardrobe,
+        WorldObjectSprite	= furniture_storage_01_42,
+    }
+	
+	item Adm_WhiteWardrobe2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= White Wardrobe,
+        WorldObjectSprite	= furniture_storage_01_43,
+    }
+	
+	
+	/**********************************************************************/
+	/****************************** Cabinets ******************************/
+	/**********************************************************************/
+	
+	item Adm_GreyFileCabinet
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Grey File Cabinet,
+        WorldObjectSprite	= location_business_office_generic_01_16,
+    }
+	
+	item Adm_MedicineCabinet
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Medicine Cabinet,
+        WorldObjectSprite	= fixtures_bathroom_01_28,
+    }
+	
+	item Adm_WhiteFileCabinet
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= White File Cabinet,
+        WorldObjectSprite	= location_business_office_generic_01_32,
+    }
+	
+	/**********************************************************************/
+	/****************************** Lockers *******************************/
+	/**********************************************************************/
+	
+	item Adm_BlueWallLocker
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Blue Wall Locker,
+        WorldObjectSprite	= furniture_storage_02_5,
+    }
+	
+	item Adm_GreenWallLocker
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Green Wall Locker,
+        WorldObjectSprite	= furniture_storage_02_8,
+    }
+	
+	item Adm_MetalLocker
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Metal Locker,
+        WorldObjectSprite	= furniture_storage_02_0,
+    }
+	
+	item Adm_SmallChest
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Small Chest,
+        WorldObjectSprite	= furniture_storage_02_28,
+    }
+	
+	item Adm_YellowWallLocker
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Yellow Wall Locker,
+        WorldObjectSprite	= furniture_storage_02_13,
+    }
+	
+	/**********************************************************************/
+	/******************************* Crates *******************************/
+	/**********************************************************************/
+	
+	item Adm_CardboardBox
+    {
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Cardboard Box,
+        WorldObjectSprite	= trashcontainers_01_24,
+    }
+	
+	item Adm_Crate
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Crate,
+        WorldObjectSprite	= carpentry_01_17,
+    }
+	
+	item Adm_LargeCardboardBox
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Cardboard Box,
+        WorldObjectSprite	= furniture_storage_02_27,
+    }
+	
+	item Adm_MetalCrate
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Metal Crate,
+        WorldObjectSprite	= constructedobjects_01_46,
+    }
+	
+	item Adm_SmallCrate
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Small Crate,
+        WorldObjectSprite	= location_shop_greenes_01_35,
+    }
+	
+	item Adm_VegetableBasket
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Vegetable Basket,
+        WorldObjectSprite	= location_shop_greenes_01_38,
+    }
+	
+	/**********************************************************************/
+	/*************************** Cash Registers ***************************/
+	/**********************************************************************/
+	
+	item Adm_Cash Register
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Cash Register,
+        WorldObjectSprite	= location_shop_accessories_01_1,
+    }
+	
+	item Adm_Black Cash Register
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Black Cash Register,
+        WorldObjectSprite	= location_shop_accessories_01_21,
+    }
+	
+	/**********************************************************************/
+	/************************** Vending Machines **************************/
+	/**********************************************************************/
+	
+	item Adm_SmallSodaMachine
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Small Soda Machine,
+        WorldObjectSprite	= location_shop_accessories_01_19,
+    }
+	
+	item Adm_LargeMachine
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Machine,
+        WorldObjectSprite	= location_shop_accessories_01_17,
+    }
+	
+	/**********************************************************************/
+	/******************************** Bins ********************************/
+	/**********************************************************************/
+	
+	item Adm_RoundBin
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Round Bin,
+        WorldObjectSprite	= trashcontainers_01_20,
+    }
+	
+	item Adm_RecycleBin
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Round Bin,
+        WorldObjectSprite	= trashcontainers_01_16,
+    }
+	
+	item Adm_GreenGarbageBin
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Green Garbage Bin,
+        WorldObjectSprite	= trashcontainers_01_17,
+    }
+	
+	item Adm_WheelieBin
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Wheelie Bin,
+        WorldObjectSprite	= trashcontainers_01_0,
+    }
+	
+	item Adm_GreyGarbageBin
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Grey Garbage Bin,
+        WorldObjectSprite	= thashcontainers_01_18,
+    }
+	
+	item Adm_FossoilGarbageBin
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Fossoil Garbage Bin,
+        WorldObjectSprite	= location_shop_fossoil_01_32,
+    }
+	
+	item Adm_GarbageBinSeahorse
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Garbage Bin,
+        WorldObjectSprite	= location_restaurant_seahorse_01_38,
+    }
+	
+	item Adm_GarbageBinPizza
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Garbage Bin,
+        WorldObjectSprite	= location_restaurant_pizzawhirled_01_17,
+    }
+	
+	item Adm_SpiffosGarbageBin
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Spiffo's Garbage Bin,
+        WorldObjectSprite	= location_restaurant_spiffos_01_30,
+    }
+	
+	item Adm_MallGarbageBin
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Mall Garbage Bin,
+        WorldObjectSprite	= location_shop_mall_01_44,
+    }
+	
+	item Adm_BlueDumpster1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Blue Dumpster,
+        WorldObjectSprite	= trashcontainers_01_10,
+    }
+	
+	item Adm_BlueDumpster2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Blue Dumpster,
+        WorldObjectSprite	= trashcontainers_01_11,
+    }
+	
+	item Adm_OrangeDumpster1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Orange Dumpster,
+        WorldObjectSprite	= trashcontainers_01_14,
+    }
+	
+	item Adm_OrangeDumpster2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Orange Dumpster,
+        WorldObjectSprite	= trashcontainers_01_15,
+    }
+	
+	item Adm_WallBin
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Wall Bin,
+        WorldObjectSprite	= trashcontainers_01_33,
+    }
+	
+	item Adm_WashingBin
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Washing Bin,
+        WorldObjectSprite	= appliances_laundry_01_24,
+    }
+	
+	/**********************************************************************/
+	/***************************** Mail Boxes *****************************/
+	/**********************************************************************/
+	
+	item Adm_MailBox
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Mail Box,
+        WorldObjectSprite	= street_decoration_01_19,
+    }
+	
+	item Adm_PublicMailBox	
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Public Mail Box	,
+        WorldObjectSprite	= street_decoration_01_8,
+    }
+	
+	/**********************************************************************/
+	/***************************** Mannequins *****************************/
+	/**********************************************************************/
+	
+	item Adm_MannequinF1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Mannequin (white, female, pose 1),
+        WorldObjectSprite	= location_shop_mall_01_65,
+    }
+	
+	item Adm_MannequinF2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Mannequin (white, female, pose 2),
+        WorldObjectSprite	= location_shop_mall_01_66,
+    }
+	
+	item Adm_MannequinF3
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Mannequin (white, female, pose 3),
+        WorldObjectSprite	= location_shop_mall_01_67,
+    }
+	
+	item Adm_MannequinM1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Mannequin (white, male, pose 1),
+        WorldObjectSprite	= location_shop_mall_01_68,
+    }
+	
+	item Adm_MannequinM2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Mannequin (white, male, pose 2),
+        WorldObjectSprite	= location_shop_mall_01_69,
+    }
+	
+	item Adm_MannequinM3
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Mannequin (white, male, pose 3),
+        WorldObjectSprite	= location_shop_mall_01_70,
+    }
+	
+	item Adm_MannequinF1P
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Mannequin (black, female, pose 1),
+        WorldObjectSprite	= location_shop_mall_01_73,
+    }
+	
+	item Adm_MannequinF2P
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Mannequin (black, female, pose 2),
+        WorldObjectSprite	= location_shop_mall_01_74,
+    }
+	
+	item Adm_MannequinF3P
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Mannequin (black, female, pose 3),
+        WorldObjectSprite	= location_shop_mall_01_75,
+    }
+	
+	item Adm_MannequinM1P
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Mannequin (black, male, pose 1),
+        WorldObjectSprite	= location_shop_mall_01_76,
+    }
+	
+	item Adm_MannequinM2P
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Mannequin (black, male, pose 2),
+        WorldObjectSprite	= location_shop_mall_01_77,
+    }
+	
+	item Adm_MannequinM3P
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Mannequin (black, male, pose 3),
+        WorldObjectSprite	= location_shop_mall_01_78,
+    }
+	
+	/**********************************************************************/
+	/**************************** Electronics *****************************/
+	/**********************************************************************/
+	
+	item Adm_PaperTowelDispenser
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Paper-towel Dispenser,
+        WorldObjectSprite	= fixtures_bathroom_01_16,
+    }
+	
+	item Adm_AirConditioner
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Air Conditioner,
+        WorldObjectSprite	= industry_01_4,
+    }
+	
+	item Adm_DrOidsArcadeMachine
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Dr. Oids Arcade Machine,
+        WorldObjectSprite	= recreational_01_16,
+    }
+	
+	item Adm_KaboomArcadeMachine
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Kaboom! Arcade Machine,
+        WorldObjectSprite	= recreational_01_20,
+    }
+	
+	item Adm_OldiesJukebox
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Oldies Jukebox,
+        WorldObjectSprite	= recreational_01_1,
+    }
+	
+	item Adm_ParkingMeter
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Parking Meter,
+        WorldObjectSprite	= street_decoration_01_5,
+    }
+	
+	item Adm_PAWSPinballMachine1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= PAWS Pinball Machine,
+        WorldObjectSprite	= recreational_01_24,
+    }
+	
+	item Adm_PAWSPinballMachine2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= PAWS Pinball Machine,
+        WorldObjectSprite	= recreational_01_25,
+    }
+	
+	item Adm_PayPhones
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Pay Phones,
+        WorldObjectSprite	= street_decoration_01_39,
+    }
+	
+	item Adm_PopcornMachine
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Popcorn Machine,
+        WorldObjectSprite	= location_entertainment_theatre_01_17,
+    }
+	
+	item Adm_HotDogMachine
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Hot Dog Machine,
+        WorldObjectSprite	= location_shop_fossoil_01_10,
+    }
+	
+	item Adm_SatelliteDish
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Satellite Dish,
+        WorldObjectSprite	= appliances_com_01_20,
+    }
+	
+	item Adm_SecurityTerminal
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Security Terminal,
+        WorldObjectSprite	= security_01_0,
+    }
+	
+	item Adm_SecurityWallMonitors
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Security Wall Monitors,
+        WorldObjectSprite	= security_01_4,
+    }
+	
+	item Adm_SlurpBurpSodaMachine
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Slurp Burp Soda Machine,
+        WorldObjectSprite	= location_shop_zippee_01_56,
+    }
+	
+	item Adm_TabletopSodaMachine
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Tabletop Soda Machine,
+        WorldObjectSprite	= location_shop_accessories_01_8,
+    }
+	
+	item Adm_TrainSignal
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Train Signal,
+        WorldObjectSprite	= industry_railroad_05_49,
+    }
+	
+	item Adm_WallClock
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Wall Clock,
+        WorldObjectSprite	= location_community_school_01_32,
+    }
+	
+	/**********************************************************************/
+	/*************************** Sporting Goods ***************************/
+	/**********************************************************************/
+	
+	item Adm_FitnessContraption
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Fitness Contraption,
+        WorldObjectSprite	= recreational_sports_01_40,
+    }
+	
+	item Adm_HumanHamsterWheel
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Human Hamster Wheel,
+        WorldObjectSprite	= recreational_sports_01_38,
+    }
+	
+	item Adm_HumanHamsterWheel
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Human Hamster Wheel,
+        WorldObjectSprite	= recreational_sports_01_39,
+    }
+	
+	item Adm_PoolTable1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Pool Table,
+        WorldObjectSprite	= recreational_01_6,
+    }
+	
+	item Adm_PoolTable2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Pool Table,
+        WorldObjectSprite	= recreational_01_7,
+    }
+	
+	item Adm_PoolCueStand
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Pool Cue Stand,
+        WorldObjectSprite	= recreational_01_5,
+    }
+	
+	/**********************************************************************/
+	/************************ Playground Equipment ************************/
+	/**********************************************************************/
+	
+	item Adm_PlaygroundSlide1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Playground Slide,
+        WorldObjectSprite	= location_community_park_01_16,
+    }
+	
+	item Adm_PlaygroundSlide2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Playground Slide,
+        WorldObjectSprite	= location_community_park_01_17,
+    }
+	
+	item Adm_MerryGoRound1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Merry Go Round,
+        WorldObjectSprite	= location_community_park_01_20,
+    }
+	
+	item Adm_MerryGoRound2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Merry Go Round,
+        WorldObjectSprite	= location_community_park_01_21,
+    }
+	
+	item Adm_MerryGoRound3
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Merry Go Round,
+        WorldObjectSprite	= location_community_park_01_22,
+    }
+	
+	item Adm_MerryGoRound4
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Merry Go Round,
+        WorldObjectSprite	= location_community_park_01_23,
+    }
+	
+	/**********************************************************************/
+	/**************************** Construction ****************************/
+	/**********************************************************************/
+	
+	item Adm_Barrel
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Barrel,
+        WorldObjectSprite	= industry_01_23,
+    }
+	
+	item Adm_EmptyPallet
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Empty Pallet,
+        WorldObjectSprite	= construction_01_5,
+    }
+	
+	item Adm_PalletWithBricks
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Pallet With Bricks,
+        WorldObjectSprite	= construction_01_4,
+    }
+	
+	item Adm_MortarGrinder
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Mortar Grinder,
+        WorldObjectSprite	= construction_01_6,
+    }
+	
+	/**********************************************************************/
+	/************************* Medical Equipment **************************/
+	/**********************************************************************/
+	
+	item Adm_BloodBank
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Blood Bank,
+        WorldObjectSprite	= location_community_medical_01_102,
+    }
+	
+	item Adm_BlueHospitalCurtainA
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Blue Hospital Curtain,
+        WorldObjectSprite	= location_community_medical_01_40,
+    }
+	
+	item Adm_BlueHospitalCurtainB
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Blue Hospital Curtain,
+        WorldObjectSprite	= location_community_medical_01_41,
+    }
+	
+	item Adm_BlueHospitalCurtainC
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Blue Hospital Curtain,
+        WorldObjectSprite	= location_community_medical_01_42,
+    }
+	
+	item Adm_BlueHospitalCurtainD
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Blue Hospital Curtain,
+        WorldObjectSprite	= location_community_medical_01_43,
+    }
+	
+	item Adm_FootBench
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Foot Bench,
+        WorldObjectSprite	= location_community_medical_01_53,
+    }
+	
+	item Adm_MedicalMirror
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Medical Mirror,
+        WorldObjectSprite	= location_community_medical_01_55,
+    }
+	
+	item Adm_MobileBloodbag
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Mobile Bloodbag,
+        WorldObjectSprite	= location_community_medical_01_25,
+    }
+	
+	item Adm_MobileToolCounter
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Mobile Tool Counter,
+        WorldObjectSprite	= location_community_medical_01_49,
+    }
+	
+	item Adm_MorgueTable1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Morgue Table,
+        WorldObjectSprite	= location_community_medical_01_78,
+    }
+	
+	item Adm_MorgueTable2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Morgue Table,
+        WorldObjectSprite	= location_community_medical_01_79,
+    }
+	
+	item Adm_ToolBench
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Tool Bench,
+        WorldObjectSprite	= location_community_medical_01_64,
+    }
+	
+	item Adm_WeighingScale
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Weighing Scale,
+        WorldObjectSprite	= location_community_medical_01_9,
+    }
+	
+	/**********************************************************************/
+	/************************ Musical Instruments *************************/
+	/**********************************************************************/
+	
+	item Adm_WesternPiano1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Western Piano,
+        WorldObjectSprite	= recreational_01_8,
+    }
+	
+	item Adm_WesternPiano2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Western Piano,
+        WorldObjectSprite	= recreational_01_9,
+    }
+	
+	/**********************************************************************/
+	/**************************** Gravestones *****************************/
+	/**********************************************************************/
+	
+	item Adm_AngelicGravestone
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Angelic Gravestone,
+        WorldObjectSprite	= location_community_cemetary_01_11,
+    }
+	
+	item Adm_ArchedGravestone
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Arched Gravestone,
+        WorldObjectSprite	= location_community_cemetary_01_2,
+    }
+	
+	item Adm_BatteredGravestone
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Battered Gravestone,
+        WorldObjectSprite	= location_community_cemetary_01_8,
+    }
+	
+	item Adm_RoundGravestone
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Round Gravestone,
+        WorldObjectSprite	= location_community_cemetary_01_0,
+    }
+	
+	item Adm_SquareGravestone
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Square Gravestone,
+        WorldObjectSprite	= location_community_cemetary_01_4,
+    }
+	
+	/**********************************************************************/
+	/******************************* Plants *******************************/
+	/**********************************************************************/
+	
+	item Adm_BonsaiTree
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Bonsai Tree,
+        WorldObjectSprite	= vegetation_indoor_01_1,
+    }
+	
+	item Adm_Cactus
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Cactus,
+        WorldObjectSprite	= vegetation_indoor_01_3,
+    }
+	
+	item Adm_BouquetofRoses
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Bouquet of Roses,
+        WorldObjectSprite	= vegetation_indoor_01_4,
+    }
+	
+	item Adm_Flowerbed
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Flowerbed,
+        WorldObjectSprite	= f_flowerbed_1_0,
+    }
+	
+	item Adm_LargePlant
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Large Plant,
+        WorldObjectSprite	= vegetation_indoor_01_7,
+    }
+	
+	item Adm_LowCornerHedge
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Low Corner Hedge,
+        WorldObjectSprite	= vegetation_ornamental_01_7,
+    }
+	
+	item Adm_LowHedge
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Low Hedge,
+        WorldObjectSprite	= vegetation_ornamental_01_4,
+    }
+	
+	item Adm_MallDecoration
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Mall Decoration,
+        WorldObjectSprite	= location_shop_mall_01_47,
+    }
+	
+	item Adm_OrangePlant
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Orange Plant,
+        WorldObjectSprite	= vegetation_indoor_01_6,
+    }
+	
+	item Adm_OrnamentalBushTall
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Ornamental Bush (tall)	,
+        WorldObjectSprite	= vegetation_ornamental_01_8,
+    }
+	
+	item Adm_Ornamental BushShort
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Ornamental Bush (short),
+        WorldObjectSprite	= vegetation_ornamental_01_9,
+    }
+	
+	item Adm_RaisedPlantbed
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Raised Plantbed,
+        WorldObjectSprite	= vegetation_indoor_01_8,
+    }
+	
+	item Adm_TallCornerHedge
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Tall Corner Hedge,
+        WorldObjectSprite	= vegetation_ornamental_01_3,
+    }
+	
+	item Adm_TallHedge
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Tall Hedge,
+        WorldObjectSprite	= vegetation_ornamental_01_0,
+    }
+	
+	item Adm_VenusFlyTrap
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Venus Fly Trap,
+        WorldObjectSprite	= vegetation_indoor_01_0,
+    }
+	
+	item Adm_VioletFlowers
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Violet Flowers,
+        WorldObjectSprite	= vegetation_indoor_01_2,
+    }
+	
+	/**********************************************************************/
+	/****************************** Farming *******************************/
+	/**********************************************************************/
+	
+	item Adm_DogHouse
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Dog House,
+        WorldObjectSprite	= location_farm_accesories_01_9,
+    }
+	
+	item Adm_DoubleStackedHye
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Double Stacked Hye,
+        WorldObjectSprite	= vegetation_farm_01_10,
+    }
+	
+	item Adm_SingleStackedHye
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Single Stacked Hye,
+        WorldObjectSprite	= vegetation_farm_01_8,
+    }
+	
+	/**********************************************************************/
+	/************************** Road Barricades ***************************/
+	/**********************************************************************/
+	
+	item Adm_BarrierPost1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Barrier Post,
+        WorldObjectSprite	= street_decoration_01_56,
+    }
+	
+	item Adm_BarrierPost2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Barrier Post,
+        WorldObjectSprite	= street_decoration_01_57,
+    }
+	
+	item Adm_BarrierPost3
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Barrier Post,
+        WorldObjectSprite	= street_decoration_01_58,
+    }
+	
+	item Adm_BarrierPost4
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Barrier Post,
+        WorldObjectSprite	= street_decoration_01_59,
+    }
+	
+	item Adm_ConcreteRoadBlock
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Concrete Road Block,
+        WorldObjectSprite	= street_decoration_01_28,
+    }
+	
+	item Adm_RoadBlock
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Road Block,
+        WorldObjectSprite	= construction_01_8,
+    }
+	
+	item Adm_RoadCone(orange)
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Road Cone (orange),
+        WorldObjectSprite	= street_decoration_01_26,
+    }
+	
+	item Adm_RoadCone
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Road Cone,
+        WorldObjectSprite	= street_decoration_01_27,
+    }
+	
+	/**********************************************************************/
+	/******************************* Trash ********************************/
+	/**********************************************************************/
+	
+	/**********************************************************************/
+	/******************************* Other ********************************/
+	/**********************************************************************/
+	
+	item Adm_AntiqueBarTap
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Antique Bar Tap,
+        WorldObjectSprite	= location_restaurant_bar_01_35,
+    }
+	
+	item Adm_CoatRack
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Coat Rack,
+        WorldObjectSprite	= location_community_school_01_36,
+    }
+	
+	item Adm_MountedDeerTrophy
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Mounted Deer Trophy,
+        WorldObjectSprite	= camping_01_18,
+    }
+	
+	item Adm_WallVault
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Wall Vault,
+        WorldObjectSprite	= location_business_bank_01_41,
+    }
+	
+	/**********************************************************************/
+	/***************************** Adicionais *****************************/
+	/**********************************************************************/
+	
+	item Adm_TestFire
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Moveable,
+        WorldObjectSprite	= crafted_01_30,
+    }
+	
+	item Adm_Flag1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Flag 1,
+        WorldObjectSprite	= walls_decoration_01_18,
+    }
+	
+	item Adm_FlagUSA
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Flag USA,
+        WorldObjectSprite	= walls_decoration_01_16,
+    }
+	
+	item Adm_FlagUSAB
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Flag USA Large,
+        WorldObjectSprite	= location_military_knox_01_8,
+    }
+	/**********************************************************************/
+	/**********************************  **********************************/
+	/**********************************************************************/
+	
+	item Adm_DiviGrey1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= DiviGrey,
+        WorldObjectSprite	= location_business_office_generic_01_27,
+    }
+	
+	item Adm_DiviGrey2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= DiviGrey,
+        WorldObjectSprite	= location_business_office_generic_01_19,
+    }
+	
+	item Adm_DiviBlue1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= DiviBlue,
+        WorldObjectSprite	= location_business_office_generic_01_30,
+    }
+	
+	item Adm_DiviBlue2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= DiviBlue,
+        WorldObjectSprite	= location_business_office_generic_01_22,
+    }
+	
+	item Adm_Cam
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Cam,
+        WorldObjectSprite	= appliances_com_01_46,
+    }
+	
+	item Adm_Film
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Film,
+        WorldObjectSprite	= appliances_com_01_84,
+    }
+	
+	/**********************************************************************/
+	/****************************** Quadros *******************************/
+	/**********************************************************************/
+	
+	item Adm_Quadro1
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Quadro1,
+        WorldObjectSprite	= location_entertainment_gallery_01_37,
+    }
+	
+	item Adm_Quadro2
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Quadro2,
+        WorldObjectSprite	= location_entertainment_gallery_01_34,
+    }
+	
+	item Adm_Quadro3
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Quadro3,
+        WorldObjectSprite	= location_entertainment_gallery_01_45,
+    }
+	
+	item Adm_Quadro4
+    {
+        DisplayCategory = Furniture,
+        Type			= Moveable,
+        Icon			= default,
+        Weight          	= 0.5,
+        DisplayName		= Quadro5,
+        WorldObjectSprite	= location_entertainment_gallery_01_46,
+    }
+	
+/**********************************************************************/
+/**********************************  **********************************/
+/**********************************************************************/
+
+}

@@ -1,0 +1,254 @@
+module Base
+{
+
+
+    recipe Attach Bread Knife to Spear
+    {
+        SpearCrafted,
+        BreadKnife,
+        DuctTape=2,
+
+        Result:SpearBreadKnife,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.UpgradeSpear,
+        Category:Survivalist,
+	Override:true,
+	NeedToBeLearn:true,
+       	SkillRequired:MetalWelding=11,
+    }
+
+    recipe Attach Butter Knife to Spear
+    {
+        SpearCrafted,
+        ButterKnife,
+        DuctTape=2,
+
+        Result:SpearButterKnife,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.UpgradeSpear,
+        Category:Survivalist,
+	Override:true,
+	NeedToBeLearn:true,
+       	SkillRequired:MetalWelding=11,
+    }
+
+    recipe Attach Fork to Spear
+    {
+        SpearCrafted,
+        Fork,
+        DuctTape=2,
+
+        Result:SpearFork,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.UpgradeSpear,
+        Category:Survivalist,
+	Override:true,
+	NeedToBeLearn:true,
+       	SkillRequired:MetalWelding=11,
+    }
+
+    recipe Attach Ice Pick to Spear
+    {
+        SpearCrafted,
+        IcePick,
+        DuctTape=2,
+
+        Result:SpearIcePick,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.UpgradeSpear,
+        Category:Survivalist,
+	Override:true,
+	NeedToBeLearn:true,
+       	SkillRequired:MetalWelding=11,
+    }
+
+    recipe Attach Letter Opener to Spear
+    {
+        SpearCrafted,
+        LetterOpener,
+        DuctTape=2,
+
+        Result:SpearLetterOpener,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.UpgradeSpear,
+        Category:Survivalist,
+	Override:true,
+	NeedToBeLearn:true,
+       	SkillRequired:MetalWelding=11,
+    }
+
+    recipe Attach Scalpel to Spear
+    {
+        SpearCrafted,
+        Scalpel,
+        DuctTape=2,
+
+        Result:SpearScalpel,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.UpgradeSpear,
+        Category:Survivalist,
+	Override:true,
+	NeedToBeLearn:true,
+       	SkillRequired:MetalWelding=11,
+    }
+
+    recipe Attach Scissors to Spear
+    {
+        SpearCrafted,
+        Scissors,
+        DuctTape=2,
+
+        Result:SpearScissors,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.UpgradeSpear,
+        Category:Survivalist,
+	Override:true,
+	NeedToBeLearn:true,
+       	SkillRequired:MetalWelding=11,
+    }
+
+
+    recipe Attach Screwdriver to Spear
+    {
+        SpearCrafted,
+        Screwdriver,
+        DuctTape=2,
+
+        Result:SpearScrewdriver,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.UpgradeSpear,
+        Category:Survivalist,
+	Override:true,
+	NeedToBeLearn:true,
+       	SkillRequired:MetalWelding=11,
+    }
+
+    recipe Attach Spoon to Spear
+    {
+        SpearCrafted,
+        Spoon,
+        DuctTape=2,
+
+        Result:SpearSpoon,
+        Time:100.0,
+        OnCreate:Recipe.OnCreate.UpgradeSpear,
+        Category:Survivalist,
+	Override:true,
+	NeedToBeLearn:true,
+       	SkillRequired:MetalWelding=11,
+    }
+
+
+    recipe Reclaim Bread Knife from Spear
+    {
+        SpearBreadKnife,
+
+        Result:BreadKnife,
+        OnCreate:Recipe.OnCreate.DismantleSpear,
+        Time:60.0,
+        Category:Survivalist,
+        AllowDestroyedItem:true,
+	Override:true,
+	NeedToBeLearn:true,
+       	SkillRequired:MetalWelding=11,
+    }
+
+    recipe Reclaim Butter Knife from Spear
+    {
+        SpearButterKnife,
+
+        Result:ButterKnife,
+        OnCreate:Recipe.OnCreate.DismantleSpear,
+        Time:60.0,
+        Category:Survivalist,
+        AllowDestroyedItem:true,
+	Override:true,
+	NeedToBeLearn:true,
+       	SkillRequired:MetalWelding=11,
+    }
+
+    recipe Reclaim Fork from Spear
+    {
+        SpearFork,
+
+        Result:Fork,
+        OnCreate:Recipe.OnCreate.DismantleSpear,
+        Time:60.0,
+        Category:Survivalist,
+        AllowDestroyedItem:true,
+	Override:true,
+	NeedToBeLearn:true,
+       	SkillRequired:MetalWelding=11,
+    }
+
+    recipe Reclaim Ice Pick from Spear
+    {
+        SpearIcePick,
+
+        Result:IcePick,
+        OnCreate:Recipe.OnCreate.DismantleSpear,
+        Time:60.0,
+        Category:Survivalist,
+        AllowDestroyedItem:true,
+	Override:true,
+	NeedToBeLearn:true,
+       	SkillRequired:MetalWelding=11,
+    }
+
+    recipe Reclaim Letter Opener from Spear
+    {
+        SpearLetterOpener,
+
+        Result:LetterOpener,
+        OnCreate:Recipe.OnCreate.DismantleSpear,
+        Time:60.0,
+        Category:Survivalist,
+        AllowDestroyedItem:true,
+	Override:true,
+	NeedToBeLearn:true,
+       	SkillRequired:MetalWelding=11,
+    }
+
+
+    recipe Reclaim Scalpel from Spear
+    {
+        SpearScalpel,
+
+        Result:Scalpel,
+        OnCreate:Recipe.OnCreate.DismantleSpear,
+        Time:60.0,
+        Category:Survivalist,
+        AllowDestroyedItem:true,
+	Override:true,
+	NeedToBeLearn:true,
+       	SkillRequired:MetalWelding=11,
+    }
+
+    recipe Reclaim Scissors from Spear
+    {
+        SpearScissors,
+
+        Result:Scissors,
+        OnCreate:Recipe.OnCreate.DismantleSpear,
+        Time:60.0,
+        Category:Survivalist,
+        AllowDestroyedItem:true,
+	Override:true,
+	NeedToBeLearn:true,
+       	SkillRequired:MetalWelding=11,
+    }
+
+    recipe Reclaim Spoon from Spear
+    {
+        SpearSpoon,
+
+        Result:Spoon,
+        OnCreate:Recipe.OnCreate.DismantleSpear,
+        Time:60.0,
+        Category:Survivalist,
+        AllowDestroyedItem:true,
+	Override:true,
+	NeedToBeLearn:true,
+       	SkillRequired:MetalWelding=11,
+    }
+}

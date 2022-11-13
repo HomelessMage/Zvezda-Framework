@@ -1,0 +1,4 @@
+UI_DE = {
+	UI_optionscreen_binding_UrinationStatus = "Harndrang Status",
+	UI_optionscreen_binding_UrinationStatus2 = "Harndrang Status (Spieler 2)",
+}

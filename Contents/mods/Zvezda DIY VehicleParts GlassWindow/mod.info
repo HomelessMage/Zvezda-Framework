@@ -1,0 +1,4 @@
+name=Zvezda DIY VehicleParts GlassWindow
+poster=preview.png
+id=ZvezdaDIYVehiclePartsGlassWindow
+require=ZvezdaDIYVehicleParts

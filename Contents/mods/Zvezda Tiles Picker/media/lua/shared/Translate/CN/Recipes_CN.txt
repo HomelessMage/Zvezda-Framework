@@ -1,0 +1,9 @@
+﻿Recipe_CN = {
+    Recipe_Get_first_point(Upper_left) = "取左上第一个点",
+    Recipe_Get_second_point(lower_right) = "取右下第二个点",
+    Recipe_Copy(Move_to_an_open_place) = "复制（需要空地）",
+    Recipe_Cut(Move_to_an_open_place) ="剪切（需要空地）",
+    Recipe_Remove ="移除（慎重）",
+
+}
+

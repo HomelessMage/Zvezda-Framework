@@ -1,0 +1,5 @@
+IGUI_RU = {
+	IGUI_CraftCategory_Tailoring = "Ўитье",
+	IGUI_ShuruTailoring_Sew = "—шить $$$",
+	IGUI_ShuruTailoring_CantLearn = "ƒл€ мен€ это слишком сложно..."
+}

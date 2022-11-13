@@ -1,0 +1,6 @@
+Tooltip_EN = {
+    Tooltip_SYMS_CantCopyMarkings = "Требуется лист бумаги",
+    Tooltip_SYMS_NothingToCopy = "На карте нет заметок",
+    Tooltip_SYMS_ValidateName = "Название не может быть пустым",
+    Tooltip_SYMS_SomeoneMarks = "Чьи-то заметки. Я могу нанести их на свою карту.",
+}

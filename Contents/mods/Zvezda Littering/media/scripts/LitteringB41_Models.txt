@@ -1,0 +1,1394 @@
+/*Littering, B41 Continued*/
+/*(41.68)(07may22)*/
+module Base
+{
+	/*FOOD-RELATED ITEMS*/
+    model AppleCoreFresh
+    {
+        mesh = WorldItems/AppleCore,
+        texture = WorldItems/AppleCore,
+        scale = 0.005,
+    }
+
+    model AppleCoreRotten
+    {
+        mesh = WorldItems/AppleCore,
+        texture = WorldItems/AppleCoreRotten,
+        scale = 0.005,
+    }
+
+    model BakingSodaEmpty
+    {
+        mesh = WorldItems/BakingSodaEmpty,
+        texture = WorldItems/BakingSoda,
+        scale = 0.0045,
+    }
+
+    model BananaPeel
+    {
+        mesh = WorldItems/BananaPeel,
+        texture = WorldItems/Banana,
+        scale = 0.0045,
+    }
+
+    model BananaPeelRotten
+    {
+        mesh = WorldItems/BananaPeel,
+        texture = WorldItems/BananaRotten,
+        scale = 0.045,
+    }
+
+    model BoneScraps
+    {
+        mesh = WorldItems/BoneScraps,
+        texture = WorldItems/BoneScraps,
+        scale = 0.0002,
+    }
+	
+	model BrownSugarEmpty
+    {
+        mesh = WorldItems/SugarBagEmpty,
+        texture = WorldItems/SugarBrownEmpty,
+        scale = 0.0045,
+    }
+	
+	model CakeCartonBlackForest
+    {
+        mesh = WorldItems/CakeCarton,
+        texture = WorldItems/CakeCartonBlackForest,
+        scale = 0.004,
+    }
+	
+	model CakeCartonCarrot
+    {
+        mesh = WorldItems/CakeCarton,
+        texture = WorldItems/CakeCartonCarrot,
+        scale = 0.004,
+    }
+	
+	model CakeCartonCheesecake
+    {
+        mesh = WorldItems/CakeCarton,
+        texture = WorldItems/CakeCartonCheesecake,
+        scale = 0.004,
+    }
+	
+	model CakeCartonChocolate
+    {
+        mesh = WorldItems/CakeCarton,
+        texture = WorldItems/CakeCartonChocolate,
+        scale = 0.004,
+    }
+	
+	model CakeCartonEmpty
+    {
+        mesh = WorldItems/CakeCartonEmpty,
+        texture = WorldItems/CakeCartonEmpty,
+        scale = 0.004,
+    }
+	
+	model CakeCartonGeneric
+    {
+        mesh = WorldItems/CakeCarton,
+        texture = WorldItems/CakeCartonGeneric2,
+        scale = 0.004,
+    }
+	
+	model CakeCartonRedVelvet
+    {
+        mesh = WorldItems/CakeCarton,
+        texture = WorldItems/CakeCartonRedVelvet,
+        scale = 0.004,
+    }
+	
+	model CandyPackageEmpty
+    {
+        mesh = WorldItems/CandyPackageEmpty,
+        texture = WorldItems/CandyPackageEmpty,
+        scale = 0.0045,
+    }
+	
+	model CerealEmpty
+    {
+        mesh = WorldItems/CerealBoxEmpty,
+        texture = WorldItems/Cereal,
+        scale = 0.0045,
+    }
+	
+	model CheeseWrapper
+    {
+        mesh = WorldItems/CheeseWrapper,
+        texture = WorldItems/CheeseWrapper,
+        scale = 0.0045,
+    }
+	
+	model ChocolateWrapper
+    {
+        mesh = WorldItems/ChocolateBarWrapper,
+        texture = WorldItems/Chocolate,
+        scale = 0.0045,
+    }
+	
+	model CocoaPowderEmpty
+    {
+        mesh = WorldItems/CocoaPowderEmpty,
+        texture = WorldItems/CocoaPowder,
+        scale = 0.0045,
+    }
+	
+	model CoffeeEmpty
+    {
+        mesh = WorldItems/CoffeeEmpty,
+        texture = WorldItems/CoffeeEmpty,
+        scale = 0.0045,
+    }
+	
+	model CorndogStick
+    {
+        mesh = WorldItems/CorndogStick,
+        texture = WorldItems/Corndog,
+        scale = 0.001,
+    }
+	
+	model CrispsEmpty
+    {
+        mesh = WorldItems/ChipsEmpty,
+        texture = WorldItems/Chips,
+        scale = 0.0045,
+    }
+	
+	model Crisps2Empty
+    {
+        mesh = WorldItems/ChipsEmpty,
+        texture = WorldItems/Chips2,
+        scale = 0.0045,
+    }
+	
+	model Crisps3Empty
+    {
+        mesh = WorldItems/ChipsEmpty,
+        texture = WorldItems/Chips3,
+        scale = 0.0045,
+    }
+	
+	model Crisps4Empty
+    {
+        mesh = WorldItems/ChipsEmpty,
+        texture = WorldItems/Chips4,
+        scale = 0.0045,
+    }
+	
+	model DriedBlackBeansEmpty
+    {
+        mesh = WorldItems/DriedBeansEmpty,
+        texture = WorldItems/DriedBlackBeansEmpty,
+        scale = 0.0045,
+    }
+	
+	model DriedChickpeasEmpty
+    {
+        mesh = WorldItems/DriedBeansEmpty,
+        texture = WorldItems/DriedChickpeasEmpty,
+        scale = 0.0045,
+    }
+	
+	model DriedKidneyBeansEmpty
+    {
+        mesh = WorldItems/DriedBeansEmpty,
+        texture = WorldItems/DriedKidneyBeansEmpty,
+        scale = 0.0045,
+    }
+	
+	model DriedLentilsEmpty
+    {
+        mesh = WorldItems/DriedBeansEmpty,
+        texture = WorldItems/DriedLentilsEmpty,
+        scale = 0.0045,
+    }
+	
+	model DriedSplitPeasEmpty
+    {
+        mesh = WorldItems/DriedBeansEmpty,
+        texture = WorldItems/DriedSplitPeasEmpty,
+        scale = 0.0045,
+    }
+
+	model DriedWhiteBeansEmpty
+    {
+        mesh = WorldItems/DriedBeansEmpty,
+        texture = WorldItems/DriedWhiteBeansEmpty,
+        scale = 0.0045,
+    }
+
+	model EggCartonEmpty
+    {
+        mesh = WorldItems/EggCartonEmpty,
+        texture = WorldItems/EggCarton,
+        scale = 0.0045,
+    }
+
+	model EggShells
+    {
+        mesh = WorldItems/FruitRind,
+        texture = WorldItems/EggShells,
+        scale = 0.0005,
+    }
+
+	model FlourEmpty
+    {
+        mesh = WorldItems/FlourEmpty,
+        texture = WorldItems/Flour,
+        scale = 0.0045,
+    }
+
+	model GumWrapper
+    {
+        mesh = WorldItems/GumWrapper,
+        texture = WorldItems/Gum,
+        scale = 0.0045,
+    }
+
+	model FriesCartonEmpty
+    {
+        mesh = WorldItems/FriesCartonEmpty,
+        texture = WorldItems/Fries,
+        scale = 0.0055,
+    }
+
+	model FruitRindLemon
+    {
+        mesh = WorldItems/FruitRind,
+        texture = WorldItems/FruitRindLemon,
+        scale = 0.00075,
+    }
+
+	model FruitRindLime
+    {
+        mesh = WorldItems/FruitRind,
+        texture = WorldItems/FruitRindLime,
+        scale = 0.00075,
+    }
+
+	model FruitRindMelon
+    {
+        mesh = WorldItems/FruitRind,
+        texture = WorldItems/FruitRindMelon,
+        scale = 0.0015,
+    }
+
+	model FruitRindOrange
+    {
+        mesh = WorldItems/FruitRind,
+        texture = WorldItems/FruitRindOrange,
+        scale = 0.00075,
+    }
+
+	model FruitRindPineapple
+    {
+        mesh = WorldItems/FruitRind,
+        texture = WorldItems/FruitRindPineapple,
+        scale = 0.0015,
+    }
+	
+	model Gravy
+    {
+        mesh = WorldItems/Gravy,
+        texture = WorldItems/Gravy,
+        scale = 0.5,
+    }
+	
+	model GravyBoat
+    {
+        mesh = WorldItems/GravyBoat,
+        texture = WorldItems/Gravy,
+        scale = 0.5,
+    }
+	
+	model GravyMix
+    {
+        mesh = WorldItems/CandyPackage,
+        texture = WorldItems/GravyBag,
+        scale = 0.0045,
+    }
+	
+	model GravyMixEmpty
+    {
+        mesh = WorldItems/CandyPackageEmpty,
+        texture = WorldItems/GravyBag,
+        scale = 0.0045,
+    }
+	
+	model HoneyBottleEmpty
+    {
+        mesh = WorldItems/Honey,
+        texture = WorldItems/HoneyBottleEmpty,
+        scale = 0.4,
+    }
+	
+	model HoneyBottleWater
+    {
+        mesh = WorldItems/Honey,
+        texture = WorldItems/HoneyBottleWater,
+        scale = 0.4,
+    }
+	
+	model HoneyBottleWaterSM
+	{
+		mesh = HoneyBottleWaterSM,
+        scale = 0.4,
+	}
+	
+	model Hotsauce
+    {
+        mesh = WorldItems/Hotsauce,
+        texture = WorldItems/Hotsauce,
+        scale = 0.001,
+    }
+	
+	model HotsauceBottleEmpty
+    {
+        mesh = WorldItems/Hotsauce,
+        texture = WorldItems/HotsauceEmpty,
+        scale = 0.001,
+    }
+	
+	model HotsauceBottleWater
+    {
+        mesh = WorldItems/Honey,
+        texture = WorldItems/HotsauceWater,
+        scale = 0.01,
+    }
+	
+	model HotsauceBottleWaterSM
+	{
+		mesh = HotsauceBottleWaterSM,
+        scale = 0.01,
+	}
+	
+	model JamFruitEmpty
+	{
+        mesh = WorldItems/JarLid,
+        texture = WorldItems/JamFruitEmpty,
+        scale = 0.4,
+	}
+	
+	model JamMarmaladeEmpty
+	{
+        mesh = WorldItems/JarLid,
+        texture = WorldItems/JamMarmaladeEmpty,
+        scale = 0.4,
+	}
+	
+	model JuiceBoxEmpty
+	{
+        mesh = WorldItems/JuiceBoxEmpty,
+        texture = WorldItems/JuiceBox,
+        scale = 0.0045,
+	}
+	
+	model KetchupEmpty
+	{
+        mesh = WorldItems/KetchupEmpty,
+        texture = WorldItems/Ketchup,
+        scale = 0.0045,
+	}
+	
+	model LollipopStick
+	{
+        mesh = WorldItems/LollipopStick,
+        texture = WorldItems/Lollipop,
+        scale = 0.0065,
+	}
+	
+	model MacBoxEmpty
+	{
+        mesh = WorldItems/MacAndCheeseEmpty,
+        texture = WorldItems/MacAndCheese,
+        scale = 0.0045,
+	}
+	
+	model MapleSyrupEmpty
+	{
+        mesh = WorldItems/MapleSyrup,
+        texture = WorldItems/MapleSyrupEmpty,
+        scale = 0.4,
+	}
+	
+	model MapleSyrupWater
+	{
+        mesh = WorldItems/MapleSyrup,
+        texture = WorldItems/MapleSyrupWater,
+        scale = 0.1,
+	}
+	
+	model MapleBottleWaterSM
+	{
+		mesh = MapleBottleWaterSM,
+        scale = 0.01,
+	}
+	
+	model MarinaraEmpty
+	{
+        mesh = WorldItems/Marinara,
+        texture = WorldItems/MarinaraEmpty,
+        scale = 0.4,
+	}
+	
+	model MilkEmpty
+	{
+        mesh = WorldItems/MilkEmpty,
+        texture = WorldItems/MilkCarton,
+        scale = 0.0045,
+	}
+	
+	model MintCandyWrapper
+	{
+        mesh = WorldItems/PlasticWrapperMintCandy,
+        texture = WorldItems/MintCandy,
+        scale = 0.0045,
+	}
+	
+	model MustardEmpty
+	{
+        mesh = WorldItems/MustardEmpty,
+        texture = WorldItems/Mustard,
+        scale = 0.0045,
+	}
+	
+	model OilVegetableEmpty
+	{
+        mesh = WorldItems/OilVegetable,
+        texture = WorldItems/OilVegetableEmpty,
+        scale = 0.4,
+	}
+	
+	model OilVegetableWater
+	{
+        mesh = WorldItems/OilVegetable,
+        texture = WorldItems/OilVegetableWater,
+        scale = 0.4,
+	}
+	
+	model OilVegWaterBottleSM
+	{
+        mesh = OilVegWaterBottleSM,
+        scale = 0.4,
+	}
+	
+	model PancakeMixEmpty
+	{
+        mesh = WorldItems/PancakeMixEmpty,
+        texture = WorldItems/PancakeMix,
+        scale = 0.0045,
+	}
+	
+	model PeanutButterEmpty
+	{
+        mesh = WorldItems/PeanutButter,
+        texture = WorldItems/PeanutButterEmpty,
+        scale = 0.4,
+	}
+	
+	model PeanutShells
+	{
+        mesh = WorldItems/PeanutShells,
+        texture = WorldItems/Peanuts,
+        scale = 0.0045,
+	}
+	
+	model PeasEmpty
+	{
+        mesh = WorldItems/PeasBagEmpty,
+        texture = WorldItems/Peas,
+        scale = 0.0045,
+	}
+	
+	model PepperShakerEmpty
+	{
+        mesh = WorldItems/Pepper,
+        texture = WorldItems/SaltPepperEmpty,
+        scale = 0.6,
+	}
+	
+	model PieCartonApple
+	{
+        mesh = WorldItems/PieCarton,
+        texture = WorldItems/PieCartonApple,
+        scale = 0.005,
+	}
+	
+	model PieCartonBlueberry
+	{
+        mesh = WorldItems/PieCarton,
+        texture = WorldItems/PieCartonBlueberry,
+        scale = 0.005,
+	}
+	
+	model PieCartonEmpty
+	{
+        mesh = WorldItems/PieCartonEmpty,
+        texture = WorldItems/PieCartonEmpty,
+        scale = 0.0035,
+	}
+	
+	model PieCartonGeneric
+	{
+        mesh = WorldItems/PieCarton,
+        texture = WorldItems/PieCartonGeneric,
+        scale = 0.005,
+	}
+	
+	model PieCartonKeyLime
+	{
+        mesh = WorldItems/PieCarton,
+        texture = WorldItems/PieCartonKeyLime,
+        scale = 0.005,
+	}
+	
+	model PieCartonLemon
+	{
+        mesh = WorldItems/PieCarton,
+        texture = WorldItems/PieCartonLemonMeringue,
+        scale = 0.005,
+	}
+	
+	model PieCartonLime
+	{
+        mesh = WorldItems/PieCarton,
+        texture = WorldItems/PieCartonLime,
+        scale = 0.005,
+	}
+	
+	model PieCartonPumpkin
+	{
+        mesh = WorldItems/PieCarton,
+        texture = WorldItems/PieCartonPumpkin,
+        scale = 0.0035,
+	}
+	
+	model PlasticWrapperGeneric
+	{
+        mesh = WorldItems/PlasticWrapperGeneric,
+        texture = WorldItems/MintCandy,
+        scale = 0.01,
+	}
+	
+	model PopcornBagEmpty
+	{
+        mesh = WorldItems/PopcornBagEmpty,
+        texture = WorldItems/InstantPopcorn,
+        scale = 0.005,
+	}
+	
+	model RiceBagEmpty
+	{
+        mesh = WorldItems/RiceBagEmpty,
+        texture = WorldItems/Rice,
+        scale = 0.0045,
+	}
+	
+	model RiceVinegarEmpty
+	{
+        mesh = WorldItems/RiceVinegar,
+        texture = WorldItems/RiceVinegarEmpty,
+        scale = 0.4,
+	}
+	
+	model RiceVinegarWater
+	{
+        mesh = WorldItems/RiceVinegar,
+        texture = WorldItems/RiceVinegarWater,
+        scale = 0.4,
+	}
+	
+	model RiceVinWaterBottleSM
+	{
+        mesh = RiceVinWaterBottleSM,
+        scale = 0.4,
+	}
+	
+	model SoysauceEmpty
+	{
+        mesh = WorldItems/Soysauce,
+        texture = WorldItems/SoysauceEmpty,
+        scale = 0.4,
+	}
+	
+	model SoysauceWater
+	{
+        mesh = WorldItems/Soysauce,
+        texture = WorldItems/SoysauceEmpty,
+        scale = 0.4,
+	}
+	
+	model SoysauceWaterBottleSM
+	{
+        mesh = SoysauceWaterBottleSM,
+        scale = 0.4,
+	}
+	
+	model SaltEmpty
+	{
+        mesh = WorldItems/Salt,
+        texture = WorldItems/SaltPepperEmpty,
+        scale = 0.6,
+	}
+		
+	model SugarEmpty
+    {
+        mesh = WorldItems/SugarBagEmpty,
+        texture = WorldItems/SugarEmpty,
+        scale = 0.0055,
+    }
+	
+	model SunflowerShells
+	{
+        mesh = WorldItems/SunflowerShells,
+        texture = WorldItems/SunflowerSeeds,
+        scale = 0.0045,
+	}
+		
+	model TeaBox
+    {
+        mesh = WorldItems/TeaBagBox,
+        texture = WorldItems/TeaBagBox,
+        scale = 0.0002,
+    }
+		
+	model TeaBoxEmpty
+    {
+        mesh = WorldItems/TeaBagBoxEmpty,
+        texture = WorldItems/TeaBagBox,
+        scale = 0.0002,
+    }
+		
+	model TubIcecreamEmpty
+    {
+        mesh = WorldItems/IcecreamEmpty,
+        texture = WorldItems/Icecream,
+        scale = 0.0045,
+    }
+		
+	model TVDinnerPackage
+    {
+        mesh = WorldItems/TVDinnerEmptyTray,
+        texture = WorldItems/TVDinner,
+        scale = 0.0045,
+    }
+		
+	model UsedTeabag
+    {
+        mesh = WorldItems/UsedTeaBag,
+        texture = WorldItems/UsedTeabag,
+        scale = 0.007,
+    }
+	
+	model VinegarEmpty
+	{
+        mesh = WorldItems/Vinegar,
+        texture = WorldItems/Vinegar,
+        scale = 0.4,
+	}
+	
+	model VinegarWater
+	{
+        mesh = WorldItems/Vinegar,
+        texture = WorldItems/VinegarWater,
+        scale = 0.4,
+	}
+	
+	model VinegarWaterBottleSM
+	{
+        mesh = SoysauceWaterBottleSM,
+        scale = 0.4,
+	}
+	
+	model YogurtEmpty
+	{
+        mesh = WorldItems/YogurtEmpty,
+        texture = WorldItems/Yogurt,
+        scale = 0.006,
+	}
+
+	/*MEDICAL STUFF*/
+
+	model AlcoholWipesEmpty2
+	{
+        mesh = WorldItems/WipesEmpty2,
+        texture = WorldItems/AlcoholWipes,
+		scale = 0.006,
+	}
+
+	model AntibioticsBlister
+	{
+        mesh = WorldItems/PainKillers,
+        texture = WorldItems/AntibioticsBlisterV2,
+		scale = 0.55,
+	}
+
+	model AntibioticsBlisterEmpty
+	{
+        mesh = WorldItems/AntibioticsBlisterV2Empty,
+        texture = WorldItems/AntibioticsBlisterV2,
+		scale = 0.006,
+	}
+
+	model AntidepressantsV2
+	{
+        mesh = WorldItems/PillBottleFixed,
+        texture = WorldItems/PillBottleAntiDep,
+		scale = 0.0045,
+	}
+
+	model AntidepressantsEmpty
+	{
+        mesh = WorldItems/PillBottleEmpty,
+        texture = WorldItems/PillBottleAntiDep,
+		scale = 0.0045,
+	}
+
+	model Bandaid
+	{
+        mesh = WorldItems/BandAid,
+        texture = WorldItems/BandaidV2,
+		scale = 0.6,
+	}
+
+	model BandaidDirty
+	{
+        mesh = WorldItems/BandAid,
+        texture = WorldItems/BandaidV2Used,
+		scale = 0.6,
+	}
+
+	model BetaBlockersV2
+	{
+        mesh = WorldItems/PillBottleFixed,
+        texture = PillBottle,
+		scale = 0.0045,
+	}
+
+	model BetaBlockersEmpty
+	{
+        mesh = WorldItems/PillBottleEmpty,
+        texture = PillBottle,
+		scale = 0.0045,
+	}
+	
+	model DisinfectantEmpty
+	{
+        mesh = WorldItems/Disinfectant,
+        texture = WorldItems/BottleOfDisinfectantEmpty,
+		scale = 0.4,
+	}
+	
+	model DisinfectantWater
+	{
+        mesh = WorldItems/Disinfectant,
+        texture = WorldItems/BottleOfDisinfectantWater,
+		scale = 0.4,
+	}
+	
+	model DisinfectantWaterBottleSM
+	{
+        mesh = DisinfectantWaterBottleSM,
+		scale = 0.4,
+	}
+
+    model PainkillersEmpty
+	{
+        mesh = WorldItems/PainkillersEmpty,
+        texture = WorldItems/PainKillers,
+		scale = 0.0045,
+	}
+
+    model VitaminsEmpty
+	{
+        mesh = WorldItems/VitaminsEmpty,
+        texture = WorldItems/Vitamins,
+		scale = 0.0045,
+	}
+
+	/*COSMETICS STUFF*/
+
+    model CologneEmpty
+	{
+        mesh = WorldItems/Cologne,
+        texture = WorldItems/CologneEmpty,
+		scale = 0.6,
+	}
+
+    model HairDyeBlackEmpty
+	{
+        mesh = WorldItems/HairDye,
+        texture = WorldItems/HairDyeBlackEmpty,
+		scale = 0.6,
+	}
+
+    model HairDyeBlondEmpty
+	{
+        mesh = WorldItems/HairDye,
+        texture = WorldItems/HairDyeBlondEmpty,
+		scale = 0.6,
+	}
+
+    model HairDyeBlueEmpty
+	{
+        mesh = WorldItems/HairDye,
+        texture = WorldItems/HairDyeBlueEmpty,
+		scale = 0.6,
+	}
+
+    model HairDyeBrownEmpty
+	{
+        mesh = WorldItems/HairDye,
+        texture = WorldItems/HairDyeBrownEmpty,
+		scale = 0.6,
+	}
+
+    model HairDyeGinger
+	{
+        mesh = WorldItems/HairDye,
+        texture = WorldItems/HairDyeGinger,
+		scale = 0.6,
+	}
+
+    model HairDyeGingerEmpty
+	{
+        mesh = WorldItems/HairDye,
+        texture = WorldItems/HairDyeGingerEmpty,
+		scale = 0.6,
+	}
+
+    model HairDyeGreenEmpty
+	{
+        mesh = WorldItems/HairDye,
+        texture = WorldItems/HairDyeGreenEmpty,
+		scale = 0.6,
+	}
+	
+    model HairDyePinkEmpty
+	{
+        mesh = WorldItems/HairDye,
+        texture = WorldItems/HairDyePinkEmpty,
+		scale = 0.6,
+	}
+	
+    model HairDyeRedEmpty
+	{
+        mesh = WorldItems/HairDye,
+        texture = WorldItems/HairDyeRedEmpty,
+		scale = 0.6,
+	}
+	
+    model HairDyeWhiteEmpty
+	{
+        mesh = WorldItems/HairDye,
+        texture = WorldItems/HairDyeWhiteEmpty,
+		scale = 0.6,
+	}
+	
+    model LipstickTubeEmpty
+	{
+        mesh = WorldItems/LipstickEmpty,
+        texture = WorldItems/Lipstick,
+		scale = 0.008,
+	}
+	
+    model MakeupEyeshadowEmpty
+	{
+        mesh = WorldItems/MakeupEyeshadow,
+        texture = WorldItems/EyesMakeupEmpty,
+		scale = 0.6,
+	}
+	
+    model MakeupFoundationEmpty
+	{
+        mesh = WorldItems/MakeupFoundation,
+        texture = WorldItems/FoundationMakeUpEmpty,
+		scale = 0.6,
+	}
+	
+    model PerfumeEmpty
+	{
+        mesh = WorldItems/Perfume,
+        texture = WorldItems/PerfumeEmpty,
+		scale = 0.6,
+	}
+	
+	/*OTHER*/
+	
+    model BagOfCharcoal
+	{
+        mesh = WorldItems/BagofConcretePowder,
+        texture = WorldItems/BagOfCharcoalEmpty,
+		scale = 0.2,
+	}
+	
+    model BagOfCharcoalEmpty
+	{
+        mesh = WorldItems/ConcretePowderEmpty,
+        texture = WorldItems/BagOfCharcoalEmpty,
+		scale = 0.0025,
+	}
+	
+	model CardboardFlat
+	{
+		mesh = WorldItems/BoxOfJarsEmpty,
+        texture = WorldItems/BoxOfJars,
+		scale = 0.0045,
+	}
+	
+	model CleaningLiquidEmpty
+	{
+        mesh = WorldItems/CleaningLiquid,
+        texture = WorldItems/LiquidSoapEmpty,
+		scale = 0.4,
+	}
+	
+	model CleaningLiquidWater
+	{
+        mesh = WorldItems/CleaningLiquid,
+        texture = WorldItems/LiquidSoapWater,
+		scale = 0.4,
+	}
+	
+	model CleaningLiquidBottleSM
+	{
+        mesh = CleaningLiquidBottleWaterSM,
+		scale = 0.4,
+	}
+	
+	model ConcretePowderEmpty
+	{
+        mesh = WorldItems/ConcretePowderEmpty,
+        texture = WorldItems/ConcretePowderEmpty,
+		scale = 0.0025,
+	}
+	
+	model DuctTapeEmpty
+	{
+        mesh = WorldItems/DuctTapeEmpty,
+        texture = WorldItems/DuctTape,
+		scale = 0.007,
+	}
+	
+	model EmptyNailsBox
+	{
+        mesh = WorldItems/NailsBoxEmpty,
+        texture = WorldItems/BoxOfNails,
+		scale = 0.0044,
+	}
+	
+	model PaperclipBoxV2
+	{
+        mesh = WorldItems/PaperclipBoxV2,
+        texture = WorldItems/PaperclipsBoxV2,
+		scale = 0.0045,
+	}
+	
+	model EmptyPaperclipBox
+	{
+        mesh = WorldItems/PaperclipBoxV2Empty,
+        texture = WorldItems/PaperclipsBoxV2,
+		scale = 0.0065,
+	}
+	
+	model EmptyScrewsBox
+	{
+        mesh = WorldItems/ScrewsBoxEmpty,
+        texture = WorldItems/BoxOfScrewsEmpty,
+		scale = 0.0045,
+	}
+	
+	model FishingLineEmpty
+	{
+        mesh = WorldItems/FishingLineEmpty,
+        texture = WorldItems/FishingLine,
+		scale = 0.0065,
+	}
+	
+	model GlueEmpty
+	{
+        mesh = WorldItems/GlueEmpty,
+        texture = WorldItems/GlueEmpty,
+		scale = 0.005,
+	}
+	
+	model GunpowderJarEmpty
+	{
+        mesh = WorldItems/GunpowderJarEmpty,
+        texture = WorldItems/GunpowderJarEmpty,
+		scale = 0.0045,
+	}
+	
+	model MatchesEmpty
+	{
+        mesh = WorldItems/MatchesEmpty,
+        texture = WorldItems/Matches,
+		scale = 0.0045,
+	}
+	
+	model PlasterPowderEmpty
+	{
+        mesh = WorldItems/PlasterPowderEmpty,
+        texture = WorldItems/BagOfPlaster,
+		scale = 0.0025,
+	}
+	
+	model SparklerBoxEmpty
+	{
+        mesh = WorldItems/SparklerBoxEmpty,
+        texture = WorldItems/BoxOfSparklers,
+		scale = 0.0045,
+	}
+	
+	model ThreadSpool
+	{
+        mesh = WorldItems/ThreadSpool,
+        texture = WorldItems/Thread,
+		scale = 0.006,
+	}
+
+	model ToiletPaperEmpty
+	{
+        mesh = WorldItems/ToiletPaperEmpty,
+        texture = WorldItems/ToiletPaper,
+		scale = 0.0045,
+	}
+
+	model TwineSpool2
+	{
+        mesh = WorldItems/TwineSpool2,
+        texture = WorldItems/Twine,
+		scale = 0.0065,
+	}
+
+	model WeldingRodsEmpty
+	{
+        mesh = WorldItems/WeldingRodsEmpty,
+        texture = WorldItems/WeldingRods,
+		scale = 0.0032,
+	}
+
+	model WoodGlueEmpty
+	{
+        mesh = WorldItems/WoodGlueEmpty,
+        texture = WorldItems/WoodGlueEmpty,
+		scale = 0.008,
+	}
+
+	/*LITERATURE*/
+
+	model BookTorn
+	{
+        mesh = WorldItems/BookTorn,
+        texture = WorldItems/BookRed,
+		scale = 0.0045,
+	}
+
+	model Crossword1Used
+	{
+        mesh = WorldItems/Magazine2Used,
+        texture = WorldItems/MagazineCrossword1Used,
+		scale = 0.0045,
+	}
+
+	model Crossword2Used
+	{
+        mesh = WorldItems/Magazine2Used,
+        texture = WorldItems/MagazineCrossword2Used,
+		scale = 0.0045,
+	}
+
+	model Crossword3Used
+	{
+        mesh = WorldItems/Magazine2Used,
+        texture = WorldItems/MagazineCrossword3Used,
+		scale = 0.0045,
+	}
+
+	model Magazine2
+	{
+        mesh = WorldItems/MagazineOpen2,
+        texture = WorldItems/MagazineOpen1,
+		scale = 0.0045,
+	}
+
+	model MagazineTorn
+	{
+        mesh = WorldItems/MagazineUsed,
+        texture = WorldItems/MagazineOpen1,
+		scale = 0.0045,
+	}
+
+	model NewspaperTorn
+	{
+        mesh = WorldItems/NewspaperUsed,
+        texture = WorldItems/Newspaper,
+		scale = 0.0045,
+	}
+
+	model WordSearch1Used
+	{
+        mesh = WorldItems/Magazine2Used,
+        texture = WorldItems/MagazineWordSearch1Used,
+		scale = 0.0045,
+	}
+
+	model WordSearch2Used
+	{
+        mesh = WorldItems/Magazine2Used,
+        texture = WorldItems/MagazineWordSearch2Used,
+		scale = 0.0045,
+	}
+
+	model WordSearch3Used
+	{
+        mesh = WorldItems/Magazine2Used,
+        texture = WorldItems/MagazineWordSearch3Used,
+		scale = 0.0045,
+	}
+
+	/*SEEDS*/
+
+	model BroccoliSeedsPacketEmpty
+	{
+        mesh = WorldItems/SeedPacketEmpty,
+        texture = WorldItems/SeedPacketBroccoli,
+		scale = 0.0045,
+	}
+
+	model CabbageSeedsPacketEmpty
+	{
+        mesh = WorldItems/SeedPacketEmpty,
+        texture = WorldItems/SeedPacketCabbage,
+		scale = 0.0045,
+	}
+
+	model CarrotSeedsPacketEmpty
+	{
+        mesh = WorldItems/SeedPacketEmpty,
+        texture = WorldItems/SeedPacketCarrot,
+		scale = 0.0045,
+	}
+
+	model PotatoSeedsPacketEmpty
+	{
+        mesh = WorldItems/SeedPacketEmpty,
+        texture = WorldItems/SeedPacketPotato,
+		scale = 0.0045,
+	}
+
+	model RadishSeedsPacketEmpty
+	{
+        mesh = WorldItems/SeedPacketEmpty,
+        texture = WorldItems/SeedPacketRadish,
+		scale = 0.0045,
+	}
+
+	model StrawberrySeedsPacketEmpty
+	{
+        mesh = WorldItems/SeedPacketEmpty,
+        texture = WorldItems/SeedPacketStrawberry,
+		scale = 0.0045,
+	}
+
+	model TomatoSeedsPacketEmpty
+	{
+        mesh = WorldItems/SeedPacketEmpty,
+        texture = WorldItems/SeedPacketTomato,
+		scale = 0.0045,
+	}
+
+	/*BOOLETS*/
+
+	model 9mmAmmoBoxEmpty
+	{
+        mesh = WorldItems/AmmoBoxPistolEmpty,
+        texture = WorldItems/BoxOfRounds9MM,
+		scale = 0.0045,
+	}
+
+	model 38AmmoBoxEmpty
+	{
+        mesh = WorldItems/AmmoBoxPistolEmpty,
+        texture = WorldItems/BoxOfRounds38Special,
+		scale = 0.0045,
+	}
+
+	model 44AmmoBoxEmpty
+	{
+        mesh = WorldItems/AmmoBoxPistolEmpty,
+        texture = WorldItems/BoxOfRounds44Magnum,
+		scale = 0.0045,
+	}
+
+	model 45AmmoBoxEmpty
+	{
+        mesh = WorldItems/AmmoBoxPistolEmpty,
+        texture = WorldItems/BoxOfRounds45Auto,
+		scale = 0.0045,
+	}
+
+	model RifleAmmo223
+	{
+        mesh = WorldItems/RifleAmmoBox,
+        texture = WorldItems/RifleAmmoBox223_V2,
+		scale = 0.6,
+	}
+
+	model RifleAmmo308
+	{
+        mesh = WorldItems/RifleAmmoBox,
+        texture = WorldItems/RifleAmmoBox308,
+		scale = 0.6,
+	}
+
+	model RifleAmmo556
+	{
+        mesh = WorldItems/RifleAmmoBox,
+        texture = WorldItems/RifleAmmoBox556,
+		scale = 0.6,
+	}
+
+	model EmptyRifleAmmo223
+	{
+        mesh = WorldItems/RifleAmmoBoxEmpty,
+        texture = WorldItems/RifleAmmoBox223_V2,
+		scale = 0.006,
+	}
+
+	model EmptyRifleAmmo308
+	{
+        mesh = WorldItems/RifleAmmoBoxEmpty,
+        texture = WorldItems/RifleAmmoBox308,
+		scale = 0.006,
+	}
+
+	model EmptyRifleAmmo556
+	{
+        mesh = WorldItems/RifleAmmoBoxEmpty,
+        texture = WorldItems/RifleAmmoBox556,
+		scale = 0.006,
+	}
+
+	model EmptyShotgunAmmoBox
+	{
+        mesh = WorldItems/ShotgunShellsBoxEmpty,
+        texture = WorldItems/BoxOfShotGunShells,
+		scale = 0.0065,
+	}
+
+	model SleepingPillsEmpty
+	{
+        mesh = WorldItems/SleepingPillsEmpty,
+        texture = WorldItems/SleepingTablets,
+		scale = 0.0045,
+	}
+	
+	model HairDyeYellowEmpty
+	{
+        mesh = WorldItems/HairDye,
+        texture = WorldItems/HairDyeYellowEmpty,
+		scale = 0.6,
+	}
+	
+	model CornCob
+	{
+        mesh = WorldItems/CornCob,
+        texture = WorldItems/CornCob,
+		scale = 0.0045,
+	}
+	
+	model SaltShakerEmpty
+	{
+        mesh = WorldItems/Salt,
+        texture = WorldItems/SaltPepperEmpty,
+		scale = 0.6,
+	}
+	
+	model SpaghetBox
+	{
+        mesh = WorldItems/SpagetBox,
+        texture = WorldItems/PastaV2,
+		scale = 0.0045,
+	}
+	
+	model SpaghetBoxEmpty
+	{
+        mesh = WorldItems/SpagetBoxEmpty,
+        texture = WorldItems/PastaV2,
+		scale = 0.0045,
+	}
+	
+	model CanOfOatsEmpty
+	{
+        mesh = WorldItems/CanOfOatsEmpty,
+        texture = WorldItems/CanOfOats,
+		scale = 0.0045,
+	}
+	
+	model OliveOilEmpty
+	{
+        mesh = WorldItems/OilOlive,
+        texture = WorldItems/OilOlive,
+		scale = 0.4,
+	}
+	
+	model OliveOilWater
+	{
+        mesh = WorldItems/OilOlive,
+        texture = WorldItems/OilOlive,
+		scale = 0.4,
+	}
+	
+	/*TODO: Proper static model*/
+	model OliveOilBottleSM
+	{
+        mesh = DisinfectantWaterBottleSM,
+		scale = 0.6,
+	}
+
+	model TissueUsed
+	{
+        mesh = WorldItems/Tissue,
+        texture = WorldItems/Tissue,
+		scale = 0.4,
+	}
+
+	model CornflourEmpty
+	{
+        mesh = WorldItems/CornflourEmpty,
+        texture = WorldItems/Cornflour,
+		scale = 0.006,
+	}
+
+	model YeastPacket
+	{
+        mesh = WorldItems/YeastPacket,
+        texture = WorldItems/YeastPacket,
+		scale = 0.0045,
+	}
+
+	model YeastPacketEmpty
+	{
+        mesh = WorldItems/WipesEmpty2,
+        texture = WorldItems/YeastPacket,
+		scale = 0.0045,
+	}
+
+	model YeastPacketEmpty
+	{
+        mesh = WorldItems/WipesEmpty2,
+        texture = WorldItems/YeastPacket,
+		scale = 0.0045,
+	}
+
+    model CigsButtReg
+    {
+        mesh = WorldItems/CigaretteButt,
+        texture = WorldItems/Cigarettes,
+        scale = 0.0075,
+    }
+}

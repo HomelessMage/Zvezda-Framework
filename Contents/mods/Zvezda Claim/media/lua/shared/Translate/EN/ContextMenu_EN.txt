@@ -1,0 +1,11 @@
+ContextMenu_EN = {
+    ContextMenu_setsafehouseforce = "Set Safehouse",
+    ContextMenu_cmshzonethree = "Zone (3x3)",
+    ContextMenu_cmshzoneseven = "Zone (7x7)",
+    ContextMenu_cmshzonefifteen = "Zone (15x15)",
+	ContextMenu_cmshzonethirtyone = "Zone (30x30)",
+	ContextMenu_cmshzonesixtyone = "Zone (60x60)",
+	ContextMenu_cmshzoneonehundredandone = "Zone (100x100)",
+    ContextMenu_cmshzonehouse = "The Building",
+    ContextMenu_denysafe = "No permission for Safehouse",
+}

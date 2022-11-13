@@ -1,0 +1,18 @@
+ItemName_RU = {
+    ItemName_Base.Hat_Police = "Фуражка полицейского",
+    ItemName_Base.Shirt_PoliceBlue = "Рубашка полицейского",
+    ItemName_Base.Tshirt_PoliceBlue = "Футболка полицейского (синяя)",
+    ItemName_Base.Trousers_Police = "Брюки полицейского",
+    ItemName_Base.Hat_Police_Grey = "Шляпа полицейского Штата",
+    ItemName_Base.Shirt_PoliceGrey = "Рубашка полицейского Штата",
+    ItemName_Base.Tshirt_PoliceGrey = "Футболка полицейского Штата",
+    ItemName_Base.Trousers_PoliceGrey = "Брюки полицейского Штата",
+    ItemName_Base.Tshirt_Ranger = "Футболка рейнджера",
+    ItemName_Base.Jacket_Police = "Куртка полицейского",
+    ItemName_Base.Police_Undershirt = "Майка полицейского",
+    ItemName_Base.Police_Undershirt_Dark = "Майка полицейского (серая)",
+    ItemName_Base.Shoes_PoliceBoots = "Ботинки полицейского",
+    ItemName_Base.TShirt_OfficerWhite = "Футболка полицейского (белая)",
+    ItemName_Base.Shirt_OfficerWhite = "Рубашка полицейского (белая)",
+    ItemName_Base.TShirt_PrisonGuard = "Футболка охранника тюрьмы",
+}

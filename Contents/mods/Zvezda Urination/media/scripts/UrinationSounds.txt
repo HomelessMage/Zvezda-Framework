@@ -1,0 +1,21 @@
+module Base
+{
+	sound D_Urination1
+	{
+		category = Urination,
+		clip
+		{
+			file = media/sound/D_Urination1.ogg,
+			volume = 1,
+		}
+	}
+	sound D_Flush
+	{
+		category = Urination,
+		clip
+		{
+			file = media/sound/D_Flush.ogg,
+			volume = 1,
+		}
+	}
+}

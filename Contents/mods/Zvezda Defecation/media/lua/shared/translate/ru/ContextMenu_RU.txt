@@ -1,0 +1,5 @@
+ContextMenu_RU = {
+	ContextMenu_Defecate = "Испражниться",
+	ContextMenu_Defecated = " (в фекалиях)",
+	ContextMenu_DefecateSterilize = "Очистить",
+}

@@ -1,0 +1,2704 @@
+module Base
+{
+  
+ model TestBox
+	{
+		mesh    = WorldItems/TestBox,
+		texture = WorldItems/TestBox,
+		scale   = 0.1,
+	}
+
+ item TestBox
+    {
+        Weight	=	2.4,
+        Type	=	Normal,
+        DisplayName	=	TestBox,
+        Icon	=	TestBox,
+        SurvivalGear = TRUE,
+        WorldStaticModel = TestBox,	
+        
+    }
+
+ model BookBoxTest
+	{
+		mesh    = WorldItems/BookBoxTest,
+		texture = WorldItems/BookBoxTest,
+		scale   = 0.1,
+	}
+
+ item BookBoxTest
+    {
+        Weight	=	2.4,
+        Type	=	Normal,
+        DisplayName	=	BookBoxTest,
+        Icon	=	TestBox,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BookBoxTest,	
+        
+    }
+
+/****************************** Literature and Maps ******************************/
+
+ model WallMapRiverside
+	{
+		mesh    = WorldItems/WallMap,
+		texture = WorldItems/MapOfRiverside,
+		scale   = 0.007,
+	}
+
+ model TableMapRiverside
+	{
+		mesh    = WorldItems/TableMap,
+		texture = WorldItems/MapOfRiverside,
+		scale   = 0.007,
+	}
+
+item WallMapRiverside
+    {
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Map of Riverside on Wall,
+        Icon	=	Map,
+        SurvivalGear = TRUE,
+        WorldStaticModel = WallMapRiverside,	
+        
+    }
+
+item TableMapRiverside
+    {
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Spread out Map of Riverside,
+        Icon	=	Map,
+        SurvivalGear = TRUE,
+        WorldStaticModel = TableMapRiverside,	
+        
+    }
+	
+
+	recipe Lay Riverside Map Flat
+    {
+       RiversideMap,
+
+        Result:TableMapRiverside,
+        Time:20,
+	
+    }
+
+	recipe Hang Riverside Map on Wall
+    {
+       RiversideMap,
+
+        Result:WallMapRiverside,
+        Time:20,
+	
+    }
+    
+	recipe Fold up Riverside Map
+    {
+        WallMapRiverside/TableMapRiverside,
+
+        Result:RiversideMap,
+        Sound:PutItemInBag,
+        Time:5.0,
+    } 
+
+
+ model WallMapRosewood
+	{
+		mesh    = WorldItems/WallMap,
+		texture = WorldItems/MapOfRosewood,
+		scale   = 0.007,
+	}
+
+ model TableMapRosewood
+	{
+		mesh    = WorldItems/TableMap,
+		texture = WorldItems/MapOfRosewood,
+		scale   = 0.007,
+	}
+
+item WallMapRosewood
+    {
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Map of Rosewood on Wall,
+        Icon	=	Map,
+        SurvivalGear = TRUE,
+        WorldStaticModel = WallMapRosewood,	
+        
+    }
+
+item TableMapRosewood
+    {
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Spread out Map of Rosewood,
+        Icon	=	Map,
+        SurvivalGear = TRUE,
+        WorldStaticModel = TableMapRosewood,	
+        
+    }
+	
+
+	recipe Lay Rosewood Map Flat
+    {
+       RosewoodMap,
+
+        Result:TableMapRosewood,
+        Time:20,
+	
+    }
+
+	recipe Hang Rosewood Map on Wall
+    {
+       RosewoodMap,
+
+        Result:WallMapRosewood,
+        Time:20,
+	
+    }
+    
+	recipe Fold up Rosewood Map
+    {
+        WallMapRosewood/TableMapRosewood,
+
+        Result:RosewoodMap,
+        Sound:PutItemInBag,
+        Time:5.0,
+    } 
+
+ model WallMapWestPoint
+	{
+		mesh    = WorldItems/WallMap,
+		texture = WorldItems/MapOfWestPoint,
+		scale   = 0.007,
+	}
+
+ model TableMapWestPoint
+	{
+		mesh    = WorldItems/TableMap,
+		texture = WorldItems/MapOfWestPoint,
+		scale   = 0.007,
+	}
+
+item WallMapWestPoint
+    {
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Map of WestPoint on Wall,
+        Icon	=	Map,
+        SurvivalGear = TRUE,
+        WorldStaticModel = WallMapWestPoint,	
+        
+    }
+
+item TableMapWestPoint
+    {
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Spread out Map of WestPoint,
+        Icon	=	Map,
+        SurvivalGear = TRUE,
+        WorldStaticModel = TableMapWestPoint,	
+        
+    }
+	
+
+	recipe Lay WestPoint Map Flat
+    {
+       WestpointMap,
+
+        Result:TableMapWestPoint,
+        Time:20,
+	
+    }
+
+	recipe Hang WestPoint Map on Wall
+    {
+       WestpointMap,
+
+        Result:WallMapWestPoint,
+        Time:20,
+	
+    }
+    
+	recipe Fold up WestPoint Map
+    {
+        WallMapWestPoint/TableMapWestPoint,
+
+        Result:WestpointMap,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }  
+
+
+ model WallMapMuldragh
+	{
+		mesh    = WorldItems/WallMap,
+		texture = WorldItems/MapOfMuldragh,
+		scale   = 0.007,
+	}
+
+ model TableMapMuldragh
+	{
+		mesh    = WorldItems/TableMap,
+		texture = WorldItems/MapOfMuldragh,
+		scale   = 0.007,
+	}
+
+item WallMapMuldragh
+    {
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Map of Muldraugh on Wall,
+        Icon	=	Map,
+        SurvivalGear = TRUE,
+        WorldStaticModel = WallMapMuldragh,	
+        
+    }
+
+item TableMapMuldragh
+    {
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Spread out Map of Muldraugh,
+        Icon	=	Map,
+        SurvivalGear = TRUE,
+        WorldStaticModel = TableMapMuldragh,	
+        
+    }
+	
+
+	recipe Lay Muldraugh Map Flat
+    {
+       MuldraughMap,
+
+        Result:TableMapMuldragh,
+        Time:20,
+	
+    }
+
+	recipe Hang Muldraugh Map on Wall
+    {
+       MuldraughMap,
+
+        Result:WallMapMuldragh,
+        Time:20,
+	
+    }
+    
+	recipe Fold up Muldraugh Map
+    {
+        WallMapMuldragh/TableMapMuldragh,
+
+        Result:MuldraughMap,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }  
+
+model WallMapMarchRidge
+	{
+		mesh    = WorldItems/WallMap,
+		texture = WorldItems/MapOfMarchRidge,
+		scale   = 0.007,
+	}
+
+ model TableMapMarchRidge
+	{
+		mesh    = WorldItems/TableMap,
+		texture = WorldItems/MapOfMarchRidge,
+		scale   = 0.007,
+	}
+
+item WallMapMarchRidge
+    {
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Map of MarchRidge on Wall,
+        Icon	=	Map,
+        SurvivalGear = TRUE,
+        WorldStaticModel = WallMapMarchRidge,	
+        
+    }
+
+item TableMapMarchRidge
+    {
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Spread out Map of MarchRidge,
+        Icon	=	Map,
+        SurvivalGear = TRUE,
+        WorldStaticModel = TableMapMarchRidge,	
+        
+    }
+	
+
+	recipe Lay MarchRidge Map Flat
+    {
+       MarchRidgeMap,
+
+        Result:TableMapMarchRidge,
+        Time:20,
+	
+    }
+
+	recipe Hang MarchRidge Map on Wall
+    {
+       MarchRidgeMap,
+
+        Result:WallMapMarchRidge,
+        Time:20,
+	
+    }
+    
+	recipe Fold up Marchridge Map
+    {
+        WallMapMarchRidge/TableMapMarchRidge,
+
+        Result:MarchRidgeMap,
+        Sound:PutItemInBag,
+        Time:5.0,
+    } 
+
+model BoxOfMagazines
+	{
+		mesh    = WorldItems/TestBox,
+		texture = WorldItems/BoxOfMagazine,
+		scale   = 0.1,
+	}
+
+item BoxOfMagazines
+    {
+        Weight	=	0.5,
+        Type	=	Normal,
+        DisplayName	=	Box of 10 Magazines,
+        Icon	=	BoxOfCocoaPowder,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfMagazines,	
+        
+    }
+	
+
+	recipe Box up 10 Magazines
+    {
+       Magazine=10,
+
+        Result:BoxOfMagazines,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of Magazines
+    {
+        BoxOfMagazines,
+
+        Result:Magazine=10,
+        Sound:PutItemInBag,
+        Time:5.0,
+    } 
+
+model BoxOfComicBooks
+	{
+		mesh    = WorldItems/TestBox,
+		texture = WorldItems/BoxOfComicBooks,
+		scale   = 0.1,
+	}
+
+item BoxOfComicBooks
+    {
+        Weight	=	0.5,
+        Type	=	Normal,
+        DisplayName	=	Box of 10 ComicBooks,
+        Icon	=	BoxOfCocoaPowder,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfComicBooks,	
+        
+    }
+	
+
+	recipe Box up 10 ComicBooks
+    {
+       ComicBook=10,
+
+        Result:BoxOfComicBooks,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of ComicBooks
+    {
+        BoxOfComicBooks,
+
+        Result:ComicBook=10,
+        Sound:PutItemInBag,
+        Time:5.0,
+    } 
+
+ model BoxOfHottieZ
+	{
+		mesh    = WorldItems/TestBox,
+		texture = WorldItems/BoxOfHottieZ,
+		scale   = 0.1,
+	}
+
+item BoxOfHottieZ
+    {
+        Weight	=	0.5,
+        Type	=	Normal,
+        DisplayName	=	Box of 5 HottieZ,
+        Icon	=	BoxOfCocoaPowder,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfHottieZ,	
+        
+    }
+	
+
+	recipe Box up 5 HottieZ
+    {
+       HottieZ=5,
+
+        Result:BoxOfHottieZ,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of HottieZ
+    {
+        BoxOfHottieZ,
+
+        Result:HottieZ=5,
+        Sound:PutItemInBag,
+        Time:5.0,
+    } 
+
+model NewspaperStack
+	{
+		mesh    = WorldItems/NewspaperStack,
+		texture = WorldItems/NewspaperStackTex,
+		scale   = 0.1,
+	}
+
+item NewspaperStack
+    {
+        Weight	=	0.25,
+        Type	=	Normal,
+        DisplayName	=	Stack of 5 Newspaper,
+        Icon	=	TestBox,
+        SurvivalGear = TRUE,
+        WorldStaticModel = NewspaperStack,	
+        
+    }
+
+	recipe Stack up 5 Newspaper
+    {
+	Newspaper=5,
+
+        Result:NewspaperStack,
+        Time:20,
+	
+    }
+    
+	recipe Open Stack of Newspaper
+    {
+        NewspaperStack,
+
+        Result:Newspaper=5,
+        Sound:PutItemInBag,
+        Time:5.0,
+	
+    }
+
+ model BookBox
+	{
+		mesh    = WorldItems/BookBoxTest,
+		texture = WorldItems/BookBoxTest,
+		scale   = 0.1,
+	}
+
+item BookBox
+    {
+        Weight	=	0.4,
+        Type	=	Normal,
+        DisplayName	=	Box of 5 Books,
+        Icon	=	TestBox,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BookBoxTest,	
+        
+    }
+	
+
+	recipe Box up 5 Books
+    {
+	Book=5,
+
+        Result:BookBox,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of Books
+    {
+        BookBox,
+
+        Result:Book=5,
+        Sound:PutItemInBag,
+        Time:5.0,
+	
+    }
+
+ model BookBoxCarpentry
+	{
+		mesh    = WorldItems/BookBoxTest,
+		texture = WorldItems/BookBoxCarpentry,
+		scale   = 0.1,
+	}
+
+item BookBoxCarpentry
+    {
+        Weight	=	0.4,
+        Type	=	Normal,
+        DisplayName	=	Box of all 5 Carpentry Skill Books,
+        Icon	=	TestBox,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BookBoxCarpentry,	
+        
+    }
+	
+
+	recipe Box up Carpentry Books
+    {
+	BookCarpentry1,
+	BookCarpentry2,
+	BookCarpentry3,
+	BookCarpentry4,
+	BookCarpentry5,
+
+        Result:BookBoxCarpentry,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of Carpentry Books
+    {
+        BookBoxCarpentry,
+
+        Result:BookCarpentry1,
+        Sound:PutItemInBag,
+        Time:5.0,
+	OnCreate 		: Box_OpenCarpentry,
+    }
+
+model BookBoxTrapping
+	{
+		mesh    = WorldItems/BookBoxTest,
+		texture = WorldItems/BookBoxTrapping,
+		scale   = 0.1,
+	}
+
+item BookBoxTrapping
+    {
+        Weight	=	0.4,
+        Type	=	Normal,
+        DisplayName	=	Box of all 5 Trapping Skill Books,
+        Icon	=	TestBox,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BookBoxTrapping,	
+        
+    }
+	
+
+	recipe Box up Trapping Books
+    {
+	BookTrapping1,
+	BookTrapping2,
+	BookTrapping3,
+	BookTrapping4,
+	BookTrapping5,
+
+        Result:BookBoxTrapping,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of Trapping Books
+    {
+        BookBoxTrapping,
+
+        Result:BookTrapping1,
+        Sound:PutItemInBag,
+        Time:5.0,
+	OnCreate 		: Box_OpenTrapping,
+    }
+
+model BookBoxFishing
+	{
+		mesh    = WorldItems/BookBoxTest,
+		texture = WorldItems/BookBoxFishing,
+		scale   = 0.1,
+	}
+
+item BookBoxFishing
+    {
+        Weight	=	0.4,
+        Type	=	Normal,
+        DisplayName	=	Box of all 5 Fishing Skill Books,
+        Icon	=	TestBox,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BookBoxFishing,	
+        
+    }
+	
+
+	recipe Box up Fishing Books
+    {
+	BookFishing1,
+	BookFishing2,
+	BookFishing3,
+	BookFishing4,
+	BookFishing5,
+
+        Result:BookBoxFishing,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of Fishing Books
+    {
+        BookBoxFishing,
+
+        Result:BookFishing1,
+        Sound:PutItemInBag,
+        Time:5.0,
+	OnCreate 		: Box_OpenFishing,
+    }
+
+model BookBoxMechanics
+	{
+		mesh    = WorldItems/BookBoxTest,
+		texture = WorldItems/BookBoxMechanics,
+		scale   = 0.1,
+	}
+
+item BookBoxMechanics
+    {
+        Weight	=	0.4,
+        Type	=	Normal,
+        DisplayName	=	Box of all 5 Mechanics Skill Books,
+        Icon	=	TestBox,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BookBoxMechanics,	
+        
+    }
+	
+
+	recipe Box up Mechanics Books
+    {
+	BookMechanic1,
+	BookMechanic2,
+	BookMechanic3,
+	BookMechanic4,
+	BookMechanic5,
+
+        Result:BookBoxMechanics,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of Mechanics Books
+    {
+        BookBoxMechanics,
+
+        Result:BookMechanic1,
+        Sound:PutItemInBag,
+        Time:5.0,
+	OnCreate 		: Box_OpenMechanics,
+    }
+
+model BookBoxFirstAid
+	{
+		mesh    = WorldItems/BookBoxTest,
+		texture = WorldItems/BookBoxFirstAid,
+		scale   = 0.1,
+	}
+
+item BookBoxFirstAid
+    {
+        Weight	=	0.4,
+        Type	=	Normal,
+        DisplayName	=	Box of all 5 FirstAid Skill Books,
+        Icon	=	TestBox,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BookBoxFirstAid,	
+        
+    }
+	
+
+	recipe Box up FirstAid Books
+    {
+	BookFirstAid1,
+	BookFirstAid2,
+	BookFirstAid3,
+	BookFirstAid4,
+	BookFirstAid5,
+
+        Result:BookBoxFirstAid,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of FirstAid Books
+    {
+        BookBoxFirstAid,
+
+        Result:BookFirstAid1,
+        Sound:PutItemInBag,
+        Time:5.0,
+	OnCreate 		: Box_OpenFirstAid,
+    }
+
+model BookBoxMetalwork
+	{
+		mesh    = WorldItems/BookBoxTest,
+		texture = WorldItems/BookBoxMetalwork,
+		scale   = 0.1,
+	}
+
+item BookBoxMetalwork
+    {
+        Weight	=	0.4,
+        Type	=	Normal,
+        DisplayName	=	Box of all 5 Metalwork Skill Books,
+        Icon	=	TestBox,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BookBoxMetalwork,	
+        
+    }
+	
+
+	recipe Box up Metalwork Books
+    {
+	BookMetalWelding1,
+	BookMetalWelding2,
+	BookMetalWelding3,
+	BookMetalWelding4,
+	BookMetalWelding5,
+
+        Result:BookBoxMetalwork,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of Metalwork Books
+    {
+        BookBoxMetalwork,
+
+        Result:BookMetalWelding1,
+        Sound:PutItemInBag,
+        Time:5.0,
+	OnCreate 		: Box_OpenMetalwork,
+    }
+
+model BookBoxElectricity
+	{
+		mesh    = WorldItems/BookBoxTest,
+		texture = WorldItems/BookBoxElectricity,
+		scale   = 0.1,
+	}
+
+item BookBoxElectricity
+    {
+        Weight	=	0.4,
+        Type	=	Normal,
+        DisplayName	=	Box of all 5 Electricity Skill Books,
+        Icon	=	TestBox,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BookBoxElectricity,	
+        
+    }
+	
+
+	recipe Box up Electricity Books
+    {
+	BookElectrician1,
+	BookElectrician2,
+	BookElectrician3,
+	BookElectrician4,
+	BookElectrician5,
+
+        Result:BookBoxElectricity,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of Electricity Books
+    {
+        BookBoxElectricity,
+
+        Result:BookElectrician1,
+        Sound:PutItemInBag,
+        Time:5.0,
+	OnCreate 		: Box_OpenElectricity,
+    }
+
+model BookBoxCooking
+	{
+		mesh    = WorldItems/BookBoxTest,
+		texture = WorldItems/BookBoxCooking,
+		scale   = 0.1,
+	}
+
+item BookBoxCooking
+    {
+        Weight	=	0.4,
+        Type	=	Normal,
+        DisplayName	=	Box of all 5 Cooking Skill Books,
+        Icon	=	TestBox,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BookBoxCooking,	
+        
+    }
+	
+
+	recipe Box up Cooking Books
+    {
+	BookCooking1,
+	BookCooking2,
+	BookCooking3,
+	BookCooking4,
+	BookCooking5,
+
+        Result:BookBoxCooking,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of Cooking Books
+    {
+        BookBoxCooking,
+
+        Result:BookCooking1,
+        Sound:PutItemInBag,
+        Time:5.0,
+	OnCreate 		: Box_OpenCooking,
+    }
+
+model BookBoxFarming
+	{
+		mesh    = WorldItems/BookBoxTest,
+		texture = WorldItems/BookBoxFarming,
+		scale   = 0.1,
+	}
+
+item BookBoxFarming
+    {
+        Weight	=	0.4,
+        Type	=	Normal,
+        DisplayName	=	Box of all 5 Farming Skill Books,
+        Icon	=	TestBox,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BookBoxFarming,	
+        
+    }
+	
+
+	recipe Box up Farming Books
+    {
+	BookFarming1,
+	BookFarming2,
+	BookFarming3,
+	BookFarming4,
+	BookFarming5,
+
+        Result:BookBoxFarming,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of Farming Books
+    {
+        BookBoxFarming,
+
+        Result:BookFarming1,
+        Sound:PutItemInBag,
+        Time:5.0,
+	OnCreate 		: Box_OpenFarming,
+    }
+
+model BookBoxForaging
+	{
+		mesh    = WorldItems/BookBoxTest,
+		texture = WorldItems/BookBoxForaging,
+		scale   = 0.1,
+	}
+
+item BookBoxForaging
+    {
+        Weight	=	0.4,
+        Type	=	Normal,
+        DisplayName	=	Box of all 5 Foraging Skill Books,
+        Icon	=	TestBox,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BookBoxForaging,	
+        
+    }
+	
+
+	recipe Box up Foraging Books
+    {
+	BookForaging1,
+	BookForaging2,
+	BookForaging3,
+	BookForaging4,
+	BookForaging5,
+
+        Result:BookBoxForaging,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of Foraging Books
+    {
+        BookBoxForaging,
+
+        Result:BookForaging1,
+        Sound:PutItemInBag,
+        Time:5.0,
+	OnCreate 		: Box_OpenForaging,
+    }
+
+
+model BookBoxTailoring
+	{
+		mesh    = WorldItems/BookBoxTest,
+		texture = WorldItems/BookBoxTailoring,
+		scale   = 0.1,
+	}
+
+item BookBoxTailoring
+    {
+        Weight	=	0.4,
+        Type	=	Normal,
+        DisplayName	=	Box of all 5 Tailoring Skill Books,
+        Icon	=	TestBox,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BookBoxTailoring,	
+        
+    }
+	
+
+	recipe Box up Tailoring Books
+    {
+	BookTailoring1,
+	BookTailoring2,
+	BookTailoring3,
+	BookTailoring4,
+	BookTailoring5,
+
+        Result:BookBoxTailoring,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of Tailoring Books
+    {
+        BookBoxTailoring,
+
+        Result:BookTailoring1,
+        Sound:PutItemInBag,
+        Time:5.0,
+	OnCreate 		: Box_OpenTailoring,
+    }
+/****************************** Non Perish Foods ******************************/
+
+ model BoxOfCereal
+	{
+		mesh    = WorldItems/TestBox,
+		texture = WorldItems/BoxOfCereal,
+		scale   = 0.1,
+	}
+
+item BoxOfCereal
+    {
+        Weight	=	0.4,
+        Type	=	Normal,
+        DisplayName	=	Box of 4 Cereal,
+        Icon	=	BoxOfCereal,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfCereal,	
+        
+    }
+	
+
+	recipe Box up 4 Cereal
+    {
+       Cereal=4,
+
+        Result:BoxOfCereal,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of Cereal
+    {
+        BoxOfCereal,
+
+        Result:Cereal=4,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+ model BoxOfRedCrisps
+	{
+		mesh    = WorldItems/TestBox,
+		texture = WorldItems/BoxOfRedCrisps,
+		scale   = 0.1,
+	}
+
+item BoxOfRedCrisps
+    {
+        Weight	=	1.6,
+        Type	=	Normal,
+        DisplayName	=	Box of 16 Red Crisps,
+        Icon	=	BoxOfRedCrisps,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfRedCrisps,	
+        
+    }
+	
+
+	recipe Box up 16 Red Crisps
+    {
+       Crisps=16,
+
+        Result:BoxOfRedCrisps,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of Red Crisps
+    {
+        BoxOfRedCrisps,
+
+        Result:Crisps=16,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+ model BoxOfYellowCrisps
+	{
+		mesh    = WorldItems/TestBox,
+		texture = WorldItems/BoxOfYellowCrisps,
+		scale   = 0.1,
+	}
+
+item BoxOfYellowCrisps
+    {
+        Weight	=	1.6,
+        Type	=	Normal,
+        DisplayName	=	Box of 16 Yellow Crisps,
+        Icon	=	BoxOfYellowCrisps,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfYellowCrisps,	
+        
+    }
+	
+
+	recipe Box up 16 Yellow Crisps
+    {
+       Crisps2=16,
+
+        Result:BoxOfYellowCrisps,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of Yellow Crisps
+    {
+        BoxOfYellowCrisps,
+
+        Result:Crisps2=16,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+ model BoxOfBlueCrisps
+	{
+		mesh    = WorldItems/TestBox,
+		texture = WorldItems/BoxOfBlueCrisps,
+		scale   = 0.1,
+	}
+
+item BoxOfBlueCrisps
+    {
+        Weight	=	1.6,
+        Type	=	Normal,
+        DisplayName	=	Box of 16 Blue Crisps,
+        Icon	=	BoxOfBlueCrisps,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfBlueCrisps,	
+        
+    }
+	
+
+	recipe Box up 16 Blue Crisps
+    {
+       Crisps3=16,
+
+        Result:BoxOfBlueCrisps,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of Blue Crisps
+    {
+        BoxOfBlueCrisps,
+
+        Result:Crisps3=16,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+ model BoxOfGreenCrisps
+	{
+		mesh    = WorldItems/TestBox,
+		texture = WorldItems/BoxOfGreenCrisps,
+		scale   = 0.1,
+	}
+
+item BoxOfGreenCrisps
+    {
+        Weight	=	1.6,
+        Type	=	Normal,
+        DisplayName	=	Box of 16 Green Crisps,
+        Icon	=	BoxOfGreenCrisps,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfGreenCrisps,	
+        
+    }
+	
+
+	recipe Box up 16 Green Crisps
+    {
+       Crisps4=16,
+
+        Result:BoxOfGreenCrisps,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of Green Crisps
+    {
+        BoxOfGreenCrisps,
+
+        Result:Crisps4=16,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+ model BoxOfChocolate
+	{
+		mesh    = WorldItems/TestBox,
+		texture = WorldItems/BoxOfChocolate,
+		scale   = 0.1,
+	}
+
+
+item BoxOfChocolate
+    {
+        Weight	=	1.6,
+        Type	=	Normal,
+        DisplayName	=	Box of 12 Chocolate Bars,
+        Icon	=	BoxOfChocolate,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfChocolate,	
+        
+    }
+	
+
+	recipe Box up 12 Chocolate Bars
+    {
+       Chocolate=12,
+
+        Result:BoxOfChocolate,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of Chocolate Bars
+    {
+        BoxOfChocolate,
+
+        Result:Chocolate=12,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+ model BoxOfCoffee2
+	{
+		mesh    = WorldItems/TestBox,
+		texture = WorldItems/BoxOfCoffee2,
+		scale   = 0.1,
+	}
+
+item BoxOfCoffee2
+    {
+        Weight	=	4,
+        Type	=	Normal,
+        DisplayName	=	Box of 8 Instant Coffee,
+        Icon	=	BoxOfCoffee2,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfCoffee2,	
+        
+    }
+	
+
+	recipe Box up 8 Instant Coffee
+    {
+       Coffee2=8,
+
+        Result:BoxOfCoffee2,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of Instant Coffee
+    {
+        BoxOfCoffee2,
+
+        Result:Coffee2=8,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+ model BoxOfCookie
+	{
+		mesh    = WorldItems/TestBox,
+		texture = WorldItems/BoxOfCookie,
+		scale   = 0.1,
+	}
+
+item BoxOfCookie
+    {
+        Weight	=	1.2,
+        Type	=	Normal,
+        DisplayName	=	Box of 24 Cookies,
+        Icon	=	BoxOfCookie,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfCookie,	
+        
+    }
+	
+
+	recipe Box up 24 Cookies
+    {
+       CookieChocolateChip=24,
+
+        Result:BoxOfCookie,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of Cookies
+    {
+        BoxOfCookie,
+
+        Result:CookieChocolateChip=24,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+ model BoxOfCupcake
+	{
+		mesh    = WorldItems/BoxOfJars,
+		texture = WorldItems/BoxOfCupcake,
+		scale   = 0.4,
+	}
+
+item BoxOfCupcake
+    {
+        Weight	=	0.6,
+        Type	=	Normal,
+        DisplayName	=	Box of 6 Cupcakes,
+        Icon	=	JarBox,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfCupcake,	
+        
+    }
+	
+
+	recipe Box up 6 Cupcakes
+    {
+       Cupcake=6,
+
+        Result:BoxOfCupcake,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of Cupcakes
+    {
+        BoxOfCupcake,
+
+        Result:Cupcake=6,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+
+ model BoxOfMacandcheese
+	{
+		mesh    = WorldItems/TestBox,
+		texture = WorldItems/BoxOfMacandcheese,
+		scale   = 0.1,
+	}
+
+item BoxOfMacandcheese
+    {
+        Weight	=	1.2,
+        Type	=	Normal,
+        DisplayName	=	Box of 8 Mac and Cheese,
+        Icon	=	BoxOfMacandcheese,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfMacandcheese,	
+        
+    }
+	
+
+	recipe Box up 8 Mac and Cheese
+    {
+       Macandcheese=8,
+
+        Result:BoxOfMacandcheese,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of Mac and Cheese
+    {
+        BoxOfMacandcheese,
+
+        Result:Macandcheese=8,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+
+ model BoxOfPeanutButter
+	{
+		mesh    = WorldItems/TestBox,
+		texture = WorldItems/BoxOfPeanutButter,
+		scale   = 0.1,
+	}
+
+item BoxOfPeanutButter
+    {
+        Weight	=	1.2,
+        Type	=	Normal,
+        DisplayName	=	Box of 8 Jars of PeanutButter,
+        Icon	=	BoxOfPeanutButter,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfPeanutButter,	
+        
+    }
+	
+
+	recipe Box up 8 Jars of PeanutButter
+    {
+       PeanutButter=8,
+
+        Result:BoxOfPeanutButter,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of PeanutButter
+    {
+        BoxOfPeanutButter,
+
+        Result:PeanutButter=8,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+ model BoxOfCookieJelly
+	{
+		mesh    = WorldItems/TestBox,
+		texture = WorldItems/BoxOfCookieJelly,
+		scale   = 0.1,
+	}
+
+item BoxOfCookieJelly
+    {
+        Weight	=	1.2,
+        Type	=	Normal,
+        DisplayName	=	Box of 12 Raspberry Shortbread,
+        Icon	=	BoxOfCookieJelly,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfCookieJelly,	
+        
+    }
+	
+
+	recipe Box up 12 Raspberry Shortbread
+    {
+       CookieJelly=12,
+
+        Result:BoxOfCookieJelly,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of Raspberry Shortbread
+    {
+        BoxOfCookieJelly,
+
+        Result:CookieJelly=12,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+ model BoxOfTVDinner
+	{
+		mesh    = WorldItems/TestBox,
+		texture = WorldItems/BoxOfTVDinner,
+		scale   = 0.1,
+	}
+
+item BoxOfTVDinner
+    {
+        Weight	=	1.2,
+        Type	=	Normal,
+        DisplayName	=	Box of 6 TV Dinners,
+        Icon	=	BoxOfTVDinner,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfTVDinner,	
+        
+    }
+	
+
+	recipe Box up 6 TV Dinners
+    {
+       TVDinner=6,
+
+        Result:BoxOfTVDinner,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of TV Dinners
+    {
+        BoxOfTVDinner,
+
+        Result:TVDinner=6,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+ model BoxOfRamen
+	{
+		mesh    = WorldItems/TestBox,
+		texture = WorldItems/BoxOfRamen,
+		scale   = 0.1,
+	}
+
+item BoxOfRamen
+    {
+        Weight	=	0.8,
+        Type	=	Normal,
+        DisplayName	=	Box of 8 Ramen,
+        Icon	=	BoxOfRamen,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfRamen,	
+        
+    }
+	
+
+	recipe Box up 8 Ramen
+    {
+       Ramen=8,
+
+        Result:BoxOfRamen,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of Ramen
+    {
+        BoxOfRamen,
+
+        Result:Ramen=8,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+ model BoxOfPopcorn
+	{
+		mesh    = WorldItems/TestBox,
+		texture = WorldItems/BoxOfPopcorn,
+		scale   = 0.1,
+	}
+
+item BoxOfPopcorn
+    {
+        Weight	=	1.2,
+        Type	=	Normal,
+        DisplayName	=	Box of 8 Popcorn,
+        Icon	=	BoxOfMacandcheese,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfPopcorn,	
+        
+    }
+	
+
+	recipe Box up 8 Popcorn
+    {
+       Popcorn=8,
+
+        Result:BoxOfPopcorn,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of Popcorn
+    {
+        BoxOfPopcorn,
+
+        Result:Popcorn=8,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+ model BoxOfPasta
+	{
+		mesh    = WorldItems/TestBox,
+		texture = WorldItems/BoxOfPasta,
+		scale   = 0.1,
+	}
+
+item BoxOfPasta
+    {
+        Weight	=	3,
+        Type	=	Normal,
+        DisplayName	=	Box of 3 Pasta,
+        Icon	=	BoxOfPasta,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfPasta,	
+        
+    }
+	
+
+	recipe Box up 3 Pasta
+    {
+       Pasta=3,
+
+        Result:BoxOfPasta,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of Pasta
+    {
+        BoxOfPasta,
+
+        Result:Pasta=3,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+ model BoxOfFlour
+	{
+		mesh    = WorldItems/TestBox,
+		texture = WorldItems/BoxOfFlour,
+		scale   = 0.1,
+	}
+
+item BoxOfFlour
+    {
+        Weight	=	6,
+        Type	=	Normal,
+        DisplayName	=	Box of 6 Flour,
+        Icon	=	BoxOfFlour,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfFlour,	
+        
+    }
+	
+
+   
+	recipe Open Box of Flour
+    {
+        BoxOfFlour,
+
+        Result:Flour=6,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+ model BoxOfRice
+	{
+		mesh    = WorldItems/TestBox,
+		texture = WorldItems/BoxOfRice,
+		scale   = 0.1,
+	}
+
+item BoxOfRice
+    {
+        Weight	=	3,
+        Type	=	Normal,
+        DisplayName	=	Box of 3 Rice,
+        Icon	=	BoxOfMacandcheese,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfRice,	
+        
+    }
+	
+
+	recipe Box up 3 Rice
+    {
+       Rice=3,
+
+        Result:BoxOfRice,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of Rice
+    {
+        BoxOfRice,
+
+        Result:Rice=3,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+ model BoxOfSugar
+	{
+		mesh    = WorldItems/TestBox,
+		texture = WorldItems/BoxOfSugar,
+		scale   = 0.1,
+	}
+
+item BoxOfSugar
+    {
+        Weight	=	2.4,
+        Type	=	Normal,
+        DisplayName	=	Box of 8 Sugar,
+        Icon	=	BoxOfSugar,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfSugar,	
+        
+    }
+	
+
+	recipe Box up 8 Sugar
+    {
+       Sugar=8,
+
+        Result:BoxOfSugar,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of Sugar
+    {
+        BoxOfSugar,
+
+        Result:Sugar=8,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+ model BoxOfTeabag2
+	{
+		mesh    = WorldItems/TestBox,
+		texture = WorldItems/BoxOfTeabag2,
+		scale   = 0.1,
+	}
+
+item BoxOfTeabag2
+    {
+        Weight	=	1.2,
+        Type	=	Normal,
+        DisplayName	=	Box of 24 Teabags,
+        Icon	=	BoxOfTeabag2,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfTeabag2,	
+        
+    }
+	
+
+	recipe Box up 24 Teabags
+    {
+       Teabag2=24,
+
+        Result:BoxOfTeabag2,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of Teabags
+    {
+        BoxOfTeabag2,
+
+        Result:Teabag2=24,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+ model BoxOfVinegar
+	{
+		mesh    = WorldItems/TestBox,
+		texture = WorldItems/BoxOfVinegar,
+		scale   = 0.1,
+	}
+
+item BoxOfVinegar
+    {
+        Weight	=	1.2,
+        Type	=	Normal,
+        DisplayName	=	Box of 8 Vinegar,
+        Icon	=	BoxOfVinegar,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfVinegar,	
+        
+    }
+	   
+	recipe Open Box of Vinegar
+    {
+        BoxOfVinegar,
+
+        Result:Vinegar=8,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+
+ model BoxOfCocoaPowder
+	{
+		mesh    = WorldItems/TestBox,
+		texture = WorldItems/BoxOfCocoaPowder,
+		scale   = 0.1,
+	}
+
+item BoxOfCocoaPowder
+    {
+        Weight	=	4,
+        Type	=	Normal,
+        DisplayName	=	Box of 8 Cocoa Powder,
+        Icon	=	BoxOfCocoaPowder,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfCocoaPowder,	
+        
+    }
+	
+
+	recipe Box up 8 Cocoa Powder
+    {
+       CocoaPowder=8,
+
+        Result:BoxOfCocoaPowder,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of 8 Cocoa Powder
+    {
+        BoxOfCocoaPowder,
+
+        Result:CocoaPowder=8,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+ model BoxOfMapleSyrup
+	{
+		mesh    = WorldItems/TestBox,
+		texture = WorldItems/BoxOfMapleSyrup,
+		scale   = 0.1,
+	}
+
+item BoxOfMapleSyrup
+    {
+        Weight	=	0.4,
+        Type	=	Normal,
+        DisplayName	=	Box of 6 Maple Syrup,
+        Icon	=	BoxOfMapleSyrup,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfMapleSyrup,	
+        
+    }
+	
+
+	recipe Box up 6 Maple Syrup
+    {
+       MapleSyrup=6,
+
+        Result:BoxOfMapleSyrup,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of 6 Maple Syrup
+    {
+        BoxOfMapleSyrup,
+
+        Result:MapleSyrup=6,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+model BoxOfSoySauce
+	{
+		mesh    = WorldItems/TestBox,
+		texture = WorldItems/BoxOfSoySauce,
+		scale   = 0.1,
+	}
+
+item BoxOfSoySauce
+    {
+        Weight	=	0.4,
+        Type	=	Normal,
+        DisplayName	=	Box of 6 Soy Sauce,
+        Icon	=	BoxOfSoySauce,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfSoySauce,	
+        
+    }
+	
+
+	recipe Box up 6 Soy Sauce
+    {
+       Soysauce=6,
+
+        Result:BoxOfSoySauce,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of 6 Soy Sauce
+    {
+        BoxOfSoySauce,
+
+        Result:Soysauce=6,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+model BoxOfVegOil
+	{
+		mesh    = WorldItems/TestBox,
+		texture = WorldItems/BoxOfVegOil,
+		scale   = 0.1,
+	}
+
+item BoxOfVegOil
+    {
+        Weight	=	0.8,
+        Type	=	Normal,
+        DisplayName	=	Box of 8 Vegetable Oil,
+        Icon	=	BoxOfVegOil,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfVegOil,	
+        
+    }
+	
+
+	recipe Box up 8 Vegetable Oil
+    {
+       OilVegetable=8,
+
+        Result:BoxOfVegOil,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of 8 Vegetable Oil
+    {
+        BoxOfVegOil,
+
+        Result:OilVegetable=8,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+ model BoxOfDriedWhiteBeans
+	{
+		mesh    = WorldItems/TestBox,
+		texture = WorldItems/BoxOfDriedWhiteBeans,
+		scale   = 0.1,
+	}
+
+item BoxOfDriedWhiteBeans
+    {
+        Weight	=	5,
+        Type	=	Normal,
+        DisplayName	=	Box of 5 Dried White Beans,
+        Icon	=	BoxOfCocoaPowder,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfDriedWhiteBeans,	
+        
+    }
+	
+
+	recipe Box up 5 Dried White Beans
+    {
+       DriedWhiteBeans=5,
+
+        Result:BoxOfDriedWhiteBeans,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of 5 Dried White Beans
+    {
+        BoxOfDriedWhiteBeans,
+
+        Result:DriedWhiteBeans=5,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+ model BoxOfDriedSplitPeas
+	{
+		mesh    = WorldItems/TestBox,
+		texture = WorldItems/BoxOfDriedSplitPeas,
+		scale   = 0.1,
+	}
+
+item BoxOfDriedSplitPeas
+    {
+        Weight	=	5,
+        Type	=	Normal,
+        DisplayName	=	Box of 5 Dried Split Peas,
+        Icon	=	BoxOfCocoaPowder,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfDriedSplitPeas,	
+        
+    }
+	
+
+	recipe Box up 5 Dried Split Peas
+    {
+       DriedSplitPeas=5,
+
+        Result:BoxOfDriedSplitPeas,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of 5 Dried Split Peas
+    {
+        BoxOfDriedSplitPeas,
+
+        Result:DriedSplitPeas=5,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+ model BoxOfDriedLentils
+	{
+		mesh    = WorldItems/TestBox,
+		texture = WorldItems/BoxOfDriedLentils,
+		scale   = 0.1,
+	}
+
+item BoxOfDriedLentils
+    {
+        Weight	=	5,
+        Type	=	Normal,
+        DisplayName	=	Box of 5 Dried Lentils,
+        Icon	=	BoxOfCocoaPowder,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfDriedLentils,	
+        
+    }
+	
+
+	recipe Box up 5 Dried Lentils
+    {
+       DriedLentils=5,
+
+        Result:BoxOfDriedLentils,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of 5 Dried Lentils
+    {
+        BoxOfDriedLentils,
+
+        Result:DriedLentils=5,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+ model BoxOfDriedKidneyBeans
+	{
+		mesh    = WorldItems/TestBox,
+		texture = WorldItems/BoxOfDriedKidneyBeans,
+		scale   = 0.1,
+	}
+
+item BoxOfDriedKidneyBeans
+    {
+        Weight	=	5,
+        Type	=	Normal,
+        DisplayName	=	Box of 5 Dried Kidney Beans,
+        Icon	=	BoxOfCocoaPowder,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfDriedKidneyBeans,	
+        
+    }
+	
+
+	recipe Box up 5 Dried Kidney Beans
+    {
+       DriedKidneyBeans=5,
+
+        Result:BoxOfDriedKidneyBeans,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of 5 Dried Kidney Beans
+    {
+        BoxOfDriedKidneyBeans,
+
+        Result:DriedKidneyBeans=5,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+ model BoxOfDriedChickPeas
+	{
+		mesh    = WorldItems/TestBox,
+		texture = WorldItems/BoxOfDriedChickPeas,
+		scale   = 0.1,
+	}
+
+item BoxOfDriedChickPeas
+    {
+        Weight	=	5,
+        Type	=	Normal,
+        DisplayName	=	Box of 5 Dried Chick Peas,
+        Icon	=	BoxOfCocoaPowder,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfDriedChickPeas,	
+        
+    }
+	
+
+	recipe Box up 5 Dried Chick Peas
+    {
+       DriedChickpeas=5,
+
+        Result:BoxOfDriedChickPeas,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of 5 Dried Chick Peas
+    {
+        BoxOfDriedChickPeas,
+
+        Result:DriedChickpeas=5,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+ model BoxOfDriedBlackBeans
+	{
+		mesh    = WorldItems/TestBox,
+		texture = WorldItems/BoxOfDriedBlackBeans,
+		scale   = 0.1,
+	}
+
+item BoxOfDriedBlackBeans
+    {
+        Weight	=	5,
+        Type	=	Normal,
+        DisplayName	=	Box of 5 Dried Black Beans,
+        Icon	=	BoxOfCocoaPowder,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfDriedBlackBeans,	
+        
+    }
+	
+
+	recipe Box up 5 Dried Black Beans
+    {
+       DriedBlackBeans=5,
+
+        Result:BoxOfDriedBlackBeans,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of 5 Dried Black Beans
+    {
+        BoxOfDriedBlackBeans,
+
+        Result:DriedBlackBeans=5,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+/****************************** Canned Boxs ******************************/
+
+ item BoxOfBeans
+    {
+        Weight	=	2.4,
+        Type	=	Normal,
+        DisplayName	=	Box of 6 Canned Beans,
+        Icon	=	JarBox,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfJars,	
+        
+    }
+	
+
+	recipe Box up Canned Beans
+    {
+       TinnedBeans=6,
+
+        Result:BoxOfBeans,
+        Time:20,
+	
+    }
+    
+	recipe Open Box of Canned Beans
+    {
+        BoxOfBeans,
+
+        Result:TinnedBeans=6,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+
+ item BoxOfBolognese
+    {
+        Weight	=	2.4,
+        Type	=	Normal,
+        DisplayName	=	Box of 6 Canned Spaghetti Bolognese,
+        Icon	=	JarBox,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfJars,	
+        
+    }
+	
+
+	recipe Box up Canned Bolognese
+    {
+       CannedBolognese=6,
+
+        Result:BoxOfBolognese,
+        Time:20,
+	
+    }
+
+	recipe Open Box of Canned Bolognese
+    {
+        BoxOfBolognese,
+
+        Result:CannedBolognese=6,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+ item BoxOfCanCarrots
+    {
+        Weight	=	2.1,
+        Type	=	Normal,
+        DisplayName	=	Box of 6 Canned Carrots,
+        Icon	=	JarBox,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfJars,	
+        
+    }
+	
+
+	recipe Box up Canned Carrots
+    {
+       CannedCarrots2=6,
+
+        Result:BoxOfCanCarrots,
+        Time:20,
+	
+    }
+
+	recipe Open Box of Canned Carrots
+    {
+       BoxOfCanCarrots,
+
+        Result:CannedCarrots2=6,
+        Time:20,
+	
+    }
+
+ item BoxOfCanChili
+    {
+        Weight	=	2.4,
+        Type	=	Normal,
+        DisplayName	=	Box of 6 Canned Chili,
+        Icon	=	JarBox,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfJars,	
+        
+    }
+	
+
+	recipe Box up Canned Chili
+    {
+       CannedChili=6,
+
+        Result:BoxOfCanChili,
+        Time:20,
+	
+    }
+
+	recipe Open Box of Canned Chilli
+    {
+       BoxOfCanChili,
+
+        Result:CannedChili=6,
+        Time:20,
+	
+    }
+
+ item BoxOfCanCorn
+    {
+        Weight	=	2.1,
+        Type	=	Normal,
+        DisplayName	=	Box of 6 Canned Corn,
+        Icon	=	JarBox,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfJars,	
+        
+    }
+	
+
+	recipe Box up Canned Corn
+    {
+       CannedCorn=6,
+
+        Result:BoxOfCanCorn,
+        Time:20,
+	
+    }
+
+	recipe Open Box of Canned Corn
+    {
+       BoxOfCanCorn,
+
+        Result:CannedCorn=6,
+        Time:20,
+	
+    }
+
+ item BoxOfCanBeef
+    {
+        Weight	=	2.4,
+        Type	=	Normal,
+        DisplayName	=	Box of 6 Canned Corned Beef,
+        Icon	=	JarBox,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfJars,	
+        
+    }
+	
+
+	recipe Box up Canned Corned Beef
+    {
+       CannedCornedBeef=6,
+
+        Result:BoxOfCanBeef,
+        Time:20,
+	
+    }
+
+	recipe Open Box of Canned Corned Beef
+    {
+       BoxOfCanBeef,
+
+        Result:CannedCornedBeef=6,
+        Time:20,
+ 
+    }
+
+ item BoxOfCanMushroomSoup
+    {
+        Weight	=	2.1,
+        Type	=	Normal,
+        DisplayName	=	Box of 6 Canned Mushroom Soup,
+        Icon	=	JarBox,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfJars,	
+        
+    }
+	
+
+	recipe Box up Canned Mushroom Soup
+    {
+       CannedMushroomSoup=6,
+
+        Result:BoxOfCanMushroomSoup,
+        Time:20,
+	
+    }
+
+	recipe Open Box of Canned Mushroom Soup
+    {
+       BoxOfCanMushroomSoup,
+
+        Result:CannedMushroomSoup=6,
+        Time:20,
+    }
+
+ item BoxOfCanPeas
+    {
+        Weight	=	2.1,
+        Type	=	Normal,
+        DisplayName	=	Box of 6 Canned Peas,
+        Icon	=	JarBox,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfJars,	
+        
+    }
+	
+
+	recipe Box up Canned Peas
+    {
+       CannedPeas=6,
+
+        Result:BoxOfCanPeas,
+        Time:20,
+	
+    }
+
+
+	recipe Open Box of Canned Peas
+    {
+       BoxOfCanPeas,
+
+        Result:CannedPeas=6,
+        Time:20,
+    }
+
+ item BoxOfCanPotato
+    {
+        Weight	=	2.1,
+        Type	=	Normal,
+        DisplayName	=	Box of 6 Canned Potato,
+        Icon	=	JarBox,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfJars,	
+        
+    }
+	
+
+	recipe Box up Canned Potato
+    {
+       CannedPotato2=6,
+
+        Result:BoxOfCanPotato,
+        Time:20,
+	
+    }
+
+	recipe Open Box of Canned Potato
+    {
+       BoxOfCanPotato,
+
+        Result:CannedPotato2=6,
+        Time:20,
+    }
+
+ item BoxOfCanSardines
+    {
+        Weight	=	2.1,
+        Type	=	Normal,
+        DisplayName	=	Box of 6 Canned Sardines,
+        Icon	=	JarBox,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfJars,	
+        
+    }
+	
+
+	recipe Box up Canned Sardines
+    {
+       CannedSardines=6,
+
+        Result:BoxOfCanSardines,
+        Time:20,
+	
+    }
+
+	recipe Open Box of Canned Sardines
+    {
+       BoxOfCanSardines,
+
+        Result:CannedSardines=6,
+        Time:20,
+    }
+
+ item BoxOfCanSoup
+    {
+        Weight	=	2.4,
+        Type	=	Normal,
+        DisplayName	=	Box of 6 Canned Soup,
+        Icon	=	JarBox,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfJars,	
+        
+    }
+	
+
+	recipe Box up Canned Soup
+    {
+       TinnedSoup=6,
+
+        Result:BoxOfCanSoup,
+        Time:20,
+	
+    }
+
+	recipe Open Box of Canned Soup
+    {
+       BoxOfCanSoup,
+
+        Result:TinnedSoup=6,
+        Time:20,
+    }
+
+ item BoxOfCanTomato
+    {
+        Weight	=	2.4,
+        Type	=	Normal,
+        DisplayName	=	Box of 6 Canned Tomato,
+        Icon	=	JarBox,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfJars,	
+        
+    }
+	
+
+	recipe Box up Canned Tomato
+    {
+       CannedTomato2=6,
+
+        Result:BoxOfCanTomato,
+        Time:20,
+	
+    }
+
+
+	recipe Open Box of Canned Tomato
+    {
+       BoxOfCanTomato,
+
+        Result:CannedTomato2=6,
+        Time:20,
+    }
+
+ item BoxOfCanTuna
+    {
+        Weight	=	0.9,
+        Type	=	Normal,
+        DisplayName	=	Box of 6 Canned Tuna,
+        Icon	=	JarBox,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfJars,	
+        
+    }
+	
+
+	recipe Box up Canned Tuna
+    {
+       TunaTin=6,
+
+        Result:BoxOfCanTuna,
+        Time:20,
+	
+    }
+
+	recipe Open Box of Canned Tuna
+    {
+       BoxOfCanTuna,
+
+        Result:TunaTin=6,
+        Time:20,
+    }
+
+
+ item BoxOfDogFood
+    {
+        Weight	=	6,
+        Type	=	Normal,
+        DisplayName	=	Box of 6 Dog Food Emergency food ONLY,
+        Icon	=	JarBox,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfJars,	
+        
+    }
+	
+
+	recipe Box up Dog Food cans Why do you have so many
+    {
+       Dogfood=6,
+
+        Result:BoxOfDogFood,
+        Time:20,
+	
+    }
+
+	recipe Open Box of Dog Food
+    {
+       BoxOfDogFood,
+
+        Result:Dogfood=6,
+        Time:20,
+    }
+
+ item BoxOfCanPeaches
+    {
+        Weight	=	0.9,
+        Type	=	Normal,
+        DisplayName	=	Box of 6 Canned Peaches,
+        Icon	=	JarBox,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfJars,	
+        
+    }
+
+	recipe Box up Canned Peaches
+    {
+       CannedPeaches=6,
+
+        Result:BoxOfCanPeaches,
+        Time:20,
+	
+    }
+
+	recipe Open Box of Canned Peaches
+    {
+       BoxOfCanPeaches,
+
+        Result:CannedPeaches=6,
+        Time:20,
+    }
+
+item BoxOfCanCocktail
+    {
+        Weight	=	3,
+        Type	=	Normal,
+        DisplayName	=	Box of 6 Canned FruitCocktail,
+        Icon	=	JarBox,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfJars,	
+        
+    }
+
+	recipe Box up Canned FruitCocktail
+    {
+       CannedFruitCocktail=6,
+
+        Result:BoxOfCanCocktail,
+        Time:20,
+	
+    }
+
+	recipe Open Box of Canned FruitCocktail
+    {
+       BoxOfCanCocktail,
+
+        Result:CannedFruitCocktail=6,
+        Time:20,
+    }
+
+item BoxOfCanPineapple
+    {
+        Weight	=	3,
+        Type	=	Normal,
+        DisplayName	=	Box of 6 Canned Pineapple,
+        Icon	=	JarBox,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfJars,	
+        
+    }
+
+	recipe Box up Canned Pineapple
+    {
+       CannedPineapple=6,
+
+        Result:BoxOfCanPineapple,
+        Time:20,
+	
+    }
+
+	recipe Open Box of Canned Pineapple
+    {
+       BoxOfCanPineapple,
+
+        Result:CannedPineapple=6,
+        Time:20,
+    }
+
+item BoxOfJamFruit
+    {
+        Weight	=	3,
+        Type	=	Normal,
+        DisplayName	=	Box of 6 Fruit Jam,
+        Icon	=	JarBox,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfJars,	
+        
+    }
+
+	recipe Box up Fruit Jam
+    {
+       JamFruit=6,
+
+        Result:BoxOfJamFruit,
+        Time:20,
+	
+    }
+
+	recipe Open Box of Fruit Jam
+    {
+       BoxOfJamFruit,
+
+        Result:JamFruit=6,
+        Time:20,
+    }
+
+item BoxOfJamMarmalade
+    {
+        Weight	=	3,
+        Type	=	Normal,
+        DisplayName	=	Box of 6 Marmalade,
+        Icon	=	JarBox,
+        SurvivalGear = TRUE,
+        WorldStaticModel = BoxOfJars,	
+        
+    }
+
+	recipe Box up Marmalade
+    {
+       JamMarmalade=6,
+
+        Result:BoxOfJamMarmalade,
+        Time:20,
+	
+    }
+
+	recipe Open Box of Marmalade
+    {
+       BoxOfJamMarmalade,
+
+        Result:JamMarmalade=6,
+        Time:20,
+    }
+}

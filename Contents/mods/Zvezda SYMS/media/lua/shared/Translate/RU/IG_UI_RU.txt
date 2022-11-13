@@ -1,0 +1,6 @@
+IG_UI_EN = {
+    IGUI_SYMS_Name = "Название:",
+    IGUI_SYMS_CopyElements = "Экспорт заметок",
+    IGUI_SYMS_TransferElements = "Импорт заметок",
+    IGUI_SYMS_SelectMarkings = "[--Выбрать заметки--]",
+}

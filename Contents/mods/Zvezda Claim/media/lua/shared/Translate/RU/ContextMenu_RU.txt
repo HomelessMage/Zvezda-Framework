@@ -1,0 +1,11 @@
+ContextMenu_RU = {
+    ContextMenu_setsafehouseforce = "Установить Safehouse",
+    ContextMenu_cmshzonethree = "Приватная зона (3x3)",
+    ContextMenu_cmshzoneseven = "Приватная зона (7x7)",
+    ContextMenu_cmshzonefifteen = "Приватная зона (15x15)",
+	ContextMenu_cmshzonethirtyone = "Приватная зона (31x31)",
+	ContextMenu_cmshzonesixtyone = "Приватная зона (61x61)",
+	ContextMenu_cmshzoneonehundredandone = "Приватная зона (101x101)",
+    ContextMenu_cmshzonehouse = "Занять здание",
+    ContextMenu_denysafe = "Нет разрешения на Safehouse",
+}

@@ -1,0 +1,5 @@
+Sandbox_RU = {
+    Sandbox_Prisonner = "[ЗВЕЗДА] Наручники",
+    Sandbox_Prisonner_Inspect = "Включить возможность обыска",
+    Sandbox_Prisonner_Inspect_tooltip = "Это действие позволяет по порядку перечислять предметы в инвентаре обыскиваемого.",
+}

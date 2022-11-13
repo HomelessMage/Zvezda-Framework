@@ -1,0 +1,32 @@
+/*Littering, B41 Continued*/
+/*(41.68)(07may22)*/
+module LitteringB41
+{
+	imports
+	{
+		Base, farming
+	}
+
+	recipe Clean Jar
+	{
+		Soap2/CleaningLiquid2,
+		JamFruitEmpty/JamMarmaladeEmpty/PeanutButterEmpty,
+
+		Result:EmptyJar,
+		Time:50.0,
+		Category:Cooking,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		OnCreate:Recipe.OnCreate.LitteringB41_ReturnLid,
+	}
+
+    recipe Put Jars in Box
+    {
+        EmptyJar=6,
+		CardboardFlat,
+
+        Result:BoxOfJars,
+        Time:30.0,
+		Category:Cooking,
+        Sound:PutItemInBag,
+    }
+}

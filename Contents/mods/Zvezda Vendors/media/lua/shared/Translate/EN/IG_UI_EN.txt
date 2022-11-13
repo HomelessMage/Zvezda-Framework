@@ -1,0 +1,5 @@
+IG_UI_EN = {
+	IGUI_ItemCat_Vendors = "Vendors",
+	IGUI_ItemCat_Money = "Money",
+	IGUI_VehicleNameAdvertising_Trailer = "Advertising Trailer",
+}

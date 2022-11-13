@@ -1,0 +1,6 @@
+Tooltip_EN = {
+    Tooltip_SYMS_CantCopyMarkings = "Requires a sheet of paper.",
+    Tooltip_SYMS_NothingToCopy = "Nothing to copy.",
+    Tooltip_SYMS_ValidateName = "Name cannot be empty.",
+    Tooltip_SYMS_SomeoneMarks = "Someone's marks. I can put them on my map.",
+}

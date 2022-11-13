@@ -1,0 +1,7 @@
+ItemName_RU = {
+    	ItemName_Vendors.ATMMachine = "Ломбард",
+    	ItemName_Vendors.FoodVendor = "Продуктовый автомат",
+    	ItemName_Vendors.ToolVendor = "Торгомат инструментов",
+    	ItemName_Vendors.VehicleVendor = "Автомобильный торгомат",
+    	ItemName_Vendors.WeaponVendor = "Оружейный торгомат"
+}

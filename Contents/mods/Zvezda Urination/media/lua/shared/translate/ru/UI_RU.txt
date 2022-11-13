@@ -1,0 +1,4 @@
+UI_RU = {
+	UI_optionscreen_binding_UrinationStatus = "Нужда",
+	UI_optionscreen_binding_UrinationStatus2 = "Urination Status (Player 2)",
+}

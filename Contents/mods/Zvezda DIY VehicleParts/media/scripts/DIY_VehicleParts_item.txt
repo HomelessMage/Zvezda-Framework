@@ -1,0 +1,20 @@
+module T15K_VehicleParts
+{
+
+    imports 
+    {
+        Base
+    }
+
+    item GlassMold
+    {
+        DisplayCategory = Tool,
+        Weight	=	0.1,
+        Type	=	Normal,
+        DisplayName	=	Mold for Glass,
+        Icon	=	GlassMold,
+	WorldStaticModel = BakingTray,
+       /* WorldStaticModel = Money,*/
+    }
+
+}

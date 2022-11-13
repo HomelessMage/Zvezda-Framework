@@ -1,0 +1,3 @@
+ItemName_RU = {
+    	ItemName_SYMS.SYMSPaper = "Карта с заметками",
+}

@@ -1,0 +1,4 @@
+Tooltip_ES = {
+	Tooltip_UrinateDefault = "Comience el proceso de la micción.",
+	Tooltip_UrinateDriving = "No puedes orinar mientras conduces.",
+}

@@ -1,0 +1,11 @@
+﻿IGUI_CN = {
+	IGUI_Tilespicker="创造模式",
+    IGUI_flymodeon="飞行（开启）W+S+方向键",
+    IGUI_flymodeonoff="飞行（关闭）",
+    IGUI_DeleteModeon="删除模式（开启）X键",
+    IGUI_DeleteModeoff="删除模式（关闭）",
+    IGUI_TilespickerUI="物块窗口",
+    IGUI_Getbuildtools="批量建筑工具",
+    
+
+}

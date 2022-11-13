@@ -1,0 +1,11 @@
+IGUI_EN = {
+	IGUI_Tilespicker="BetterTilespicker",
+    IGUI_flymodeon="Fly Mode(ON) W+S+Arrow Key",
+    IGUI_flymodeonoff="Fly Mode(OFF) W+S+Arrow Key",
+    IGUI_DeleteModeon="Delete Mode(ON) X Key",
+    IGUI_DeleteModeoff="Delete Mode(OFF)",
+    IGUI_TilespickerUI="TilesPicker",
+    IGUI_Getbuildtools="Get Tools of Copy Buildings",
+    
+
+}

@@ -1,0 +1,17 @@
+ItemName_RU = {
+	ItemName_ID.CollegeDiploma  = "Диплом",
+	ItemName_ID.DrivingLicense = "Водительское удостоверение",
+	ItemName_ID.FirearmPermitA = "РНХО (короткоствольное)",
+	ItemName_ID.FirearmPermitB = "РНХО (гладкоствольное)",
+	ItemName_ID.FirearmPermitC = "РНХО (нарезное)",
+	ItemName_ID.HardLeatherWallet = "Бумажник",
+	ItemName_ID.HuntingPermit = "Лицензия на вылов рыбы",
+	ItemName_ID.IdentificationCard = "Миграционная карта",
+	ItemName_ID.LeatherWallet = "Бумажник",
+	ItemName_ID.MedicalLicense = "Медицинская лицензия",
+	ItemName_ID.MetalWallet = "Бумажник",
+	ItemName_ID.Passport = "Паспорт",
+	ItemName_ID.PropertyDeed = "Справка о недвижимости",
+	ItemName_ID.StatePoliceBadge = "Полицейский жетон",
+	ItemName_ID.VehicleRegistration = "Паспорт ТС",
+}

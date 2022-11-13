@@ -1,0 +1,4 @@
+ItemName_RU = {
+    	ItemName_Urination.HumanUrine = "Моча",
+	ItemName_Urination.UrineBottle = "Бутылка с мочей",
+}

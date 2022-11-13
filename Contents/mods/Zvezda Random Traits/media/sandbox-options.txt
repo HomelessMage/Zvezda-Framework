@@ -1,0 +1,39 @@
+VERSION = 1,
+
+option SecretRandomCharacter.AlwaysFastLearner
+{
+	type = boolean,
+	default = true,
+
+	page = SecretRandomCharacter,
+	translation = SecretRandomCharacter_AlwaysFastLearner,
+}
+
+option SecretRandomCharacter.AlwaysWakeful
+{
+	type = boolean,
+	default = true,
+
+	page = SecretRandomCharacter,
+	translation = SecretRandomCharacter_AlwaysWakeful,
+}
+
+option SecretRandomCharacter.OccupationCosts
+{
+	type = boolean,
+	default = true,
+
+	page = SecretRandomCharacter,
+	translation = SecretRandomCharacter_OccupationCosts,
+}
+
+option SecretRandomCharacter.MaximumAmountOfNegatives
+{
+	type = integer,
+	min = 1,
+	max = 10,
+	default = 5,
+	
+	page = SecretRandomCharacter,
+	translation = SecretRandomCharacter_MaximumAmountOfNegatives,
+}

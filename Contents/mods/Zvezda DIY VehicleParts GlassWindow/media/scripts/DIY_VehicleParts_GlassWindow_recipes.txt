@@ -1,0 +1,235 @@
+module T15K_VehicleParts
+{
+    imports 
+    {
+        Base
+    }
+
+    imports 
+    {
+        Moveables
+    }
+	
+
+    recipe Make RearWindshield1 Glass /*Заднее стекло, тип - стандартный*/
+    {
+	Moveables.brokenglass_1_0/Moveables.brokenglass_1_1/Moveables.brokenglass_1_2/Moveables.brokenglass_1_3,
+	DuctTape=2, 					/*Изолента*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:RearWindshield1, 				/*предмет и его колличество на выходе*/
+	SkillRequired:Woodwork=1;Mechanics=1,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:RipSheets, 				/*Стоит анимация: сварка на полу*/
+	Sound:DuctTapeT15K, 					/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.WoodWork,		/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:ScotchTape,				/*Отображает газовую горелку при создании предмета ScotchTape*/
+	Prop2:Mirror,
+    }
+
+
+    recipe Make RearWindshield2 Glass /*Заднее стекло, тип - тяжёлый*/
+    {
+	Moveables.brokenglass_1_0/Moveables.brokenglass_1_1/Moveables.brokenglass_1_2/Moveables.brokenglass_1_3,
+	DuctTape=2, 					/*Изолента*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:RearWindshield2, 				/*предмет и его колличество на выходе*/
+	SkillRequired:Woodwork=2;Mechanics=4,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:RipSheets, 				/*Стоит анимация: сварка на полу*/
+	Sound:DuctTapeT15K, 					/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.WoodWork,		/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:ScotchTape,				/*Отображает газовую горелку при создании предмета ScotchTape*/
+	Prop2:Mirror,
+    }
+
+    recipe Make RearWindshield3 Glass /*Заднее стекло, тип - элитный*/
+    {
+	Moveables.brokenglass_1_0/Moveables.brokenglass_1_1/Moveables.brokenglass_1_2/Moveables.brokenglass_1_3,					/*Клей*/
+	DuctTape=2, 					/*Изолента*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:RearWindshield3, 				/*предмет и его колличество на выходе*/
+	SkillRequired:Woodwork=3;Mechanics=6,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:RipSheets, 				/*Стоит анимация: сварка на полу*/
+	Sound:DuctTapeT15K, 					/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.WoodWork,		/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:ScotchTape,				/*Отображает газовую горелку при создании предмета ScotchTape*/
+	Prop2:Mirror,
+    }
+
+   recipe Make Windshield1 Glass /*Лобовое стекло, тип - стандартный*/
+    {
+	Moveables.brokenglass_1_0/Moveables.brokenglass_1_1/Moveables.brokenglass_1_2/Moveables.brokenglass_1_3,
+	DuctTape=2, 					/*Изолента*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:Windshield1, 				/*предмет и его колличество на выходе*/
+	SkillRequired:Woodwork=1;Mechanics=1,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:RipSheets, 				/*Стоит анимация: сварка на полу*/
+	Sound:DuctTapeT15K, 					/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.WoodWork,		/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:ScotchTape,				/*Отображает газовую горелку при создании предмета ScotchTape*/
+	Prop2:Mirror,
+    }
+
+
+    recipe Make Windshield2 Glass /*Лобовое стекло, тип - тяжёлый*/
+    {
+	Moveables.brokenglass_1_0/Moveables.brokenglass_1_1/Moveables.brokenglass_1_2/Moveables.brokenglass_1_3,
+	DuctTape=2, 					/*Изолента*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:Windshield2, 				/*предмет и его колличество на выходе*/
+	SkillRequired:Woodwork=2;Mechanics=4,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:RipSheets, 				/*Стоит анимация: сварка на полу*/
+	Sound:DuctTapeT15K, 					/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.WoodWork,		/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:ScotchTape,				/*Отображает газовую горелку при создании предмета ScotchTape*/
+	Prop2:Mirror,
+    }
+
+    recipe Make Windshield3 Glass /*Лобовое стекло, тип - элитный*/
+    {
+	Moveables.brokenglass_1_0/Moveables.brokenglass_1_1/Moveables.brokenglass_1_2/Moveables.brokenglass_1_3,
+	DuctTape=2, 					/*Изолента*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:Windshield3, 				/*предмет и его колличество на выходе*/
+	SkillRequired:Woodwork=3;Mechanics=6,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:RipSheets, 				/*Стоит анимация: сварка на полу*/
+	Sound:DuctTapeT15K, 					/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.WoodWork,		/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:ScotchTape,				/*Отображает газовую горелку при создании предмета ScotchTape*/
+	Prop2:Mirror,
+    }
+
+   recipe Make RearWindow1 Glass /*Стекло заднего окна, тип - стандартный*/
+    {
+	Moveables.brokenglass_1_0/Moveables.brokenglass_1_1/Moveables.brokenglass_1_2/Moveables.brokenglass_1_3,
+	DuctTape=0.5, 					/*Изолента*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:RearWindow1, 				/*предмет и его колличество на выходе*/
+	SkillRequired:Woodwork=1;Mechanics=1,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:RipSheets, 				/*Стоит анимация: сварка на полу*/
+	Sound:DuctTapeT15K, 					/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.WoodWork,		/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:ScotchTape,				/*Отображает газовую горелку при создании предмета ScotchTape*/
+	Prop2:Mirror,
+    }
+
+
+    recipe Make RearWindow2 Glass /*Стекло заднего окна, тип - тяжёлый*/
+    {
+	Moveables.brokenglass_1_0/Moveables.brokenglass_1_1/Moveables.brokenglass_1_2/Moveables.brokenglass_1_3,
+	DuctTape=0.5, 					/*Изолента*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:RearWindow2, 				/*предмет и его колличество на выходе*/
+	SkillRequired:Woodwork=2;Mechanics=4,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:RipSheets, 				/*Стоит анимация: сварка на полу*/
+	Sound:DuctTapeT15K, 					/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.WoodWork,		/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:ScotchTape,				/*Отображает газовую горелку при создании предмета ScotchTape*/
+	Prop2:Mirror,
+    }
+
+    recipe Make RearWindow3 Glass /*Стекло заднего окна, тип - элитный*/
+    {
+	Moveables.brokenglass_1_2,
+	DuctTape=0.5, 					/*Изолента*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:RearWindow3, 				/*предмет и его колличество на выходе*/
+	SkillRequired:Woodwork=3;Mechanics=6,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:RipSheets, 				/*Стоит анимация: сварка на полу*/
+	Sound:DuctTapeT15K, 					/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.WoodWork,		/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:ScotchTape,				/*Отображает газовую горелку при создании предмета ScotchTape*/
+	Prop2:Mirror,
+    }
+
+   recipe Make FrontWindow1 Glass /*Стекло переднего окна, тип - стандартный*/
+    {
+	Moveables.brokenglass_1_0/Moveables.brokenglass_1_1/Moveables.brokenglass_1_2/Moveables.brokenglass_1_3,
+	DuctTape=0.5, 					/*Изолента*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:FrontWindow1, 				/*предмет и его колличество на выходе*/
+	SkillRequired:Woodwork=1;Mechanics=1,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:RipSheets, 				/*Стоит анимация: сварка на полу*/
+	Sound:DuctTapeT15K, 					/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.WoodWork,		/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:ScotchTape,				/*Отображает газовую горелку при создании предмета ScotchTape*/
+	Prop2:Mirror,
+    }
+
+
+    recipe Make FrontWindow2 Glass /*Стекло переднего окна, тип - тяжёлый*/
+    {
+	Moveables.brokenglass_1_0/Moveables.brokenglass_1_1/Moveables.brokenglass_1_2/Moveables.brokenglass_1_3,
+	DuctTape=0.5, 					/*Изолента*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:FrontWindow2, 				/*предмет и его колличество на выходе*/
+	SkillRequired:Woodwork=2;Mechanics=4,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:RipSheets, 				/*Стоит анимация: сварка на полу*/
+	Sound:DuctTapeT15K, 					/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.WoodWork,		/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:ScotchTape,				/*Отображает газовую горелку при создании предмета ScotchTape*/
+	Prop2:Mirror,
+    }
+
+    recipe Make FrontWindow3 Glass /*Стекло переднего окна, тип - элитный*/
+    {
+	Moveables.brokenglass_1_0/Moveables.brokenglass_1_1/Moveables.brokenglass_1_2/Moveables.brokenglass_1_3,
+	DuctTape=0.5, 					/*Изолента*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:FrontWindow3, 				/*предмет и его колличество на выходе*/
+	SkillRequired:Woodwork=3;Mechanics=6,			/*скилл требуемый на выполнение*/
+    	Time:300.0,					/*время для выполнения*/
+	AnimNode:RipSheets, 				/*Стоит анимация: сварка на полу*/
+	Sound:DuctTapeT15K, 					/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.WoodWork,		/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:ScotchTape,				/*Отображает газовую горелку при создании предмета ScotchTape*/
+	Prop2:Mirror,
+    }
+
+
+}

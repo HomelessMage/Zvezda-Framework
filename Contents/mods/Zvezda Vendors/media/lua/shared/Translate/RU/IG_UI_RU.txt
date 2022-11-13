@@ -1,0 +1,5 @@
+IG_UI_RU = {
+	IGUI_ItemCat_Vendors = "Торгоматы",
+	IGUI_ItemCat_Money = "Деньги",
+	IGUI_VehicleNameAdvertising_Trailer = "Рекламный трейлер",
+}

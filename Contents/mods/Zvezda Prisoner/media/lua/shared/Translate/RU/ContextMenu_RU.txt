@@ -1,0 +1,5 @@
+ContextMenu_RU = {
+    ContextMenu_Restrain = "Надеть наручники на %1",
+    ContextMenu_Free = "Снять наручники с %1",
+    ContextMenu_Inventary = "Обыскать %1",
+} 

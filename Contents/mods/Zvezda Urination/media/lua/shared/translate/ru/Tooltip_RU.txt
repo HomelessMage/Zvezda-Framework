@@ -1,0 +1,4 @@
+Tooltip_RU = {
+	Tooltip_UrinateDefault = "Справить нужду.",
+	Tooltip_UrinateDriving = "Вы не можете справить нужду по время вождения.",
+}

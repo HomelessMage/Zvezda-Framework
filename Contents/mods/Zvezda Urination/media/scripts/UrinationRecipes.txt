@@ -1,0 +1,11 @@
+module Base
+{
+	recipe Fill Bottle With Urine
+	{
+		WaterBottleEmpty,
+		HumanUrine,
+
+		Result:UrineBottle,
+		Time:20.0,
+	}
+}

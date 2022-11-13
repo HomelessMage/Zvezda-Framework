@@ -1,0 +1,4 @@
+Recipe_RU = {
+    Recipe_Erase_Markings = "Стереть заметки",
+    Recipe_Get_Sheet_of_paper = "Вырвать листы",
+}

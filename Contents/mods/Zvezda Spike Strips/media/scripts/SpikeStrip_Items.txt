@@ -1,0 +1,17 @@
+module Braven
+{
+    imports {
+        Base,
+    }
+
+    item SpikeStrip
+    {
+		Weight		        = 3,
+		Type		        = Normal,
+		DisplayName     	= SpikeStrip,
+		Icon		        = TrapSpikeStrip,
+		MetalValue         	= 30,
+        WorldStaticModel    = SpikeStrip,
+        Tooltip             =   Tooltip_item_SpikeStrip,
+    }
+}

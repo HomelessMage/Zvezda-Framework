@@ -1,0 +1,320 @@
+module Base
+{
+	item Tshirt_PoliceBlue
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Police Trooper Short Sleeve Shirt,
+        ClothingItem = Tshirt_PoliceBlue,
+        BodyLocation = ShortSleeveShirt,
+        Icon	=	PoliceOfficerTshirt_Icon,
+        Insulation = 0.2,
+        WindResistance = 0.15,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+    }
+    item Tshirt_PoliceGrey
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Police Deputy Short Sleeve Shirt,
+        ClothingItem = Tshirt_PoliceGrey,
+        BodyLocation = ShortSleeveShirt,
+        Icon	=	StatePoliceTshirt_Icon,
+        BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.25,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+    }
+	item Shirt_OfficerWhite
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Police Shirt,
+		ClothingItem = Shirt_OfficerWhite,
+		BodyLocation = Shirt,
+		Icon = OfficerWhiteShirt_Icon,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+	item TShirt_OfficerWhite
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Police Shirt,
+		ClothingItem = TShirt_OfficerWhite,
+		BodyLocation = ShortSleeveShirt,
+		Icon = OfficerWhiteTshirt_Icon,
+        BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.15,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+	}
+	item TShirt_PrisonGuard
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Police Shirt,
+		ClothingItem = TShirt_PrisonGuard,
+		BodyLocation = ShortSleeveShirt,
+		Icon = PrisonGuardTshirt_Icon,
+        BloodLocation = Shirt,
+        Insulation = 0.2,
+        WindResistance = 0.25,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+	}
+	item Hat_Ranger
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Ranger Hat,
+		ClothingItem = Hat_Ranger,
+		BodyLocation = Hat,
+		Icon = RangerHat_Icon,
+		CanHaveHoles = false,
+		ChanceToFall = 40,
+        BloodLocation = Head,
+        Insulation = 0.45,
+        WindResistance = 0.40,
+        WaterResistance = 0.25,
+    }
+	item Tshirt_Ranger
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Ranger Short Sleeve Shirt,
+        ClothingItem = Tshirt_Ranger,
+        BodyLocation = ShortSleeveShirt,
+        Icon	=	RangerTshirt_Icon,
+        BloodLocation = Shirt,
+        Insulation = 0.35,
+        WindResistance = 0.30,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+    }
+	item Shirt_PrisonGuard
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Prison Guard Shirt,
+		ClothingItem = Shirt_PrisonGuard,
+		BodyLocation = Shirt,
+		Icon = PrisonGuardShirt_Icon,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.25,
+        WindResistance = 0.25,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+	item Shirt_PoliceBlue
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Police Trooper Shirt,
+		ClothingItem = Shirt_PoliceBlue,
+		BodyLocation = Shirt,
+		Icon = PoliceOfficerShirt_Icon,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.2,
+        WindResistance = 0.2,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+	item Shirt_PoliceGrey
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Police Deputy Shirt,
+		ClothingItem = Shirt_PoliceGrey,
+		BodyLocation = Shirt,
+		Icon = StatePoliceShirt_Icon,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.3,
+        WindResistance = 0.15,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+	item Shirt_Ranger
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Ranger Shirt,
+		ClothingItem = Shirt_Ranger,
+		BodyLocation = Shirt,
+		Icon = RangerShirt_Icon,
+		BloodLocation = ShirtLongSleeves,
+        Insulation = 0.4,
+        WindResistance = 0.35,
+        FabricType = Cotton,
+        WorldStaticModel = Shirt_Ground,
+	}
+    item Jacket_Police
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Police Deputy Jacket,
+        ClothingItem = Jacket_Police,
+        BodyLocation = Jacket,
+        Icon = PoliceJacket_Icon,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.98,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.6,
+        WindResistance = 0.45,
+        FabricType = Cotton,
+        WaterResistance = 0.25,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+    }
+    item Jacket_Ranger
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Ranger Jacket,
+        ClothingItem = Jacket_Ranger,
+        BodyLocation = Jacket,
+        Icon = RangerJacket_Icon,
+        BloodLocation = Jacket,
+        RunSpeedModifier = 0.93,
+        CombatSpeedModifier = 0.98,
+        BiteDefense = 20,
+        ScratchDefense = 30,
+        NeckProtectionModifier = 0.5,
+        Insulation = 0.7,
+        WindResistance = 0.7,
+        FabricType = Cotton,
+        WaterResistance = 0.5,
+        Weight = 2,
+        WorldStaticModel = JacketCoat_Ground,
+    }
+	item Hat_Police
+	{
+	    DisplayCategory = Accessory,
+		Type = Clothing,
+		DisplayName = Police Trooper Hat,
+		ClothingItem = Hat_Police,
+		BodyLocation = Hat,
+		Icon = HatPoliceBlue_Icon,
+		CanHaveHoles = false,
+		ChanceToFall = 40,
+		WaterResistance = 0.2,
+	}
+    item Police_Undershirt
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = White Police Undershirt,
+        ClothingItem = Police_Undershirt,
+        BodyLocation = Tshirt,
+        Icon	=	TshirtGeneric,
+        BloodLocation = Shirt,
+        Insulation = 0.20,
+        WindResistance = 0.15,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+    }
+    item Police_Undershirt_Dark
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Dark Police Undershirt,
+        ClothingItem = Police_Undershirt_Dark,
+        BodyLocation = Tshirt,
+        Icon	=	TshirtGeneric,
+        BloodLocation = Shirt,
+        Insulation = 0.20,
+        WindResistance = 0.15,
+        FabricType = Cotton,
+        WorldStaticModel = TShirt_Ground,
+    }
+    item Trousers_Police
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Police Trooper Pants,
+        ClothingItem = Trousers_Police,
+        BodyLocation = Pants,
+        Icon = PoliceTrousers_Icon,
+        BloodLocation = Trousers,
+        Insulation = 0.6,
+        WindResistance = 0.3,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_PoliceGrey
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName =  Police Deputy Pants,
+        ClothingItem = Trousers_PoliceGrey,
+        BodyLocation = Pants,
+        Icon = StatePoliceTrousers_Icon,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.55,
+        WindResistance = 0.4,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_PrisonGuard
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Prison Guard Pants,
+        ClothingItem = Trousers_PrisonGuard,
+        BodyLocation = Pants,
+        Icon = PrisonGuardTrousers_Icon,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.5,
+        WindResistance = 0.5,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+    item Trousers_Ranger
+    {
+        DisplayCategory = Clothing,
+        Type = Clothing,
+        DisplayName = Ranger Pants,
+        ClothingItem = Trousers_Ranger,
+        BodyLocation = Pants,
+        Icon = RangerTrousers_Icon,
+        BloodLocation = Trousers,
+        ScratchDefense = 10,
+        Insulation = 0.75,
+        WindResistance = 0.75,
+        WaterResistance = 0.35,
+        FabricType = Cotton,
+        WorldStaticModel = Trousers_Ground,
+    }
+	item Shoes_PoliceBoots
+	{
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+		DisplayName = Police Boots,
+		ClothingItem = Shoes_PoliceBoots,
+		BodyLocation = Shoes,
+		BloodLocation = Shoes,
+		Icon = PoliceBoots_Icon,
+		StompPower = 2.3,
+		ConditionLowerChanceOneIn = 16,
+        ConditionMax = 28,
+        RunSpeedModifier = 0.95,
+        RemoveOnBroken = false,
+        ScratchDefense = 60,
+        BiteDefense = 30,
+        Insulation = 0.85,
+        WindResistance = 0.75,
+        WaterResistance = 0.75,
+        WorldStaticModel = Boots_Ground,
+	}
+}

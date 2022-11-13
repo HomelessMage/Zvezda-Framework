@@ -1,0 +1,24 @@
+Sandbox_EN = {
+	Sandbox_Urination = "Urination",
+
+	Sandbox_Urination_UrinateTimeMultiplier = "Urinate Time Multiplier",
+	Sandbox_Urination_UrinateTimeMultiplier_tooltip = "How long it takes to urinate after you begin the process",
+	
+	Sandbox_Urination_UrinateIncreaseMultiplier = "Urinate Increase Multiplier",
+	Sandbox_Urination_UrinateIncreaseMultiplier_tooltip = "How fast the Urinate % increases every ten minutes",
+	
+	Sandbox_Urination_UrinatedBottomsMultiplier = "Urinated Bottoms Multiplier",
+	Sandbox_Urination_UrinatedBottomsMultiplier_tooltip = "How much stress and unhappyness you gain every ten minutes",
+
+	Sandbox_Urination_ToiletNoiseRadiusMultiplier = "Toilet Noise Radius Multiplier",
+	Sandbox_Urination_ToiletNoiseRadiusMultiplier_tooltip = "How loud the toilet can be",
+	
+	Sandbox_Urination_CanPeeSelf = "Can Pee Self",
+	Sandbox_Urination_CanPeeSelf_tooltip = "Uncheck to disable the 'urinating yourself' function",
+	
+	Sandbox_Urination_ShowNumericStatus = "Show Numeric Status",
+	Sandbox_Urination_ShowNumericStatus_tooltip = "Uncheck to hide numbers shown on 'Urination Status' window",
+
+	Sandbox_Urination_CreatePeePuddle = "Create Pee Puddle",
+	Sandbox_Urination_CreatePeePuddle_tooltip = "Uncheck to disable the creation of urine puddles when peeing.",
+}

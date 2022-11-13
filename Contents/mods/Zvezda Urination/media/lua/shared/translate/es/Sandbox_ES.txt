@@ -1,0 +1,24 @@
+Sandbox_ES = {
+	Sandbox_Urination = "Urination",
+
+	Sandbox_Urination_UrinateTimeMultiplier = "Multiplicador del tiempo de la orina",
+	Sandbox_Urination_UrinateTimeMultiplier_tooltip = "Que tanto tiempo tardas en orinar a partir de que comience la micción",
+	
+	Sandbox_Urination_UrinateIncreaseMultiplier = "UrinateIncreaseMultiplier",
+	Sandbox_Urination_UrinateIncreaseMultiplier_tooltip = "Que tanto incrementa la orina % cada 10 minutos",
+	
+	Sandbox_Urination_UrinatedBottomsMultiplier = "Multiplicador de los efectos de la orina",
+	Sandbox_Urination_UrinatedBottomsMultiplier_tooltip = "Que tanto estrés e infelicidad incrementa cada 10 minutos",
+
+	Sandbox_Urination_ToiletNoiseRadiusMultiplier = "Multiplicador del radio del sonido del retrete",
+	Sandbox_Urination_ToiletNoiseRadiusMultiplier_tooltip = "Que tan ruidoso puede ser el retrete",
+	
+	Sandbox_Urination_CanPeeSelf = "Puedes orinarte encima",
+	Sandbox_Urination_CanPeeSelf_tooltip = "Desmarca para deshabilitar la función de 'orinarte encima'",
+	
+	Sandbox_Urination_ShowNumericStatus = "Mostrar estados numéricos",
+	Sandbox_Urination_ShowNumericStatus_tooltip = "Desmarca para ocultar los números mostrados en la ventana 'Estado de la vejiga'",
+
+	Sandbox_Urination_CreatePeePuddle = "Crear charco de orina",
+	Sandbox_Urination_CreatePeePuddle_tooltip = "Desmarque para deshabilitar la creación de charcos de orina al orinar.",
+}

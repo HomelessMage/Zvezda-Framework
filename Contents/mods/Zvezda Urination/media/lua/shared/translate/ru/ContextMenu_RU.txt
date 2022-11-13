@@ -1,0 +1,5 @@
+ContextMenu_RU = {
+	ContextMenu_Urinate = "Справить нужду",
+	ContextMenu_Urinated = " (в моче)",
+	ContextMenu_UrinateSterilize = "Очистить от мочи",
+}

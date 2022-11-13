@@ -1,0 +1,42 @@
+Sandbox_RU = {
+	Sandbox_Defecation = "[ЗВЕЗДА] Дефекация",
+
+	Sandbox_Defecation_DefecateTimeMultiplier = "Множитель времени дефекации",
+	Sandbox_Defecation_DefecateTimeMultiplier_tooltip = "Сколько времени требуется, чтобы испражняться после того, как вы начали процесс",
+	
+	Sandbox_Defecation_DefecateIncreaseMultiplier = "Множитель увеличения нужды",
+	Sandbox_Defecation_DefecateIncreaseMultiplier_tooltip = "Насколько быстро увеличивается % нужды каждые десять минут",
+	
+	Sandbox_Defecation_DefecatedBottomsMultiplier = "Множитель стресса",
+	Sandbox_Defecation_DefecatedBottomsMultiplier_tooltip = "Сколько стресса и несчастья вы получаете каждые десять минут",
+	
+	Sandbox_Defecation_VitaminTimeMultiplier = "Множитель времени действия витаминов",
+	Sandbox_Defecation_VitaminTimeMultiplier_tooltip = "Как долго противодиарейные витамины могут действовать на вас",
+	
+	Sandbox_Defecation_VitaminMaxTimeMultiplier = "Множитель максимального времени действия витаминов",
+	Sandbox_Defecation_VitaminMaxTimeMultiplier_tooltip = "Максимальное количество времени, в течение которого витамины могут воздействовать на вас, если вы съели несколько",
+	
+	Sandbox_Defecation_FecesPileUnhealthyMultiplier = "Множитель действия куч фекалий",
+	Sandbox_Defecation_FecesPileUnhealthyMultiplier_tooltip = "Сколько болезней и несчастий игрок получает от кучи фекалий поблизости",
+	
+	Sandbox_Defecation_DiarrheaIncreaseMultiplier = "Множитель воздействия диареи на нужду",
+	Sandbox_Defecation_DiarrheaIncreaseMultiplier_tooltip = "Насколько диарея может увеличить ваш процент нужды",
+	
+	Sandbox_Defecation_FartNoiseRadiusMultiplier = "Громкость метеоризма",
+	Sandbox_Defecation_FartNoiseRadiusMultiplier_tooltip = "Насколько громким может быть шум после дефекации",
+	
+	Sandbox_Defecation_ToiletNoiseRadiusMultiplier = "Громкость смыва туалета",
+	Sandbox_Defecation_ToiletNoiseRadiusMultiplier_tooltip = "Насколько громким может быть туалет",
+	
+	Sandbox_Defecation_SickCaloriesRemovedMultiplier = "Множитель количества калорий",
+	Sandbox_Defecation_SickCaloriesRemovedMultiplier_tooltip = "Количество калорий, удаляемых во время болезни",
+	
+	Sandbox_Defecation_SickThirstRemovedMultiplier = "Множитель жажды во время болезни",
+	Sandbox_Defecation_SickThirstRemovedMultiplier_tooltip = "Количество утоляемой жажды, когда вы больны",
+	
+	Sandbox_Defecation_CanPooSelf = "Возможность обделаться",
+	Sandbox_Defecation_CanPooSelf_tooltip = "Снимите флажок, чтобы отключить функцию самодефекации",
+	
+	Sandbox_Defecation_ShowNumericStatus = "Показать числовой статус",
+	Sandbox_Defecation_ShowNumericStatus_tooltip = "Снимите флажок, чтобы скрыть числа, отображаемые в окне «Статус дефекации»",
+}

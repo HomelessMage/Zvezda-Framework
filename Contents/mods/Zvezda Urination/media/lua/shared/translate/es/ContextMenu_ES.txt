@@ -1,0 +1,5 @@
+ContextMenu_ES = {
+	ContextMenu_Urinate = "Orinar",
+	ContextMenu_Urinated = " (Orinado)",
+	ContextMenu_UrinateSterilize = "Esterilizar orina",
+}

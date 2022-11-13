@@ -1,0 +1,24 @@
+Sandbox_DE = {
+	Sandbox_Urination = "Harndrang",
+
+	Sandbox_Urination_UrinateTimeMultiplier = "Urinate Time Multiplier",
+	Sandbox_Urination_UrinateTimeMultiplier_tooltip = "Wie lange es dauert, bis du zu urinieren beginnst",
+	
+	Sandbox_Urination_UrinateIncreaseMultiplier = "Urinate Increase Multiplier",
+	Sandbox_Urination_UrinateIncreaseMultiplier_tooltip = "Wie schnell der % Anteil des Harndrangs alle zehn Minuten steigt",
+	
+	Sandbox_Urination_UrinatedBottomsMultiplier = "Urinated Bottoms Multiplier",
+	Sandbox_Urination_UrinatedBottomsMultiplier_tooltip = "Wie viel Stress und Unglücklichsein du alle zehn Minuten bekommst",
+
+	Sandbox_Urination_ToiletNoiseRadiusMultiplier = "Toilette Lärm Radius Multiplikator",
+	Sandbox_Urination_ToiletNoiseRadiusMultiplier_tooltip = "Wie laut die Toilette sein kann",
+	
+	Sandbox_Urination_CanPeeSelf = "Kann sich Einnässen",
+	Sandbox_Urination_CanPeeSelf_tooltip = "Deaktiviere das Häkchen, um die Funktion "Einnässen" zu deaktivieren",
+	
+	Sandbox_Urination_ShowNumericStatus = "Numerischen Status anzeigen",
+	Sandbox_Urination_ShowNumericStatus_tooltip = "Deaktiviere das Häkchen, um die Zahlen im Fenster "Harndrang" auszublenden"
+
+	Sandbox_Urination_CreatePeePuddle = "Erstellen Sie eine Urinpfütze",
+	Sandbox_Urination_CreatePeePuddle_tooltip = "Deaktivieren Sie die Option zum Deaktivieren von Urinpfützen beim Pinkeln.",
+}

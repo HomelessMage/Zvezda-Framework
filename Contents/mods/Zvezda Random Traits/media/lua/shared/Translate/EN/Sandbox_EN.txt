@@ -1,0 +1,12 @@
+Sandbox_EN = {
+	Sandbox_SecretRandomCharacter = "Secret Random Character",
+
+	Sandbox_SecretRandomCharacter_AlwaysFastLearner = "Always Give The Player Fast Learner",
+	Sandbox_SecretRandomCharacter_AlwaysFastLearner_tooltip = "Whether or not the player should receive Fast Learner on all characters.<br>Turning this off will give the possibility of gaining Fast Learner or Slow Learner, as opposed to always receiving Fast Learner.",
+	Sandbox_SecretRandomCharacter_AlwaysWakeful = "Always Give The Player Wakeful",
+	Sandbox_SecretRandomCharacter_AlwaysWakeful_tooltip = "Whether or not the player should receive Wakeful on all characters.<br>Turning this off will give the possibility of gaining Wakeful or Sleepyhead, as opposed to always receiving Wakeful.<br>Note: This setting does not do anything if you have 'Dynamic Traits' mod active.",
+	Sandbox_SecretRandomCharacter_OccupationCosts = "Occupations Change Points Value",
+	Sandbox_SecretRandomCharacter_OccupationCosts_tooltip = "Whether or not occupations should affect the points value used for giving traits.<br>Turning this off will cause all characters to start with 8 points when giving traits, regardless of the occupation taken.",
+	Sandbox_SecretRandomCharacter_MaximumAmountOfNegatives = "Maximum Amount Of Negative Traits",
+	Sandbox_SecretRandomCharacter_MaximumAmountOfNegatives_tooltip = "How much negative traits can you get between 0 and X",
+}

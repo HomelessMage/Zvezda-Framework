@@ -1,0 +1,55 @@
+module Base
+{
+	item _BuildTools
+	{
+		Weight 		= 0.003,
+		Type 		= Normal,
+		DisplayName 		= 批量建筑工具BuildTools,
+		Icon 		= Money,
+	}
+    recipe Get first point(Upper left)
+	{
+		_BuildTools,
+		Result 		: _BuildTools,
+		Time 		: 20,
+		Category 		: 建筑,
+		CanBeDoneFromFloor 		: TRUE,
+		OnCreate 		: Recipe.OnCreate.copybuildfirst,
+	}
+    recipe Get second point(lower right)
+	{
+		_BuildTools,
+		Result 		: _BuildTools,
+		Time 		: 20,
+		Category 		: 建筑,
+		CanBeDoneFromFloor 		: TRUE,
+		OnCreate 		: Recipe.OnCreate.copybuildsecond,
+	}
+    recipe Copy(Move to an open place)
+	{
+		_BuildTools,
+		Result 		: _BuildTools,
+		Time 		: 20,
+		Category 		: 建筑,
+		CanBeDoneFromFloor 		: TRUE,
+		OnCreate 		: Recipe.OnCreate.copybuildcopy,
+	}
+    recipe Cut(Move to an open place)
+	{
+		_BuildTools,
+		Result 		: _BuildTools,
+		Time 		: 20,
+		Category 		: 建筑,
+		CanBeDoneFromFloor 		: TRUE,
+		OnCreate 		: Recipe.OnCreate.copybuildcut,
+	}
+    recipe Remove
+	{
+		_BuildTools,
+		Result 		: _BuildTools,
+		Time 		: 20,
+		Category 		: 建筑,
+		CanBeDoneFromFloor 		: TRUE,
+		OnCreate 		: Recipe.OnCreate.copybuilddelete,
+	}
+}

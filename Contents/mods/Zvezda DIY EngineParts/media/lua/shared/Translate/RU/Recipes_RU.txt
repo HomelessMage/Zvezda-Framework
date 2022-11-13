@@ -1,0 +1,3 @@
+Recipe_RU = {
+    Recipe_MakeEnginePart = "Сделать запасные части двигателя",
+}

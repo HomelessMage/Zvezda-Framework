@@ -1,0 +1,17 @@
+module Vendors {
+    imports {
+        Base
+    }
+	
+	item VehicleVendor
+    {
+        Weight          = 60.0,
+        Type            = Normal,
+        DisplayName     = Vehicle Vendor,
+        icon            = VehicleVendor,
+		StaticModel = VehicleVendor,
+		WorldStaticModel = VehicleVendor,
+		DisplayCategory	= Vendors,
+    }
+}
+	

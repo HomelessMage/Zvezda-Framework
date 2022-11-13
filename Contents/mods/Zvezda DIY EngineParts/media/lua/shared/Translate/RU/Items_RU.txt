@@ -1,0 +1,3 @@
+Items_RU = {
+	DisplayName_DIY_EngineParts = "Журнал «Всратый DIY: Запасные части двигателя»",
+}

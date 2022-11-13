@@ -1,0 +1,4 @@
+ContextMenu_RU = {
+	ContextMenu_TakeBottleFromDispenser = "Снять бутыль с кулера",
+	ContextMenu_PlaceOnDispenser = "Установить бутыль в кулер",
+}

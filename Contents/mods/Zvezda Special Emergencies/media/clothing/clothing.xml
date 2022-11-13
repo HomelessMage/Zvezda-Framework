@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<outfitManager>
+	<m_FemaleOutfits>
+		<m_Name>Fbiofficer</m_Name>
+		<m_Guid>4ef99df0-7961-42f1-9376-94bb511908d3</m_Guid>
+		<m_Top>false</m_Top> <!-- Will it spawn with a default tank top? false = no -->
+		<m_Pants>false</m_Pants> <!-- Will it spawn with a default pants? false = no -->
+		<m_AllowPantsHue>false</m_AllowPantsHue> <!-- Will the pants spawn with random hue? -->
+		<m_AllowTopTint>false</m_AllowTopTint> <!-- Will the tank top spawn with random tint? -->
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal> <!-- Will it spawn with a shirt decal? -->
+		<m_items><!-- jacket --> 
+			<itemGUID>0aef86cd-8978-48b1-8297-9bfa5c7d4ca9</itemGUID>
+			<subItems>
+				<itemGUID>d6615442-6bc2-4830-bab8-6ace1668fbc8</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e9c83745-b956-4082-9baf-b336a131141e</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>d0f64eba-fd7c-4c9a-ad55-dec5f284d302</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- T- shirt -->
+			<itemGUID>ac7976de-2c73-44ea-9392-5d24ac1fb649</itemGUID>       
+			<subItems>
+				<itemGUID>6e3a5fbf-5473-4a8b-92d1-a10a48a52fef</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>993a89f1-7dde-406d-ba1f-3d02d14db5cc</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items><!-- Pants --> 
+			<itemGUID>7f907c3c-9d6f-46c6-8e93-6f74526ef7cc</itemGUID>
+		</m_items>
+		<m_items>  <!-- Holster -->
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>
+		<m_items><!-- vest --> 
+		<probability>0.5</probability>
+			<itemGUID>9c15d4de-9e99-49b6-a61d-a30eea963809</itemGUID>
+				<subItems>
+				<itemGUID>83d17ed3-133c-4ade-a530-c860ae41090e</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items><!-- shocks --> 
+			<itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID>
+		</m_items>
+		<m_items><!-- boots --> 
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items><!-- HAT --> 
+			<probability>0.4</probability>
+			<itemGUID>df5efc7b-410f-4d7d-9266-f97d630ceeee</itemGUID>
+		</m_items>
+		<m_items><!-- neck --> 
+			<probability>0.8</probability>
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>
+		<m_items><!-- wraist clocks --> 
+			<probability>0.3</probability>
+			<itemGUID>5fc22466-2942-4ba1-8c33-2a8528b73021</itemGUID>
+			<subItems>
+				<itemGUID>ce1a8520-7120-432e-8a3a-aa7b3094f0bb</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>c7cc655b-284a-4087-85a6-d7c116385fb0</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
+			</subItems>
+		</m_items>
+	</m_FemaleOutfits>
+	<m_MaleOutfits>
+		<m_Name>Fbiofficer</m_Name>
+		<m_Guid>a4ef48b1-f22f-4269-9f72-a0258450f62e</m_Guid>
+		<m_Top>false</m_Top> <!-- Will it spawn with a default tank top? false = no -->
+		<m_Pants>false</m_Pants> <!-- Will it spawn with a default pants? false = no -->
+		<m_AllowPantsHue>false</m_AllowPantsHue> <!-- Will the pants spawn with random hue? -->
+		<m_AllowTopTint>false</m_AllowTopTint> <!-- Will the tank top spawn with random tint? -->
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal> <!-- Will it spawn with a shirt decal? -->
+		<m_items><!-- jacket --> 
+			<itemGUID>0aef86cd-8978-48b1-8297-9bfa5c7d4ca9</itemGUID>
+			<subItems>
+				<itemGUID>d6615442-6bc2-4830-bab8-6ace1668fbc8</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>e9c83745-b956-4082-9baf-b336a131141e</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>d0f64eba-fd7c-4c9a-ad55-dec5f284d302</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items> <!-- T- shirt -->
+			<itemGUID>ac7976de-2c73-44ea-9392-5d24ac1fb649</itemGUID>       
+			<subItems>
+				<itemGUID>6e3a5fbf-5473-4a8b-92d1-a10a48a52fef</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>993a89f1-7dde-406d-ba1f-3d02d14db5cc</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items><!-- Pants --> 
+			<itemGUID>7f907c3c-9d6f-46c6-8e93-6f74526ef7cc</itemGUID>
+		</m_items>
+		<m_items>  <!-- Holster -->
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>
+		<m_items><!-- vest --> 
+		<probability>0.5</probability>
+			<itemGUID>9c15d4de-9e99-49b6-a61d-a30eea963809</itemGUID>
+				<subItems>
+				<itemGUID>83d17ed3-133c-4ade-a530-c860ae41090e</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items><!-- shocks --> 
+			<itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID>
+		</m_items>
+		<m_items><!-- boots --> 
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items><!-- HAT --> 
+			<probability>0.3</probability>
+			<itemGUID>df5efc7b-410f-4d7d-9266-f97d630ceeee</itemGUID>
+		</m_items>
+		<m_items><!-- neck --> 
+			<probability>0.8</probability>
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>
+		<m_items><!-- wraist clocks --> 
+			<probability>0.3</probability>
+			<itemGUID>5fc22466-2942-4ba1-8c33-2a8528b73021</itemGUID>
+			<subItems>
+				<itemGUID>ce1a8520-7120-432e-8a3a-aa7b3094f0bb</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>c7cc655b-284a-4087-85a6-d7c116385fb0</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
+			</subItems>
+		</m_items>
+	</m_MaleOutfits>
+	<m_MaleOutfits>
+		<m_Name>Fbiofficer2</m_Name>
+		<m_Guid>6a4f610b-3b6e-4114-94c4-50bff5e88b6c</m_Guid>
+		<m_Top>false</m_Top> <!-- Will it spawn with a default tank top? false = no -->
+		<m_Pants>false</m_Pants> <!-- Will it spawn with a default pants? false = no -->
+		<m_AllowPantsHue>false</m_AllowPantsHue> <!-- Will the pants spawn with random hue? -->
+		<m_AllowTopTint>false</m_AllowTopTint> <!-- Will the tank top spawn with random tint? -->
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal> <!-- Will it spawn with a shirt decal? -->
+		<m_items> <!-- T- shirt -->
+			<itemGUID>76a0891a-0bee-455f-90f8-58220d5ce16e</itemGUID>
+		</m_items>
+		<m_items><!-- Pants --> 
+			<itemGUID>52acd769-424a-4cbb-b02a-441cb723b747</itemGUID>
+		</m_items>
+		<m_items>  <!-- Holster -->
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>
+		<m_items><!-- vest --> 
+		<probability>0.3</probability>
+			<itemGUID>9c15d4de-9e99-49b6-a61d-a30eea963809</itemGUID>
+				<subItems>
+				<itemGUID>83d17ed3-133c-4ade-a530-c860ae41090e</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items><!-- shocks --> 
+			<itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID>
+		</m_items>
+		<m_items><!-- boots --> 
+			<itemGUID>593bea3d-c127-4574-ac1e-2197dc56e486</itemGUID>
+		</m_items>
+		<m_items><!-- HAT --> 
+			<probability>0.3</probability>
+			<itemGUID>df5efc7b-410f-4d7d-9266-f97d630ceeee</itemGUID>
+		</m_items>
+		<m_items><!-- neck --> 
+			<probability>0.8</probability>
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>
+		<m_items><!-- wraist clocks --> 
+			<probability>0.3</probability>
+			<itemGUID>5fc22466-2942-4ba1-8c33-2a8528b73021</itemGUID>
+			<subItems>
+				<itemGUID>ce1a8520-7120-432e-8a3a-aa7b3094f0bb</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>c7cc655b-284a-4087-85a6-d7c116385fb0</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
+			</subItems>
+		</m_items>
+	</m_MaleOutfits>
+	
+		<m_FemaleOutfits>
+		<m_Name>Fbiofficer2</m_Name>
+		<m_Guid>c0f1fac0-0856-4fb1-85c2-e8d235ec3be5</m_Guid>
+		<m_Top>false</m_Top> <!-- Will it spawn with a default tank top? false = no -->
+		<m_Pants>false</m_Pants> <!-- Will it spawn with a default pants? false = no -->
+		<m_AllowPantsHue>false</m_AllowPantsHue> <!-- Will the pants spawn with random hue? -->
+		<m_AllowTopTint>false</m_AllowTopTint> <!-- Will the tank top spawn with random tint? -->
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal> <!-- Will it spawn with a shirt decal? -->
+		<m_items> <!-- T- shirt -->
+			<itemGUID>76a0891a-0bee-455f-90f8-58220d5ce16e</itemGUID>
+		</m_items>
+		<m_items><!-- Pants --> 
+			<itemGUID>7f907c3c-9d6f-46c6-8e93-6f74526ef7cc</itemGUID>
+		</m_items>
+		<m_items>  <!-- Holster -->
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>
+		<m_items><!-- vest --> 
+		<probability>0.3</probability>
+			<itemGUID>9c15d4de-9e99-49b6-a61d-a30eea963809</itemGUID>
+				<subItems>
+				<itemGUID>83d17ed3-133c-4ade-a530-c860ae41090e</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items><!-- shocks --> 
+			<itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID>
+		</m_items>
+		<m_items><!-- boots --> 
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items><!-- HAT --> 
+			<probability>0.4</probability>
+			<itemGUID>df5efc7b-410f-4d7d-9266-f97d630ceeee</itemGUID>
+		</m_items>
+		<m_items><!-- neck --> 
+			<probability>0.8</probability>
+			<itemGUID>88321000-2b08-4537-9c51-4b5eca360c92</itemGUID>
+		</m_items>
+		<m_items><!-- wraist clocks --> 
+			<probability>0.3</probability>
+			<itemGUID>5fc22466-2942-4ba1-8c33-2a8528b73021</itemGUID>
+			<subItems>
+				<itemGUID>ce1a8520-7120-432e-8a3a-aa7b3094f0bb</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>c7cc655b-284a-4087-85a6-d7c116385fb0</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
+			</subItems>
+		</m_items>
+	</m_FemaleOutfits>
+	
+	<m_MaleOutfits>
+		<m_Name>AntiriotofficerLG</m_Name>
+		<m_Guid>6d8ebcde-ba95-42b9-b572-5cd1add5324c</m_Guid>
+		<m_Top>false</m_Top> <!-- Will it spawn with a default tank top? false = no -->
+		<m_Pants>false</m_Pants> <!-- Will it spawn with a default pants? false = no -->
+		<m_AllowPantsHue>false</m_AllowPantsHue> <!-- Will the pants spawn with random hue? -->
+		<m_AllowTopTint>false</m_AllowTopTint> <!-- Will the tank top spawn with random tint? -->
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal> <!-- Will it spawn with a shirt decal? -->
+		<m_items><!-- jacket --> 
+			<itemGUID>1f13829a-7a66-41be-b2bb-2804db888858</itemGUID>
+		</m_items>
+		<m_items><!-- gloves --> 
+			<itemGUID>096acc98-7ac1-4867-82dd-af77afb6a87b</itemGUID>
+		</m_items>
+		<m_items> <!-- T- shirt -->
+			<itemGUID>ac7976de-2c73-44ea-9392-5d24ac1fb649</itemGUID>       
+			<subItems>
+				<itemGUID>6e3a5fbf-5473-4a8b-92d1-a10a48a52fef</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>993a89f1-7dde-406d-ba1f-3d02d14db5cc</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items><!-- Pants --> 
+			<itemGUID>95bce0ca-875d-4ffd-8867-6c8c183e0a19</itemGUID>
+		</m_items>
+		<m_items>  <!-- Holster -->
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>
+		<m_items><!-- vest --> 
+			<itemGUID>96c1db10-cd39-4c7f-b7f9-fcd092a2c946</itemGUID>
+				<subItems>
+				<itemGUID>bee6ce78-bf4c-419b-9934-4dd2cf7d2903</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items><!-- shocks --> 
+			<itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID>
+		</m_items>
+		<m_items><!-- boots --> 
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items><!-- helmet --> 
+			<probability>0.8</probability>
+			<itemGUID>bc0e96f3-bf02-466d-aed4-7f52cb9e5c86</itemGUID>
+		</m_items>
+		<m_items><!-- wraist clocks --> 
+			<probability>0.3</probability>
+			<itemGUID>5fc22466-2942-4ba1-8c33-2a8528b73021</itemGUID>
+			<subItems>
+				<itemGUID>ce1a8520-7120-432e-8a3a-aa7b3094f0bb</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>c7cc655b-284a-4087-85a6-d7c116385fb0</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
+			</subItems>
+		</m_items>
+	</m_MaleOutfits>
+	
+	<m_FemaleOutfits>
+		<m_Name>AntiriotofficerLG</m_Name>
+		<m_Guid>9a295f9e-64b8-4ec2-8679-9d955e99a58d</m_Guid>
+		<m_Top>false</m_Top> <!-- Will it spawn with a default tank top? false = no -->
+		<m_Pants>false</m_Pants> <!-- Will it spawn with a default pants? false = no -->
+		<m_AllowPantsHue>false</m_AllowPantsHue> <!-- Will the pants spawn with random hue? -->
+		<m_AllowTopTint>false</m_AllowTopTint> <!-- Will the tank top spawn with random tint? -->
+		<m_AllowTShirtDecal>false</m_AllowTShirtDecal> <!-- Will it spawn with a shirt decal? -->
+		<m_items><!-- jacket --> 
+			<itemGUID>1f13829a-7a66-41be-b2bb-2804db888858</itemGUID>
+		</m_items>
+		<m_items><!-- gloves --> 
+			<itemGUID>096acc98-7ac1-4867-82dd-af77afb6a87b</itemGUID>
+		</m_items>
+		<m_items> <!-- T- shirt -->
+			<itemGUID>ac7976de-2c73-44ea-9392-5d24ac1fb649</itemGUID>       
+			<subItems>
+				<itemGUID>6e3a5fbf-5473-4a8b-92d1-a10a48a52fef</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>993a89f1-7dde-406d-ba1f-3d02d14db5cc</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items><!-- Pants --> 
+			<itemGUID>95bce0ca-875d-4ffd-8867-6c8c183e0a19</itemGUID>
+		</m_items>
+		<m_items>  <!-- Holster -->
+			<itemGUID>88f11c9e-e717-446c-82ec-f749320df25a</itemGUID>
+		</m_items>
+		<m_items><!-- vest --> 
+			<itemGUID>96c1db10-cd39-4c7f-b7f9-fcd092a2c946</itemGUID>
+				<subItems>
+				<itemGUID>bee6ce78-bf4c-419b-9934-4dd2cf7d2903</itemGUID>
+			</subItems>
+		</m_items>
+		<m_items><!-- shocks --> 
+			<itemGUID>ebea15c8-99b3-4e20-905b-d22cf82b8217</itemGUID>
+		</m_items>
+		<m_items><!-- boots --> 
+			<itemGUID>227cb2d5-05a5-44ed-872d-ac4ca16e80bc</itemGUID>
+		</m_items>
+		<m_items><!-- helmet --> 
+			<probability>0.8</probability>
+			<itemGUID>bc0e96f3-bf02-466d-aed4-7f52cb9e5c86</itemGUID>
+		</m_items>
+		<m_items><!-- wraist clocks --> 
+			<probability>0.3</probability>
+			<itemGUID>5fc22466-2942-4ba1-8c33-2a8528b73021</itemGUID>
+			<subItems>
+				<itemGUID>ce1a8520-7120-432e-8a3a-aa7b3094f0bb</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>c7cc655b-284a-4087-85a6-d7c116385fb0</itemGUID>
+			</subItems>
+			<subItems>
+				<itemGUID>0383956a-3fbd-4001-9749-69e2ba70b134</itemGUID>
+			</subItems>
+		</m_items>
+	</m_FemaleOutfits>
+</outfitManager>

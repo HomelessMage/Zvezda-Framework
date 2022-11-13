@@ -1,0 +1,7 @@
+Items_RU = {
+	DisplayName_DIY_EngineParts = "Журнал «Всратый DIY: Запасные части двигателя»",
+	DisplayName_Mold_for_Glass = "Форма для стекла"
+	DisplayName_DIY_VehiclePartsMag1 = "Журнал «Всратый DIY: Части автомобиля, выпуск 1»",
+	DisplayName_DIY_VehiclePartsMag2 = "Журнал «Всратый DIY: Части автомобиля, выпуск 2»",
+	DisplayName_DIY_VehiclePartsMag3 = "Журнал «Всратый DIY: Части автомобиля, выпуск 3»",
+}

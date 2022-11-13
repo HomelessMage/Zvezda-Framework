@@ -1,0 +1,149 @@
+module ID
+{
+    item CollegeDiploma
+    {
+        DisplayCategory = Documentation,
+        Weight	=	0.3,
+        Type	=	Literature,
+        DisplayName	=	College Diploma,
+        Icon	=	CDIPLOMA,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        WorldStaticModel = Seeds,
+    }
+    item DrivingLicense
+    {
+        DisplayCategory = Documentation,
+        Weight	=	0.3,
+        Type	=	Literature,
+        DisplayName	=	Driver's License,
+        Icon	=	DLICENSE,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        WorldStaticModel = Seeds,
+    }
+    item FirearmPermitA
+    {
+        DisplayCategory = Documentation,
+        Weight	=	0.3,
+        Type	=	Literature,
+        DisplayName	=	Firearm Permit Class A,
+        Icon	=	GLICENSE1,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        WorldStaticModel = Seeds,
+    }
+    item FirearmPermitB
+    {
+        DisplayCategory = Documentation,
+        Weight	=	0.3,
+        Type	=	Literature,
+        DisplayName	=	Firearm Permit Class B,
+        Icon	=	GLICENSE2,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        WorldStaticModel = Seeds,
+    }
+    item FirearmPermitC
+    {
+        DisplayCategory = Documentation,
+        Weight	=	0.3,
+        Type	=	Literature,
+        DisplayName	=	Firearm Permit Class C,
+        Icon	=	GLICENSE3,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        WorldStaticModel = Seeds,
+    }
+    item HardLeatherWallet
+    {
+		WeightReduction	=	2,
+		Weight	=	0.4,
+		Type	=	Container,
+		Capacity	=	6,
+		DisplayName	=	Hardened Leather Wallet,
+		Icon	=	LEATHERWALLET,
+        OpenSound   =   WALLETOPEN,
+        CloseSound   =   WALLETCLOSE,
+        PutInSound   =   WALLETCLOSE,
+        AcceptItemFunction = Accept_Documentation
+        AcceptItemFunction = Accept_Money
+    }
+    item HuntingPermit
+    {
+        DisplayCategory = Documentation,
+        Weight	=	0.3,
+        Type	=	Literature,
+        DisplayName	=	Hunting Permit,
+        Icon	=	HLICENSE,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        WorldStaticModel = Seeds,
+    }
+    item IdentificationCard
+    {
+        DisplayCategory = Documentation,
+        Weight	=	0.3,
+        Type	=	Literature,
+        DisplayName	=	Identification Card,
+        Icon	=	IDCARD,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        WorldStaticModel = Seeds,
+    }
+    item MedicalLicense
+    {
+        DisplayCategory = Documentation,
+        Weight	=	0.3,
+        Type	=	Literature,
+        DisplayName	=	Medical License,
+        Icon	=	MLICENSE,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        WorldStaticModel = Seeds,
+    }
+    item Passport
+    {
+        DisplayCategory = Documentation,
+        Weight	=	0.3,
+        Type	=	Literature,
+        DisplayName	=	U.S Passport,
+        Icon	=	PASSPORT,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        WorldStaticModel = Seeds,
+    }
+    item PropertyDeed
+    {
+        DisplayCategory = Documentation,
+        Weight	=	0.3,
+        Type	=	Literature,
+        DisplayName	=	Property Deed,
+        Icon	=	PDEED,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        WorldStaticModel = Seeds,
+    }
+    item StatePoliceBadge
+    {
+        DisplayCategory = Documentation,
+        Weight	=	0.10,
+        Type	=	Literature,
+        DisplayName	=	Kentucky State Police Badge,
+        Icon	=	SPBADGE,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        WorldStaticModel = Seeds,
+    }
+    item VehicleRegistration
+    {
+        DisplayCategory = Documentation,
+        Weight	=	0.3,
+        Type	=	Literature,
+        DisplayName	=	Vehicle Registration,
+        Icon	=	VREGISTRATION,
+        CanBeWrite  =   true,
+        PageToWrite =   1,
+        WorldStaticModel = Seeds,
+    }
+}

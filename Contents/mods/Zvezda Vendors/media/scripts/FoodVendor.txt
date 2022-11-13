@@ -1,0 +1,16 @@
+module Vendors {
+    imports {
+        Base
+    }
+
+	item FoodVendor
+    {
+        Weight          = 60.0,
+        Type            = Normal,
+        DisplayName     = Food Vendor,
+        icon            = FoodVendor,
+		StaticModel = FoodVendor,
+		WorldStaticModel = FoodVendor,
+		DisplayCategory	= Vendors,
+    }
+}

@@ -1,0 +1,6 @@
+IG_UI_EN = {
+    IGUI_SYMS_Name = "Name:",
+    IGUI_SYMS_CopyElements = "Export Markings",
+    IGUI_SYMS_TransferElements = "Import Markings",
+    IGUI_SYMS_SelectMarkings = "[--Select Markings--]",
+}

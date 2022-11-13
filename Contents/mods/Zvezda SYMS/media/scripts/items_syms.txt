@@ -1,0 +1,18 @@
+module SYMS
+{
+	imports
+	{
+		Base
+	}
+
+    item SYMSPaper
+    {
+        DisplayCategory = Cartography,
+        DisplayName = Shared Map Symbols,
+        Type = Normal,
+        Icon = SYMSPaper,
+        Weight = 0.1,
+        WorldStaticModel = SheetOfPaper,
+        Tooltip = Tooltip_SYMS_SomeoneMarks,
+    }
+}

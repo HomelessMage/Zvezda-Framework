@@ -1,0 +1,21 @@
+module T15K_VehicleParts
+{
+
+    imports 
+    {
+        Base
+    }
+	item DIY_VehiclePartsMag4 {
+		Weight = 0.1,
+		Type = Literature,
+		DisplayName = DIY_VehiclePartsMag4,
+		Icon = DIY_VehiclePartsMag4,
+		TeachedRecipes = Make RearWindshield1 Glass;Make RearWindshield2 Glass;Make RearWindshield3 Glass;Make Windshield1 Glass;Make Windshield2 Glass;Make Windshield3 Glass;Make RearWindow1 Glass;Make RearWindow2 Glass;Make RearWindow3 Glass;Make FrontWindow1 Glass;Make FrontWindow2 Glass;Make FrontWindow3 Glass, /*рецепты которые будет давать журнал*/
+		ReplaceOnUse = DIY_VehiclePartsMag4,
+		StaticModel = Magazine,
+		Tooltip = Tooltip_DIY_VehiclePartsMag4,
+		DisplayCategory = SkillBook,
+	}
+
+
+}

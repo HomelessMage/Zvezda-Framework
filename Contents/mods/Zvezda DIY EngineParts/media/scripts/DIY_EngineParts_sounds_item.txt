@@ -1,0 +1,13 @@
+module T15K_EngPar
+{
+    sound WrenchT
+    {
+
+        clip
+        {
+        file = media/sound/WrenchT.ogg,     
+        }
+
+    }
+
+}

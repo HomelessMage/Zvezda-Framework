@@ -1,0 +1,4 @@
+UI_ES = {
+	UI_optionscreen_binding_UrinationStatus = "Estado de la vejiga",
+	UI_optionscreen_binding_UrinationStatus2 = "Estado de la vejiga (Jugador 2)",
+}

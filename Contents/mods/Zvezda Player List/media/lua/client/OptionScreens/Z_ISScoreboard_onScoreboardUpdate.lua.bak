@@ -1,0 +1,11 @@
+require "OptionScreens/ISScoreboard"
+
+Events.OnScoreboardUpdate.Remove(ISScoreboard.onScoreboardUpdate)
+
+function ISScoreboard.onScoreboardUpdate(usernames, displayNames, steamIDs)
+    ISScoreboard.isAdmin = canModifyPlayerScoreboard() or CoopServer:isRunning();
+    ISScoreboard.instance:fillList(usernames, displayNames, steamIDs);
+    ISScoreboard.instance.playersConnected = usernames:size();
+end
+
+Events.OnScoreboardUpdate.Add(ISScoreboard.onScoreboardUpdate)

@@ -1,0 +1,7 @@
+Items_EN = {
+	DisplayName_Mold_for_Glass = "Mold for Glass"
+	DisplayName_DIY_EngineParts = "DIY Engine Parts! Magazine",
+	DisplayName_DIY_VehiclePartsMag1 = "DIY Vehicle Parts! Magazine vol.1",
+	DisplayName_DIY_VehiclePartsMag2 = "DIY Vehicle Parts! Magazine vol.2",
+	DisplayName_DIY_VehiclePartsMag3 = "DIY Vehicle Parts! Magazine vol.3",
+}

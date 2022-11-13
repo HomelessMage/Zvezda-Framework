@@ -1,0 +1,43 @@
+module Base
+{
+
+	model Money
+	{
+		mesh = Money,
+		texture = WorldItems/Money
+	}
+	model ATMMachine
+	{
+		mesh = vendor,
+		texture = WorldItems/ATMMachine,
+		scale = 0.6,
+	}
+	
+		model VehicleVendor
+	{
+		mesh = vendor,
+		texture = WorldItems/VehicleVendor,
+		scale = 0.6,
+	}
+
+		model WeaponVendor
+	{
+		mesh = vendor,
+		texture = WorldItems/WeaponVendor,
+		scale = 0.6,
+	}
+	
+	model ToolVendor
+	{
+		mesh = vendor,
+		texture = WorldItems/ToolVendor,
+		scale = 0.6,
+	}
+	
+		model FoodVendor
+	{
+		mesh = vendor,
+		texture = WorldItems/FoodVendor,
+		scale = 0.6,
+	}
+}

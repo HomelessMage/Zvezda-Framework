@@ -1,0 +1,14 @@
+Recipe_DE = {
+	Recipe_Make_RearWindow1_Glass = "Machen Heckscheibe aus Glas - Standart",
+	Recipe_Make_RearWindow2_Glass = "Machen Heckscheibe aus Glas - Schwerlast",
+	Recipe_Make_RearWindow3_Glass = "Machen Heckscheibe aus Glas - Sport",
+	Recipe_Make_Windshield1_Glass = "Machen Heckscheibe aus Glas - Standart",
+	Recipe_Make_Windshield2_Glass = "Machen Heckscheibe aus Glas - Schwerlast",
+	Recipe_Make_Windshield3_Glass = "Machen Heckscheibe aus Glas - Sport",
+	Recipe_Make_FrontWindow1_Glass = "Machen Frontfenster aus Glas - Standart",
+	Recipe_Make_FrontWindow2_Glass = "Machen Frontfenster aus Glas - Schwerlast",
+	Recipe_Make_FrontWindow3_Glass = "Machen Frontfenster aus Glas - Sport",
+	Recipe_Make_RearWindshield1_Glass = "Machen Heckscheibe aus Glas - Standart",
+	Recipe_Make_RearWindshield2_Glass = "Machen Heckscheibe aus Glas - Schwerlast",
+	Recipe_Make_RearWindshield3_Glass = "Machen Heckscheibe aus Glas - Sport",
+}

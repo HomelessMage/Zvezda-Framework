@@ -1,0 +1,16 @@
+ItemName_RU = {
+    ItemName_Base.Hat_BaseballCapFBILG = "Бейсбольная кепка агента ФБР",
+    ItemName_Base.Hat_BaseballCapFBILG_Reverse = "Бейсбольная кепка агента ФБР",
+    ItemName_Base.Hat_blackRiotHelmetfbilg = "Полицейский шлем (противоударный)",
+    ItemName_Base.Jacket_FBIlg = "Куртка агента ФБР",
+    ItemName_Base.Jacket_FBIlgblack = "Куртка агента ФБР (черная)",
+    ItemName_Base.Jacket_FBIlgconidfbi = "Куртка агента ФБР с удостоверением",
+    ItemName_Base.Jacket_FBIlgblackconidFBI = "Куртка агента ФБР с удостоверением (черная)",
+    ItemName_Base.Jacket_RIOTlgblack = "Куртка полицейского (противоударная)",
+    ItemName_Base.Vest_Bulletfbi = "Бронежилет агента ФБР",
+    ItemName_Base.Vest_Bulletfbigreen = "Бронежилет агента ФБР (зеленый)",
+    ItemName_Base.Vest_BulletfbiRIOTLg = "Бронежилет агента ФБР (противоударный)",
+    ItemName_Base.Vest_BulletRiotLG = "Бронежилет полицейского (противоударный)",
+    ItemName_Base.Trousers_PoliceRiotfbilg = "Штаны полицейского (противоударные)",
+    ItemName_Base.Shirt_FormalWhiteFBIIDLG = "Рубашка агента ФБР с удостоверением"
+}

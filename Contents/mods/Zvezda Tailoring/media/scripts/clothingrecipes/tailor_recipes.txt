@@ -1,0 +1,33 @@
+module ShuruTailoringExpanded
+{
+	imports{
+		Base /*Import base to avoid need of calling "Base.RippedSheets" or similar*/
+	}
+	recipe Learn Clothing Design{
+		keep [Recipe.GetItemTypes.RipClothing_Denim],
+
+		Result:DenimStrips,
+		RemoveResultItem:True,
+		Time:100.0,
+		OnTest:Recipe.OnTest.ShuruTailoringExpandedTestLearn,
+		OnCreate:Recipe.OnCreate.ShuruTailoringExpandedCreateLearn,
+	}
+	recipe Learn Clothing Design{
+		keep [Recipe.GetItemTypes.RipClothing_Cotton],
+
+		Result:RippedSheets,
+		RemoveResultItem:True,
+		Time:100.0,
+		OnTest:Recipe.OnTest.ShuruTailoringExpandedTestLearn,
+		OnCreate:Recipe.OnCreate.ShuruTailoringExpandedCreateLearn,
+	}
+	recipe Learn Clothing Design{
+		keep [Recipe.GetItemTypes.RipClothing_Leather],
+
+		Result:LeatherStrips,
+		RemoveResultItem:True,
+		Time:100.0,
+		OnTest:Recipe.OnTest.ShuruTailoringExpandedTestLearn,
+		OnCreate:Recipe.OnCreate.ShuruTailoringExpandedCreateLearn,
+	}
+}

@@ -1,0 +1,16 @@
+module Vendors {
+    imports {
+        Base
+    }
+
+	item ToolVendor
+    {
+        Weight          = 60.0,
+        Type            = Normal,
+        DisplayName     = Tool Vendor,
+        icon            = ToolVendor,
+		StaticModel = ToolVendor,
+		WorldStaticModel = ToolVendor,
+		DisplayCategory	= Vendors,
+    }
+}

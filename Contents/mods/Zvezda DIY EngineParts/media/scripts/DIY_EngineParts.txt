@@ -1,0 +1,95 @@
+module T15K_EngPar
+{
+    imports 
+    {
+        Base
+    }
+	
+	item DIY_EngineParts {
+		Weight = 0.1,
+		Type = Literature,
+		DisplayName = DIY_EngineParts,
+		Icon = DIY_EngineParts,
+		TeachedRecipes = MakeEnginePart,
+		ReplaceOnUse = DIY_EngineParts,
+		StaticModel = Magazine,
+		Tooltip = Tooltip_DIY_EngineParts,
+	}
+	
+
+/*Газосварка*/
+    recipe MakeEnginePart
+    {
+	keep WeldingMask,      				/*Сварочная маска*/
+	keep BlowTorch=5, 				/*пропановая горелка*/
+	WeldingRods=2.5, 				/*Присадочный прутки*/
+	Screws=4, 					/*Болт*/
+	ScrapMetal=2, 					/*Металолом*/
+	UnusableMetal=2, 				/*Непригодный метал*/
+	keep Hammer/BallPeenHammer,			/*Кузнечный молот или Молоток*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:EngineParts=20, 				/*предмет и его колличество на выходе*/
+	SkillRequired:MetalWelding=3,			/*скилл требуемый на выполнение*/
+    	Time:500.0,					/*время для выполнения*/
+	AnimNode:BlowTorchFloor, 			/*Стоит анимация: сварка на полу*/
+	Sound:BlowTorch, 				/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.MetalWelding10,	/*Дать опыт за создание прелдмета. 10 Газосварки*/
+	Prop1:BlowTorch,				/*Отображает газовую горелку при создании предмета*/
+	Prop2:EngineParts,
+    }
+	
+	
+	
+/*Автомеханника*/
+    recipe MakeEnginePart
+    {
+	DuctTape=1, 					/*Изолента*/
+	UnusableMetal=2, 				/*Непригодный метал*/
+	ScrapMetal=2, 					/*Металолом*/
+	Screws=6,					/*Болт*/
+	keep Screwdriver, 				/*Отвёртка*/
+	keep Wrench, 					/*Разводной ключ*/
+	keep PipeWrench,				/*Газовый ключ*/
+	keep Hammer/BallPeenHammer, 			/*Кузнечный молот или Молоток*/
+	keep Saw/GardenSaw, 				/*Пила/Садовая пила*/
+	
+	Category:AutoParts,
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:EngineParts=20, 				/*предмет и его колличество на выходе*/
+	SkillRequired:Mechanics=2,			/*скилл требуемый на выполнение*/
+    	Time:500.0,					/*время для выполнения*/
+	AnimNode:VehicleWorkOnTire, 			/*Стоит анимация: сварка на полу*/
+	Sound:WrenchT, 					/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.Mechanics10,		/*Дать опыт за создание прелдмета. 10 Газосварки*/
+        Prop1:Wrench,					/*предмет в левой руке*/
+        Prop2:EngineParts,				/*предмет в правой руке*/
+    }
+
+	
+/*Электрика*/
+    recipe MakeEnginePart
+    {	Aluminum=1, 					/*алюминий*/
+	ElectricWire=1, 				/*Электрический провод*/
+	ElectronicsScrap=2, 				/*Электронные запчасти*/
+	Screws=2,					/*Болт*/
+	keep Screwdriver, 				/*Отвёртка*/
+	keep Wrench, 					/*Разводной ключ*/
+	keep Saw/GardenSaw, 				/*Пила/Садовая пила*/
+	
+	Category:AutoParts,	
+	CanBeDoneFromFloor:true, 			/*можно сделать если лежит на полу*/
+	Result:EngineParts=20, 				/*предмет и его колличество на выходе*/
+	SkillRequired:Electricity=2,			/*скилл требуемый на выполнение*/
+    	Time:500.0,					/*время для выполнения*/
+	AnimNode:Disassemble, 				/*Стоит анимация: сварка на полу*/
+	Sound:Dismantle, 				/*звук при крафте*/
+	NeedToBeLearn:True, 				/*чтобы создавать должна быть прочитана книга*/
+	OnGiveXP:Recipe.OnGiveXP.Electricity10,		/*Дать опыт за создание прелдмета. 10 Газосварки*/
+        Prop1:Screwdriver,				/*предмет в левой руке*/
+        Prop2:EngineParts,				/*предмет в правой руке*/
+    }
+}

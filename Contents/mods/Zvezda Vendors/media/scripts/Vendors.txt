@@ -1,0 +1,56 @@
+module Vendors {
+    imports {
+        Base
+    }
+
+	item ATMMachine
+    {
+        Weight          = 60.0,
+        Type            = Normal,
+        DisplayName     = ATM Machine,
+        icon            = ATMMachine,
+		StaticModel		= ATMMachine,
+		WorldStaticModel = ATMMachine,
+		DisplayCategory	= Vendors,
+    }
+	
+	item OneDollar
+	{
+		Weight    		= 0.001,
+        Type    		= Normal,
+		DisplayName     = $1,
+        Icon	=	Money,
+        WorldStaticModel = Money,
+		DisplayCategory = Money
+    }
+	
+	item TenDollar
+	{
+		Weight    		= 0.001,
+        Type    		= Normal,
+		DisplayName     = $10,
+        Icon	=	Money,
+        WorldStaticModel = Money,
+		DisplayCategory = Money
+    }
+	
+	item HundredDollar
+	{
+		Weight    		= 0.001,
+        Type    		= Normal,
+		DisplayName     = $100,
+        Icon	=	Money,
+        WorldStaticModel = Money,
+		DisplayCategory = Money
+    }
+	
+	item ThousandDollar
+	{
+		Weight    		= 0.001,
+        Type    		= Normal,
+		DisplayName     = $1000,
+        Icon	=	Money,
+        WorldStaticModel = Money,
+		DisplayCategory = Money
+    }	
+}

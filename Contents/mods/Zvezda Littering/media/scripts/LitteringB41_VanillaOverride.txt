@@ -1,0 +1,365 @@
+/*Littering, B41 Continued*/
+/*(41.68)(07may22)*/
+
+module Base
+{
+//	imports
+//	{
+//		farming
+//	}
+
+    recipe Open Egg Carton
+    {
+       EggCarton,
+		
+	   Override:true,
+       Result:Egg=12,
+       Time:5.0,
+       AllowFrozenItem:true,
+       OnCreate:Recipe.OnCreate.LitteringB41_OpenEggCarton,
+       OnGiveXP:Recipe.OnGiveXP.None,
+       Category:Cooking,
+    }
+
+    recipe Put Eggs in Carton
+    {
+       Egg=12,
+	   LitteringB41.EggCartonEmpty,
+
+		Override:true,
+       Result:EggCarton,
+       AllowFrozenItem:true,
+       OnGiveXP:Recipe.OnGiveXP.None,
+       Time:5.0,
+       Category:Cooking,
+    }
+
+	recipe Open Candy Package
+	{
+	   destroy CandyPackage,
+
+		Override:true,
+	   Result:Lollipop=5,
+	   Time:5.0,
+	   OnCreate:Recipe.OnCreate.LitteringB41_OpenCandyPackage,
+	   OnGiveXP:Recipe.OnGiveXP.None,
+	   Category:Cooking,
+	}
+
+    recipe Open Box of Nails
+    {
+        NailsBox,
+
+		Override:true,
+        Result:Nails=20,
+        Sound:PutItemInBag,
+        Time:5.0,
+		OnCreate:Recipe.OnCreate.LitteringB41_OpenNailBox,
+    }
+
+    recipe Open Box of Screws
+    {
+        ScrewsBox,
+
+		Override:true,
+        Result:Screws=20,
+        Sound:PutItemInBag,
+        Time:5.0,
+		OnCreate:Recipe.OnCreate.LitteringB41_OpenScrewsBox,
+    }
+
+    recipe Open Box of Paperclip
+    {
+        PaperclipBox,
+
+		Override:true,
+        Result:Paperclip=40,
+        Sound:PutItemInBag,
+        Time:5.0,
+		OnCreate:Recipe.OnCreate.LitteringB41_OpenPaperclipBox,
+    }
+
+    recipe Open Box of 9mm Bullets
+    {
+        Bullets9mmBox,
+
+		Override:true,
+        Result:Bullets9mm=6,
+        Sound:PutItemInBag,
+        Time:5.0,
+		OnCreate:Recipe.OnCreate.LitteringB41_Open9mmBox,
+    }
+
+    recipe Open Box of .45 Auto Bullets
+    {
+        Bullets45Box,
+
+		Override:true,
+        Result:Bullets45=6,
+        Sound:PutItemInBag,
+        Time:5.0,
+		OnCreate:Recipe.OnCreate.LitteringB41_Open45Box,
+    }
+
+    recipe Open Box of .38 Special Bullets
+    {
+        Bullets38Box,
+
+		Override:true,
+        Result:Bullets38=6,
+        Sound:PutItemInBag,
+        Time:5.0,
+		OnCreate:Recipe.OnCreate.LitteringB41_Open38Box,
+    }
+
+    recipe Open Box of .44 Magnum Bullets
+    {
+        Bullets44Box,
+
+		Override:true,
+        Result:Bullets44=4,
+        Sound:PutItemInBag,
+        Time:5.0,
+		OnCreate:Recipe.OnCreate.LitteringB41_Open44Box,
+    }
+
+    recipe Open Box of .223 Ammo
+    {
+        223Box,
+
+		Override:true,
+        Result:223Bullets=8,
+        Sound:PutItemInBag,
+        Time:5.0,
+		OnCreate:Recipe.OnCreate.LitteringB41_Open223Box,
+    }
+
+    recipe Open Box of .308 Ammo
+    {
+        308Box,
+
+		Override:true,
+        Result:308Bullets=8,
+        Sound:PutItemInBag,
+        Time:5.0,
+		OnCreate:Recipe.OnCreate.LitteringB41_Open308Box,
+    }
+
+    recipe Open Box of Shotgun Shells
+    {
+        ShotgunShellsBox,
+
+		Override:true,
+        Result:ShotgunShells=4,
+        Sound:PutItemInBag,
+        Time:5.0,
+		OnCreate:Recipe.OnCreate.LitteringB41_OpenShellBox,
+    }
+
+    recipe Open Box of .556 Ammo
+    {
+        556Box,
+
+		Override:true,
+        Result:556Bullets=12,
+        Sound:PutItemInBag,
+        Time:5.0,
+		OnCreate:Recipe.OnCreate.LitteringB41_Open556Box,
+    }
+
+    recipe Place .556 Ammo in Box
+    {
+        556Bullets=60,
+		556AmmoBoxEmpty,
+
+		Override:true,
+        Result:556Box,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+    recipe Place .223 Ammo in Box
+    {
+        223Bullets=40,
+		223AmmoBoxEmpty,
+
+		Override:true,
+        Result:223Box,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+    recipe Place .308 Ammo in Box
+    {
+        308Bullets=40,
+		308AmmoBoxEmpty,
+
+		Override:true,
+        Result:308Box,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+    recipe Place Nails in Box
+    {
+        Nails=100,
+		EmptyNailsBox,
+
+		Override:true,
+        Result:NailsBox,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+    recipe Place Screws in Box
+    {
+        Screws=100,
+		EmptyScrewsBox,
+
+		Override:true,
+        Result:ScrewsBox,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+    recipe Place 9mm Bullets in Box
+    {
+        Bullets9mm=30,
+		9mmAmmoBoxEmpty,
+
+		Override:true,
+        Result:Bullets9mmBox,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+    recipe Place .45 Auto Bullets in Box
+    {
+        Bullets45=30,
+		45AmmoBoxEmpty,
+
+		Override:true,
+        Result:Bullets45Box,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+    recipe Place .38 Speciam Bullets in Box
+    {
+        Bullets38=30,
+		38AmmoBoxEmpty,
+
+		Override:true,
+        Result:Bullets38Box,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+    recipe Place .44 Magnum Bullets in Box
+    {
+        Bullets44=12,
+		44AmmoBoxEmpty,
+
+		Override:true,
+        Result:Bullets44Box,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+    recipe Place Shotgun Shells in Box
+    {
+        ShotgunShells=24,
+		ShotgunAmmoBoxEmpty,
+
+		Override:true,
+        Result:ShotgunShellsBox,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+    recipe Place Paperclips in Box
+    {
+        Paperclip=40,
+		PaperclipBoxEmpty,
+
+		Override:true,
+        Result:PaperclipBox,
+        Sound:PutItemInBag,
+        Time:5.0,
+    }
+
+    recipe Slice Fillet
+    {
+        keep KitchenKnife/HuntingKnife/MeatCleaver/FlintKnife/Machete,
+        Bass/Catfish/Perch/Crappie/Panfish/Pike/Trout,
+
+		Override:true,
+        Result:FishFillet=2,
+        Sound:SliceMeat,
+        Time:50.0,
+        OnTest:Recipe.OnTest.CutFish,
+        OnCreate:Recipe.OnCreate.LitteringB41_CutFish,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+    recipe Slice Ham
+    {
+        keep KitchenKnife/HuntingKnife/MeatCleaver/FlintKnife/Machete,
+        Ham,
+
+		Override:true,
+        Result:HamSlice=6,
+        OnCreate:Recipe.OnCreate.LitteringB41_SliceHam,
+        Sound:SliceMeat,
+        Time:50.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking3,
+    }
+
+    recipe Slice Frog
+    {
+        keep KitchenKnife/HuntingKnife/MeatCleaver/FlintKnife/Machete,
+        Frog,
+
+		Override:true,
+        Result:FrogMeat,
+        OnCreate:Recipe.OnCreate.LitteringB41_JustBoneScraps,
+        Sound:SliceMeat,
+        Time:50.0,
+        Category:Cooking,
+        OnGiveXP:Recipe.OnGiveXP.Cooking10,
+    }
+
+    recipe Gather Gunpowder
+    {
+       Bullets38/Bullets44/Bullets45/Bullets9mm/556Bullets/308Bullets/223Bullets/ShotgunShells,
+	   EmptyJar/LitteringB41.GunpowderJarEmpty,
+
+		Override:true,
+       Result:GunPowder,
+       Time:30.0,
+    }
+
+    recipe Make Gravy
+    {
+        GravyMix,
+        Water=2,
+		
+		Override:true,
+        Result:Gravy,
+        Category:Cooking,
+        Time:20,
+    }
+
+    recipe Open Box of Jars
+    {
+        BoxOfJars,
+
+		Override:true,
+        Result:EmptyJar=6,
+        OnCreate:Recipe.OnCreate.LitteringB41_OpenBoxOfJars,
+        Sound:PutItemInBag,
+        Time:15.0,
+    }
+}

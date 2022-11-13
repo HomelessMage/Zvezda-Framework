@@ -1,0 +1,6 @@
+version=1
+id=2830392591
+title=Zvezda Framework
+description=Zvezda Framework
+tags=Build 41;Framework
+visibility=public
