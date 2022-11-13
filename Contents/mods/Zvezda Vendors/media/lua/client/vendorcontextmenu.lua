@@ -26,7 +26,6 @@ vendorsWeapons = {};
 vendorsJewelry.green = {};
 vendorsBooks = {};
 
-
 -----------  SELL ITEMS -----  If you want to add items to the list of items you can sell, put them in this list.
 --- EXAMPLE  -- {"itemType", price} {"BaseballBat", 30}  Make sure there is a comma between each item...  vendorsSellables = {{"BaseballBat", 30}, {"Book", 10}};
 vendorsSellables = {
