@@ -29,19 +29,24 @@ vendorsBooks = {};
 
 -----------  SELL ITEMS -----  If you want to add items to the list of items you can sell, put them in this list.
 --- EXAMPLE  -- {"itemType", price} {"BaseballBat", 30}  Make sure there is a comma between each item...  vendorsSellables = {{"BaseballBat", 30}, {"Book", 10}};
-vendorsSellables = {}; 
+vendorsSellables = {{"AppleCore", 2}, {"BananaPeel", 2}, {"BrownSugarEmpty", 2}, {"CakeCartonEmpty", 2}, {"CandyPackageEmpty", 2}, {"CerealEmpty", 2}, {"CheeseWrapper", 2}, {"ChocolateWrapper", 2}, {"CocoaPowderEmpty", 2}, {"CoffeeEmpty", 2}, {"CrispsEmpty", 2}, {"Crisps2Empty", 2}, {"Crisps3Empty", 2}, {"Crisps4Empty", 2}, {"FruitRindLemon", 2}, {"FruitRindLime", 2}, {"FruitRindMelon", 2}, {"FruitRindOrange", 2}, {"FruitRindPineapple", 2}, {"HoneyBottleWater", 2}, {"HotsauceBottleWater", 2}, {"MapleSyrupWater", 2}, {"OilVegetableWater", 2}, {"PieCartonEmpty", 2}, {"RiceVinegarWater", 2}, {"SoysauceWater", 2}, {"SugarEmpty", 2}, {"TubIcecreamEmpty", 2}, {"TVDinnerPackage", 2}, {"VinegarWater", 2}, {"YogurtEmpty", 2}, {"OliveOilWater", 2}, {"AlcoholWipesEmpty", 2}, {"AntibioticsBlisterEmpty", 2}, {"AntidepressantsEmpty", 2}, {"BetaBlockersEmpty", 2}, {"DisinfectantWater", 2}, {"PainkillersEmpty", 2}, {"SleepingPillsEmpty", 2}, {"VitaminsEmpty", 2}, {"TissueUsed", 2}, {"CologneEmpty", 2}, {"HairDyeBlackEmpty", 2}, {"HairDyeBlondeEmpty", 2}, {"HairDyeBlueEmpty", 2}, {"HairDyeBrownEmpty", 2}, {"HairDyeGingerEmpty", 2}, {"HairDyeGreenEmpty", 2}, {"HairDyePinkEmpty", 2}, {"HairDyeRedEmpty", 2}, {"HairDyeWhiteEmpty", 2}, {"HairDyeYellowEmpty", 2}, {"LipstickTubeEmpty", 2}, {"MakeupEyeshadowEmpty", 2}, {"MakeupFoundationEmpty", 2}, {"PerfumeEmpty", 2}, {"BagOfCharcoalEmpty", 2}, {"CleaningLiquidWater", 2}, {"ConcretePowderEmpty", 2}, {"DuctTapeEmpty", 2}, {"EmptyNailsBox", 2}, {"EmptyPaperclipBox", 2}, {"EmptyScrewsBox", 2}, {"FishingLineEmpty", 2}, {"GlueEmpty", 2}, {"GunpowderJarEmpty", 2}, {"MatchesEmpty", 2}, {"LighterEmpty", 2}, {"PlasterPowderEmpty", 2}, {"ScotchtapeEmpty", 2}, {"SparklerBoxEmpty", 2}, {"ThreadSpool", 2}, {"ToiletPaperEmpty", 2}, {"TwineSpool", 2}, {"WeldingRodsEmpty", 2}, {"WoodGlueEmpty", 2}, {"ExtinguisherEmpty", 2}, {"BookTorn", 2}, {"ComicBookTorn", 2}, {"Crossword1Used", 2}, {"Crossword2Used", 2}, {"Crossword3Used", 2}, {"MagazineNudie1Gross", 2}, {"MagazineTorn", 2}, {"NewspaperTorn", 2}, {"WordSearch1Used", 2}, {"WordSearch2Used", 2}, {"WordSearch3Used", 2}, {"BroccoliSeedsPacketEmpty", 2}, {"CabbageSeedsPacketEmpty", 2}, {"CarrotSeedsPacketEmpty", 2}, {"PotatoSeedsPacketEmpty", 2}, {"RadishSeedsPacketEmpty", 2}, {"StrawberrySeedsPacketEmpty", 2}, {"TomatoSeedsPacketEmpty", 2}, {"9mmAmmoBoxEmpty", 2}, {"38AmmoBoxEmpty", 2}, {"44AmmoBoxEmpty", 2}, {"45AmmoBoxEmpty", 2}, {"223AmmoBoxEmpty", 2}, {"308AmmoBoxEmpty", 2}, {"556AmmoBoxEmpty", 2}, {"ShotgunAmmoBoxEmpty", 2}, {"SackProduce_Apple", 30}, {"SackProduce_BellPepper", 30}, {"SackProduce_Broccoli", 30}, {"SackProduce_Cabbage", 30}, {"SackProduce_Carrot", 30}, {"SackProduce_Cherry", 30}, {"SackProduce_Corn", 30}, {"SackProduce_Eggplant", 30}, {"SackProduce_Grapes", 30}, {"SackProduce_Leek", 30}, {"SackProduce_Lettuce", 30}, {"SackProduce_Onion", 30}, {"SackProduce_Peach", 30}, {"SackProduce_Pear", 30}, {"SackProduce_Potato", 30}, {"SackProduce_RedRadish", 30}, {"SackProduce_Strawberry", 30}, {"SackProduce_Tomato", 30}, {"MethGood", 15}, {"MethBad", 5}, {"PepperMethGood", 25}, {"PepperMethBad", 20}, {"BlueMethGood", 40}, {"BlueMethBad", 30}, {"KgCannabis", 1200}, {"GFCigaretteCase", 800}, {"morebuild_01_6", 45}, {"morebuild_01_3", 45}, {"Bass", 2}, {"Catfish", 2}, {"Crappie", 2}, {"Crayfish", 2}, {"FishFillet", 2}, {"FishRoe", 2}, {"BaitFish", 2}, {"Lobster", 2}, {"Oysters", 2}, {"Perch", 2}, {"Pike", 2}, {"Salmon", 2}, {"Shrimp", 2}, {"Squid", 2}, {"SquidCalamari", 2}, {"Panfish", 2}, {"Trout", 2}};
 vendorsSellables.items = {};
 
 -- vendorsBooks[1] = {"GeneralReading", {"Book", 40}, {"ComicBook", 25}, {"HottieZ", 50}, {"Magazine", 25}, {"Newspaper", 15}};
 vendorsBooks[1] = {"GeneralReading", {"Newspaper", 15}};
--- vendorsBooks[2] = {"Magazines_Skill", {"FishingMag1", 400}, {"FishingMag2", 400}, {"ElectronicsMag1", 400}, {"ElectronicsMag2", 400}, {"ElectronicsMag3", 400}, {"ElectronicsMag5", 400}, {"EngineerMagazine1", 400}, {"EngineerMagazine2", 400}, {"CookingMag1", 400}, {"CookingMag2", 400}, {"Radio.RadioMag1", 400}, {"Radio.RadioMag2", 400}, {"Radio.RadioMag3", 400}, {"ElectronicsMag4", 400}, {"MechanicMag1", 400}, {"MechanicMag2", 400}, {"MechanicMag3", 400}, {"FarmingMag1", 400}, {"HerbalistMag", 400}, {"HuntingMag1", 400}, {"HuntingMag2", 400}, {"HuntingMag3", 400}, {"MetalworkMag1", 400}, {"MetalworkMag2", 400}, {"MetalworkMag3", 400}, {"MetalworkMag4", 400}};
+vendorsBooks[2] = {"Magazines_Skill", {"FishingMag1", 50}, {"FishingMag2", 50}, {"ElectronicsMag1", 50}, {"ElectronicsMag2", 50}, {"ElectronicsMag3", 50}, {"ElectronicsMag5", 50}, {"EngineerMagazine1", 50}, {"EngineerMagazine2", 50}, {"CookingMag1", 50}, {"CookingMag2", 50}, {"Radio.RadioMag1", 50}, {"Radio.RadioMag2", 50}, {"Radio.RadioMag3", 50}, {"ElectronicsMag4", 50}, {"MechanicMag1", 50}, {"MechanicMag2", 50}, {"MechanicMag3", 50}, {"FarmingMag1", 50}, {"HerbalistMag", 50}, {"HuntingMag1", 50}, {"HuntingMag2", 50}, {"HuntingMag3", 50}, {"MetalworkMag1", 50}, {"MetalworkMag2", 50}, {"MetalworkMag3", 50}, {"MetalworkMag4", 50}};
 -- vendorsBooks[3] = {"Maps", {"MarchRidgeMap", 60}, {"MuldraughMap", 60}, {"RiversideMap", 60}, {"RosewoodMap", 60}, {"WestpointMap", 60}};
 -- vendorsBooks[4] = {"SkillBooks", {"BookCarpentry1", 750}, {"BookCarpentry2", 750}, {"BookCarpentry3", 750}, {"BookCarpentry4", 750}, {"BookCarpentry5", 750}, {"BookCooking1", 750}, {"BookCooking2", 750}, {"BookCooking3", 750}, {"BookCooking4", 750}, {"BookCooking5", 750}, {"BookElectrician1", 750}, {"BookElectrician2", 750}, {"BookElectrician3", 750}, {"BookElectrician4", 750}, {"BookElectrician5", 750}, {"BookFarming1", 750}, {"BookFarming2", 750}, {"BookFarming3", 750}, {"BookFarming4", 750}, {"BookFarming5", 750}, {"BookFirstAid1", 750}, {"BookFirstAid2", 750}, {"BookFirstAid3", 750}, {"BookFirstAid4", 750}, {"BookFirstAid5", 750}, {"BookFishing1", 750}, {"BookFishing2", 750}, {"BookFishing3", 750}, {"BookFishing4", 750}, {"BookFishing5", 750}, {"BookForaging1", 750}, {"BookForaging2", 750}, {"BookForaging3", 750}, {"BookForaging4", 750}, {"BookForaging5", 750}, {"BookMechanic1", 750}, {"BookMechanic2", 750}, {"BookMechanic3", 750}, {"BookMechanic4", 750}, {"BookMechanic5", 750}, {"BookMetalWelding1", 750}, {"BookMetalWelding2", 750}, {"BookMetalWelding3", 750}, {"BookMetalWelding4", 750}, {"BookMetalWelding5", 750}, {"BookTrapping1", 750}, {"BookTrapping2", 750}, {"BookTrapping3", 750}, {"BookTrapping4", 750}, {"BookTrapping5", 750}};
 
 
+
+
 -- vendorsTools[1] = {"Camping", {"SharpedStone", 25}, {"Lighter", 45}, {"PercedWood", 50}, {"WoodenStick", 50}};
+vendorsTools[1] = {"ZvezdaTools", {"BakingTray", 50}, {"LeadPipe", 50}, {"Scissors", 50}, {"Pot", 50}, {"SmokingPipe", 50}, {"Bong_pastelblue", 50}, {"TinOpener", 50}, {"Bowl", 50}, {"Shovel", 50}, {"HandShovel", 50}, {"FishingRod", 50}};
 -- vendorsTools[2] = {"Construction", {"Axe", 100}, {"BucketEmpty", 250}, {"Crowbar", 75}, {"Hammer", 45}, {"Needle", 25}, {"Paintbrush", 25}, {"PropaneTank", 125}, {"BlowTorch", 250}, {"Saw", 75}, {"Screwdriver", 50}, {"AxeStone", 75}, {"HammerStone", 50}, {"WeldingMask", 50}};
+vendorsTools[2] = {"ZvezdaMaterials", {"Bleach", 50}, {"Disinfectant", 50}, {"RollingPapers", 50}, {"TobaccoSeed", 50}, {"NailsBox", 50}};
 -- vendorsTools[3] = {"Cooking", {"BakingPan", 45}, {"Bowl", 250}, {"BoxOfJars", 50}, {"TinOpener", 50}, {"Pot", 50}, {"Pan", 45}, {"KitchenKnife", 250}, {"Kettle", 50}, {"RollingPin", 25}, {"BakingPan", 50}, {"Saucepan", 50}};
+vendorsTools[3] = {"ZvezdaAccessories", {"Hat_Bandana", 50}, {"Hat_Beany", 50}, {"Dungarees", 50}};
 -- vendorsTools[4] = {"Farming", {"farming.GardeningSprayEmpty", 75}, {"farming.WateredCan", 100}, {"Fertilizer", 75}, {"EmptySandbag", 25}, {"farming.Shovel", 100}, {"farming.HandShovel", 100}};
 -- vendorsTools[5] = {"Fishing", {"FishingNet", 75}, {"FishingRod", 100}, {"FishingTackle", 45}};
 -- vendorsTools[6] = {"Light", {"Torch", 75}, {"Matches", 50}}
@@ -72,8 +77,8 @@ vendorsWeapons[2] = {"Magazines", {"223Clip", 300, false, ".223-REM"}, {"308Clip
 
 vendorsFoods = {};
 -- vendorsFoods[1] = {"Canned_Goods", {"TinnedBeans", 50}, {"CannedChili", 50}, {"CannedCorn", 50}, {"CannedCornedBeef", 50}, {"CannedFruitCocktail", 50}, {"CannedMushroomSoup", 50}, {"CannedPeaches", 50}, {"CannedPeas", 50}, {"CannedPineapple", 50}, {"CannedPotato2", 50}, {"CannedSardines", 50}, {"TinnedSoup", 50}, {"CannedBolognese", 50}, {"CannedTomato2", 50}, {"TunaTin", 50}};
-vendorsFoods[1] = {"Appetizers", {"GranolaBar", 50}, {"Chocolate", 50}, {"Crisps", 50}};
--- vendorsFoods[2] = {"Condiments", {"SugarBrown", 10}, {"Hotsauce", 10}, {"Ketchup", 10}, {"MapleSyrup", 10}, {"Marinara", 10}, {"farming.MayonnaiseFull", 10}, {"Mustard", 10}, {"OilOlive", 10}, {"Pepper", 10}, {"RiceVinegar", 10}, {"Salt", 10}, {"Soysauce", 10}, {"Sugar", 10}, {"OilVegetable", 10}, {"Wasabi", 10}};
+vendorsFoods[1] = {"Appetizers", {"GranolaBar", 50}, {"Chocolate", 50}, {"Crisps", 50}, {"Ramen", 30}};
+vendorsFoods[2] = {"Condiments", {"SugarBrown", 10}, {"Hotsauce", 10}, {"Ketchup", 10}, {"MapleSyrup", 10}, {"Marinara", 10}, {"farming.MayonnaiseFull", 10}, {"Mustard", 10}, {"OilOlive", 10}, {"Pepper", 10}, {"RiceVinegar", 10}, {"Salt", 10}, {"Soysauce", 10}, {"Sugar", 10}, {"OilVegetable", 10}, {"Wasabi", 10}};
 -- vendorsFoods[3] = {"Drinks", {"BeerBottle", 60}, {"BeerCan", 60}, {"Bleach", 60}, {"WhiskeyFull", 60}, {"ColdDrinkSpiffo", 60}, {"Mugfull", 60}, {"HotDrinkTea", 60}, {"OilOlive", 60}, {"JuiceBox", 60}, {"Milk", 60}, {"PopBottle", 60}, {"Wine2", 60}, {"Wine", 60}};
 vendorsFoods[3] = {"Drinks", {"JuiceBox", 50}, {"PopBottle", 50}};
 -- vendorsFoods[4] = {"Fish", {"Bass", 75}, {"Catfish", 75}, {"Crappie", 75}, {"Crayfish", 75}, {"FishFillet", 75}, {"FishRoe", 75}, {"BaitFish", 75}, {"Lobster", 75}, {"Oysters", 75}, {"Perch", 75}, {"Pike", 75}, {"Salmon", 75}, {"Shrimp", 75}, {"Squid", 75}, {"SquidCalamari", 75}, {"Panfish", 75}, {"Trout", 75}};
@@ -188,41 +193,41 @@ function VendorsMenus(playerObj, context, worldobjects, test)
 									--end
 								end
 							end
-							if string.find(dispType, "DogTag") then
-								table.insert(vendorsJewelry.tags.items, {item, vendorsJewelry.prices.tags, container});
-								if not vendorsJewelry.tags[dispType] then vendorsJewelry.tags[dispType] = {};
-									vendorsJewelry.tags[dispType].items = {item, vendorsJewelry.prices.tags};
-									vendorsJewelry.tags[dispType].count = 1;
-									vendorsJewelry.tags[dispType].menuCreated = false;
-								else 
-									vendorsJewelry.tags[dispType].count = vendorsJewelry.tags[dispType].count + 1;
-								end
-								vendorsSaleTotal = vendorsSaleTotal + vendorsJewelry.tags[dispType].items[2];
-							elseif (dispCat == "Accessory" or dispCat == "ClothM") and (string.find(dispType, "Diamond") or string.find(dispType, "Emerald") or string.find(dispType, "Amethyst") or string.find(dispType, "Ruby") or string.find(dispType, "Sapphire") or string.find(dispType, "Amber")) then
-								table.insert(vendorsJewelry.stones.items, {item, vendorsJewelry.prices.stones, container})
-								if not vendorsJewelry.stones[dispType] then vendorsJewelry.stones[dispType] = {};
-									vendorsJewelry.stones[dispType].items = {item, vendorsJewelry.prices.stones};
-									vendorsJewelry.stones[dispType].count = 1;
-									vendorsJewelry.stones[dispType].menuCreated = false;
-								else 
-									vendorsJewelry.stones[dispType].count = vendorsJewelry.stones[dispType].count + 1;
-								end
-								vendorsSaleTotal = vendorsSaleTotal + vendorsJewelry.stones[dispType].items[2];
-							elseif (not string.find(dispType, "Flame") and not string.find(dispType, "Key") and not string.find(dispType, "DogTag")) and ((dispCat == "Accessory" or dispCat == "ClothM" or dispCat == "ClothA") and ((string.find(dispType, "Ring") or string.find(dispType, "ring")) or string.find(dispType, "necklace") or string.find(dispType, "Necklace") or string.find(dispType, "Bracelet") or string.find(dispType, "Choker") or string.find(dispType, "Bangle") or string.find(dispType, "Locket") or string.find(dispType, "Watch") or (string.find(dispType, "Nose") and string.find(dispType, "Stud")) or string.find(dispType, "BellyButton"))) then															-- price for selling regular vendorsJewelry
-								table.insert(vendorsJewelry.regular.items, {item, vendorsJewelry.prices.regular, container});
-								if not vendorsJewelry.regular[dispType] then vendorsJewelry.regular[dispType] = {};
-									vendorsJewelry.regular[dispType].items = {item, vendorsJewelry.prices.regular};
-									vendorsJewelry.regular[dispType].count = 1;
-									vendorsJewelry.regular[dispType].menuCreated = false;
-								else
-									vendorsJewelry.regular[dispType].count = vendorsJewelry.regular[dispType].count + 1;
-								end
-								vendorsSaleTotal = vendorsSaleTotal + vendorsJewelry.regular[dispType].items[2];
-							end
+							-- if string.find(dispType, "DogTag") then
+							-- 	table.insert(vendorsJewelry.tags.items, {item, vendorsJewelry.prices.tags, container});
+							-- 	if not vendorsJewelry.tags[dispType] then vendorsJewelry.tags[dispType] = {};
+							-- 		vendorsJewelry.tags[dispType].items = {item, vendorsJewelry.prices.tags};
+							-- 		vendorsJewelry.tags[dispType].count = 1;
+							-- 		vendorsJewelry.tags[dispType].menuCreated = false;
+							-- 	else 
+							-- 		vendorsJewelry.tags[dispType].count = vendorsJewelry.tags[dispType].count + 1;
+							-- 	end
+							-- 	vendorsSaleTotal = vendorsSaleTotal + vendorsJewelry.tags[dispType].items[2];
+							-- elseif (dispCat == "Accessory" or dispCat == "ClothM") and (string.find(dispType, "Diamond") or string.find(dispType, "Emerald") or string.find(dispType, "Amethyst") or string.find(dispType, "Ruby") or string.find(dispType, "Sapphire") or string.find(dispType, "Amber")) then
+							-- 	table.insert(vendorsJewelry.stones.items, {item, vendorsJewelry.prices.stones, container})
+							-- 	if not vendorsJewelry.stones[dispType] then vendorsJewelry.stones[dispType] = {};
+							-- 		vendorsJewelry.stones[dispType].items = {item, vendorsJewelry.prices.stones};
+							-- 		vendorsJewelry.stones[dispType].count = 1;
+							-- 		vendorsJewelry.stones[dispType].menuCreated = false;
+							-- 	else 
+							-- 		vendorsJewelry.stones[dispType].count = vendorsJewelry.stones[dispType].count + 1;
+							-- 	end
+							-- 	vendorsSaleTotal = vendorsSaleTotal + vendorsJewelry.stones[dispType].items[2];
+							-- elseif (not string.find(dispType, "Flame") and not string.find(dispType, "Key") and not string.find(dispType, "DogTag")) and ((dispCat == "Accessory" or dispCat == "ClothM" or dispCat == "ClothA") and ((string.find(dispType, "Ring") or string.find(dispType, "ring")) or string.find(dispType, "necklace") or string.find(dispType, "Necklace") or string.find(dispType, "Bracelet") or string.find(dispType, "Choker") or string.find(dispType, "Bangle") or string.find(dispType, "Locket") or string.find(dispType, "Watch") or (string.find(dispType, "Nose") and string.find(dispType, "Stud")) or string.find(dispType, "BellyButton"))) then															-- price for selling regular vendorsJewelry
+							-- 	table.insert(vendorsJewelry.regular.items, {item, vendorsJewelry.prices.regular, container});
+							-- 	if not vendorsJewelry.regular[dispType] then vendorsJewelry.regular[dispType] = {};
+							-- 		vendorsJewelry.regular[dispType].items = {item, vendorsJewelry.prices.regular};
+							-- 		vendorsJewelry.regular[dispType].count = 1;
+							-- 		vendorsJewelry.regular[dispType].menuCreated = false;
+							-- 	else
+							-- 		vendorsJewelry.regular[dispType].count = vendorsJewelry.regular[dispType].count + 1;
+							-- 	end
+							-- 	vendorsSaleTotal = vendorsSaleTotal + vendorsJewelry.regular[dispType].items[2];
+							-- end
 							-- looking for GreenFireMod products  TODO Add more gfm items, add brita weapons
-							if vendorsGreenFireMod then
-								vendorsSaleTotal = vendorsSaleTotal + Vendors_GreenFireCheck(item, container, playerObj, vendorsSaleTotal);
-							end
+							-- if vendorsGreenFireMod then
+							-- 	vendorsSaleTotal = vendorsSaleTotal + Vendors_GreenFireCheck(item, container, playerObj, vendorsSaleTotal);
+							-- end
 						end
 					end	
 				end
@@ -289,6 +294,11 @@ function Vendors_subSubContextMenu(subSubContext, vendorList, subSubMenu, contex
 	if vendorType == "FoodVendor" then
 		Vendors_DisplayFoodOptions(subSubMenu, context, player, vendorsFoods);		
 	end
+
+	if vendorType == "ZvezdaToolVendor" then
+		Vendors_DisplayZvezdaToolOptions(subSubMenu, context, player, vendorsFoods);		
+	end
+
 	-- tools.  for to buy
 	if vendorType == "ToolVendor" then
 		Vendors_DisplayToolOptions(subSubMenu, context, player, vendorsTools, worldobjects)
@@ -720,6 +730,27 @@ function Vendors_DisplayToolOptions(subSubMenu, context, player, vendorsList, wo
 	end
 end
 
+function Vendors_DisplayZvezdaToolOptions(subSubMenu, context, player, vendorsList)
+	local playerInv = player:getInventory();
+	for i,v in pairs(vendorsList) do
+		local zvezdaToolTable = v;
+		local zvezdaToolOption = subSubMenu:addOption(getText("ContextMenu_" .. zvezdaToolTable[1]), worldobjects);
+		local subSubMenu = ISContextMenu:getNew(subSubMenu);
+		local subContext = context:addSubMenu(zvezdaToolOption, subSubMenu);
+		for j,k in pairs(zvezdaToolTable) do
+			local zvezdaToolItemTable = k;
+			if j ~= 1 then
+				local zvezdaToolItemType = zvezdaToolItemTable[1];
+				local zvezdaToolItemPrice = zvezdaToolItemTable[2];
+				local zvezdaToolItem = playerInv:AddItem(zvezdaToolItemType);
+				local zvezdaToolAddedItemName = addedItem:getName();
+				local SubVendorOption = subSubMenu:addOption(zvezdaToolAddedItemName .. " ($" .. zvezdaToolItemPrice .. ")", worldobjects, Buy_VendorsItem, player, zvezdaToolItemTable, false, zvezdaToolItemPrice);
+			end
+		end
+	end
+end
+
+
 function Vendors_ListBooks(subSubMenu, worldobjects, vendorsList, context, player)
 	local playerInv = player:getInventory();
 	for i,v in pairs(vendorsBooks) do
@@ -816,10 +847,10 @@ function Vendors_CheckMods()
 	if vendorsFilibusterMod then
 		vendorsVehicles.vehicles.filibuster = {"Filibuster", {{"85vicsed"}, 65000}, {{"85vicwag", "85vicwag2"}, 65000}, {{"79brougham"}, 65000}, {{"volvo244"}, 65000}, {{"71impala"}, 65000}, {{"91crx"}, 65000}, {{"86yugo"}, 65000}, {{"87c10lb", "87c10sb"}, 65000}, {{"90ramlb", "90ramsb"}, 65000}, {{"87blazer"}, 65000}, {{"87suburban"}, 65000}, {{"87c10utility", "87c10mccoy", "87c10fire"}, 65000}, {{"astrovan"}, 65000}, {{"65gto"}, 65000}, {{"69charger"}, 65000}, {{"73falcon"}, 65000}, {{"77transam"}, 65000}, {{"70chevelle"}, 65000}, {{"70elcamino"}, 65000}, {{"68elcamino"}, 65000}, {{"73pinto"}, 65000}, {{"moveurself"}, 65000}, {{"isuzubox", "isuzuboxmccoy", "isuzuboxfood", "isuzuboxelec"}, 65000}, {{"hmmwvtr", "hmmwvht"}, 65000}, {{"m151canvas"}, 65000}, {{"pursuitspecial"}, 65000}, {{"51chevy3100", "51chevy3100old"}, 65000}, {{"72beetle"}, 65000}, {{"79datsun280z"}, 65000}, {{"80f350", "80f350ambulance", "80f350offroad", "80f350quad"}, 65000}, {{"83hilux", "83hiluxoffroad"}, 65000}, {{"86econoline", "86econolineambulance", "86econolinerv"}, 65000}, {{"87c10offroadlb", "87c10offroadsb"}, 65000}, {{"87caprice", "87capricePD"}, 65000}, {{"87blazeroffroad"}, 65000}, {{"90corolla"}, 65000}, {{"90ramoffroadlb", "90ramoffroadsb"}, 65000}, {{"91celica"}, 65000}, {{"91wagoneer"}, 65000}, {{"92crownvic", "92crownvicPD"}, 65000}, {{"92wrangler", "92wrangleroffroad", "92wranglerjurassic", "92wranglerranger"}, 65000}, {{"93explorer", "93explorerjurassic"}, 65000}, {{"chevystepvan", "chevystepvanswat"}, 65000}, {{"f700propane"}, 65000}, {{"m35a2fuel"}, 65000}, {{"tractorford7810"}, 65000}, {{"64mustang"}, 65000}, {{"71chevyc10stepside", "71chevyc10lb", "71chevyc10sb"}, 65000}, {{"91chevys10", "91chevys10ext", "91chevys10offroad", "91chevys10offroadext"}, 65000}, {{"93jeepcherokee"}, 65000}, {{"86montecarlo"}, 65000}, {{"71chevyc10offroadstepside", "71chevyc10offroadsb", "71chevyc10offroadlb"}, 65000}, {{"93jeepcherokeeoffroad"}, 65000}, {{"Trailer51chevy"}, 50000}, {{"Trailermovingbig"}, 1000000}, {{"Trailermovingmedium"}, 500000}, {{"Trailercamperscamp"}, 150000}, {{"Trailerfuelmedium"}, 120000}, {{"Trailerfuelsmall"}, 75000}, {{"generallee"}, 125000}};
 	end
-	if vendorsGreenFireMod then
-		-- Green Fire items --------------------------------
-		vendorsGreenFire = {{"KgCannabis", 4500, false}, {"OzCannabis", 100, false}, {"DryCannabisFanLeaf", 10, false, 100}, {"Hashish", 2500, false}, {"Kief", 30, false}, {"Blunt", 10, false}, {"MixedBlunt", 5, false}, {"KiefBlunt", 40, false}, {"HashBlunt", 2525, false}, {"SpaceBlunt", 2560, false}, {"CannaCigar", 45, false}, {"PreCannaCigar", 75, false}, {"DelCannaCigar", 45, false}, {"ResCannaCigar", 45, false}};
-	end
+	-- if vendorsGreenFireMod then
+	-- 	-- Green Fire items --------------------------------
+	-- 	vendorsGreenFire = {{"KgCannabis", 4500, false}, {"OzCannabis", 100, false}, {"DryCannabisFanLeaf", 10, false, 100}, {"Hashish", 2500, false}, {"Kief", 30, false}, {"Blunt", 10, false}, {"MixedBlunt", 5, false}, {"KiefBlunt", 40, false}, {"HashBlunt", 2525, false}, {"SpaceBlunt", 2560, false}, {"CannaCigar", 45, false}, {"PreCannaCigar", 75, false}, {"DelCannaCigar", 45, false}, {"ResCannaCigar", 45, false}};
+	-- end
 end
 
 function Vendors_AddGreenItem(v, container, salesTotal, dispType, item)

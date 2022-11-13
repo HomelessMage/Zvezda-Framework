@@ -1,0 +1,164 @@
+module Base
+{
+	recipe Make Sack of Apples	
+	{	
+		EmptySandbag=1,
+		Apple=12,
+		Result:SackProduce_Apple,
+		Sound:PutItemInBag,
+		Time:200.0
+	}	
+		
+	recipe Make Sack of Bell Peppers	
+	{	
+		EmptySandbag=1,
+		BellPepper=12,
+		Result:SackProduce_BellPepper,
+		Sound:PutItemInBag,
+		Time:200.0
+	}	
+		
+	recipe Make Sack of Broccoli	
+	{	
+		EmptySandbag=1,
+		Broccoli=12,
+		Result:SackProduce_Broccoli,
+		Sound:PutItemInBag,
+		Time:200.0
+	}	
+		
+	recipe Make Sack of Cabbages	
+	{	
+		EmptySandbag=1,
+		farming.Cabbage=8,
+		Result:SackProduce_Cabbage,
+		Sound:PutItemInBag,
+		Time:200.0
+	}	
+		
+	recipe Make Sack of Carrots	
+	{	
+		EmptySandbag=1,
+		Carrots=12,
+		Result:SackProduce_Carrot,
+		Sound:PutItemInBag,
+		Time:200.0
+	}	
+		
+	recipe Make Sack of Cherries	
+	{	
+		EmptySandbag=1,
+		Cherry=16,
+		Result:SackProduce_Cherry,
+		Sound:PutItemInBag,
+		Time:200.0
+	}	
+		
+	recipe Make Sack of Corn	
+	{	
+		EmptySandbag=1,
+		Corn=12,
+		Result:SackProduce_Corn,
+		Sound:PutItemInBag,
+		Time:200.0
+	}	
+		
+	recipe Make Sack of Eggplants	
+	{	
+		EmptySandbag=1,
+		Eggplant=12,
+		Result:SackProduce_Eggplant,
+		Sound:PutItemInBag,
+		Time:200.0
+	}	
+		
+	recipe Make Sack of Grapes	
+	{	
+		EmptySandbag=1,
+		Grapes=12,
+		Result:SackProduce_Grapes,
+		Sound:PutItemInBag,
+		Time:200.0
+	}	
+		
+	recipe Make Sack of Leeks	
+	{	
+		EmptySandbag=1,
+		Leek=12,
+		Result:SackProduce_Leek,
+		Sound:PutItemInBag,
+		Time:200.0
+	}	
+		
+	recipe Make Sack of Lettuce	
+	{	
+		EmptySandbag=1,
+		Lettuce=8,
+		Result:SackProduce_Lettuce,
+		Sound:PutItemInBag,
+		Time:200.0
+	}	
+		
+	recipe Make Sack of Onions	
+	{	
+		EmptySandbag=1,
+		Onion=12,
+		Result:SackProduce_Onion,
+		Sound:PutItemInBag,
+		Time:200.0
+	}	
+		
+	recipe Make Sack of Peaches	
+	{	
+		EmptySandbag=1,
+		Peach=12,
+		Result:SackProduce_Peach,
+		Sound:PutItemInBag,
+		Time:200.0
+	}	
+		
+	recipe Make Sack of Pears	
+	{	
+		EmptySandbag=1,
+		Pear=12,
+		Result:SackProduce_Pear,
+		Sound:PutItemInBag,
+		Time:200.0
+	}	
+		
+	recipe Make Sack of Potatoes	
+	{	
+		EmptySandbag=1,
+		farming.Potato=12,
+		Result:SackProduce_Potato,
+		Sound:PutItemInBag,
+		Time:200.0
+	}	
+		
+	recipe Make Sack of Radishes	
+	{	
+		EmptySandbag=1,
+		farming.RedRadish=12,
+		Result:SackProduce_RedRadish,
+		Sound:PutItemInBag,
+		Time:200.0
+	}	
+		
+	recipe Make Sack of Strawberries	
+	{	
+		EmptySandbag=1,
+		farming.Strawberry=16,
+		Result:SackProduce_Strawberry,
+		Sound:PutItemInBag,
+		Time:200.0
+	}	
+		
+	recipe Make Sack of Tomatoes	
+	{	
+		EmptySandbag=1,
+		farming.Tomato=12,
+		Result:SackProduce_Tomato,
+		Sound:PutItemInBag,
+		Time:200.0
+	}	
+}

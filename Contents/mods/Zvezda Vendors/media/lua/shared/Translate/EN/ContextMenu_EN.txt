@@ -6,6 +6,7 @@ ContextMenu_EN = {
 	ContextMenu_VehicleVendor = "Vehicle vendor",
 	ContextMenu_ToolVendor = "Tool vendor",
 	ContextMenu_FoodVendor = "Food vendor",
+	ContextMenu_ZvezdaToolVendor = "Tool vendor",
 	ContextMenu_Sell_Jewelry = "Sell jewelry",
 	ContextMenu_Sell_All = "Sell all items",
 	ContextMenu_Nothing_To_Sell = "You have nothing to sell",
@@ -53,4 +54,7 @@ ContextMenu_EN = {
 	ContextMenu_Sell_all_for = "Sell all for",
 	ContextMenu_for = "for",
 	ContextMenu_Vehicles = "Vehicles",
+	ContextMenu_ZvezdaTools = "Tools",
+	ContextMenu_ZvezdaMaterials = "Materials",
+	ContextMenu_ZvezdaAccessories = "Accessories"
 }
