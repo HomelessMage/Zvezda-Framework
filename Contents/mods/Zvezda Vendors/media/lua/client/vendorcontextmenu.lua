@@ -29,12 +29,22 @@ vendorsBooks = {};
 
 -----------  SELL ITEMS -----  If you want to add items to the list of items you can sell, put them in this list.
 --- EXAMPLE  -- {"itemType", price} {"BaseballBat", 30}  Make sure there is a comma between each item...  vendorsSellables = {{"BaseballBat", 30}, {"Book", 10}};
-vendorsSellables = {{"AppleCore", 2}, {"BananaPeel", 2}, {"BrownSugarEmpty", 2}, {"CakeCartonEmpty", 2}, {"CandyPackageEmpty", 2}, {"CerealEmpty", 2}, {"CheeseWrapper", 2}, {"ChocolateWrapper", 2}, {"CocoaPowderEmpty", 2}, {"CoffeeEmpty", 2}, {"CrispsEmpty", 2}, {"Crisps2Empty", 2}, {"Crisps3Empty", 2}, {"Crisps4Empty", 2}, {"FruitRindLemon", 2}, {"FruitRindLime", 2}, {"FruitRindMelon", 2}, {"FruitRindOrange", 2}, {"FruitRindPineapple", 2}, {"HoneyBottleWater", 2}, {"HotsauceBottleWater", 2}, {"MapleSyrupWater", 2}, {"OilVegetableWater", 2}, {"PieCartonEmpty", 2}, {"RiceVinegarWater", 2}, {"SoysauceWater", 2}, {"SugarEmpty", 2}, {"TubIcecreamEmpty", 2}, {"TVDinnerPackage", 2}, {"VinegarWater", 2}, {"YogurtEmpty", 2}, {"OliveOilWater", 2}, {"AlcoholWipesEmpty", 2}, {"AntibioticsBlisterEmpty", 2}, {"AntidepressantsEmpty", 2}, {"BetaBlockersEmpty", 2}, {"DisinfectantWater", 2}, {"PainkillersEmpty", 2}, {"SleepingPillsEmpty", 2}, {"VitaminsEmpty", 2}, {"TissueUsed", 2}, {"CologneEmpty", 2}, {"HairDyeBlackEmpty", 2}, {"HairDyeBlondeEmpty", 2}, {"HairDyeBlueEmpty", 2}, {"HairDyeBrownEmpty", 2}, {"HairDyeGingerEmpty", 2}, {"HairDyeGreenEmpty", 2}, {"HairDyePinkEmpty", 2}, {"HairDyeRedEmpty", 2}, {"HairDyeWhiteEmpty", 2}, {"HairDyeYellowEmpty", 2}, {"LipstickTubeEmpty", 2}, {"MakeupEyeshadowEmpty", 2}, {"MakeupFoundationEmpty", 2}, {"PerfumeEmpty", 2}, {"BagOfCharcoalEmpty", 2}, {"CleaningLiquidWater", 2}, {"ConcretePowderEmpty", 2}, {"DuctTapeEmpty", 2}, {"EmptyNailsBox", 2}, {"EmptyPaperclipBox", 2}, {"EmptyScrewsBox", 2}, {"FishingLineEmpty", 2}, {"GlueEmpty", 2}, {"GunpowderJarEmpty", 2}, {"MatchesEmpty", 2}, {"LighterEmpty", 2}, {"PlasterPowderEmpty", 2}, {"ScotchtapeEmpty", 2}, {"SparklerBoxEmpty", 2}, {"ThreadSpool", 2}, {"ToiletPaperEmpty", 2}, {"TwineSpool", 2}, {"WeldingRodsEmpty", 2}, {"WoodGlueEmpty", 2}, {"ExtinguisherEmpty", 2}, {"BookTorn", 2}, {"ComicBookTorn", 2}, {"Crossword1Used", 2}, {"Crossword2Used", 2}, {"Crossword3Used", 2}, {"MagazineNudie1Gross", 2}, {"MagazineTorn", 2}, {"NewspaperTorn", 2}, {"WordSearch1Used", 2}, {"WordSearch2Used", 2}, {"WordSearch3Used", 2}, {"BroccoliSeedsPacketEmpty", 2}, {"CabbageSeedsPacketEmpty", 2}, {"CarrotSeedsPacketEmpty", 2}, {"PotatoSeedsPacketEmpty", 2}, {"RadishSeedsPacketEmpty", 2}, {"StrawberrySeedsPacketEmpty", 2}, {"TomatoSeedsPacketEmpty", 2}, {"9mmAmmoBoxEmpty", 2}, {"38AmmoBoxEmpty", 2}, {"44AmmoBoxEmpty", 2}, {"45AmmoBoxEmpty", 2}, {"223AmmoBoxEmpty", 2}, {"308AmmoBoxEmpty", 2}, {"556AmmoBoxEmpty", 2}, {"ShotgunAmmoBoxEmpty", 2}, {"SackProduce_Apple", 30}, {"SackProduce_BellPepper", 30}, {"SackProduce_Broccoli", 30}, {"SackProduce_Cabbage", 30}, {"SackProduce_Carrot", 30}, {"SackProduce_Cherry", 30}, {"SackProduce_Corn", 30}, {"SackProduce_Eggplant", 30}, {"SackProduce_Grapes", 30}, {"SackProduce_Leek", 30}, {"SackProduce_Lettuce", 30}, {"SackProduce_Onion", 30}, {"SackProduce_Peach", 30}, {"SackProduce_Pear", 30}, {"SackProduce_Potato", 30}, {"SackProduce_RedRadish", 30}, {"SackProduce_Strawberry", 30}, {"SackProduce_Tomato", 30}, {"MethGood", 15}, {"MethBad", 5}, {"PepperMethGood", 25}, {"PepperMethBad", 20}, {"BlueMethGood", 40}, {"BlueMethBad", 30}, {"KgCannabis", 1200}, {"GFCigaretteCase", 800}, {"morebuild_01_6", 45}, {"morebuild_01_3", 45}, {"Bass", 2}, {"Catfish", 2}, {"Crappie", 2}, {"Crayfish", 2}, {"FishFillet", 2}, {"FishRoe", 2}, {"BaitFish", 2}, {"Lobster", 2}, {"Oysters", 2}, {"Perch", 2}, {"Pike", 2}, {"Salmon", 2}, {"Shrimp", 2}, {"Squid", 2}, {"SquidCalamari", 2}, {"Panfish", 2}, {"Trout", 2}};
+vendorsSellables = {
+	-- Мусор
+	{"AppleCore", 2}, {"BakingSodaEmpty", 2}, {"BananaPeel", 2}, {"BoneScraps", 2}, {"BrownSugarEmpty", 2}, {"CakeCartonEmpty", 2}, {"CandyPackageEmpty", 2}, {"CerealEmpty", 2}, {"CheeseWrapper", 2}, {"ChocolateWrapper", 2}, {"CocoaPowderEmpty", 2}, {"CoffeeEmpty", 2}, {"CrispsEmpty", 2}, {"Crisps2Empty", 2}, {"Crisps3Empty", 2}, {"Crisps4Empty", 2}, {"DriedBlackBeansEmpty", 2}, {"DriedChickpeasEmpty", 2}, {"DriedKidneyBeansEmpty", 2}, {"DriedLentilsEmpty", 2}, {"DriedSplitPeasEmpty", 2}, {"DriedWhiteBeansEmpty", 2}, {"EggCartonEmpty", 2}, {"EggShells", 2}, {"FlourEmpty", 2}, {"FriesCartonEmpty", 2}, {"FruitRindLemon", 2}, {"FruitRindLime", 2}, {"FruitRindMelon", 2}, {"FruitRindOrange", 2}, {"FruitRindPineapple", 2}, {"GravyBoat", 2}, {"GravyMixEmpty", 2}, {"GumWrapper", 2}, {"HoneyBottleEmpty", 2}, {"HoneyBottleWater", 2}, {"HotsauceBottleEmpty", 2}, {"HotsauceBottleWater", 2}, {"JamFruitEmpty", 2}, {"JamMarmaladeEmpty", 2}, {"JuiceBoxEmpty", 2}, {"KetchupEmpty", 2}, {"LollipopStick", 2}, {"MacBoxEmpty", 2}, {"MapleSyrupEmpty", 2}, {"MapleSyrupWater", 2}, {"MarinaraEmpty", 2}, {"MilkEmpty", 2}, {"MintCandyWrapper", 2}, {"MustardEmpty", 2}, {"OilVegetableEmpty", 2}, {"OilVegetableWater", 2}, {"PancakeMixEmpty", 2}, {"PeanutButterEmpty", 2}, {"PeanutShells", 2}, {"PeasEmpty", 2}, {"PieCartonEmpty", 2}, {"PlasticWrapperGeneric", 2}, {"PopcornBagEmpty", 2}, {"RiceBagEmpty", 2}, {"RiceVinegarEmpty", 2}, {"RiceVinegarWater", 2}, {"SoysauceEmpty", 2}, {"SoysauceWater", 2}, {"SugarEmpty", 2}, {"SunflowerShells", 2}, {"TeaBox", 2}, {"TeaBoxEmpty", 2}, {"TubIcecreamEmpty", 2}, {"TVDinnerPackage", 2}, {"UsedTeabag", 2}, {"VinegarEmpty", 2}, {"VinegarWater", 2}, {"YogurtEmpty", 2}, {"CornCob", 2}, {"FruitPits", 2}, {"SaltShakerEmpty", 2}, {"PepperShakerEmpty", 2}, {"SpaghetBoxEmpty", 2}, {"CanOfOatsEmpty", 2}, {"OliveOilEmpty", 2}, {"OliveOilWater", 2}, {"CornflourEmpty", 2}, {"YeastPacketEmpty", 2}, {"AlcoholWipesEmpty", 2}, {"AntibioticsBlisterEmpty", 2}, {"AntidepressantsEmpty", 2}, {"BandaidDirty", 2}, {"BetaBlockersEmpty", 2}, {"DisinfectantEmpty", 2}, {"DisinfectantWater", 2}, {"PainkillersEmpty", 2}, {"SleepingPillsEmpty", 2}, {"VitaminsEmpty", 2}, {"TissueUsed", 2}, {"CologneEmpty", 2}, {"HairDyeBlackEmpty", 2}, {"HairDyeBlondeEmpty", 2}, {"HairDyeBlueEmpty", 2}, {"HairDyeBrownEmpty", 2}, {"HairDyeGingerEmpty", 2}, {"HairDyeGreenEmpty", 2}, {"HairDyePinkEmpty", 2}, {"HairDyeRedEmpty", 2}, {"HairDyeWhiteEmpty", 2}, {"HairDyeYellowEmpty", 2}, {"LipstickTubeEmpty", 2}, {"MakeupEyeshadowEmpty", 2}, {"MakeupFoundationEmpty", 2}, {"PerfumeEmpty", 2}, {"BagOfCharcoalEmpty", 2}, {"CardboardFlat", 2}, {"CleaningLiquidEmpty", 2}, {"CleaningLiquidWater", 2}, {"ConcretePowderEmpty", 2}, {"DuctTapeEmpty", 2}, {"EmptyNailsBox", 2}, {"EmptyPaperclipBox", 2}, {"EmptyScrewsBox", 2}, {"FishingLineEmpty", 2}, {"GlueEmpty", 2}, {"GunpowderJarEmpty", 2}, {"MatchesEmpty", 2}, {"LighterEmpty", 2}, {"PlasterPowderEmpty", 2}, {"ScotchtapeEmpty", 2}, {"SparklerBoxEmpty", 2}, {"ThreadSpool", 2}, {"ToiletPaperEmpty", 2}, {"TwineSpool", 2}, {"WeldingRodsEmpty", 2}, {"WoodGlueEmpty", 2}, {"ExtinguisherEmpty", 2}, {"BookTorn", 2}, {"ComicBookTorn", 2}, {"Crossword1Used", 2}, {"Crossword2Used", 2}, {"Crossword3Used", 2}, {"MagazineNudie1Gross", 2}, {"MagazineTorn", 2}, {"NewspaperTorn", 2}, {"WordSearch1Used", 2}, {"WordSearch2Used", 2}, {"WordSearch3Used", 2}, {"BroccoliSeedsPacketEmpty", 2}, {"CabbageSeedsPacketEmpty", 2}, {"CarrotSeedsPacketEmpty", 2}, {"PotatoSeedsPacketEmpty", 2}, {"RadishSeedsPacketEmpty", 2}, {"StrawberrySeedsPacketEmpty", 2}, {"TomatoSeedsPacketEmpty", 2}, {"9mmAmmoBoxEmpty", 2}, {"38AmmoBoxEmpty", 2}, {"44AmmoBoxEmpty", 2}, {"45AmmoBoxEmpty", 2}, {"223AmmoBoxEmpty", 2}, {"308AmmoBoxEmpty", 2}, {"556AmmoBoxEmpty", 2}, {"ShotgunAmmoBoxEmpty", 2}, {"CigaretteButt", 2}, {"CorndogStick", 2},
+	-- Овощи
+	{"SackProduce_Apple", 30}, {"SackProduce_BellPepper", 30}, {"SackProduce_Broccoli", 30}, {"SackProduce_Cabbage", 30}, {"SackProduce_Carrot", 30}, {"SackProduce_Cherry", 30}, {"SackProduce_Corn", 30}, {"SackProduce_Eggplant", 30}, {"SackProduce_Grapes", 30}, {"SackProduce_Leek", 30}, {"SackProduce_Lettuce", 30}, {"SackProduce_Onion", 30}, {"SackProduce_Peach", 30}, {"SackProduce_Pear", 30}, {"SackProduce_Potato", 30}, {"SackProduce_RedRadish", 30}, {"SackProduce_Strawberry", 30}, {"SackProduce_Tomato", 30}, 
+	-- Наркотики
+	{"MethGood", 15}, {"MethBad", 5}, {"PepperMethGood", 25}, {"PepperMethBad", 20}, {"BlueMethGood", 40}, {"BlueMethBad", 30}, {"KgCannabis", 1200}, {"GFCigaretteCase", 800}, 
+	-- Мебель
+	{"morebuild_01_6", 45}, {"morebuild_01_3", 45}, 
+	-- Рыба
+	{"Bass", 2}, {"Catfish", 2}, {"Crappie", 2}, {"Crayfish", 2}, {"FishFillet", 2}, {"FishRoe", 2}, {"BaitFish", 2}, {"Lobster", 2}, {"Oysters", 2}, {"Perch", 2}, {"Pike", 2}, {"Salmon", 2}, {"Shrimp", 2}, {"Squid", 2}, {"SquidCalamari", 2}, {"Panfish", 2}, {"Trout", 2}};
 vendorsSellables.items = {};
 
 -- vendorsBooks[1] = {"GeneralReading", {"Book", 40}, {"ComicBook", 25}, {"HottieZ", 50}, {"Magazine", 25}, {"Newspaper", 15}};
 vendorsBooks[1] = {"GeneralReading", {"Newspaper", 15}};
-vendorsBooks[2] = {"Magazines_Skill", {"FishingMag1", 50}, {"FishingMag2", 50}, {"ElectronicsMag1", 50}, {"ElectronicsMag2", 50}, {"ElectronicsMag3", 50}, {"ElectronicsMag5", 50}, {"EngineerMagazine1", 50}, {"EngineerMagazine2", 50}, {"CookingMag1", 50}, {"CookingMag2", 50}, {"Radio.RadioMag1", 50}, {"Radio.RadioMag2", 50}, {"Radio.RadioMag3", 50}, {"ElectronicsMag4", 50}, {"MechanicMag1", 50}, {"MechanicMag2", 50}, {"MechanicMag3", 50}, {"FarmingMag1", 50}, {"HerbalistMag", 50}, {"HuntingMag1", 50}, {"HuntingMag2", 50}, {"HuntingMag3", 50}, {"MetalworkMag1", 50}, {"MetalworkMag2", 50}, {"MetalworkMag3", 50}, {"MetalworkMag4", 50}};
+vendorsBooks[2] = {"Magazines_Skill", {"FishingMag1", 50}, {"FishingMag2", 50}, {"ElectronicsMag1", 50}, {"ElectronicsMag2", 50}, {"ElectronicsMag3", 50}, {"ElectronicsMag5", 50}, {"EngineerMagazine1", 50}, {"EngineerMagazine2", 50}, {"CookingMag1", 50}, {"CookingMag2", 50}, {"Radio.RadioMag1", 50}, {"Radio.RadioMag2", 50}, {"Radio.RadioMag3", 50}, {"ElectronicsMag4", 50}, {"MechanicMag1", 50}, {"MechanicMag2", 50}, {"MechanicMag3", 50}, {"FarmingMag1", 50}, {"HerbalistMag", 50}, {"HuntingMag1", 50}, {"HuntingMag2", 50}, {"HuntingMag3", 50}, {"MetalworkMag1", 50}, {"MetalworkMag2", 50}, {"MetalworkMag3", 50}, {"MetalworkMag4", 50}, {"Greenfire.CannaMag1", 50}, {"Greenfire.CannaMag2", 50}, {"Greenfire.CannaMag3", 50}, {"Greenfire.AficMag1", 50}};
 -- vendorsBooks[3] = {"Maps", {"MarchRidgeMap", 60}, {"MuldraughMap", 60}, {"RiversideMap", 60}, {"RosewoodMap", 60}, {"WestpointMap", 60}};
 -- vendorsBooks[4] = {"SkillBooks", {"BookCarpentry1", 750}, {"BookCarpentry2", 750}, {"BookCarpentry3", 750}, {"BookCarpentry4", 750}, {"BookCarpentry5", 750}, {"BookCooking1", 750}, {"BookCooking2", 750}, {"BookCooking3", 750}, {"BookCooking4", 750}, {"BookCooking5", 750}, {"BookElectrician1", 750}, {"BookElectrician2", 750}, {"BookElectrician3", 750}, {"BookElectrician4", 750}, {"BookElectrician5", 750}, {"BookFarming1", 750}, {"BookFarming2", 750}, {"BookFarming3", 750}, {"BookFarming4", 750}, {"BookFarming5", 750}, {"BookFirstAid1", 750}, {"BookFirstAid2", 750}, {"BookFirstAid3", 750}, {"BookFirstAid4", 750}, {"BookFirstAid5", 750}, {"BookFishing1", 750}, {"BookFishing2", 750}, {"BookFishing3", 750}, {"BookFishing4", 750}, {"BookFishing5", 750}, {"BookForaging1", 750}, {"BookForaging2", 750}, {"BookForaging3", 750}, {"BookForaging4", 750}, {"BookForaging5", 750}, {"BookMechanic1", 750}, {"BookMechanic2", 750}, {"BookMechanic3", 750}, {"BookMechanic4", 750}, {"BookMechanic5", 750}, {"BookMetalWelding1", 750}, {"BookMetalWelding2", 750}, {"BookMetalWelding3", 750}, {"BookMetalWelding4", 750}, {"BookMetalWelding5", 750}, {"BookTrapping1", 750}, {"BookTrapping2", 750}, {"BookTrapping3", 750}, {"BookTrapping4", 750}, {"BookTrapping5", 750}};
 
@@ -42,25 +52,17 @@ vendorsBooks[2] = {"Magazines_Skill", {"FishingMag1", 50}, {"FishingMag2", 50}, 
 
 
 -- vendorsTools[1] = {"Camping", {"SharpedStone", 25}, {"Lighter", 45}, {"PercedWood", 50}, {"WoodenStick", 50}};
--- vendorsTools[1] = {"ZvezdaTools", {"BakingTray", 50}, {"LeadPipe", 50}, {"Scissors", 50}, {"Pot", 50}, {"SmokingPipe", 50}, {"Bong_pastelblue", 50}, {"TinOpener", 50}, {"Bowl", 50}, {"Shovel", 50}, {"HandShovel", 50}, {"FishingRod", 50}};
+vendorsTools[1] = {"ZvezdaTools", {"BakingTray", 50}, {"LeadPipe", 50}, {"Scissors", 50}, {"Pot", 50}, {"TinOpener", 50}, {"Bowl", 50}, {"Shovel", 50}, {"farming.HandShovel", 50}, {"FishingRod", 50}, {"Greenfire.SmokingPipe", 50}, {"Greenfire.Bong_pastelblue", 50}};
 -- vendorsTools[2] = {"Construction", {"Axe", 100}, {"BucketEmpty", 250}, {"Crowbar", 75}, {"Hammer", 45}, {"Needle", 25}, {"Paintbrush", 25}, {"PropaneTank", 125}, {"BlowTorch", 250}, {"Saw", 75}, {"Screwdriver", 50}, {"AxeStone", 75}, {"HammerStone", 50}, {"WeldingMask", 50}};
--- vendorsTools[2] = {"ZvezdaMaterials", {"Bleach", 50}, {"Disinfectant", 50}, {"RollingPapers", 50}, {"TobaccoSeed", 50}, {"NailsBox", 50}};
+vendorsTools[2] = {"ZvezdaMaterials", {"Bleach", 50}, {"Disinfectant", 50}, {"Greenfire.RollingPapers", 50}, {"Greenfire.TobaccoSeed", 50}, {"NailsBox", 50}};
 -- vendorsTools[3] = {"Cooking", {"BakingPan", 45}, {"Bowl", 250}, {"BoxOfJars", 50}, {"TinOpener", 50}, {"Pot", 50}, {"Pan", 45}, {"KitchenKnife", 250}, {"Kettle", 50}, {"RollingPin", 25}, {"BakingPan", 50}, {"Saucepan", 50}};
--- vendorsTools[3] = {"ZvezdaAccessories", {"Hat_Bandana", 50}, {"Hat_Beany", 50}, {"Dungarees", 50}};
+vendorsTools[3] = {"ZvezdaAccessories", {"Hat_Bandana", 50}, {"Hat_Beany", 50}, {"Dungarees", 50}};
 -- vendorsTools[4] = {"Farming", {"farming.GardeningSprayEmpty", 75}, {"farming.WateredCan", 100}, {"Fertilizer", 75}, {"EmptySandbag", 25}, {"farming.Shovel", 100}, {"farming.HandShovel", 100}};
 -- vendorsTools[5] = {"Fishing", {"FishingNet", 75}, {"FishingRod", 100}, {"FishingTackle", 45}};
 -- vendorsTools[6] = {"Light", {"Torch", 75}, {"Matches", 50}}
 -- vendorsTools[7] = {"Mechanics", {"PetrolCan", 100}, {"Jack", 75}, {"LugWrench", 75}, {"TirePump", 75}, {"Wrench", 75}};
 -- vendorsTools[8] = {"Stationery", {"Notebook", 50}, {"Eraser", 50}, {"Journal", 50}, {"Pen", 50}, {"Pencil", 50}, {"SheetPaper2", 50}};
 -- vendorsTools[9] = {"Trapping", {"TrapCage", 75}, {"TrapMouse", 25}, {"TrapSnare", 60}, {"TrapStick", 50}, {"TrapBox", 60}, {"TrapCrate", 60}};
-
-
-
-
-vendorsZvezdaTools[1] = {"ZvezdaTools", {"BakingTray", 50}, {"LeadPipe", 50}, {"Scissors", 50}, {"Pot", 50}, {"SmokingPipe", 50}, {"Bong_pastelblue", 50}, {"TinOpener", 50}, {"Bowl", 50}, {"Shovel", 50}, {"HandShovel", 50}, {"FishingRod", 50}};
-vendorsZvezdaTools[2] = {"ZvezdaMaterials", {"Bleach", 50}, {"Disinfectant", 50}, {"RollingPapers", 50}, {"TobaccoSeed", 50}, {"NailsBox", 50}};
-vendorsZvezdaTools[3] = {"ZvezdaAccessories", {"Hat_Bandana", 50}, {"Hat_Beany", 50}, {"Dungarees", 50}};
-
 
 vendorsVehicles = {};
 vendorsVehicles.parts = {};
@@ -302,11 +304,6 @@ function Vendors_subSubContextMenu(subSubContext, vendorList, subSubMenu, contex
 	if vendorType == "FoodVendor" then
 		Vendors_DisplayFoodOptions(subSubMenu, context, player, vendorsFoods);		
 	end
-
-	if vendorType == "ZvezdaToolVendor" then
-		Vendors_DisplayZvezdaToolOptions(subSubMenu, context, player, vendorsZvezdaTools);		
-	end
-
 	-- tools.  for to buy
 	if vendorType == "ToolVendor" then
 		Vendors_DisplayToolOptions(subSubMenu, context, player, vendorsTools, worldobjects)
@@ -737,27 +734,6 @@ function Vendors_DisplayToolOptions(subSubMenu, context, player, vendorsList, wo
 		end
 	end
 end
-
-function Vendors_DisplayZvezdaToolOptions(subSubMenu, context, player, vendorsList)
-	local playerInv = player:getInventory();
-	for i,v in pairs(vendorsList) do
-		local zvezdaToolTable = v;
-		local zvezdaToolOption = subSubMenu:addOption(getText("ContextMenu_" .. zvezdaToolTable[1]), worldobjects);
-		local subSubMenu = ISContextMenu:getNew(subSubMenu);
-		local subContext = context:addSubMenu(zvezdaToolOption, subSubMenu);
-		for j,k in pairs(zvezdaToolTable) do
-			local zvezdaToolItemTable = k;
-			if j ~= 1 then
-				local zvezdaToolItemType = zvezdaToolItemTable[1];
-				local zvezdaToolItemPrice = zvezdaToolItemTable[2];
-				local zvezdaToolItem = playerInv:AddItem(zvezdaToolItemType);
-				local zvezdaToolAddedItemName = addedItem:getName();
-				local SubVendorOption = subSubMenu:addOption(zvezdaToolAddedItemName .. " ($" .. zvezdaToolItemPrice .. ")", worldobjects, Buy_VendorsItem, player, zvezdaToolItemTable, false, zvezdaToolItemPrice);
-			end
-		end
-	end
-end
-
 
 function Vendors_ListBooks(subSubMenu, worldobjects, vendorsList, context, player)
 	local playerInv = player:getInventory();

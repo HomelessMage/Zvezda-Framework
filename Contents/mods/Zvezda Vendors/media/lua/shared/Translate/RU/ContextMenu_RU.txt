@@ -5,7 +5,6 @@ ContextMenu_RU = {
 	ContextMenu_WeaponVendor = "Оружейный торгомат",
 	ContextMenu_VehicleVendor = "Автомобильный торгомат",
 	ContextMenu_ToolVendor = "Хозяйственный торгомат",
-	ContextMenu_ZvezdaToolVendor = "Хозяйственный торгомат",
 	ContextMenu_FoodVendor = "Продуктовый торгомат",
 	ContextMenu_Sell_Jewelry = "Продать драгоценности",
 	ContextMenu_Sell_All = "Продать все вещи",
