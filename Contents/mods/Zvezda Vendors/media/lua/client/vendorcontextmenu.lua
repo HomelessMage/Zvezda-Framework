@@ -51,23 +51,26 @@ vendorsBooks[2] = {"Magazines_Skill", {"FishingMag1", 50}, {"FishingMag2", 50}, 
 
 
 -- vendorsTools[1] = {"Camping", {"SharpedStone", 25}, {"Lighter", 45}, {"PercedWood", 50}, {"WoodenStick", 50}};
-vendorsTools[1] = {"ZvezdaTools", {"BakingTray",  40}, {"LeadPipe", 15}, {"Scissors", 35}, {"Pot", 60}, {"TinOpener", 25}, {"Bowl", 5}, {"Shovel", 140}, {"farming.HandShovel", 70}, {"FishingRod", 200}, {"Greenfire.SmokingPipe", 20}, {"Greenfire.Bong_pastelblue", 30}};
+vendorsTools[1] = {"ZvezdaTools", {"LeadPipe", 15}, {"Scissors", 35}, {"TinOpener", 25}, {"Shovel", 140}, {"farming.HandShovel", 70}, {"FishingRod", 200}};
 -- vendorsTools[2] = {"Construction", {"Axe", 100}, {"BucketEmpty", 250}, {"Crowbar", 75}, {"Hammer", 45}, {"Needle", 25}, {"Paintbrush", 25}, {"PropaneTank", 125}, {"BlowTorch", 250}, {"Saw", 75}, {"Screwdriver", 50}, {"AxeStone", 75}, {"HammerStone", 50}, {"WeldingMask", 50}};
-vendorsTools[2] = {"ZvezdaMaterials", {"Bleach", 20}, {"Disinfectant", 40}, {"Greenfire.RollingPapers", 20}, {"Greenfire.TobaccoSeed", 7}, {"NailsBox", 50}};
+vendorsTools[2] = {"ZvezdaMaterials", {"Bleach", 20}, {"Disinfectant", 40}, {"Greenfire.RollingPapers", 20}, {"Greenfire.TobaccoSeed", 7}, {"NailsBox", 50}, {"DenimStrips", 2}, {"LeatherStrips", 3}};
 -- vendorsTools[3] = {"Cooking", {"BakingPan", 45}, {"Bowl", 250}, {"BoxOfJars", 50}, {"TinOpener", 50}, {"Pot", 50}, {"Pan", 45}, {"KitchenKnife", 250}, {"Kettle", 50}, {"RollingPin", 25}, {"BakingPan", 50}, {"Saucepan", 50}};
-vendorsTools[3] = {"ZvezdaAccessories", {"Hat_Bandana", 25}, {"Hat_Beany", 20}, {"Dungarees", 60}};
+vendorsTools[3] = {"ZvezdaAccessories", {"Hat_Bandana", 25}, {"Hat_Beany", 20}, {"Dungarees", 60}, {"Greenfire.SmokingPipe", 20}, {"Greenfire.Bong_pastelblue", 30}};
 -- vendorsTools[4] = {"Farming", {"farming.GardeningSprayEmpty", 75}, {"farming.WateredCan", 100}, {"Fertilizer", 75}, {"EmptySandbag", 25}, {"farming.Shovel", 100}, {"farming.HandShovel", 100}};
+vendorsTools[4] = {"ZvezdaTableWare", {"BakingTray",  40}, {"Pot", 60}, {"Bowl", 5}};
 -- vendorsTools[5] = {"Fishing", {"FishingNet", 75}, {"FishingRod", 100}, {"FishingTackle", 45}};
 -- vendorsTools[6] = {"Light", {"Torch", 75}, {"Matches", 50}}
 -- vendorsTools[7] = {"Mechanics", {"PetrolCan", 100}, {"Jack", 75}, {"LugWrench", 75}, {"TirePump", 75}, {"Wrench", 75}};
--- vendorsTools[8] = {"Stationery", {"Notebook", 50}, {"Eraser", 50}, {"Journal", 50}, {"Pen", 50}, {"Pencil", 50}, {"SheetPaper2", 50}};
+vendorsTools[5] = {"Stationery", {"Notebook", 50}, {"Eraser", 40}, {"Journal", 50}, {"Pen", 30}, {"Pencil", 20}, {"SheetPaper2", 5}};
 -- vendorsTools[9] = {"Trapping", {"TrapCage", 75}, {"TrapMouse", 25}, {"TrapSnare", 60}, {"TrapStick", 50}, {"TrapBox", 60}, {"TrapCrate", 60}};
 
 vendorsVehicles = {};
 vendorsVehicles.parts = {};
 vendorsVehicles.parts[1] = {"Standard", {"CarBattery1", 250}, {"FrontCarDoor1", 250}, {"EngineDoor1", 250}, {"ModernBrake1", 250}, {"TrunkDoor1", 250}, {"RearCarDoor1", 250}, {"RearCarDoorDouble1", 250}, {"BigGasTank1", 250}, {"ModernCarMuffler1", 250}, {"NormalCarSeat1", 250}, {"ModernSuspension1", 250}, {"ModernTire1", 250}, {"Windshield1", 250}, {"RearWindshield1", 250}, {"FrontWindow1", 250}, {"RearWindow1", 250}};
-vendorsVehicles.parts[2] = {"Sport", {"CarBattery3", 500}, {"FrontCarDoor3", 500}, {"EngineDoor3", 500}, {"ModernBrake3", 500}, {"TrunkDoor3", 500}, {"RearCarDoor3", 500}, {"RearCarDoorDouble3", 500}, {"BigGasTank3", 500}, {"ModernCarMuffler3", 500}, {"NormalCarSeat3", 500}, {"ModernSuspension3", 500}, {"ModernTire3", 500}, {"Windshield3", 500}, {"RearWindshield3", 500}, {"FrontWindow3", v}, {"RearWindow3", 500}};
-vendorsVehicles.parts[3] = {"Heavy-Duty", {"CarBattery2", 1000}, {"FrontCarDoor2", 1000}, {"EngineDoor2", 1000}, {"ModernBrake2", 1000}, {"TrunkDoor2", 1000}, {"RearCarDoor2", 1000}, {"RearCarDoorDouble2", 1000}, {"BigGasTank2", 1000}, {"ModernCarMuffler2", 1000}, {"NormalCarSeat2", 1000}, {"ModernSuspension2", 1000}, {"ModernTire2", 1000}, {"Windshield2", 1000}, {"RearWindshield2", 1000}, {"FrontWindow2", 1000}, {"RearWindow2", 1000}};
+vendorsVehicles.parts[2] = {"Sport", {"CarBattery3", 1000}, {"FrontCarDoor3", 1000}, {"EngineDoor3", 1000}, {"ModernBrake3", 1000}, {"TrunkDoor3", 1000}, {"RearCarDoor3", 1000}, {"RearCarDoorDouble3", 1000}, {"BigGasTank3", 1000}, {"ModernCarMuffler3", 1000}, {"NormalCarSeat3", 1000}, {"ModernSuspension3", 1000}, {"ModernTire3", 1000}, {"Windshield3", 1000}, {"RearWindshield3", 1000}, {"FrontWindow3", 1000}, {"RearWindow3", 1000}};
+vendorsVehicles.parts[3] = {"Heavy-Duty", {"CarBattery2", 500}, {"FrontCarDoor2", 500}, {"EngineDoor2", 500}, {"ModernBrake2", 500}, {"TrunkDoor2", 500}, {"RearCarDoor2", 500}, {"RearCarDoorDouble2", 500}, {"BigGasTank2", 500}, {"ModernCarMuffler2", 500}, {"NormalCarSeat2", 500}, {"ModernSuspension2", 500}, {"ModernTire2", 500}, {"Windshield2", 500}, {"RearWindshield2", 500}, {"FrontWindow2", 500}, {"RearWindow2", 500}};
+vendorsVehicles.parts[4] = {"ZvezdaTools", {"EmptyPetrolCan", 100}, {"PetrolCan", 500}, {"Jack", 500}, {"LugWrench", 100}, {"TirePump", 300}, {"Wrench", 100}};
+vendorsVehicles.parts[5] = {"ZvezdaMaterials", {"SheetMetal", 50}, {"SmallSheetMetal", 25}};
 vendorsVehicles.engineParts = {500, 30};
 vendorsVehicles.vehicles = {};
 -- vendorsVehicles.vehicles.base = {"Vehicles", {{"CarStationWagon", "CarStationWagon2"}, 35000}, {{"SportsCar", "SportsCar_ez"}, 35000}, {{"PickUpTruck", "PickUpTruckLightsFire", "PickUpTruckLights", "PickUpTruckMccoy"}, 35000}, {{"SmallCar"}, 20000}, {{"CarNormal", "CarLights", "CarLightsPolice", "CarTaxi", "CarTaxi2"}, 35000}, {{"ModernCar02"}, 20000}, {{"StepVan", "StepVanMail", "StepVan_Heralds", "StepVan_Scarlet"}, 20000}, {{"PickUpVan", "PickUpVanLights", "PickUpVanLightsFire", "PickUpVanLightsPolice", "PickUpVanMccoy"}, 20000}, {{"ModernCar"}, 20000}, {{"OffRoad"}, 20000}, {{"SUV"}, 20000}, {{"Van", "VanSeats", "VanAmbulance", "VanRadio", "VanRadio_3N", "VanSpiffo", "Van_Transit", "Van_MassGenFac", "VanKnoxDisti", "Van_LectroMax", "VanSpecial"}, 20000}, {{"SmallCar02"}, 15000}, {{"CarLuxury"}, 15000}, {{"Trailer", "TrailerCover"}, 10000}, {{"TrailerAdvert"}, 5000}};
@@ -258,7 +261,7 @@ function Vendors_ContextMenu(player, worldobjects, context, list, money)
 	local vendorSubMenu = ISContextMenu:getNew(context);
 	local subContext = context:addSubMenu(vendorOption, vendorSubMenu);
 	Vendors_subContextMenu(subContext, vendorList, vendorSubMenu, context, player);
-	local subVendorOption = vendorSubMenu:addOptionOnTop("� ��� ($" .. vendMoney .. ")", worldObj);
+	local subVendorOption = vendorSubMenu:addOptionOnTop(" ($" .. vendMoney .. ")", worldObj);
 end	
 	-- display sub context menus
 function Vendors_subContextMenu(subContext, vendorList, vendorSubMenu, context, player)
@@ -320,7 +323,7 @@ function Vendors_subSubContextMenu(subSubContext, vendorList, subSubMenu, contex
 		playerInv:Remove(partItem);
 		local vehicle = player:getNearVehicle();
 		if vehicle then
-			local subSubVendorOption = subSubMenu:addOption(getText("IGUI_VehicleName" .. vehicle:getScript():getName()) .. " key - $5000", playerObj, Buy_VendorsVehicleKey, vehicle);
+			local subSubVendorOption = subSubMenu:addOption(getText("IGUI_VehicleName" .. vehicle:getScript():getName()) .. " key - $500", playerObj, Buy_VendorsVehicleKey, vehicle);
 		end
 		local subSubVendorOption = subSubMenu:addOption(partItemQuant .. " " .. partItemName .. " ($" .. partItemPrice .. ")", worldobjects, Buy_VendorsItem, player, part, false, partItemPrice, false, 30);
 		for i,v in pairs(vendorsVehicles.parts) do
@@ -637,8 +640,8 @@ function Vendors_RemoveItem(item, container)
 end
 
 function Buy_VendorsVehicleKey(player, vehicle)
-	if vendMoney >= 5000 then
-		Vendors_CalculateChange(5000, player);
+	if vendMoney >= 500 then
+		Vendors_CalculateChange(500, player);
 		sendClientCommand(player, "vehicle", "getKey", { vehicle = vehicle:getId() });
 	else
 		player:Say(getText("ContextMenu_Cant_Buy"));
@@ -828,7 +831,7 @@ function Vendors_CheckMods()
 		vendorsWeapons[10] = {"LMGs", {"K3LMG",  12000, false, "5.56"}, {"G21LMG",  12000, false, ".308"}, {"XM8LMG",  12000, false, "5.56"}, {"M249",  12000, false, "5.56"}, {"K12",  12000, false, ".308"}};
 	end
 	if vendorsFilibusterMod then
-		vendorsVehicles.vehicles.filibuster = {"Filibuster", {{"85vicsed"}, 65000}, {{"85vicwag", "85vicwag2"}, 65000}, {{"79brougham"}, 65000}, {{"volvo244"}, 65000}, {{"71impala"}, 65000}, {{"91crx"}, 65000}, {{"86yugo"}, 65000}, {{"87c10lb", "87c10sb"}, 65000}, {{"90ramlb", "90ramsb"}, 65000}, {{"87blazer"}, 65000}, {{"87suburban"}, 65000}, {{"87c10utility", "87c10mccoy", "87c10fire"}, 65000}, {{"astrovan"}, 65000}, {{"65gto"}, 65000}, {{"69charger"}, 65000}, {{"73falcon"}, 65000}, {{"77transam"}, 65000}, {{"70chevelle"}, 65000}, {{"70elcamino"}, 65000}, {{"68elcamino"}, 65000}, {{"73pinto"}, 65000}, {{"moveurself"}, 65000}, {{"isuzubox", "isuzuboxmccoy", "isuzuboxfood", "isuzuboxelec"}, 65000}, {{"hmmwvtr", "hmmwvht"}, 65000}, {{"m151canvas"}, 65000}, {{"pursuitspecial"}, 65000}, {{"51chevy3100", "51chevy3100old"}, 65000}, {{"72beetle"}, 65000}, {{"79datsun280z"}, 65000}, {{"80f350", "80f350ambulance", "80f350offroad", "80f350quad"}, 65000}, {{"83hilux", "83hiluxoffroad"}, 65000}, {{"86econoline", "86econolineambulance", "86econolinerv"}, 65000}, {{"87c10offroadlb", "87c10offroadsb"}, 65000}, {{"87caprice", "87capricePD"}, 65000}, {{"87blazeroffroad"}, 65000}, {{"90corolla"}, 65000}, {{"90ramoffroadlb", "90ramoffroadsb"}, 65000}, {{"91celica"}, 65000}, {{"91wagoneer"}, 65000}, {{"92crownvic", "92crownvicPD"}, 65000}, {{"92wrangler", "92wrangleroffroad", "92wranglerjurassic", "92wranglerranger"}, 65000}, {{"93explorer", "93explorerjurassic"}, 65000}, {{"chevystepvan", "chevystepvanswat"}, 65000}, {{"f700propane"}, 65000}, {{"m35a2fuel"}, 65000}, {{"tractorford7810"}, 65000}, {{"64mustang"}, 65000}, {{"71chevyc10stepside", "71chevyc10lb", "71chevyc10sb"}, 65000}, {{"91chevys10", "91chevys10ext", "91chevys10offroad", "91chevys10offroadext"}, 65000}, {{"93jeepcherokee"}, 65000}, {{"86montecarlo"}, 65000}, {{"71chevyc10offroadstepside", "71chevyc10offroadsb", "71chevyc10offroadlb"}, 65000}, {{"93jeepcherokeeoffroad"}, 65000}, {{"Trailer51chevy"}, 50000}, {{"Trailermovingbig"}, 1000000}, {{"Trailermovingmedium"}, 500000}, {{"Trailercamperscamp"}, 150000}, {{"Trailerfuelmedium"}, 120000}, {{"Trailerfuelsmall"}, 75000}, {{"generallee"}, 125000}};
+		vendorsVehicles.vehicles.filibuster = {"Filibuster", {{"85vicsed"}, 65000}, {{"85vicwag", "85vicwag2"}, 65000}, {{"79brougham"}, 65000}, {{"volvo244"}, 65000}, {{"71impala"}, 65000}, {{"91crx"}, 65000}, {{"86yugo"}, 65000}, {{"87c10lb", "87c10sb"}, 65000}, {{"90ramlb", "90ramsb"}, 65000}, {{"87blazer"}, 65000}, {{"87suburban"}, 65000}, {{"87c10utility", "87c10mccoy", "87c10fire"}, 65000}, {{"astrovan"}, 65000}, {{"65gto"}, 65000}, {{"69charger"}, 65000}, {{"73falcon"}, 65000}, {{"77transam"}, 65000}, {{"70chevelle"}, 65000}, {{"70elcamino"}, 65000}, {{"68elcamino"}, 65000}, {{"73pinto"}, 65000}, {{"moveurself"}, 65000}, {{"isuzubox", "isuzuboxmccoy", "isuzuboxfood", "isuzuboxelec"}, 65000}, {{"51chevy3100", "51chevy3100old"}, 65000}, {{"72beetle"}, 65000}, {{"79datsun280z"}, 65000}, {{"80f350", "80f350offroad", "80f350quad"}, 65000}, {{"83hilux", "83hiluxoffroad"}, 65000}, {{"86econoline", "86econolinerv"}, 65000}, {{"87c10offroadlb", "87c10offroadsb"}, 65000}, {{"87caprice"}, 65000}, {{"87blazeroffroad"}, 65000}, {{"90corolla"}, 65000}, {{"90ramoffroadlb", "90ramoffroadsb"}, 65000}, {{"91celica"}, 65000}, {{"91wagoneer"}, 65000}, {{"92crownvic"}, 65000}, {{"92wrangler", "92wrangleroffroad", "92wranglerjurassic"}, 65000}, {{"93explorer", "93explorerjurassic"}, 65000}, {{"chevystepvan"}, 65000}, {{"f700propane"}, 65000}, {{"tractorford7810"}, 65000}, {{"64mustang"}, 65000}, {{"71chevyc10stepside", "71chevyc10lb", "71chevyc10sb"}, 65000}, {{"91chevys10", "91chevys10ext", "91chevys10offroad", "91chevys10offroadext"}, 65000}, {{"93jeepcherokee"}, 65000}, {{"86montecarlo"}, 65000}, {{"71chevyc10offroadstepside", "71chevyc10offroadsb", "71chevyc10offroadlb"}, 65000}, {{"93jeepcherokeeoffroad"}, 65000}, {{"Trailer51chevy"}, 50000}, {{"Trailermovingbig"}, 1000000}, {{"Trailermovingmedium"}, 500000}, {{"Trailercamperscamp"}, 150000}, {{"Trailerfuelmedium"}, 120000}, {{"Trailerfuelsmall"}, 75000}, {{"generallee"}, 125000}};
 	end
 	-- if vendorsGreenFireMod then
 	-- 	-- Green Fire items --------------------------------
