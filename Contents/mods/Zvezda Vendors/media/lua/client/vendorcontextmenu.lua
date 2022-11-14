@@ -51,11 +51,11 @@ vendorsBooks[2] = {"Magazines_Skill", {"FishingMag1", 50}, {"FishingMag2", 50}, 
 
 
 -- vendorsTools[1] = {"Camping", {"SharpedStone", 25}, {"Lighter", 45}, {"PercedWood", 50}, {"WoodenStick", 50}};
-vendorsTools[1] = {"ZvezdaTools", {"LeadPipe", 15}, {"Scissors", 35}, {"TinOpener", 25}, {"Shovel", 140}, {"farming.HandShovel", 70}, {"FishingRod", 200}};
+vendorsTools[1] = {"ZvezdaTools", {"LeadPipe", 15}, {"Scissors", 35}, {"TinOpener", 25}, {"Shovel", 140}, {"farming.HandShovel", 70}, {"FishingRod", 200}, {"Razor", 20}};
 -- vendorsTools[2] = {"Construction", {"Axe", 100}, {"BucketEmpty", 250}, {"Crowbar", 75}, {"Hammer", 45}, {"Needle", 25}, {"Paintbrush", 25}, {"PropaneTank", 125}, {"BlowTorch", 250}, {"Saw", 75}, {"Screwdriver", 50}, {"AxeStone", 75}, {"HammerStone", 50}, {"WeldingMask", 50}};
-vendorsTools[2] = {"ZvezdaMaterials", {"Bleach", 20}, {"Disinfectant", 40}, {"Greenfire.RollingPapers", 20}, {"Greenfire.TobaccoSeed", 7}, {"NailsBox", 50}, {"DenimStrips", 2}, {"LeatherStrips", 3}};
+vendorsTools[2] = {"ZvezdaMaterials", {"ToiletPaper", 5}, {"Battery", 15}, {"Bleach", 20}, {"Disinfectant", 40}, {"Greenfire.RollingPapers", 20}, {"Greenfire.TobaccoSeed", 7}, {"NailsBox", 50}, {"DenimStrips", 2}, {"LeatherStrips", 3}};
 -- vendorsTools[3] = {"Cooking", {"BakingPan", 45}, {"Bowl", 250}, {"BoxOfJars", 50}, {"TinOpener", 50}, {"Pot", 50}, {"Pan", 45}, {"KitchenKnife", 250}, {"Kettle", 50}, {"RollingPin", 25}, {"BakingPan", 50}, {"Saucepan", 50}};
-vendorsTools[3] = {"ZvezdaAccessories", {"Hat_Bandana", 25}, {"Hat_Beany", 20}, {"Dungarees", 60}, {"Greenfire.SmokingPipe", 20}, {"Greenfire.Bong_pastelblue", 30}};
+vendorsTools[3] = {"ZvezdaAccessories", {"CordlessPhone", 1000}, {"Lighter", 10}, {"Belt", 50}, {"Hat_Bandana", 25}, {"Hat_Beany", 20}, {"Dungarees", 60}, {"Greenfire.SmokingPipe", 20}, {"Greenfire.Bong_pastelblue", 30}};
 -- vendorsTools[4] = {"Farming", {"farming.GardeningSprayEmpty", 75}, {"farming.WateredCan", 100}, {"Fertilizer", 75}, {"EmptySandbag", 25}, {"farming.Shovel", 100}, {"farming.HandShovel", 100}};
 vendorsTools[4] = {"ZvezdaTableWare", {"BakingTray",  40}, {"Pot", 60}, {"Bowl", 5}};
 -- vendorsTools[5] = {"Fishing", {"FishingNet", 75}, {"FishingRod", 100}, {"FishingTackle", 45}};
@@ -70,7 +70,7 @@ vendorsVehicles.parts[1] = {"Standard", {"CarBattery1", 250}, {"FrontCarDoor1", 
 vendorsVehicles.parts[2] = {"Sport", {"CarBattery3", 1000}, {"FrontCarDoor3", 1000}, {"EngineDoor3", 1000}, {"ModernBrake3", 1000}, {"TrunkDoor3", 1000}, {"RearCarDoor3", 1000}, {"RearCarDoorDouble3", 1000}, {"BigGasTank3", 1000}, {"ModernCarMuffler3", 1000}, {"NormalCarSeat3", 1000}, {"ModernSuspension3", 1000}, {"ModernTire3", 1000}, {"Windshield3", 1000}, {"RearWindshield3", 1000}, {"FrontWindow3", 1000}, {"RearWindow3", 1000}};
 vendorsVehicles.parts[3] = {"Heavy-Duty", {"CarBattery2", 500}, {"FrontCarDoor2", 500}, {"EngineDoor2", 500}, {"ModernBrake2", 500}, {"TrunkDoor2", 500}, {"RearCarDoor2", 500}, {"RearCarDoorDouble2", 500}, {"BigGasTank2", 500}, {"ModernCarMuffler2", 500}, {"NormalCarSeat2", 500}, {"ModernSuspension2", 500}, {"ModernTire2", 500}, {"Windshield2", 500}, {"RearWindshield2", 500}, {"FrontWindow2", 500}, {"RearWindow2", 500}};
 vendorsVehicles.parts[4] = {"ZvezdaTools", {"EmptyPetrolCan", 100}, {"PetrolCan", 500}, {"Jack", 500}, {"LugWrench", 100}, {"TirePump", 300}, {"Wrench", 100}};
-vendorsVehicles.parts[5] = {"ZvezdaMaterials", {"SheetMetal", 50}, {"SmallSheetMetal", 25}};
+vendorsVehicles.parts[5] = {"ZvezdaMaterials", {"PropaneTank", 200}, {"WeldingRods", 30}, {"SheetMetal", 50}, {"SmallSheetMetal", 25}};
 vendorsVehicles.engineParts = {500, 30};
 vendorsVehicles.vehicles = {};
 -- vendorsVehicles.vehicles.base = {"Vehicles", {{"CarStationWagon", "CarStationWagon2"}, 35000}, {{"SportsCar", "SportsCar_ez"}, 35000}, {{"PickUpTruck", "PickUpTruckLightsFire", "PickUpTruckLights", "PickUpTruckMccoy"}, 35000}, {{"SmallCar"}, 20000}, {{"CarNormal", "CarLights", "CarLightsPolice", "CarTaxi", "CarTaxi2"}, 35000}, {{"ModernCar02"}, 20000}, {{"StepVan", "StepVanMail", "StepVan_Heralds", "StepVan_Scarlet"}, 20000}, {{"PickUpVan", "PickUpVanLights", "PickUpVanLightsFire", "PickUpVanLightsPolice", "PickUpVanMccoy"}, 20000}, {{"ModernCar"}, 20000}, {{"OffRoad"}, 20000}, {{"SUV"}, 20000}, {{"Van", "VanSeats", "VanAmbulance", "VanRadio", "VanRadio_3N", "VanSpiffo", "Van_Transit", "Van_MassGenFac", "VanKnoxDisti", "Van_LectroMax", "VanSpecial"}, 20000}, {{"SmallCar02"}, 15000}, {{"CarLuxury"}, 15000}, {{"Trailer", "TrailerCover"}, 10000}, {{"TrailerAdvert"}, 5000}};
