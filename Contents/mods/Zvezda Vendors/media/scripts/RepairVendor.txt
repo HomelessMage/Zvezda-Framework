@@ -1,0 +1,17 @@
+module Vendors {
+    imports {
+        Base
+    }
+	
+	item RepairVendor
+    {
+        Weight          = 60.0,
+        Type            = Normal,
+        DisplayName     = Repair Vendor,
+        icon            = VehicleVendor,
+		StaticModel = VehicleVendor,
+		WorldStaticModel = VehicleVendor,
+		DisplayCategory	= Vendors,
+    }
+}
+	
