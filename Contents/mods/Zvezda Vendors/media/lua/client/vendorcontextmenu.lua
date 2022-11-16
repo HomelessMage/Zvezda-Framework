@@ -32,16 +32,16 @@ vendorsBooks = {};
 
 
 
-vendorsMedical[1] = {"Medical", {"AlcoholWipes", 25}, {"Bandaid", 50}, {"Antibiotics", 0}, {"PillsAntiDep", 0}, {"Bandage", 0}, {"CottonBalls", 0}, {"PillsVitamins", 0}, {"Disinfectant", 0}, {"Pills", 0}};
-vendorsMedical[2] = {"ZvezdaAccessories", {"Hat_SurgicalMask_Blue", 0}, {"Hat_SurgicalCap_Blue", 0}, {"Gloves_Surgical", 0}};
-vendorsMedical[3] = {"ZvezdaTools", {"Tweezers", 0}, {"Scalpel", 0}, {"SutureNeedle", 0}, {"SutureNeedleHolder", 0}, {"Splint", 0}};
+vendorsMedical[1] = {"Medical", {"AlcoholWipes", 25}, {"Bandaid", 50}, {"Antibiotics", 10000}, {"PillsAntiDep", 10000}, {"Bandage", 10000}, {"CottonBalls", 10000}, {"PillsVitamins", 10000}, {"Disinfectant", 10000}, {"Pills", 10000}};
+vendorsMedical[2] = {"ZvezdaAccessories", {"Hat_SurgicalMask_Blue", 10000}, {"Hat_SurgicalCap_Blue", 10000}, {"Gloves_Surgical", 10000}};
+vendorsMedical[3] = {"ZvezdaTools", {"Tweezers", 10000}, {"Scalpel", 10000}, {"SutureNeedle", 10000}, {"SutureNeedleHolder", 10000}, {"Splint", 10000}};
 
 
-vendorsLaundry[1] = {"ZvezdaTools", {"Needle", 0}};
-vendorsLaundry[2] = {"ZvezdaMaterials", {"Thread", 0}, {"Bleach", 0}, {"RippedSheets", 0}, {"DenimStrips", 0}, {"LeatherStrips", 0}};
+vendorsLaundry[1] = {"ZvezdaTools", {"Needle", 10000}};
+vendorsLaundry[2] = {"ZvezdaMaterials", {"Thread", 10000}, {"Bleach", 10000}, {"RippedSheets", 10000}, {"DenimStrips", 10000}, {"LeatherStrips", 10000}};
 
-vendorsBar[1] = {"ZvezdaTableWare", {"SapphCooking.LowballGlass", 0}}
-vendorsBar[2] = {"Drinks", {"WhiskeyFull", 0}, {"Wine2", 0}, {"Wine", 0}, {"BeerBottle", 0}, {"SapphCooking.VodkaFull", 0}, {"SapphCooking.TequilaFull", 0}, {"SapphCooking.GinFull", 0}}
+vendorsBar[1] = {"ZvezdaTableWare", {"SapphCooking.LowballGlass", 10000}}
+vendorsBar[2] = {"Drinks", {"WhiskeyFull", 10000}, {"Wine2", 10000}, {"Wine", 10000}, {"BeerBottle", 10000}, {"SapphCooking.VodkaFull", 10000}, {"SapphCooking.TequilaFull", 10000}, {"SapphCooking.GinFull", 10000}}
 
 vendorsRepair.parts = {};
 vendorsRepair.parts[1] = {"Standard", {"CarBattery1", 250}, {"FrontCarDoor1", 250}, {"EngineDoor1", 250}, {"ModernBrake1", 250}, {"TrunkDoor1", 250}, {"RearCarDoor1", 250}, {"RearCarDoorDouble1", 250}, {"BigGasTank1", 250}, {"ModernCarMuffler1", 250}, {"NormalCarSeat1", 250}, {"ModernSuspension1", 250}, {"ModernTire1", 250}, {"Windshield1", 250}, {"RearWindshield1", 250}, {"FrontWindow1", 250}, {"RearWindow1", 250}};
@@ -100,7 +100,7 @@ vendorsVehicles.vehicles.base = {"Vehicles", {{"Trailer", "TrailerCover"}, 10000
 
 vendorsWeapons = {};
 -- vendorsWeapons[1] = {"Box_Ammo", {"ShotgunShellsBox", 150, true}, {"223Box", 250, true}, {"308Box", 250, true}, {"Bullets38Box", 100, true}, {"Bullets45Box", 100, true}, {"556Box", 200, true}, {"Bullets9mmBox", 100, true}};
-vendorsWeapons[1] = {"ZvezdaAccessories", {"HolsterSimple", 0}, {"Hat_BaseballCapArmy_Reverse", 0}, {"Shirt_CamoGreen", 0}, {"Shirt_CamoDesert", 0}, {"Shirt_CamoUrban", 0}, {"Tshirt_CamoGreen", 0}, {"Tshirt_CamoDesert", 0}, {"Tshirt_CamoUrban", 0}, {"Trousers_CamoUrban", 0}, {"Trousers_CamoGreen", 0}, {"Trousers_CamoDesert", 0}, {"Shoes_ArmyBoots", 0}, {"Shoes_ArmyBootsDesert", 0}, {"Vest_BulletCivilian", 0}}
+vendorsWeapons[1] = {"ZvezdaAccessories", {"HolsterSimple", 10000}, {"Hat_BaseballCapArmy_Reverse", 10000}, {"Shirt_CamoGreen", 10000}, {"Shirt_CamoDesert", 10000}, {"Shirt_CamoUrban", 10000}, {"Tshirt_CamoGreen", 10000}, {"Tshirt_CamoDesert", 10000}, {"Tshirt_CamoUrban", 10000}, {"Trousers_CamoUrban", 10000}, {"Trousers_CamoGreen", 10000}, {"Trousers_CamoDesert", 10000}, {"Shoes_ArmyBoots", 10000}, {"Shoes_ArmyBootsDesert", 10000}, {"Vest_BulletCivilian", 10000}}
 -- vendorsWeapons[2] = {"Magazines", {"223Clip", 300, false, ".223-REM"}, {"308Clip", 300, false, ".308"}, {"44Clip", 250, false, ".44-MAG"}, {"45Clip", 250, false, ".45 Auto"}, {"556Clip", 350, false, "5.56"}, {"M14Clip", 300, false, ".308"}, {"9mmClip", 300, false, "9mm"}};
 -- vendorsWeapons[3] = {"Attachments", {"ChokeTubeImproved", 200, false, "Barrel"}, {"FiberglassStock", 150, false, "Stock"}, {"IronSight", 100, false, "Sight"}, {"Laser", 200, false, "Side"}, {"RecoilPad", 100, false, "Stock"}, {"RedDot", 200, false, "Sight"}, {"Sling", 150, false, "Bottom"}, {"x2Scope", 300, false, "Sight"}, {"x4Scope", 350, false, "Sight"}, {"x8Scope", 400, false, "Sight"}};
 -- vendorsWeapons[4] = {"Caliber", ".223-REM", ".308", ".44-MAG", ".45 Auto", "5.56", "9mm"};
