@@ -1,4 +1,6 @@
---jar lids do not come as 6
+-- Библиотека (Книжный торгомат)
+-- Строймаг (Строительный торгомат)
+-- 
 
 if not VendISWorldObjectContextMenu then VendISWorldObjectContextMenu = {}; end
 
