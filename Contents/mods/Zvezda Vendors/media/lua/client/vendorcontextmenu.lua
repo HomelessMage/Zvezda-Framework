@@ -38,7 +38,7 @@ vendorsCafe[3] = {"ZvezdaTableWare"}
 
 vendorsMedical[1] = {"Medical", {"AlcoholWipes", 25}, {"Bandaid", 50}, {"Antibiotics", 100}, {"PillsAntiDep", 100}, {"Bandage", 10}, {"CottonBalls", 10}, {"PillsVitamins", 25}, {"Disinfectant", 10000}, {"Pills", 10000}};
 vendorsMedical[2] = {"ZvezdaAccessories", {"Hat_SurgicalMask_Blue", 15}, {"Hat_SurgicalCap_Blue", 10}, {"Gloves_Surgical", 20}};
-vendorsMedical[3] = {"ZvezdaTools", {"Tweezers", 50}, {"Scalpel", 45}, {"SutureNeedle", 50}, {"SutureNeedleHolder", 60}, {"Splint", 100}};
+vendorsMedical[3] = {"ZvezdaTools", {"Tweezers", 50}, {"Scalpel", 45}, {"SutureNeedle", 50}, {"SutureNeedleHolder", 60}, {"Splint", 50}};
 
 
 vendorsLaundry[1] = {"ZvezdaTools", {"Needle", 10000}};
