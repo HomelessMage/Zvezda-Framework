@@ -7,5 +7,6 @@ ItemName_RU = {
     	ItemName_Vendors.WeaponVendor = "Оружейный торгомат",
 	ItemName_Vendors.LaundryVendor = "Торгомат прачечной",
 	ItemName_Vendors.BarVendor = "Торгомат бара",
+	ItemName_Vendors.CafeVendor = "Торгомат кафе",
 	ItemName_Vendors.RepairVendor = "Торгомат автомастерской",
 }

@@ -10,6 +10,7 @@ ContextMenu_RU = {
 	ContextMenu_MedicalVendor = "Аптека",
 	ContextMenu_LaundryVendor = "Прачечная",
 	ContextMenu_BarVendor = "Бар",
+	ContextMenu_CafeVendor = "Кафе",
 	ContextMenu_Sell_Jewelry = "Продать драгоценности",
 	ContextMenu_Sell_All = "Продать все вещи",
 	ContextMenu_Nothing_To_Sell = "Вам нечего продать",
