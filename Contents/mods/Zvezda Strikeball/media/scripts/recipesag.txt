@@ -1,0 +1,44 @@
+module AG {
+	
+	imports {
+		Base
+		}
+		
+/***** AMMO BOXES *****/
+
+	recipe Open Airsoft Ammo Jar
+		{
+			AirsoftJar,
+
+			Result:AirsoftAmmo=200,
+			Sound:PutItemInBag,
+			Time:5.0,
+		}
+		
+	recipe Place Airsoft Bullets in a Jar
+		{
+			AirsoftAmmo=200,
+
+			Result:AirsoftJar,
+			Sound:PutItemInBag,
+			Time:20.0,
+		}
+	
+	recipe Open Box of Airsoft Shotgun Shells
+		{
+			AirsoftShotgunShellsBox,
+			
+			Result:AirsoftShotgunShells=3,
+			Sound:PutItemInBag,
+			Time:5.0,
+		}
+	
+	recipe Place Airsoft Shotgun Shells in a Box
+		{
+			AirsoftShotgunShells=54,
+			
+			Result:AirsoftShotgunShellsBox,
+			Sound:PutItemInBag,
+			Time:20.0,
+		}
+}

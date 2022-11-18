@@ -1,0 +1,9 @@
+Items_RU = {		
+	DisplayName_Airsoft_Pistol = "Страйкбольный пистолет",
+	DisplayName_Airsoft_Ammo = "Страйкбольный шарик",
+	DisplayName_Airsoft_Ammo_Jar = "Банка шариков для страйкбола",
+	DisplayName_Airsoft_Pistol_Clip = "Магазин для страйкбольного пистолета",
+	DisplayName_Box_of_Airsoft_Shotgun_Shells = "Коробка пулек для воздушного ружья",
+	DisplayName_Airsoft_Shotgun = "Воздушное ружьё",
+	DisplayName_Airsoft_Shotgun_Shells = "Пулька для воздушного ружья",
+}

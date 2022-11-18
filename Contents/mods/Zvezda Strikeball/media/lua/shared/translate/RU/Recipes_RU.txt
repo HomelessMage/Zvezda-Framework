@@ -1,0 +1,6 @@
+Recipes_RU = {
+	Recipe_Open_Airsoft_Ammo_Jar = "Открытая банка шариков",
+	Recipe_Place_Airsoft_Bullets_in_a_Jar = "Засыпать шарики в банку",
+	Recipe_Open_Box_of_Airsoft_Shotgun_Shells = "Открыть коробку пулек для воздушного ружья",
+	Recipe_Place_Airsoft_Shotgun_Shells_in_a_Box = "Положить пульки в коробку",
+}
