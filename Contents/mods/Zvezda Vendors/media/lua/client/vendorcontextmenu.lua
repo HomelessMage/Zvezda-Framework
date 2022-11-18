@@ -36,16 +36,16 @@ vendorsCafe[1] = {"Appetizers", {"SapphCooking.WhiteChocolate", 5}, {"СakeCarro
 vendorsCafe[2] = {"Drinks", {"JuiceBox", 5}}
 vendorsCafe[3] = {"ZvezdaTableWare"}
 
-vendorsMedical[1] = {"Medical", {"AlcoholWipes", 25}, {"Bandaid", 50}, {"Antibiotics", 100}, {"PillsAntiDep", 100}, {"Bandage", 10}, {"CottonBalls", 10}, {"PillsVitamins", 25}, {"Disinfectant", 10000}, {"Pills", 10000}};
+vendorsMedical[1] = {"Medical", {"AlcoholWipes", 25}, {"Bandaid", 50}, {"Antibiotics", 100}, {"PillsAntiDep", 100}, {"Bandage", 10}, {"CottonBalls", 10}, {"PillsVitamins", 25}, {"Disinfectant", 40}, {"Pills", 45}};
 vendorsMedical[2] = {"ZvezdaAccessories", {"Hat_SurgicalMask_Blue", 15}, {"Hat_SurgicalCap_Blue", 10}, {"Gloves_Surgical", 20}};
 vendorsMedical[3] = {"ZvezdaTools", {"Tweezers", 50}, {"Scalpel", 45}, {"SutureNeedle", 50}, {"SutureNeedleHolder", 60}, {"Splint", 50}};
 
 
-vendorsLaundry[1] = {"ZvezdaTools", {"Needle", 10000}};
-vendorsLaundry[2] = {"ZvezdaMaterials", {"Thread", 10000}, {"Bleach", 10000}, {"RippedSheets", 10000}, {"DenimStrips", 10000}, {"LeatherStrips", 10000}};
+vendorsLaundry[1] = {"ZvezdaTools", {"Needle", 40}};
+vendorsLaundry[2] = {"ZvezdaMaterials", {"Thread", 20}, {"Bleach", 25}, {"RippedSheets", 15}, {"DenimStrips", 30}, {"LeatherStrips", 27}};
 
-vendorsBar[1] = {"ZvezdaTableWare", {"SapphCooking.LowballGlass", 10000}}
-vendorsBar[2] = {"Drinks", {"WhiskeyFull", 10000}, {"Wine2", 10000}, {"Wine", 10000}, {"BeerBottle", 10000}, {"SapphCooking.VodkaFull", 10000}, {"SapphCooking.TequilaFull", 10000}, {"SapphCooking.GinFull", 10000}}
+vendorsBar[1] = {"ZvezdaTableWare", {"SapphCooking.LowballGlass", 10}}
+vendorsBar[2] = {"Drinks", {"WhiskeyFull", 100}, {"Wine2", 50}, {"Wine", 45}, {"BeerBottle", 15}, {"SapphCooking.VodkaFull", 50}, {"SapphCooking.TequilaFull", 100}, {"SapphCooking.GinFull", 60}}
 
 vendorsRepair.parts = {};
 vendorsRepair.parts[1] = {"Standard", {"CarBattery1", 250}, {"FrontCarDoor1", 250}, {"EngineDoor1", 250}, {"ModernBrake1", 250}, {"TrunkDoor1", 250}, {"RearCarDoor1", 250}, {"RearCarDoorDouble1", 250}, {"BigGasTank1", 250}, {"ModernCarMuffler1", 250}, {"NormalCarSeat1", 250}, {"ModernSuspension1", 250}, {"ModernTire1", 250}, {"Windshield1", 250}, {"RearWindshield1", 250}, {"FrontWindow1", 250}, {"RearWindow1", 250}};
