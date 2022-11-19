@@ -1,4 +1,5 @@
---jar lids do not come as 6
+-- Строймаг (Строительный торгомат)
+-- Кофейня
 
 if not VendISWorldObjectContextMenu then VendISWorldObjectContextMenu = {}; end
 
@@ -21,16 +22,44 @@ vendorsJewelry.stones = {};
 vendorsJewelry.regular = {};
 vendorsJewelry.tags = {};
 vendorsTools = {};
+vendorsMedical = {};
+vendorsLaundry = {};
+vendorsBar = {};
+vendorsCafe = {};
+vendorsRepair = {};
 vendorsVehicles = {};
 vendorsWeapons = {};
 vendorsJewelry.green = {};
 vendorsBooks = {};
 
+vendorsCafe[1] = {"Appetizers", {"SapphCooking.WhiteChocolate", 5}, {"СakeCarrot", 6}, {"PiePumpkin", 6}, {"CakeStrawberryShortcake", 6}, {"CakeRedVelvet", 10}, {"CakeBlackForest", 10}, {"CakeChocolate", 6}, {"PieLemonMeringue", 6}, {"Chocolate", 4}, {"ChocoCakes", 4}, {"HiHis", 4}, {"EggCarton", 10}, {"CookiesChocolateChips", 3}}
+vendorsCafe[2] = {"Drinks", {"JuiceBox", 5}}
+vendorsCafe[3] = {"ZvezdaTableWare"}
+
+vendorsMedical[1] = {"Medical", {"AlcoholWipes", 25}, {"Bandaid", 50}, {"Antibiotics", 100}, {"PillsAntiDep", 100}, {"Bandage", 10}, {"CottonBalls", 10}, {"PillsVitamins", 25}, {"Disinfectant", 40}, {"Pills", 45}};
+vendorsMedical[2] = {"ZvezdaAccessories", {"Hat_SurgicalMask_Blue", 15}, {"Hat_SurgicalCap_Blue", 10}, {"Gloves_Surgical", 20}};
+vendorsMedical[3] = {"ZvezdaTools", {"Tweezers", 50}, {"Scalpel", 45}, {"SutureNeedle", 50}, {"SutureNeedleHolder", 60}, {"Splint", 50}};
+
+
+vendorsLaundry[1] = {"ZvezdaTools", {"Needle", 40}};
+vendorsLaundry[2] = {"ZvezdaMaterials", {"Thread", 20}, {"Bleach", 25}, {"RippedSheets", 15}, {"DenimStrips", 30}, {"LeatherStrips", 27}};
+
+vendorsBar[1] = {"ZvezdaTableWare", {"SapphCooking.LowballGlass", 10}}
+vendorsBar[2] = {"Drinks", {"WhiskeyFull", 100}, {"Wine2", 50}, {"Wine", 45}, {"BeerBottle", 15}, {"SapphCooking.VodkaFull", 50}, {"SapphCooking.TequilaFull", 100}, {"SapphCooking.GinFull", 60}}
+
+vendorsRepair.parts = {};
+vendorsRepair.parts[1] = {"Standard", {"CarBattery1", 250}, {"FrontCarDoor1", 250}, {"EngineDoor1", 250}, {"ModernBrake1", 250}, {"TrunkDoor1", 250}, {"RearCarDoor1", 250}, {"RearCarDoorDouble1", 250}, {"BigGasTank1", 250}, {"ModernCarMuffler1", 250}, {"NormalCarSeat1", 250}, {"ModernSuspension1", 250}, {"ModernTire1", 250}, {"Windshield1", 250}, {"RearWindshield1", 250}, {"FrontWindow1", 250}, {"RearWindow1", 250}};
+vendorsRepair.parts[2] = {"Sport", {"CarBattery3", 1000}, {"FrontCarDoor3", 1000}, {"EngineDoor3", 1000}, {"ModernBrake3", 1000}, {"TrunkDoor3", 1000}, {"RearCarDoor3", 1000}, {"RearCarDoorDouble3", 1000}, {"BigGasTank3", 1000}, {"ModernCarMuffler3", 1000}, {"NormalCarSeat3", 1000}, {"ModernSuspension3", 1000}, {"ModernTire3", 1000}, {"Windshield3", 1000}, {"RearWindshield3", 1000}, {"FrontWindow3", 1000}, {"RearWindow3", 1000}};
+vendorsRepair.parts[3] = {"Heavy-Duty", {"CarBattery2", 500}, {"FrontCarDoor2", 500}, {"EngineDoor2", 500}, {"ModernBrake2", 500}, {"TrunkDoor2", 500}, {"RearCarDoor2", 500}, {"RearCarDoorDouble2", 500}, {"BigGasTank2", 500}, {"ModernCarMuffler2", 500}, {"NormalCarSeat2", 500}, {"ModernSuspension2", 500}, {"ModernTire2", 500}, {"Windshield2", 500}, {"RearWindshield2", 500}, {"FrontWindow2", 500}, {"RearWindow2", 500}};
+vendorsRepair.parts[4] = {"ZvezdaTools", {"EmptyPetrolCan", 100}, {"PetrolCan", 500}, {"Jack", 500}, {"LugWrench", 100}, {"TirePump", 300}, {"Wrench", 100}};
+vendorsRepair.parts[5] = {"ZvezdaMaterials", {"PropaneTank", 200}, {"WeldingRods", 30}, {"SheetMetal", 50}, {"SmallSheetMetal", 25}};
+vendorsRepair.engineParts = {500, 30};
+
 -----------  SELL ITEMS -----  If you want to add items to the list of items you can sell, put them in this list.
 --- EXAMPLE  -- {"itemType", price} {"BaseballBat", 30}  Make sure there is a comma between each item...  vendorsSellables = {{"BaseballBat", 30}, {"Book", 10}};
 vendorsSellables = {
 	-- Мусор
-	{"AppleCore", 2}, {"BakingSodaEmpty", 2}, {"BananaPeel", 2}, {"BoneScraps", 2}, {"BrownSugarEmpty", 2}, {"CakeCartonEmpty", 2}, {"CandyPackageEmpty", 2}, {"CerealEmpty", 2}, {"CheeseWrapper", 2}, {"ChocolateWrapper", 2}, {"CocoaPowderEmpty", 2}, {"CoffeeEmpty", 2}, {"CrispsEmpty", 2}, {"Crisps2Empty", 2}, {"Crisps3Empty", 2}, {"Crisps4Empty", 2}, {"DriedBlackBeansEmpty", 2}, {"DriedChickpeasEmpty", 2}, {"DriedKidneyBeansEmpty", 2}, {"DriedLentilsEmpty", 2}, {"DriedSplitPeasEmpty", 2}, {"DriedWhiteBeansEmpty", 2}, {"EggCartonEmpty", 2}, {"EggShells", 2}, {"FlourEmpty", 2}, {"FriesCartonEmpty", 2}, {"FruitRindLemon", 2}, {"FruitRindLime", 2}, {"FruitRindMelon", 2}, {"FruitRindOrange", 2}, {"FruitRindPineapple", 2}, {"GravyBoat", 2}, {"GravyMixEmpty", 2}, {"GumWrapper", 2}, {"HoneyBottleEmpty", 2}, {"HoneyBottleWater", 2}, {"HotsauceBottleEmpty", 2}, {"HotsauceBottleWater", 2}, {"JamFruitEmpty", 2}, {"JamMarmaladeEmpty", 2}, {"JuiceBoxEmpty", 2}, {"KetchupEmpty", 2}, {"LollipopStick", 2}, {"MacBoxEmpty", 2}, {"MapleSyrupEmpty", 2}, {"MapleSyrupWater", 2}, {"MarinaraEmpty", 2}, {"MilkEmpty", 2}, {"MintCandyWrapper", 2}, {"MustardEmpty", 2}, {"OilVegetableEmpty", 2}, {"OilVegetableWater", 2}, {"PancakeMixEmpty", 2}, {"PeanutButterEmpty", 2}, {"PeanutShells", 2}, {"PeasEmpty", 2}, {"PieCartonEmpty", 2}, {"PlasticWrapperGeneric", 2}, {"PopcornBagEmpty", 2}, {"RiceBagEmpty", 2}, {"RiceVinegarEmpty", 2}, {"RiceVinegarWater", 2}, {"SoysauceEmpty", 2}, {"SoysauceWater", 2}, {"SugarEmpty", 2}, {"SunflowerShells", 2}, {"TeaBox", 2}, {"TeaBoxEmpty", 2}, {"TubIcecreamEmpty", 2}, {"TVDinnerPackage", 2}, {"UsedTeabag", 2}, {"VinegarEmpty", 2}, {"VinegarWater", 2}, {"YogurtEmpty", 2}, {"CornCob", 2}, {"FruitPits", 2}, {"SaltShakerEmpty", 2}, {"PepperShakerEmpty", 2}, {"SpaghetBoxEmpty", 2}, {"CanOfOatsEmpty", 2}, {"OliveOilEmpty", 2}, {"OliveOilWater", 2}, {"CornflourEmpty", 2}, {"YeastPacketEmpty", 2}, {"AlcoholWipesEmpty", 2}, {"AntibioticsBlisterEmpty", 2}, {"AntidepressantsEmpty", 2}, {"BandaidDirty", 2}, {"BetaBlockersEmpty", 2}, {"DisinfectantEmpty", 2}, {"DisinfectantWater", 2}, {"PainkillersEmpty", 2}, {"SleepingPillsEmpty", 2}, {"VitaminsEmpty", 2}, {"TissueUsed", 2}, {"CologneEmpty", 2}, {"HairDyeBlackEmpty", 2}, {"HairDyeBlondeEmpty", 2}, {"HairDyeBlueEmpty", 2}, {"HairDyeBrownEmpty", 2}, {"HairDyeGingerEmpty", 2}, {"HairDyeGreenEmpty", 2}, {"HairDyePinkEmpty", 2}, {"HairDyeRedEmpty", 2}, {"HairDyeWhiteEmpty", 2}, {"HairDyeYellowEmpty", 2}, {"LipstickTubeEmpty", 2}, {"MakeupEyeshadowEmpty", 2}, {"MakeupFoundationEmpty", 2}, {"PerfumeEmpty", 2}, {"BagOfCharcoalEmpty", 2}, {"CardboardFlat", 2}, {"CleaningLiquidEmpty", 2}, {"CleaningLiquidWater", 2}, {"ConcretePowderEmpty", 2}, {"DuctTapeEmpty", 2}, {"EmptyNailsBox", 2}, {"EmptyPaperclipBox", 2}, {"EmptyScrewsBox", 2}, {"FishingLineEmpty", 2}, {"GlueEmpty", 2}, {"GunpowderJarEmpty", 2}, {"MatchesEmpty", 2}, {"LighterEmpty", 2}, {"PlasterPowderEmpty", 2}, {"ScotchtapeEmpty", 2}, {"SparklerBoxEmpty", 2}, {"ThreadSpool", 2}, {"ToiletPaperEmpty", 2}, {"TwineSpool", 2}, {"WeldingRodsEmpty", 2}, {"WoodGlueEmpty", 2}, {"ExtinguisherEmpty", 2}, {"BookTorn", 2}, {"ComicBookTorn", 2}, {"Crossword1Used", 2}, {"Crossword2Used", 2}, {"Crossword3Used", 2}, {"MagazineNudie1Gross", 2}, {"MagazineTorn", 2}, {"NewspaperTorn", 2}, {"WordSearch1Used", 2}, {"WordSearch2Used", 2}, {"WordSearch3Used", 2}, {"BroccoliSeedsPacketEmpty", 2}, {"CabbageSeedsPacketEmpty", 2}, {"CarrotSeedsPacketEmpty", 2}, {"PotatoSeedsPacketEmpty", 2}, {"RadishSeedsPacketEmpty", 2}, {"StrawberrySeedsPacketEmpty", 2}, {"TomatoSeedsPacketEmpty", 2}, {"9mmAmmoBoxEmpty", 2}, {"38AmmoBoxEmpty", 2}, {"44AmmoBoxEmpty", 2}, {"45AmmoBoxEmpty", 2}, {"223AmmoBoxEmpty", 2}, {"308AmmoBoxEmpty", 2}, {"556AmmoBoxEmpty", 2}, {"ShotgunAmmoBoxEmpty", 2}, {"CigaretteButt", 2}, {"CorndogStick", 2},
+	{"Battery", 2}, {"AppleCore", 2}, {"BakingSodaEmpty", 2}, {"BananaPeel", 2}, {"BoneScraps", 2}, {"BrownSugarEmpty", 2}, {"CakeCartonEmpty", 2}, {"CandyPackageEmpty", 2}, {"CerealEmpty", 2}, {"CheeseWrapper", 2}, {"ChocolateWrapper", 2}, {"CocoaPowderEmpty", 2}, {"CoffeeEmpty", 2}, {"CrispsEmpty", 2}, {"Crisps2Empty", 2}, {"Crisps3Empty", 2}, {"Crisps4Empty", 2}, {"DriedBlackBeansEmpty", 2}, {"DriedChickpeasEmpty", 2}, {"DriedKidneyBeansEmpty", 2}, {"DriedLentilsEmpty", 2}, {"DriedSplitPeasEmpty", 2}, {"DriedWhiteBeansEmpty", 2}, {"EggCartonEmpty", 2}, {"EggShells", 2}, {"FlourEmpty", 2}, {"FriesCartonEmpty", 2}, {"FruitRindLemon", 2}, {"FruitRindLime", 2}, {"FruitRindMelon", 2}, {"FruitRindOrange", 2}, {"FruitRindPineapple", 2}, {"GravyBoat", 2}, {"GravyMixEmpty", 2}, {"GumWrapper", 2}, {"HoneyBottleEmpty", 2}, {"HoneyBottleWater", 2}, {"HotsauceBottleEmpty", 2}, {"HotsauceBottleWater", 2}, {"JamFruitEmpty", 2}, {"JamMarmaladeEmpty", 2}, {"JuiceBoxEmpty", 2}, {"KetchupEmpty", 2}, {"LollipopStick", 2}, {"MacBoxEmpty", 2}, {"MapleSyrupEmpty", 2}, {"MapleSyrupWater", 2}, {"MarinaraEmpty", 2}, {"MilkEmpty", 2}, {"MintCandyWrapper", 2}, {"MustardEmpty", 2}, {"OilVegetableEmpty", 2}, {"OilVegetableWater", 2}, {"PancakeMixEmpty", 2}, {"PeanutButterEmpty", 2}, {"PeanutShells", 2}, {"PeasEmpty", 2}, {"PieCartonEmpty", 2}, {"PlasticWrapperGeneric", 2}, {"PopcornBagEmpty", 2}, {"RiceBagEmpty", 2}, {"RiceVinegarEmpty", 2}, {"RiceVinegarWater", 2}, {"SoysauceEmpty", 2}, {"SoysauceWater", 2}, {"SugarEmpty", 2}, {"SunflowerShells", 2}, {"TeaBox", 2}, {"TeaBoxEmpty", 2}, {"TubIcecreamEmpty", 2}, {"TVDinnerPackage", 2}, {"UsedTeabag", 2}, {"VinegarEmpty", 2}, {"VinegarWater", 2}, {"YogurtEmpty", 2}, {"CornCob", 2}, {"FruitPits", 2}, {"SaltShakerEmpty", 2}, {"PepperShakerEmpty", 2}, {"SpaghetBoxEmpty", 2}, {"CanOfOatsEmpty", 2}, {"OliveOilEmpty", 2}, {"OliveOilWater", 2}, {"CornflourEmpty", 2}, {"YeastPacketEmpty", 2}, {"AlcoholWipesEmpty", 2}, {"AntibioticsBlisterEmpty", 2}, {"AntidepressantsEmpty", 2}, {"BandaidDirty", 2}, {"BetaBlockersEmpty", 2}, {"DisinfectantEmpty", 2}, {"DisinfectantWater", 2}, {"PainkillersEmpty", 2}, {"SleepingPillsEmpty", 2}, {"VitaminsEmpty", 2}, {"TissueUsed", 2}, {"CologneEmpty", 2}, {"HairDyeBlackEmpty", 2}, {"HairDyeBlondeEmpty", 2}, {"HairDyeBlueEmpty", 2}, {"HairDyeBrownEmpty", 2}, {"HairDyeGingerEmpty", 2}, {"HairDyeGreenEmpty", 2}, {"HairDyePinkEmpty", 2}, {"HairDyeRedEmpty", 2}, {"HairDyeWhiteEmpty", 2}, {"HairDyeYellowEmpty", 2}, {"LipstickTubeEmpty", 2}, {"MakeupEyeshadowEmpty", 2}, {"MakeupFoundationEmpty", 2}, {"PerfumeEmpty", 2}, {"BagOfCharcoalEmpty", 2}, {"CardboardFlat", 2}, {"CleaningLiquidEmpty", 2}, {"CleaningLiquidWater", 2}, {"ConcretePowderEmpty", 2}, {"DuctTapeEmpty", 2}, {"EmptyNailsBox", 2}, {"EmptyPaperclipBox", 2}, {"EmptyScrewsBox", 2}, {"FishingLineEmpty", 2}, {"GlueEmpty", 2}, {"GunpowderJarEmpty", 2}, {"MatchesEmpty", 2}, {"LighterEmpty", 2}, {"PlasterPowderEmpty", 2}, {"ScotchtapeEmpty", 2}, {"SparklerBoxEmpty", 2}, {"ThreadSpool", 2}, {"ToiletPaperEmpty", 2}, {"TwineSpool", 2}, {"WeldingRodsEmpty", 2}, {"WoodGlueEmpty", 2}, {"ExtinguisherEmpty", 2}, {"BookTorn", 2}, {"ComicBookTorn", 2}, {"Crossword1Used", 2}, {"Crossword2Used", 2}, {"Crossword3Used", 2}, {"MagazineNudie1Gross", 2}, {"MagazineTorn", 2}, {"NewspaperTorn", 2}, {"WordSearch1Used", 2}, {"WordSearch2Used", 2}, {"WordSearch3Used", 2}, {"BroccoliSeedsPacketEmpty", 2}, {"CabbageSeedsPacketEmpty", 2}, {"CarrotSeedsPacketEmpty", 2}, {"PotatoSeedsPacketEmpty", 2}, {"RadishSeedsPacketEmpty", 2}, {"StrawberrySeedsPacketEmpty", 2}, {"TomatoSeedsPacketEmpty", 2}, {"9mmAmmoBoxEmpty", 2}, {"38AmmoBoxEmpty", 2}, {"44AmmoBoxEmpty", 2}, {"45AmmoBoxEmpty", 2}, {"223AmmoBoxEmpty", 2}, {"308AmmoBoxEmpty", 2}, {"556AmmoBoxEmpty", 2}, {"ShotgunAmmoBoxEmpty", 2}, {"CigaretteButt", 2}, {"CorndogStick", 2},
 	-- Овощи
 	{"SackProduce_Apple", 30}, {"SackProduce_BellPepper", 30}, {"SackProduce_Broccoli", 30}, {"SackProduce_Cabbage", 30}, {"SackProduce_Carrot", 30}, {"SackProduce_Cherry", 30}, {"SackProduce_Corn", 30}, {"SackProduce_Eggplant", 30}, {"SackProduce_Grapes", 30}, {"SackProduce_Leek", 30}, {"SackProduce_Lettuce", 30}, {"SackProduce_Onion", 30}, {"SackProduce_Peach", 30}, {"SackProduce_Pear", 30}, {"SackProduce_Potato", 30}, {"SackProduce_RedRadish", 30}, {"SackProduce_Strawberry", 30}, {"SackProduce_Tomato", 30}, 
 	-- Наркотики
@@ -51,32 +80,32 @@ vendorsBooks[2] = {"Magazines_Skill", {"FishingMag1", 50}, {"FishingMag2", 50}, 
 
 
 -- vendorsTools[1] = {"Camping", {"SharpedStone", 25}, {"Lighter", 45}, {"PercedWood", 50}, {"WoodenStick", 50}};
-vendorsTools[1] = {"ZvezdaTools", {"BakingTray", 50}, {"LeadPipe", 50}, {"Scissors", 50}, {"Pot", 50}, {"TinOpener", 50}, {"Bowl", 50}, {"Shovel", 50}, {"farming.HandShovel", 50}, {"FishingRod", 50}, {"Greenfire.SmokingPipe", 50}, {"Greenfire.Bong_pastelblue", 50}};
+vendorsTools[1] = {"ZvezdaTools", {"LeadPipe", 15}, {"Scissors", 35}, {"TinOpener", 25}, {"Shovel", 140}, {"farming.HandShovel", 70}, {"FishingRod", 200}, {"Razor", 20}};
 -- vendorsTools[2] = {"Construction", {"Axe", 100}, {"BucketEmpty", 250}, {"Crowbar", 75}, {"Hammer", 45}, {"Needle", 25}, {"Paintbrush", 25}, {"PropaneTank", 125}, {"BlowTorch", 250}, {"Saw", 75}, {"Screwdriver", 50}, {"AxeStone", 75}, {"HammerStone", 50}, {"WeldingMask", 50}};
-vendorsTools[2] = {"ZvezdaMaterials", {"Bleach", 50}, {"Disinfectant", 50}, {"Greenfire.RollingPapers", 50}, {"Greenfire.TobaccoSeed", 50}, {"NailsBox", 50}};
+vendorsTools[2] = {"ZvezdaMaterials", {"ToiletPaper", 5}, {"Battery", 15}, {"Bleach", 20}, {"Disinfectant", 40}, {"Greenfire.RollingPapers", 20}, {"Greenfire.TobaccoSeed", 7}, {"NailsBox", 50}, {"DenimStrips", 2}, {"LeatherStrips", 3}};
 -- vendorsTools[3] = {"Cooking", {"BakingPan", 45}, {"Bowl", 250}, {"BoxOfJars", 50}, {"TinOpener", 50}, {"Pot", 50}, {"Pan", 45}, {"KitchenKnife", 250}, {"Kettle", 50}, {"RollingPin", 25}, {"BakingPan", 50}, {"Saucepan", 50}};
-vendorsTools[3] = {"ZvezdaAccessories", {"Hat_Bandana", 50}, {"Hat_Beany", 50}, {"Dungarees", 50}};
+vendorsTools[3] = {"ZvezdaAccessories", {"CordlessPhone", 1000}, {"Lighter", 10}, {"Belt", 50}, {"Hat_Bandana", 25}, {"Hat_Beany", 20}, {"Dungarees", 60}, {"Greenfire.SmokingPipe", 20}, {"Greenfire.Bong_pastelblue", 30}};
 -- vendorsTools[4] = {"Farming", {"farming.GardeningSprayEmpty", 75}, {"farming.WateredCan", 100}, {"Fertilizer", 75}, {"EmptySandbag", 25}, {"farming.Shovel", 100}, {"farming.HandShovel", 100}};
+vendorsTools[4] = {"ZvezdaTableWare", {"BakingTray",  40}, {"Pot", 60}, {"Bowl", 5}};
 -- vendorsTools[5] = {"Fishing", {"FishingNet", 75}, {"FishingRod", 100}, {"FishingTackle", 45}};
 -- vendorsTools[6] = {"Light", {"Torch", 75}, {"Matches", 50}}
 -- vendorsTools[7] = {"Mechanics", {"PetrolCan", 100}, {"Jack", 75}, {"LugWrench", 75}, {"TirePump", 75}, {"Wrench", 75}};
--- vendorsTools[8] = {"Stationery", {"Notebook", 50}, {"Eraser", 50}, {"Journal", 50}, {"Pen", 50}, {"Pencil", 50}, {"SheetPaper2", 50}};
+vendorsTools[5] = {"Stationery", {"Notebook", 50}, {"Eraser", 40}, {"Journal", 50}, {"Pen", 30}, {"Pencil", 20}, {"SheetPaper2", 5}};
 -- vendorsTools[9] = {"Trapping", {"TrapCage", 75}, {"TrapMouse", 25}, {"TrapSnare", 60}, {"TrapStick", 50}, {"TrapBox", 60}, {"TrapCrate", 60}};
 
 vendorsVehicles = {};
 vendorsVehicles.parts = {};
-vendorsVehicles.parts[1] = {"Standard", {"CarBattery1", 500}, {"FrontCarDoor1", 500}, {"EngineDoor1", 500}, {"ModernBrake1", 500}, {"TrunkDoor1", 500}, {"RearCarDoor1", 500}, {"RearCarDoorDouble1", 500}, {"BigGasTank1", 500}, {"ModernCarMuffler1", 500}, {"NormalCarSeat1", 500}, {"ModernSuspension1", 500}, {"ModernTire1", 500}, {"Windshield1", 500}, {"RearWindshield1", 500}, {"FrontWindow1", 500}, {"RearWindow1", 500}};
-vendorsVehicles.parts[2] = {"Sport", {"CarBattery3", 2000}, {"FrontCarDoor3", 2000}, {"EngineDoor3", 2000}, {"ModernBrake3", 2000}, {"TrunkDoor3", 2000}, {"RearCarDoor3", 2000}, {"RearCarDoorDouble3", 2000}, {"BigGasTank3", 2000}, {"ModernCarMuffler3", 2000}, {"NormalCarSeat3", 2000}, {"ModernSuspension3", 2000}, {"ModernTire3", 2000}, {"Windshield3", 2000}, {"RearWindshield3", 2000}, {"FrontWindow3", 2000}, {"RearWindow3", 2000}};
-vendorsVehicles.parts[3] = {"Heavy-Duty", {"CarBattery2", 1000}, {"FrontCarDoor2", 1000}, {"EngineDoor2", 1000}, {"ModernBrake2", 1000}, {"TrunkDoor2", 1000}, {"RearCarDoor2", 1000}, {"RearCarDoorDouble2", 1000}, {"BigGasTank2", 1000}, {"ModernCarMuffler2", 1000}, {"NormalCarSeat2", 1000}, {"ModernSuspension2", 1000}, {"ModernTire2", 1000}, {"Windshield2", 1000}, {"RearWindshield2", 1000}, {"FrontWindow2", 1000}, {"RearWindow2", 1000}};
-vendorsVehicles.engineParts = {20000, 30};
+vendorsVehicles.parts[1] = {"ZvezdaAccessories"};
+vendorsVehicles.parts[2] = {"ZvezdaDocuments"};
 vendorsVehicles.vehicles = {};
 -- vendorsVehicles.vehicles.base = {"Vehicles", {{"CarStationWagon", "CarStationWagon2"}, 35000}, {{"SportsCar", "SportsCar_ez"}, 35000}, {{"PickUpTruck", "PickUpTruckLightsFire", "PickUpTruckLights", "PickUpTruckMccoy"}, 35000}, {{"SmallCar"}, 20000}, {{"CarNormal", "CarLights", "CarLightsPolice", "CarTaxi", "CarTaxi2"}, 35000}, {{"ModernCar02"}, 20000}, {{"StepVan", "StepVanMail", "StepVan_Heralds", "StepVan_Scarlet"}, 20000}, {{"PickUpVan", "PickUpVanLights", "PickUpVanLightsFire", "PickUpVanLightsPolice", "PickUpVanMccoy"}, 20000}, {{"ModernCar"}, 20000}, {{"OffRoad"}, 20000}, {{"SUV"}, 20000}, {{"Van", "VanSeats", "VanAmbulance", "VanRadio", "VanRadio_3N", "VanSpiffo", "Van_Transit", "Van_MassGenFac", "VanKnoxDisti", "Van_LectroMax", "VanSpecial"}, 20000}, {{"SmallCar02"}, 15000}, {{"CarLuxury"}, 15000}, {{"Trailer", "TrailerCover"}, 10000}, {{"TrailerAdvert"}, 5000}};
 vendorsVehicles.vehicles.base = {"Vehicles", {{"Trailer", "TrailerCover"}, 10000}, {{"TrailerAdvert"}, 5000}};
 
 
 vendorsWeapons = {};
-vendorsWeapons[1] = {"Box_Ammo", {"ShotgunShellsBox", 150, true}, {"223Box", 250, true}, {"308Box", 250, true}, {"Bullets38Box", 100, true}, {"Bullets45Box", 100, true}, {"556Box", 200, true}, {"Bullets9mmBox", 100, true}};
-vendorsWeapons[2] = {"Magazines", {"223Clip", 300, false, ".223-REM"}, {"308Clip", 300, false, ".308"}, {"44Clip", 250, false, ".44-MAG"}, {"45Clip", 250, false, ".45 Auto"}, {"556Clip", 350, false, "5.56"}, {"M14Clip", 300, false, ".308"}, {"9mmClip", 300, false, "9mm"}};
+-- vendorsWeapons[1] = {"Box_Ammo", {"ShotgunShellsBox", 150, true}, {"223Box", 250, true}, {"308Box", 250, true}, {"Bullets38Box", 100, true}, {"Bullets45Box", 100, true}, {"556Box", 200, true}, {"Bullets9mmBox", 100, true}};
+vendorsWeapons[1] = {"ZvezdaAccessories", {"HolsterSimple", 10000}, {"Hat_BaseballCapArmy_Reverse", 10000}, {"Shirt_CamoGreen", 10000}, {"Shirt_CamoDesert", 10000}, {"Shirt_CamoUrban", 10000}, {"Tshirt_CamoGreen", 10000}, {"Tshirt_CamoDesert", 10000}, {"Tshirt_CamoUrban", 10000}, {"Trousers_CamoUrban", 10000}, {"Trousers_CamoGreen", 10000}, {"Trousers_CamoDesert", 10000}, {"Shoes_ArmyBoots", 10000}, {"Shoes_ArmyBootsDesert", 10000}, {"Vest_BulletCivilian", 10000}}
+-- vendorsWeapons[2] = {"Magazines", {"223Clip", 300, false, ".223-REM"}, {"308Clip", 300, false, ".308"}, {"44Clip", 250, false, ".44-MAG"}, {"45Clip", 250, false, ".45 Auto"}, {"556Clip", 350, false, "5.56"}, {"M14Clip", 300, false, ".308"}, {"9mmClip", 300, false, "9mm"}};
 -- vendorsWeapons[3] = {"Attachments", {"ChokeTubeImproved", 200, false, "Barrel"}, {"FiberglassStock", 150, false, "Stock"}, {"IronSight", 100, false, "Sight"}, {"Laser", 200, false, "Side"}, {"RecoilPad", 100, false, "Stock"}, {"RedDot", 200, false, "Sight"}, {"Sling", 150, false, "Bottom"}, {"x2Scope", 300, false, "Sight"}, {"x4Scope", 350, false, "Sight"}, {"x8Scope", 400, false, "Sight"}};
 -- vendorsWeapons[4] = {"Caliber", ".223-REM", ".308", ".44-MAG", ".45 Auto", "5.56", "9mm"};
 -- vendorsWeapons[5] = {"Pistols", {"Pistol", 2500, false, "9mm"}, {"Pistol2", 3000, false, ".45 Auto"}, {"Pistol3", 3000, false, ".44-MAG"}, {"Revolver_Long", 2000, false, ".44-MAG"}, {"Revolver", 2000, false, ".45 Auto"}, {"Revolver_Short", 1500, false, ".38-SPC"}};
@@ -258,7 +287,7 @@ function Vendors_ContextMenu(player, worldobjects, context, list, money)
 	local vendorSubMenu = ISContextMenu:getNew(context);
 	local subContext = context:addSubMenu(vendorOption, vendorSubMenu);
 	Vendors_subContextMenu(subContext, vendorList, vendorSubMenu, context, player);
-	local subVendorOption = vendorSubMenu:addOptionOnTop("� ��� ($" .. vendMoney .. ")", worldObj);
+	local subVendorOption = vendorSubMenu:addOptionOnTop(" ($" .. vendMoney .. ")", worldObj);
 end	
 	-- display sub context menus
 function Vendors_subContextMenu(subContext, vendorList, vendorSubMenu, context, player)
@@ -307,23 +336,31 @@ function Vendors_subSubContextMenu(subSubContext, vendorList, subSubMenu, contex
 	if vendorType == "ToolVendor" then
 		Vendors_DisplayToolOptions(subSubMenu, context, player, vendorsTools, worldobjects)
 	end
-	if vendorType == "VehicleVendor" then
+	if vendorType == "MedicalVendor" then
+		Vendors_DisplayZvezdaOptions(subSubMenu, context, player, vendorsMedical, worldobjects)
+	end
+	if vendorType == "LaundryVendor" then
+		Vendors_DisplayZvezdaOptions(subSubMenu, context, player, vendorsLaundry, worldobjects)
+	end
+	if vendorType == "BarVendor" then
+		Vendors_DisplayZvezdaOptions(subSubMenu, context, player, vendorsBar, worldobjects)
+	end
+	if vendorType == "CafeVendor" then
+		Vendors_DisplayZvezdaOptions(subSubMenu, context, player, vendorsCafe, worldobjects)
+	end	
+	if vendorType == "RepairVendor" then
 		-- creating a menu item for engine parts, to be listed in the first vehicle submenu above the other submenu options
-		local part = {"EngineParts", vendorsVehicles.engineParts[1]};
+		local part = {"EngineParts", vendorsRepair.engineParts[1]};
 		local partName = "EngineParts";
 		-- im not sure how to get the item name in order to avoid adding translations for everything unless i add it to your inventory.  so everything on the list, everything(minus what you're selling), is added and then removed from your inventory...  sorry, if anyone has a method to get the actual item object without having it in your inventory, i could use your help...
 		local partItem = playerInv:AddItem(partName);
 		local partItemType = partItem:getType();
 		local partItemName = partItem:getName();
-		local partItemQuant = vendorsVehicles.engineParts[2]
-		local partItemPrice = vendorsVehicles.engineParts[1]
+		local partItemQuant = vendorsRepair.engineParts[2]
+		local partItemPrice = vendorsRepair.engineParts[1]
 		playerInv:Remove(partItem);
-		local vehicle = player:getNearVehicle();
-		if vehicle then
-			local subSubVendorOption = subSubMenu:addOption(getText("IGUI_VehicleName" .. vehicle:getScript():getName()) .. " key - $5000", playerObj, Buy_VendorsVehicleKey, vehicle);
-		end
 		local subSubVendorOption = subSubMenu:addOption(partItemQuant .. " " .. partItemName .. " ($" .. partItemPrice .. ")", worldobjects, Buy_VendorsItem, player, part, false, partItemPrice, false, 30);
-		for i,v in pairs(vendorsVehicles.parts) do
+		for i,v in pairs(vendorsRepair.parts) do
 			local subTable = v;
 			local vehicleOption = subSubMenu:addOption(getText("ContextMenu_" .. subTable[1] .. "_Type_Car_Parts"), worldobjects);
 			local subSubMenu = ISContextMenu:getNew(subSubMenu);
@@ -341,23 +378,30 @@ function Vendors_subSubContextMenu(subSubContext, vendorList, subSubMenu, contex
 				end
 			end 
 		end
-		local vehicleOption = subSubMenu:addOption(getText("ContextMenu_Vehicles"), worldobjects);
-		local subSubMenu = ISContextMenu:getNew(subSubMenu);
-		local subContext = context:addSubMenu(vehicleOption, subSubMenu);
-		for i,v in pairs(vendorsVehicles.vehicles) do
-			for j,k in pairs(v) do
-				local subTable = v[j];
-				if j > 1 then
-					local vendorsRand = ZombRand(1, #subTable[1]+1)
-					local vehicle = subTable[1][vendorsRand];
-					local vehiclePrice = subTable[2];
-					local vendorsVehicleName = subTable[1][1];
-					if vendorsVehicleName == "TrailerAdvert" then vendorsVehicleName = "Advertising_Trailer"; end
-					local vehicleOption = subSubMenu:addOption(getText("IGUI_VehicleName" .. vendorsVehicleName) .. " ($" .. vehiclePrice .. ") ", worldobjects, Buy_VendorsVehicle, vehicle, vehiclePrice, player);
+	end	
+
+		if vendorType == "VehicleVendor" then
+			local vehicle = player:getNearVehicle();
+			if vehicle then
+				local subSubVendorOption = subSubMenu:addOption(getText("IGUI_VehicleName" .. vehicle:getScript():getName()) .. " key - $500", playerObj, Buy_VendorsVehicleKey, vehicle);
+			end
+			local vehicleOption = subSubMenu:addOption(getText("ContextMenu_Vehicles"), worldobjects);
+			local subSubMenu = ISContextMenu:getNew(subSubMenu);
+			local subContext = context:addSubMenu(vehicleOption, subSubMenu);
+			for i,v in pairs(vendorsVehicles.vehicles) do
+				for j,k in pairs(v) do
+					local subTable = v[j];
+					if j > 1 then
+						local vendorsRand = ZombRand(1, #subTable[1]+1)
+						local vehicle = subTable[1][vendorsRand];
+						local vehiclePrice = subTable[2];
+						local vendorsVehicleName = subTable[1][1];
+						if vendorsVehicleName == "TrailerAdvert" then vendorsVehicleName = "Advertising_Trailer"; end
+						local vehicleOption = subSubMenu:addOption(getText("IGUI_VehicleName" .. vendorsVehicleName) .. " ($" .. vehiclePrice .. ") ", worldobjects, Buy_VendorsVehicle, vehicle, vehiclePrice, player);
+					end
 				end
 			end
 		end
-	end
 	if vendorType == "WeaponVendor" then
 		for i,v in pairs(vendorsWeapons) do
 			local subTable = v;
@@ -637,8 +681,8 @@ function Vendors_RemoveItem(item, container)
 end
 
 function Buy_VendorsVehicleKey(player, vehicle)
-	if vendMoney >= 5000 then
-		Vendors_CalculateChange(5000, player);
+	if vendMoney >= 500 then
+		Vendors_CalculateChange(500, player);
 		sendClientCommand(player, "vehicle", "getKey", { vehicle = vehicle:getId() });
 	else
 		player:Say(getText("ContextMenu_Cant_Buy"));
@@ -713,6 +757,30 @@ function Vendors_DisplayToolOptions(subSubMenu, context, player, vendorsList, wo
 		Vendors_ListBooks(subMenu, worldobjects, vendorsBooks, context, player);
 		local subContext = context:addSubMenu(toolOption, subMenu);
 	end
+	for i,v in pairs(vendorsList) do
+		local toolTable = v;
+		local toolOption = subSubMenu:addOption(getText("ContextMenu_" .. toolTable[1]), worldobjects)
+		local subSubMenu = ISContextMenu:getNew(subSubMenu);
+		local subContext = context:addSubMenu(toolOption, subSubMenu);
+		for j,k in pairs(toolTable) do
+		local toolItemTable = k;
+		if j ~= 1 then
+			local toolItemType = toolItemTable[1];
+			local toolItemPrice = toolItemTable[2];
+			local toolItemQuantity = toolItemTable[3];
+			local toolItem = playerInv:AddItem(toolItemType);
+			toolItemName = toolItem:getName();
+			playerInv:Remove(toolItem);
+			if toolItemQuantity then toolItemPrice = toolItemPrice .. ") for (" .. toolItemQuantity; end
+				local SubVendorOption = subSubMenu:addOption(toolItemName .. " ($" .. toolItemPrice .. ")", worldobjects, Buy_VendorsItem, player, toolItemTable, false, toolItemPrice, false);
+			end
+		end
+	end
+end
+
+
+function Vendors_DisplayZvezdaOptions(subSubMenu, context, player, vendorsList, worldobjects)
+	local playerInv = player:getInventory();
 	for i,v in pairs(vendorsList) do
 		local toolTable = v;
 		local toolOption = subSubMenu:addOption(getText("ContextMenu_" .. toolTable[1]), worldobjects)
@@ -827,9 +895,9 @@ function Vendors_CheckMods()
 		vendorsWeapons[9] = {"SMGs", {"CAR15SMG", 6000, false, "5.56"}, {"K1_1", 6000, false, "5.56"}, {"K7_Stock", 6000, false, "9mm"}};
 		vendorsWeapons[10] = {"LMGs", {"K3LMG",  12000, false, "5.56"}, {"G21LMG",  12000, false, ".308"}, {"XM8LMG",  12000, false, "5.56"}, {"M249",  12000, false, "5.56"}, {"K12",  12000, false, ".308"}};
 	end
-	if vendorsFilibusterMod then
-		vendorsVehicles.vehicles.filibuster = {"Filibuster", {{"85vicsed"}, 65000}, {{"85vicwag", "85vicwag2"}, 65000}, {{"79brougham"}, 65000}, {{"volvo244"}, 65000}, {{"71impala"}, 65000}, {{"91crx"}, 65000}, {{"86yugo"}, 65000}, {{"87c10lb", "87c10sb"}, 65000}, {{"90ramlb", "90ramsb"}, 65000}, {{"87blazer"}, 65000}, {{"87suburban"}, 65000}, {{"87c10utility", "87c10mccoy", "87c10fire"}, 65000}, {{"astrovan"}, 65000}, {{"65gto"}, 65000}, {{"69charger"}, 65000}, {{"73falcon"}, 65000}, {{"77transam"}, 65000}, {{"70chevelle"}, 65000}, {{"70elcamino"}, 65000}, {{"68elcamino"}, 65000}, {{"73pinto"}, 65000}, {{"moveurself"}, 65000}, {{"isuzubox", "isuzuboxmccoy", "isuzuboxfood", "isuzuboxelec"}, 65000}, {{"hmmwvtr", "hmmwvht"}, 65000}, {{"m151canvas"}, 65000}, {{"pursuitspecial"}, 65000}, {{"51chevy3100", "51chevy3100old"}, 65000}, {{"72beetle"}, 65000}, {{"79datsun280z"}, 65000}, {{"80f350", "80f350ambulance", "80f350offroad", "80f350quad"}, 65000}, {{"83hilux", "83hiluxoffroad"}, 65000}, {{"86econoline", "86econolineambulance", "86econolinerv"}, 65000}, {{"87c10offroadlb", "87c10offroadsb"}, 65000}, {{"87caprice", "87capricePD"}, 65000}, {{"87blazeroffroad"}, 65000}, {{"90corolla"}, 65000}, {{"90ramoffroadlb", "90ramoffroadsb"}, 65000}, {{"91celica"}, 65000}, {{"91wagoneer"}, 65000}, {{"92crownvic", "92crownvicPD"}, 65000}, {{"92wrangler", "92wrangleroffroad", "92wranglerjurassic", "92wranglerranger"}, 65000}, {{"93explorer", "93explorerjurassic"}, 65000}, {{"chevystepvan", "chevystepvanswat"}, 65000}, {{"f700propane"}, 65000}, {{"m35a2fuel"}, 65000}, {{"tractorford7810"}, 65000}, {{"64mustang"}, 65000}, {{"71chevyc10stepside", "71chevyc10lb", "71chevyc10sb"}, 65000}, {{"91chevys10", "91chevys10ext", "91chevys10offroad", "91chevys10offroadext"}, 65000}, {{"93jeepcherokee"}, 65000}, {{"86montecarlo"}, 65000}, {{"71chevyc10offroadstepside", "71chevyc10offroadsb", "71chevyc10offroadlb"}, 65000}, {{"93jeepcherokeeoffroad"}, 65000}, {{"Trailer51chevy"}, 50000}, {{"Trailermovingbig"}, 1000000}, {{"Trailermovingmedium"}, 500000}, {{"Trailercamperscamp"}, 150000}, {{"Trailerfuelmedium"}, 120000}, {{"Trailerfuelsmall"}, 75000}, {{"generallee"}, 125000}};
-	end
+	-- if vendorsFilibusterMod then
+	-- 	vendorsVehicles.vehicles.filibuster = {"Filibuster", {{"85vicsed"}, 65000}, {{"85vicwag", "85vicwag2"}, 65000}, {{"79brougham"}, 65000}, {{"volvo244"}, 65000}, {{"71impala"}, 65000}, {{"91crx"}, 65000}, {{"86yugo"}, 65000}, {{"87c10lb", "87c10sb"}, 65000}, {{"90ramlb", "90ramsb"}, 65000}, {{"87blazer"}, 65000}, {{"87suburban"}, 65000}, {{"87c10utility", "87c10mccoy", "87c10fire"}, 65000}, {{"astrovan"}, 65000}, {{"65gto"}, 65000}, {{"69charger"}, 65000}, {{"73falcon"}, 65000}, {{"77transam"}, 65000}, {{"70chevelle"}, 65000}, {{"70elcamino"}, 65000}, {{"68elcamino"}, 65000}, {{"73pinto"}, 65000}, {{"moveurself"}, 65000}, {{"isuzubox", "isuzuboxmccoy", "isuzuboxfood", "isuzuboxelec"}, 65000}, {{"51chevy3100", "51chevy3100old"}, 65000}, {{"72beetle"}, 65000}, {{"79datsun280z"}, 65000}, {{"80f350", "80f350offroad", "80f350quad"}, 65000}, {{"83hilux", "83hiluxoffroad"}, 65000}, {{"86econoline", "86econolinerv"}, 65000}, {{"87c10offroadlb", "87c10offroadsb"}, 65000}, {{"87caprice"}, 65000}, {{"87blazeroffroad"}, 65000}, {{"90corolla"}, 65000}, {{"90ramoffroadlb", "90ramoffroadsb"}, 65000}, {{"91celica"}, 65000}, {{"91wagoneer"}, 65000}, {{"92crownvic"}, 65000}, {{"92wrangler", "92wrangleroffroad", "92wranglerjurassic"}, 65000}, {{"93explorer", "93explorerjurassic"}, 65000}, {{"chevystepvan"}, 65000}, {{"f700propane"}, 65000}, {{"tractorford7810"}, 65000}, {{"64mustang"}, 65000}, {{"71chevyc10stepside", "71chevyc10lb", "71chevyc10sb"}, 65000}, {{"91chevys10", "91chevys10ext", "91chevys10offroad", "91chevys10offroadext"}, 65000}, {{"93jeepcherokee"}, 65000}, {{"86montecarlo"}, 65000}, {{"71chevyc10offroadstepside", "71chevyc10offroadsb", "71chevyc10offroadlb"}, 65000}, {{"93jeepcherokeeoffroad"}, 65000}, {{"Trailer51chevy"}, 50000}, {{"Trailermovingbig"}, 1000000}, {{"Trailermovingmedium"}, 500000}, {{"Trailercamperscamp"}, 150000}, {{"Trailerfuelmedium"}, 120000}, {{"Trailerfuelsmall"}, 75000}, {{"generallee"}, 125000}};
+	-- end
 	-- if vendorsGreenFireMod then
 	-- 	-- Green Fire items --------------------------------
 	-- 	vendorsGreenFire = {{"KgCannabis", 4500, false}, {"OzCannabis", 100, false}, {"DryCannabisFanLeaf", 10, false, 100}, {"Hashish", 2500, false}, {"Kief", 30, false}, {"Blunt", 10, false}, {"MixedBlunt", 5, false}, {"KiefBlunt", 40, false}, {"HashBlunt", 2525, false}, {"SpaceBlunt", 2560, false}, {"CannaCigar", 45, false}, {"PreCannaCigar", 75, false}, {"DelCannaCigar", 45, false}, {"ResCannaCigar", 45, false}};
