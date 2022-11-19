@@ -10,7 +10,7 @@ module AG {
 		{
 			AirsoftJar,
 
-			Result:AirsoftAmmo=200,
+			Result:AirsoftAmmo=2,
 			Sound:PutItemInBag,
 			Time:5.0,
 		}
@@ -28,14 +28,14 @@ module AG {
 		{
 			AirsoftShotgunShellsBox,
 			
-			Result:AirsoftShotgunShells=3,
+			Result:AirsoftShotgunShells=2,
 			Sound:PutItemInBag,
 			Time:5.0,
 		}
 	
 	recipe Place Airsoft Shotgun Shells in a Box
 		{
-			AirsoftShotgunShells=54,
+			AirsoftShotgunShells=36,
 			
 			Result:AirsoftShotgunShellsBox,
 			Sound:PutItemInBag,

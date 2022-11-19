@@ -1,0 +1,33 @@
+module Folders
+{
+    imports
+	{
+		Base
+	}
+	
+   
+	
+
+item FolderRed
+		{
+		DisplayCategory = Container,
+		WeightReduction = 5,
+		Weight = 0.3,
+		Type = Container,
+		Capacity = 6,
+		DisplayName = Папка (красная),
+		Icon = FolderRed,
+		WorldStaticModel = Worlditems/Crate_Basic,
+		physicsChassisShape = 0.1259 0.4370 1.04445,
+		extents = 0.1259 0.4370 1.04445,
+}
+model Crate_Basic
+{
+mesh = Crate_Basic,
+texture = FolderRed,
+scale = 0.1,
+}
+	
+	
+}
+

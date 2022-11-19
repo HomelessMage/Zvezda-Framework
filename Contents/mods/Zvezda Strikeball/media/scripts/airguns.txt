@@ -10,7 +10,7 @@ module AG {
 	{
 		ImpactSound	=	null,
 		MaxRange	=	7,
-		WeaponSprite	=	Handgun03,
+		Sprite	= Worlditems/Handgun98,
 		SoundVolume	=	10,
 		MinAngle	=	0.95,
 		Type	=	Weapon,
