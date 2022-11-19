@@ -2,6 +2,11 @@ ItemName_RU = {
     	ItemName_Vendors.ATMMachine = "Ломбард",
     	ItemName_Vendors.FoodVendor = "Продуктовый торгомат",
     	ItemName_Vendors.ToolVendor = "Хозяйственный торгомат",
+	ItemName_Vendors.MedicalVendor = "Медицинский торгомат",
     	ItemName_Vendors.VehicleVendor = "Автомобильный торгомат",
-    	ItemName_Vendors.WeaponVendor = "Оружейный торгомат"
+    	ItemName_Vendors.WeaponVendor = "Оружейный торгомат",
+	ItemName_Vendors.LaundryVendor = "Торгомат прачечной",
+	ItemName_Vendors.BarVendor = "Торгомат бара",
+	ItemName_Vendors.CafeVendor = "Торгомат кафе",
+	ItemName_Vendors.RepairVendor = "Торгомат автомастерской",
 }

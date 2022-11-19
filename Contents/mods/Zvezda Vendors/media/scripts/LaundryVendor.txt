@@ -1,0 +1,16 @@
+module Vendors {
+    imports {
+        Base
+    }
+
+	item LaundryVendor
+    {
+        Weight          = 60.0,
+        Type            = Normal,
+        DisplayName     = Laundry Vendor,
+        icon            = ToolVendor,
+		StaticModel = ToolVendor,
+		WorldStaticModel = ToolVendor,
+		DisplayCategory	= Vendors,
+    }
+}
